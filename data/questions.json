@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "ren-001",
+    "subject": "ren",
+    "topic": "Vaikom and Guruvayur satyagrahas",
+    "difficulty": 2,
+    "q": {
+      "en": "The Vaikom Satyagraha, a struggle for the right of lower castes to use the roads around the Vaikom temple, began in which year?",
+      "ml": "വൈക്കം ക്ഷേത്രത്തിനു ചുറ്റുമുള്ള വഴികളിൽ താഴ്ന്ന ജാതിക്കാർക്ക് സഞ്ചാരസ്വാതന്ത്ര്യം ആവശ്യപ്പെട്ടുള്ള വൈക്കം സത്യാഗ്രഹം ഏത് വർഷമാണ് ആരംഭിച്ചത്?"
+    },
+    "options": {
+      "en": [
+        "1924",
+        "1921",
+        "1930",
+        "1936"
+      ],
+      "ml": [
+        "1924",
+        "1921",
+        "1930",
+        "1936"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "It began in 1924 and is remembered as a landmark struggle for road access in caste-restricted temple streets.",
+      "ml": "1924-ൽ ആരംഭിച്ച ഈ സമരം ജാതിനിയന്ത്രണമുള്ള ക്ഷേത്രവീഥികളിലെ വഴിനടപ്പ് അവകാശത്തിനായുള്ള നാഴികക്കല്ലായ പോരാട്ടമായി ഓർമ്മിക്കപ്പെടുന്നു."
+    },
+    "source": "Kerala Renaissance: P. Bhaskaranunni, Pathompatham Noottandile Keralam (Kerala Sahitya Akademi)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ren-002",
+    "subject": "ren",
+    "topic": "Temple entry movement",
+    "difficulty": 1,
+    "q": {
+      "en": "Who issued the Temple Entry Proclamation of 1936 in Travancore?",
+      "ml": "1936-ലെ ക്ഷേത്രപ്രവേശന വിളംബരം തിരുവിതാംകൂറിൽ പുറപ്പെടുവിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Sree Chithira Thirunal Balarama Varma",
+        "Marthanda Varma",
+        "Swathi Thirunal",
+        "Sree Moolam Thirunal"
+      ],
+      "ml": [
+        "ശ്രീ ചിത്തിര തിരുനാൾ ബാലരാമവർമ്മ",
+        "മാർത്താണ്ഡവർമ്മ",
+        "സ്വാതി തിരുനാൾ",
+        "ശ്രീമൂലം തിരുനാൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The proclamation of 12 November 1936 opened state-controlled temples in Travancore to all Hindus.",
+      "ml": "1936 നവംബർ 12-ലെ വിളംബരം തിരുവിതാംകൂറിലെ സർക്കാർ നിയന്ത്രണത്തിലുള്ള ക്ഷേത്രങ്ങൾ എല്ലാ ഹിന്ദുക്കൾക്കും തുറന്നുകൊടുത്തു."
+    },
+    "source": "Government of Kerala, temple entry movement notes (kerala.gov.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ren-003",
+    "subject": "ren",
+    "topic": "Sree Narayana Guru and the SNDP",
+    "difficulty": 2,
+    "q": {
+      "en": "Who was the first general secretary of the SNDP Yogam, founded in 1903?",
+      "ml": "1903-ൽ സ്ഥാപിതമായ എസ്.എൻ.ഡി.പി. യോഗത്തിന്റെ ആദ്യ ജനറൽ സെക്രട്ടറി ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Kumaran Asan",
+        "Dr. Palpu",
+        "Ayyankali",
+        "Chattampi Swamikal"
+      ],
+      "ml": [
+        "കുമാരനാശാൻ",
+        "ഡോ. പല്പു",
+        "അയ്യങ്കാളി",
+        "ചട്ടമ്പിസ്വാമികൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Yogam was founded in 1903 with Sree Narayana Guru as president and Kumaran Asan as secretary.",
+      "ml": "1903-ൽ ശ്രീനാരായണഗുരു പ്രസിഡന്റും കുമാരനാശാൻ സെക്രട്ടറിയുമായി യോഗം സ്ഥാപിതമായി."
+    },
+    "source": "SNDP Yogam history (sndpyogam.org)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ren-004",
+    "subject": "ren",
+    "topic": "Vaikom and Guruvayur satyagrahas",
+    "difficulty": 1,
+    "q": {
+      "en": "Who led the Guruvayur Satyagraha of 1931–32?",
+      "ml": "1931–32-ലെ ഗുരുവായൂർ സത്യാഗ്രഹത്തിനു നേതൃത്വം നൽകിയത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "K. Kelappan",
+        "Vakkom Moulavi",
+        "C. Kesavan",
+        "Mannathu Padmanabhan"
+      ],
+      "ml": [
+        "കെ. കേളപ്പൻ",
+        "വക്കം മൗലവി",
+        "സി. കേശവൻ",
+        "മന്നത്ത് പത്മനാഭൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "K. Kelappan, known as Kerala Gandhi, led the Guruvayur Satyagraha for temple entry.",
+      "ml": "കേരള ഗാന്ധി എന്നറിയപ്പെടുന്ന കെ. കേളപ്പൻ ക്ഷേത്രപ്രവേശനത്തിനായുള്ള ഗുരുവായൂർ സത്യാഗ്രഹത്തിനു നേതൃത്വം നൽകി."
+    },
+    "source": "Kerala Renaissance: P. Bhaskaranunni, Pathompatham Noottandile Keralam (Kerala Sahitya Akademi)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ren-005",
+    "subject": "ren",
+    "topic": "Ayyankali and Dalit struggles",
+    "difficulty": 2,
+    "q": {
+      "en": "In which year did Ayyankali found the Sadhu Jana Paripalana Sangham?",
+      "ml": "അയ്യങ്കാളി സാധുജന പരിപാലന സംഘം സ്ഥാപിച്ചത് ഏത് വർഷം?"
+    },
+    "options": {
+      "en": [
+        "1907",
+        "1893",
+        "1914",
+        "1924"
+      ],
+      "ml": [
+        "1907",
+        "1893",
+        "1914",
+        "1924"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Ayyankali is remembered for leading Dalit struggles for school entry and the right to use public roads.",
+      "ml": "സ്കൂൾ പ്രവേശനത്തിനും പൊതുവഴി ഉപയോഗിക്കാനുമുള്ള ദളിത് സമരങ്ങൾക്കു നേതൃത്വം നൽകിയ വ്യക്തിയായി അയ്യങ്കാളി ഓർമ്മിക്കപ്പെടുന്നു."
+    },
+    "source": "Government of Kerala, social reform movement notes (kerala.gov.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ren-006",
+    "subject": "ren",
+    "topic": "Malayali Memorial and early reform",
+    "difficulty": 3,
+    "q": {
+      "en": "The Malayali Memorial, a petition asking for a fair share of government jobs for native people, was submitted in which year?",
+      "ml": "സർക്കാർ ജോലികളിൽ നാട്ടുകാർക്കു ന്യായമായ പങ്ക് ആവശ്യപ്പെട്ടുള്ള മലയാളി മെമ്മോറിയൽ സമർപ്പിച്ചത് ഏത് വർഷം?"
+    },
+    "options": {
+      "en": [
+        "1891",
+        "1888",
+        "1903",
+        "1920"
+      ],
+      "ml": [
+        "1891",
+        "1888",
+        "1903",
+        "1920"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "It was submitted to the Maharaja of Travancore in 1891.",
+      "ml": "1891-ൽ തിരുവിതാംകൂർ മഹാരാജാവിനു സമർപ്പിച്ചു."
+    },
+    "source": "Kerala Renaissance: P. Bhaskaranunni, Pathompatham Noottandile Keralam (Kerala Sahitya Akademi)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "con-001",
+    "subject": "consti",
+    "topic": "Preamble and basics",
+    "difficulty": 1,
+    "q": {
+      "en": "On what date did the Constituent Assembly adopt the Constitution of India?",
+      "ml": "ഇന്ത്യൻ ഭരണഘടന ഭരണഘടനാ നിർമ്മാണസഭ അംഗീകരിച്ചത് ഏത് തീയതിയിൽ?"
+    },
+    "options": {
+      "en": [
+        "26 November 1949",
+        "15 August 1947",
+        "26 January 1950",
+        "9 December 1946"
+      ],
+      "ml": [
+        "1949 നവംബർ 26",
+        "1947 ഓഗസ്റ്റ് 15",
+        "1950 ജനുവരി 26",
+        "1946 ഡിസംബർ 9"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "It came into force on 26 January 1950, which is celebrated as Republic Day.",
+      "ml": "1950 ജനുവരി 26-ന് ഇത് നിലവിൽ വന്നു; ആ ദിവസം റിപ്പബ്ലിക് ദിനമായി ആഘോഷിക്കുന്നു."
+    },
+    "source": "Constitution of India, Preamble and Article 394 (indiacode.nic.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "con-002",
+    "subject": "consti",
+    "topic": "Fundamental Rights",
+    "difficulty": 2,
+    "q": {
+      "en": "Fundamental Rights are contained in which Part of the Constitution?",
+      "ml": "മൗലികാവകാശങ്ങൾ ഭരണഘടനയുടെ ഏത് ഭാഗത്താണ്?"
+    },
+    "options": {
+      "en": [
+        "Part III",
+        "Part II",
+        "Part IV",
+        "Part IV-A"
+      ],
+      "ml": [
+        "ഭാഗം III",
+        "ഭാഗം II",
+        "ഭാഗം IV",
+        "ഭാഗം IV-A"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Part III covers Articles 12 to 35.",
+      "ml": "ഭാഗം III-ൽ 12 മുതൽ 35 വരെ അനുച്ഛേദങ്ങൾ ഉൾപ്പെടുന്നു."
+    },
+    "source": "Constitution of India, Part III (indiacode.nic.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "con-003",
+    "subject": "consti",
+    "topic": "Preamble and basics",
+    "difficulty": 2,
+    "q": {
+      "en": "Who chaired the Drafting Committee of the Constituent Assembly?",
+      "ml": "ഭരണഘടനാ നിർമ്മാണസഭയുടെ കരട് നിർമ്മാണ സമിതിയുടെ അധ്യക്ഷൻ ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "B. R. Ambedkar",
+        "Rajendra Prasad",
+        "Jawaharlal Nehru",
+        "Sardar Patel"
+      ],
+      "ml": [
+        "ബി. ആർ. അംബേദ്കർ",
+        "രാജേന്ദ്ര പ്രസാദ്",
+        "ജവഹർലാൽ നെഹ്റു",
+        "സർദാർ പട്ടേൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Rajendra Prasad was the President of the Constituent Assembly; Ambedkar chaired the Drafting Committee.",
+      "ml": "രാജേന്ദ്ര പ്രസാദ് ഭരണഘടനാ നിർമ്മാണസഭയുടെ അധ്യക്ഷനായിരുന്നു; കരട് നിർമ്മാണ സമിതിയുടെ അധ്യക്ഷൻ അംബേദ്കർ ആയിരുന്നു."
+    },
+    "source": "Constituent Assembly Debates, Lok Sabha Secretariat",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "con-004",
+    "subject": "consti",
+    "topic": "Fundamental Rights",
+    "difficulty": 2,
+    "q": {
+      "en": "Article 21 of the Constitution guarantees:",
+      "ml": "ഭരണഘടനയുടെ 21-ാം അനുച്ഛേദം ഉറപ്പുനൽകുന്നത്:"
+    },
+    "options": {
+      "en": [
+        "Protection of life and personal liberty",
+        "Right to equality",
+        "Freedom of religion",
+        "Right to constitutional remedies"
+      ],
+      "ml": [
+        "ജീവനും വ്യക്തിസ്വാതന്ത്ര്യത്തിനുമുള്ള സംരക്ഷണം",
+        "സമത്വത്തിനുള്ള അവകാശം",
+        "മതസ്വാതന്ത്ര്യം",
+        "ഭരണഘടനാപരമായ പരിഹാരങ്ങൾക്കുള്ള അവകാശം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Article 21 protects life and personal liberty, and courts have read many rights into it.",
+      "ml": "21-ാം അനുച്ഛേദം ജീവനും വ്യക്തിസ്വാതന്ത്ര്യത്തിനും സംരക്ഷണം നൽകുന്നു; പല അവകാശങ്ങളും കോടതികൾ ഇതിൽ ഉൾപ്പെടുത്തി വ്യാഖ്യാനിച്ചിട്ടുണ്ട്."
+    },
+    "source": "Constitution of India, Article 21 (indiacode.nic.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "con-005",
+    "subject": "consti",
+    "topic": "Fundamental Duties",
+    "difficulty": 3,
+    "q": {
+      "en": "Fundamental Duties were added to the Constitution by which Amendment?",
+      "ml": "മൗലിക കടമകൾ ഭരണഘടനയിൽ ഉൾപ്പെടുത്തിയത് ഏത് ഭേദഗതിയിലൂടെ?"
+    },
+    "options": {
+      "en": [
+        "42nd Amendment",
+        "44th Amendment",
+        "52nd Amendment",
+        "73rd Amendment"
+      ],
+      "ml": [
+        "42-ാം ഭേദഗതി",
+        "44-ാം ഭേദഗതി",
+        "52-ാം ഭേദഗതി",
+        "73-ാം ഭേദഗതി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The 42nd Amendment Act of 1976 added them, on the recommendation of the Swaran Singh Committee.",
+      "ml": "സ്വരൺ സിങ് കമ്മിറ്റിയുടെ ശുപാർശ പ്രകാരം 1976-ലെ 42-ാം ഭേദഗതി നിയമമാണ് ഇവ ചേർത്തത്."
+    },
+    "source": "Constitution of India, Part IV-A, Article 51-A (indiacode.nic.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "con-006",
+    "subject": "consti",
+    "topic": "Parliament and the President",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the minimum age to contest an election to the Lok Sabha?",
+      "ml": "ലോക്സഭയിലേക്കു മത്സരിക്കാനുള്ള കുറഞ്ഞ പ്രായം എത്ര?"
+    },
+    "options": {
+      "en": [
+        "25 years",
+        "21 years",
+        "30 years",
+        "35 years"
+      ],
+      "ml": [
+        "25 വയസ്സ്",
+        "21 വയസ്സ്",
+        "30 വയസ്സ്",
+        "35 വയസ്സ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Lok Sabha: 25 years. Rajya Sabha: 30 years. President: 35 years.",
+      "ml": "ലോക്സഭ: 25 വയസ്സ്. രാജ്യസഭ: 30 വയസ്സ്. രാഷ്ട്രപതി: 35 വയസ്സ്."
+    },
+    "source": "Constitution of India, Article 84 (indiacode.nic.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "geo-001",
+    "subject": "geo",
+    "topic": "Rivers of Kerala",
+    "difficulty": 1,
+    "q": {
+      "en": "Which is the longest river in Kerala?",
+      "ml": "കേരളത്തിലെ ഏറ്റവും നീളം കൂടിയ നദി ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Periyar",
+        "Bharathapuzha",
+        "Pamba",
+        "Chaliyar"
+      ],
+      "ml": [
+        "പെരിയാർ",
+        "ഭാരതപ്പുഴ",
+        "പമ്പ",
+        "ചാലിയാർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Periyar is about 244 km long, longer than the Bharathapuzha.",
+      "ml": "പെരിയാറിന് ഏകദേശം 244 കിലോമീറ്റർ നീളമുണ്ട്; ഇത് ഭാരതപ്പുഴയെക്കാൾ കൂടുതലാണ്."
+    },
+    "source": "Kerala State Portal, rivers of Kerala (kerala.gov.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "geo-002",
+    "subject": "geo",
+    "topic": "Districts and borders",
+    "difficulty": 1,
+    "q": {
+      "en": "How many districts does Kerala have?",
+      "ml": "കേരളത്തിൽ എത്ര ജില്ലകളുണ്ട്?"
+    },
+    "options": {
+      "en": [
+        "14",
+        "12",
+        "13",
+        "15"
+      ],
+      "ml": [
+        "14",
+        "12",
+        "13",
+        "15"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The districts run from Kasaragod in the north to Thiruvananthapuram in the south.",
+      "ml": "വടക്ക് കാസർഗോഡ് മുതൽ തെക്ക് തിരുവനന്തപുരം വരെയാണ് ജില്ലകൾ."
+    },
+    "source": "Kerala State Portal, districts (kerala.gov.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "geo-003",
+    "subject": "geo",
+    "topic": "Mountains and forests",
+    "difficulty": 2,
+    "q": {
+      "en": "The highest peak in Kerala is:",
+      "ml": "കേരളത്തിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടി:"
+    },
+    "options": {
+      "en": [
+        "Anamudi",
+        "Meesapulimala",
+        "Chembra Peak",
+        "Agasthyamala"
+      ],
+      "ml": [
+        "ആനമുടി",
+        "മീശപ്പുലിമല",
+        "ചെമ്പ്ര കൊടുമുടി",
+        "അഗസ്ത്യമല"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Anamudi in Idukki rises about 2,695 m and is the highest peak in South India.",
+      "ml": "ഇടുക്കിയിലെ ആനമുടിക്ക് ഏകദേശം 2,695 മീറ്റർ ഉയരമുണ്ട്; ദക്ഷിണേന്ത്യയിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടിയാണിത്."
+    },
+    "source": "Survey of India; Kerala State Land Use Board",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "geo-004",
+    "subject": "geo",
+    "topic": "Lakes and backwaters",
+    "difficulty": 1,
+    "q": {
+      "en": "Which is the largest lake in Kerala?",
+      "ml": "കേരളത്തിലെ ഏറ്റവും വലിയ കായൽ (തടാകം) ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Vembanad",
+        "Ashtamudi",
+        "Sasthamkotta",
+        "Pookode"
+      ],
+      "ml": [
+        "വേമ്പനാട്",
+        "അഷ്ടമുടി",
+        "ശാസ്താംകോട്ട",
+        "പൂക്കോട്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Vembanad is the largest lake and part of a Ramsar wetland site.",
+      "ml": "വേമ്പനാട് ഏറ്റവും വലുതും ഒരു റാംസർ തണ്ണീർത്തടത്തിന്റെ ഭാഗവുമാണ്."
+    },
+    "source": "Ramsar Sites Information Service; Kerala State Wetland Authority",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "geo-005",
+    "subject": "geo",
+    "topic": "Mountains and forests",
+    "difficulty": 2,
+    "q": {
+      "en": "Silent Valley National Park is in which district?",
+      "ml": "സൈലന്റ് വാലി ദേശീയോദ്യാനം ഏത് ജില്ലയിലാണ്?"
+    },
+    "options": {
+      "en": [
+        "Palakkad",
+        "Idukki",
+        "Wayanad",
+        "Malappuram"
+      ],
+      "ml": [
+        "പാലക്കാട്",
+        "ഇടുക്കി",
+        "വയനാട്",
+        "മലപ്പുറം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Silent Valley in Palakkad district is known for its evergreen forest.",
+      "ml": "പാലക്കാട് ജില്ലയിലെ സൈലന്റ് വാലി നിത്യഹരിത വനത്തിനു പ്രശസ്തമാണ്."
+    },
+    "source": "Kerala Forest and Wildlife Department",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "geo-006",
+    "subject": "geo",
+    "topic": "Districts and borders",
+    "difficulty": 3,
+    "q": {
+      "en": "Which is the smallest district of Kerala by area?",
+      "ml": "വിസ്തീർണത്തിൽ കേരളത്തിലെ ഏറ്റവും ചെറിയ ജില്ല ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Alappuzha",
+        "Kasaragod",
+        "Ernakulam",
+        "Thiruvananthapuram"
+      ],
+      "ml": [
+        "ആലപ്പുഴ",
+        "കാസർഗോഡ്",
+        "എറണാകുളം",
+        "തിരുവനന്തപുരം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Alappuzha covers about 1,414 sq km.",
+      "ml": "ആലപ്പുഴയുടെ വിസ്തീർണം ഏകദേശം 1,414 ചതുരശ്ര കിലോമീറ്ററാണ്."
+    },
+    "source": "Kerala State Portal, district profile (kerala.gov.in)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "sci-001",
+    "subject": "sci",
+    "topic": "Human body and vitamins",
+    "difficulty": 1,
+    "q": {
+      "en": "Deficiency of which vitamin causes scurvy?",
+      "ml": "ഏത് വിറ്റാമിന്റെ അഭാവം മൂലമാണ് സ്കർവി ഉണ്ടാകുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "ml": [
+        "വിറ്റാമിൻ C",
+        "വിറ്റാമിൻ A",
+        "വിറ്റാമിൻ D",
+        "വിറ്റാമിൻ K"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Citrus fruits and amla are rich sources of vitamin C.",
+      "ml": "നാരങ്ങ വർഗ്ഗ പഴങ്ങളും നെല്ലിക്കയും വിറ്റാമിൻ C-യുടെ സമൃദ്ധമായ സ്രോതസ്സുകളാണ്."
+    },
+    "source": "NCERT Science, Class 9 (Health and Diseases)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "sci-002",
+    "subject": "sci",
+    "topic": "Units and motion",
+    "difficulty": 1,
+    "q": {
+      "en": "The SI unit of force is:",
+      "ml": "ബലത്തിന്റെ SI യൂണിറ്റ്:"
+    },
+    "options": {
+      "en": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "ml": [
+        "ന്യൂട്ടൺ",
+        "ജൂൾ",
+        "പാസ്കൽ",
+        "വാട്ട്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "One newton is the force that gives a 1 kg mass an acceleration of 1 m/s².",
+      "ml": "1 കിലോഗ്രാം പിണ്ഡത്തിന് 1 m/s² ത്വരണം നൽകുന്ന ബലമാണ് ഒരു ന്യൂട്ടൺ."
+    },
+    "source": "NCERT Science, Class 9 (Force and Laws of Motion)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "sci-003",
+    "subject": "sci",
+    "topic": "Atmosphere and gases",
+    "difficulty": 1,
+    "q": {
+      "en": "Which gas forms the largest part of Earth’s atmosphere?",
+      "ml": "ഭൂമിയുടെ അന്തരീക്ഷത്തിൽ ഏറ്റവും കൂടുതലുള്ള വാതകം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide",
+        "Argon"
+      ],
+      "ml": [
+        "നൈട്രജൻ",
+        "ഓക്സിജൻ",
+        "കാർബൺ ഡൈ ഓക്സൈഡ്",
+        "ആർഗൺ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Nitrogen makes up about 78% of dry air.",
+      "ml": "വരണ്ട വായുവിന്റെ ഏകദേശം 78% നൈട്രജനാണ്."
+    },
+    "source": "NCERT Geography, Class 7 (Air)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "sci-004",
+    "subject": "sci",
+    "topic": "Elements and symbols",
+    "difficulty": 1,
+    "q": {
+      "en": "The chemical symbol of gold is:",
+      "ml": "സ്വർണത്തിന്റെ രാസചിഹ്നം:"
+    },
+    "options": {
+      "en": [
+        "Au",
+        "Ag",
+        "Gd",
+        "Go"
+      ],
+      "ml": [
+        "Au",
+        "Ag",
+        "Gd",
+        "Go"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Au comes from the Latin word aurum.",
+      "ml": "Au എന്നത് ലാറ്റിൻ പദമായ aurum-ൽ നിന്നാണ്."
+    },
+    "source": "NCERT Science, Class 10 (Periodic Classification)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "sci-005",
+    "subject": "sci",
+    "topic": "Cell biology",
+    "difficulty": 2,
+    "q": {
+      "en": "Which cell organelle is known as the powerhouse of the cell?",
+      "ml": "കോശത്തിന്റെ പവർഹൗസ് എന്നറിയപ്പെടുന്ന കോശാംഗം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Mitochondria",
+        "Ribosome",
+        "Golgi body",
+        "Nucleus"
+      ],
+      "ml": [
+        "മൈറ്റോകോൺഡ്രിയ",
+        "റൈബോസോം",
+        "ഗോൾഗി ബോഡി",
+        "ന്യൂക്ലിയസ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Mitochondria release most of the cell’s usable energy as ATP.",
+      "ml": "കോശത്തിന് ഉപയോഗിക്കാവുന്ന ഊർജ്ജത്തിന്റെ വലിയൊരു ഭാഗം ATP ആയി പുറത്തുവിടുന്നത് മൈറ്റോകോൺഡ്രിയയാണ്."
+    },
+    "source": "NCERT Science, Class 9 (The Fundamental Unit of Life)",
+    "verified": true,
+    "needsReview": true
+  },
+  {
+    "id": "sci-006",
+    "subject": "sci",
+    "topic": "Blood and health",
+    "difficulty": 2,
+    "q": {
+      "en": "Which blood group is called the universal donor?",
+      "ml": "സാർവത്രിക ദാതാവ് (യൂണിവേഴ്സൽ ഡോണർ) എന്നറിയപ്പെടുന്ന രക്തഗ്രൂപ്പ് ഏത്?"
+    },
+    "options": {
+      "en": [
+        "O negative",
+        "AB positive",
+        "A positive",
+        "B negative"
+      ],
+      "ml": [
+        "O നെഗറ്റീവ്",
+        "AB പോസിറ്റീവ്",
+        "A പോസിറ്റീവ്",
+        "B നെഗറ്റീവ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Red cells of O negative blood carry no A, B or Rh D antigens.",
+      "ml": "O നെഗറ്റീവ് രക്തത്തിലെ ചുവന്ന രക്താണുക്കളിൽ A, B, Rh D ആന്റിജനുകൾ ഇല്ല."
+    },
+    "source": "NCERT Science, Class 10 (Life Processes); Indian Red Cross Society",
+    "verified": true,
+    "needsReview": true
+  },
+  {
+    "id": "math-001",
+    "subject": "math",
+    "topic": "Percentage",
+    "difficulty": 1,
+    "q": {
+      "en": "What is 15% of 240?",
+      "ml": "240-ന്റെ 15% എത്ര?"
+    },
+    "options": {
+      "en": [
+        "36",
+        "32",
+        "40",
+        "24"
+      ],
+      "ml": [
+        "36",
+        "32",
+        "40",
+        "24"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "15% of 240 = 0.15 × 240 = 36.",
+      "ml": "240-ന്റെ 15% = 0.15 × 240 = 36."
+    },
+    "source": "Original practice question (arithmetic); answer checked by calculation",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "math-002",
+    "subject": "math",
+    "topic": "Number series",
+    "difficulty": 2,
+    "q": {
+      "en": "Find the next number: 2, 6, 12, 20, 30, ?",
+      "ml": "അടുത്ത സംഖ്യ കണ്ടെത്തുക: 2, 6, 12, 20, 30, ?"
+    },
+    "options": {
+      "en": [
+        "42",
+        "40",
+        "44",
+        "36"
+      ],
+      "ml": [
+        "42",
+        "40",
+        "44",
+        "36"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The differences are 4, 6, 8, 10, so the next difference is 12 and 30 + 12 = 42.",
+      "ml": "വ്യത്യാസങ്ങൾ 4, 6, 8, 10 ആണ്; അടുത്ത വ്യത്യാസം 12, അതിനാൽ 30 + 12 = 42."
+    },
+    "source": "Original practice question (number series); answer checked by calculation",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "math-003",
+    "subject": "math",
+    "topic": "Average and ratio",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the average of the first five natural numbers?",
+      "ml": "ആദ്യത്തെ അഞ്ച് എണ്ണൽസംഖ്യകളുടെ ശരാശരി എത്ര?"
+    },
+    "options": {
+      "en": [
+        "3",
+        "2.5",
+        "4",
+        "5"
+      ],
+      "ml": [
+        "3",
+        "2.5",
+        "4",
+        "5"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "(1 + 2 + 3 + 4 + 5) ÷ 5 = 3.",
+      "ml": "(1 + 2 + 3 + 4 + 5) ÷ 5 = 3."
+    },
+    "source": "Original practice question (averages); answer checked by calculation",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "math-004",
+    "subject": "math",
+    "topic": "Profit and loss",
+    "difficulty": 2,
+    "q": {
+      "en": "An article bought for ₹500 is sold for ₹600. What is the profit percentage?",
+      "ml": "₹500-ന് വാങ്ങിയ ഒരു സാധനം ₹600-ന് വിറ്റാൽ ലാഭശതമാനം എത്ര?"
+    },
+    "options": {
+      "en": [
+        "20%",
+        "10%",
+        "16.67%",
+        "25%"
+      ],
+      "ml": [
+        "20%",
+        "10%",
+        "16.67%",
+        "25%"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Profit ₹100 on cost ₹500 gives 100 ÷ 500 × 100 = 20%.",
+      "ml": "₹500 വിലയിൽ ₹100 ലാഭം: 100 ÷ 500 × 100 = 20%."
+    },
+    "source": "Original practice question (profit and loss); answer checked by calculation",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "math-005",
+    "subject": "math",
+    "topic": "LCM and HCF",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the LCM of 12 and 18?",
+      "ml": "12, 18 എന്നിവയുടെ ലസാഗു (LCM) എത്ര?"
+    },
+    "options": {
+      "en": [
+        "36",
+        "6",
+        "72",
+        "24"
+      ],
+      "ml": [
+        "36",
+        "6",
+        "72",
+        "24"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "12 = 2² × 3 and 18 = 2 × 3², so LCM = 2² × 3² = 36.",
+      "ml": "12 = 2² × 3, 18 = 2 × 3²; അതിനാൽ ലസാഗു = 2² × 3² = 36."
+    },
+    "source": "Original practice question (LCM); answer checked by calculation",
+    "verified": true,
+    "needsReview": true
+  },
+  {
+    "id": "math-006",
+    "subject": "math",
+    "topic": "Time, speed and distance",
+    "difficulty": 1,
+    "q": {
+      "en": "A train runs at 60 km/h. How far does it travel in 2.5 hours?",
+      "ml": "മണിക്കൂറിൽ 60 കി.മീ. വേഗത്തിൽ ഓടുന്ന ഒരു ട്രെയിൻ 2.5 മണിക്കൂറിൽ എത്ര ദൂരം സഞ്ചരിക്കും?"
+    },
+    "options": {
+      "en": [
+        "150 km",
+        "120 km",
+        "135 km",
+        "180 km"
+      ],
+      "ml": [
+        "150 കി.മീ.",
+        "120 കി.മീ.",
+        "135 കി.മീ.",
+        "180 കി.മീ."
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Distance = speed × time = 60 × 2.5 = 150 km.",
+      "ml": "ദൂരം = വേഗം × സമയം = 60 × 2.5 = 150 കി.മീ."
+    },
+    "source": "Original practice question (speed and distance); answer checked by calculation",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "eng-001",
+    "subject": "eng",
+    "topic": "Synonyms and antonyms",
+    "difficulty": 1,
+    "q": {
+      "en": "Choose the synonym of “abundant”.",
+      "ml": "“Abundant” എന്ന വാക്കിന്റെ പര്യായം തിരഞ്ഞെടുക്കുക."
+    },
+    "options": {
+      "en": [
+        "Plentiful",
+        "Scarce",
+        "Fragile",
+        "Rare"
+      ],
+      "ml": [
+        "Plentiful",
+        "Scarce",
+        "Fragile",
+        "Rare"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Abundant means existing in large quantities, the same as plentiful.",
+      "ml": "Abundant എന്നാൽ ധാരാളമായി ഉള്ളത് എന്നർത്ഥം; Plentiful എന്ന വാക്കിനും അതേ അർത്ഥമാണ്."
+    },
+    "source": "Original practice question; meaning per Oxford Advanced Learner’s Dictionary",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "eng-002",
+    "subject": "eng",
+    "topic": "Synonyms and antonyms",
+    "difficulty": 1,
+    "q": {
+      "en": "Choose the antonym of “ancient”.",
+      "ml": "“Ancient” എന്ന വാക്കിന്റെ വിപരീതപദം തിരഞ്ഞെടുക്കുക."
+    },
+    "options": {
+      "en": [
+        "Modern",
+        "Old",
+        "Historic",
+        "Primitive"
+      ],
+      "ml": [
+        "Modern",
+        "Old",
+        "Historic",
+        "Primitive"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Ancient means very old; modern is its opposite.",
+      "ml": "Ancient എന്നാൽ വളരെ പഴയത്; അതിന്റെ വിപരീതം Modern ആണ്."
+    },
+    "source": "Original practice question; meaning per Oxford Advanced Learner’s Dictionary",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "eng-003",
+    "subject": "eng",
+    "topic": "Tenses",
+    "difficulty": 2,
+    "q": {
+      "en": "Choose the correct sentence.",
+      "ml": "ശരിയായ വാക്യം തിരഞ്ഞെടുക്കുക."
+    },
+    "options": {
+      "en": [
+        "She has been working here since 2020.",
+        "She is working here since 2020.",
+        "She works here since 2020.",
+        "She was working here since 2020."
+      ],
+      "ml": [
+        "She has been working here since 2020.",
+        "She is working here since 2020.",
+        "She works here since 2020.",
+        "She was working here since 2020."
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "“Since” with a starting point in the past takes the present perfect (continuous).",
+      "ml": "ഭൂതകാലത്തിലെ ഒരു തുടക്കബിന്ദു സൂചിപ്പിക്കുന്ന “since” ഉള്ള വാക്യത്തിൽ present perfect (continuous) ഉപയോഗിക്കണം."
+    },
+    "source": "Original practice question; rule per Wren & Martin, High School English Grammar",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "eng-004",
+    "subject": "eng",
+    "topic": "Plurals and spelling",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the plural of “child”?",
+      "ml": "“Child” എന്ന വാക്കിന്റെ ബഹുവചനം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Children",
+        "Childs",
+        "Childrens",
+        "Childes"
+      ],
+      "ml": [
+        "Children",
+        "Childs",
+        "Childrens",
+        "Childes"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Child has an irregular plural: children.",
+      "ml": "Child-ന്റെ ബഹുവചനം ക്രമരഹിതമാണ്: children."
+    },
+    "source": "Original practice question; plural forms per Oxford Advanced Learner’s Dictionary",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "eng-005",
+    "subject": "eng",
+    "topic": "Idioms and phrases",
+    "difficulty": 2,
+    "q": {
+      "en": "The idiom “a piece of cake” means:",
+      "ml": "“A piece of cake” എന്ന ശൈലിയുടെ അർത്ഥം:"
+    },
+    "options": {
+      "en": [
+        "Something very easy",
+        "A small gift",
+        "A sweet dish",
+        "A difficult task"
+      ],
+      "ml": [
+        "Something very easy",
+        "A small gift",
+        "A sweet dish",
+        "A difficult task"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "It describes a task that takes almost no effort.",
+      "ml": "ഒട്ടും ബുദ്ധിമുട്ടില്ലാത്ത കാര്യത്തെയാണ് ഇത് സൂചിപ്പിക്കുന്നത്."
+    },
+    "source": "Original practice question; idiom meaning per Cambridge Dictionary",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "eng-006",
+    "subject": "eng",
+    "topic": "One-word substitution",
+    "difficulty": 3,
+    "q": {
+      "en": "Give one word for “a person who loves books”.",
+      "ml": "“പുസ്തകങ്ങളെ സ്നേഹിക്കുന്ന വ്യക്തി” എന്നതിന് ഒറ്റവാക്ക് ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Bibliophile",
+        "Philanthropist",
+        "Misogynist",
+        "Bibliographer"
+      ],
+      "ml": [
+        "Bibliophile",
+        "Philanthropist",
+        "Misogynist",
+        "Bibliographer"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Biblio- means book and -phile means lover.",
+      "ml": "Biblio- എന്നാൽ പുസ്തകം, -phile എന്നാൽ സ്നേഹിക്കുന്നയാൾ."
+    },
+    "source": "Original practice question; word formation per Merriam-Webster",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ker-001",
+    "subject": "ker",
+    "topic": "Formation of Kerala",
+    "difficulty": 1,
+    "q": {
+      "en": "Kerala state was formed on which date?",
+      "ml": "കേരള സംസ്ഥാനം രൂപീകരിച്ചത് ഏത് തീയതിയിൽ?"
+    },
+    "options": {
+      "en": [
+        "1 November 1956",
+        "15 August 1947",
+        "26 January 1950",
+        "1 January 1957"
+      ],
+      "ml": [
+        "1956 നവംബർ 1",
+        "1947 ഓഗസ്റ്റ് 15",
+        "1950 ജനുവരി 26",
+        "1957 ജനുവരി 1"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "It was formed under the States Reorganisation Act, 1956, by joining Malayalam-speaking regions.",
+      "ml": "1956-ലെ സംസ്ഥാന പുനഃസംഘടനാ നിയമപ്രകാരം മലയാളം സംസാരിക്കുന്ന പ്രദേശങ്ങൾ ചേർത്താണ് രൂപീകരിച്ചത്."
+    },
+    "source": "States Reorganisation Act, 1956; Kerala State Portal",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ker-002",
+    "subject": "ker",
+    "topic": "Chief Ministers",
+    "difficulty": 1,
+    "q": {
+      "en": "Who was the first Chief Minister of Kerala?",
+      "ml": "കേരളത്തിന്റെ ആദ്യ മുഖ്യമന്ത്രി ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "E. M. S. Namboodiripad",
+        "C. Achutha Menon",
+        "Pattom Thanu Pillai",
+        "R. Sankar"
+      ],
+      "ml": [
+        "ഇ. എം. എസ്. നമ്പൂതിരിപ്പാട്",
+        "സി. അച്യുതമേനോൻ",
+        "പട്ടം താണുപിള്ള",
+        "ആർ. ശങ്കർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "He led the first elected government in 1957.",
+      "ml": "1957-ൽ അധികാരമേറ്റ ആദ്യ തിരഞ്ഞെടുക്കപ്പെട്ട സർക്കാരിനെ അദ്ദേഹം നയിച്ചു."
+    },
+    "source": "Kerala Legislative Assembly, list of Chief Ministers (niyamasabha.org)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ker-003",
+    "subject": "ker",
+    "topic": "Literature and awards",
+    "difficulty": 2,
+    "q": {
+      "en": "Who wrote the novel “Chemmeen”?",
+      "ml": "“ചെമ്മീൻ” എന്ന നോവൽ എഴുതിയത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Thakazhi Sivasankara Pillai",
+        "Vaikom Muhammad Basheer",
+        "S. K. Pottekkatt",
+        "O. V. Vijayan"
+      ],
+      "ml": [
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "വൈക്കം മുഹമ്മദ് ബഷീർ",
+        "എസ്. കെ. പൊറ്റെക്കാട്ട്",
+        "ഒ. വി. വിജയൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Chemmeen was first published in 1956.",
+      "ml": "ചെമ്മീൻ ആദ്യമായി പ്രസിദ്ധീകരിച്ചത് 1956-ലാണ്."
+    },
+    "source": "Kerala Sahitya Akademi, Malayalam literature reference",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ker-004",
+    "subject": "ker",
+    "topic": "Literature and awards",
+    "difficulty": 2,
+    "q": {
+      "en": "Who was the first Malayali to win the Jnanpith Award?",
+      "ml": "ജ്ഞാനപീഠ പുരസ്കാരം നേടിയ ആദ്യ മലയാളി ആര്?"
+    },
+    "options": {
+      "en": [
+        "G. Sankara Kurup",
+        "S. K. Pottekkatt",
+        "Thakazhi Sivasankara Pillai",
+        "M. T. Vasudevan Nair"
+      ],
+      "ml": [
+        "ജി. ശങ്കരക്കുറുപ്പ്",
+        "എസ്. കെ. പൊറ്റെക്കാട്ട്",
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "എം. ടി. വാസുദേവൻ നായർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "He received it for his poetry collection Odakkuzhal.",
+      "ml": "ഓടക്കുഴൽ എന്ന കവിതാസമാഹാരത്തിനാണ് ജി. ശങ്കരക്കുറുപ്പിന് പുരസ്കാരം ലഭിച്ചത്."
+    },
+    "source": "Bharatiya Jnanpith, award winners list",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ker-005",
+    "subject": "ker",
+    "topic": "Malayalam language",
+    "difficulty": 2,
+    "q": {
+      "en": "In which year did Malayalam receive classical language status?",
+      "ml": "മലയാളത്തിന് ശ്രേഷ്ഠഭാഷാ പദവി ലഭിച്ചത് ഏത് വർഷം?"
+    },
+    "options": {
+      "en": [
+        "2013",
+        "2004",
+        "2008",
+        "2016"
+      ],
+      "ml": [
+        "2013",
+        "2004",
+        "2008",
+        "2016"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Government of India granted the status in 2013.",
+      "ml": "2013-ൽ കേന്ദ്രസർക്കാർ ഈ പദവി നൽകി."
+    },
+    "source": "Ministry of Education, classical language status notifications",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "ker-006",
+    "subject": "ker",
+    "topic": "Newspapers and firsts",
+    "difficulty": 3,
+    "q": {
+      "en": "Which was the first Malayalam newspaper?",
+      "ml": "ആദ്യത്തെ മലയാള പത്രം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Rajyasamacharam",
+        "Deepika",
+        "Malayala Manorama",
+        "Mathrubhumi"
+      ],
+      "ml": [
+        "രാജ്യസമാചാരം",
+        "ദീപിക",
+        "മലയാള മനോരമ",
+        "മാതൃഭൂമി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Hermann Gundert started it in 1847 from Illikkunnu, Thalassery.",
+      "ml": "1847-ൽ ഹെർമൻ ഗുണ്ടർട്ട് തലശ്ശേരിയിലെ ഇല്ലിക്കുന്നിൽ നിന്ന് ഇത് ആരംഭിച്ചു."
+    },
+    "source": "Kerala Media Academy; Malayalam printing history notes",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "his-001",
+    "subject": "his",
+    "topic": "Plassey and the Revolt of 1857",
+    "difficulty": 2,
+    "q": {
+      "en": "The Battle of Plassey was fought in which year?",
+      "ml": "പ്ലാസി യുദ്ധം നടന്നത് ഏത് വർഷം?"
+    },
+    "options": {
+      "en": [
+        "1757",
+        "1764",
+        "1857",
+        "1707"
+      ],
+      "ml": [
+        "1757",
+        "1764",
+        "1857",
+        "1707"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Robert Clive’s victory over Siraj-ud-Daulah in 1757 began British political control in Bengal.",
+      "ml": "1757-ൽ റോബർട്ട് ക്ലൈവ് സിറാജ്-ഉദ്-ദൗളയെ തോൽപ്പിച്ചത് ബംഗാളിൽ ബ്രിട്ടീഷ് രാഷ്ട്രീയാധിപത്യത്തിന് തുടക്കമിട്ടു."
+    },
+    "source": "NCERT Themes in Indian History, Part III",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "his-002",
+    "subject": "his",
+    "topic": "Independence and after",
+    "difficulty": 2,
+    "q": {
+      "en": "Who was the first Governor-General of independent India?",
+      "ml": "സ്വതന്ത്ര ഇന്ത്യയുടെ ആദ്യ ഗവർണർ ജനറൽ ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Lord Curzon",
+        "Lord Dalhousie"
+      ],
+      "ml": [
+        "മൗണ്ട്ബാറ്റൺ പ്രഭു",
+        "സി. രാജഗോപാലാചാരി",
+        "കഴ്സൺ പ്രഭു",
+        "ഡൽഹൗസി പ്രഭു"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "C. Rajagopalachari was the first Indian and the last Governor-General.",
+      "ml": "സി. രാജഗോപാലാചാരി ആദ്യത്തെ ഇന്ത്യക്കാരനും അവസാനത്തെയും ഗവർണർ ജനറലായിരുന്നു."
+    },
+    "source": "NCERT Our Pasts III; Gazetteers of India",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "his-003",
+    "subject": "his",
+    "topic": "Freedom movement",
+    "difficulty": 2,
+    "q": {
+      "en": "The Quit India Movement was launched in which year?",
+      "ml": "ക്വിറ്റ് ഇന്ത്യ സമരം ആരംഭിച്ചത് ഏത് വർഷം?"
+    },
+    "options": {
+      "en": [
+        "1942",
+        "1930",
+        "1920",
+        "1946"
+      ],
+      "ml": [
+        "1942",
+        "1930",
+        "1920",
+        "1946"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "It was launched on 8 August 1942 at Bombay.",
+      "ml": "1942 ഓഗസ്റ്റ് 8-ന് ബോംബെയിൽ ആരംഭിച്ചു."
+    },
+    "source": "NCERT Our Pasts III (India’s Struggle for Independence)",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "his-004",
+    "subject": "his",
+    "topic": "Congress and its leaders",
+    "difficulty": 2,
+    "q": {
+      "en": "Who helped found the Indian National Congress in 1885?",
+      "ml": "1885-ൽ ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ് സ്ഥാപിക്കാൻ സഹായിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "A. O. Hume",
+        "Dadabhai Naoroji",
+        "Gopal Krishna Gokhale",
+        "Bal Gangadhar Tilak"
+      ],
+      "ml": [
+        "എ. ഒ. ഹ്യൂം",
+        "ദാദാഭായ് നവറോജി",
+        "ഗോപാലകൃഷ്ണ ഗോഖലെ",
+        "ബാല ഗംഗാധര തിലക്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "A. O. Hume was a founder; W. C. Bonnerjee presided over the first session.",
+      "ml": "എ. ഒ. ഹ്യൂം സ്ഥാപകരിൽ ഒരാളായിരുന്നു; ആദ്യ സമ്മേളനത്തിന് അധ്യക്ഷത വഹിച്ചത് ഡബ്ല്യു. സി. ബാനർജിയാണ്."
+    },
+    "source": "Indian National Congress, history archive",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "his-005",
+    "subject": "his",
+    "topic": "Freedom movement",
+    "difficulty": 2,
+    "q": {
+      "en": "The Jallianwala Bagh massacre took place in which year?",
+      "ml": "ജാലിയൻവാലാബാഗ് കൂട്ടക്കൊല നടന്നത് ഏത് വർഷം?"
+    },
+    "options": {
+      "en": [
+        "1919",
+        "1905",
+        "1922",
+        "1930"
+      ],
+      "ml": [
+        "1919",
+        "1905",
+        "1922",
+        "1930"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "It happened at Amritsar on 13 April 1919.",
+      "ml": "1919 ഏപ്രിൽ 13-ന് അമൃത്സറിൽ നടന്നു."
+    },
+    "source": "NCERT Our Pasts III; Jallianwala Bagh National Memorial",
+    "verified": true,
+    "needsReview": false
+  },
+  {
+    "id": "his-006",
+    "subject": "his",
+    "topic": "Gandhian movements",
+    "difficulty": 1,
+    "q": {
+      "en": "Gandhi’s Dandi March against the salt tax took place in which year?",
+      "ml": "ഉപ്പുനികുതിക്കെതിരായ ഗാന്ധിജിയുടെ ദണ്ഡി യാത്ര നടന്നത് ഏത് വർഷം?"
+    },
+    "options": {
+      "en": [
+        "1930",
+        "1920",
+        "1922",
+        "1942"
+      ],
+      "ml": [
+        "1930",
+        "1920",
+        "1922",
+        "1942"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The march began on 12 March 1930.",
+      "ml": "1930 മാർച്ച് 12-ന് യാത്ര ആരംഭിച്ചു."
+    },
+    "source": "NCERT Our Pasts III; Gandhi Heritage Portal",
+    "verified": true,
+    "needsReview": false
+  }
+]

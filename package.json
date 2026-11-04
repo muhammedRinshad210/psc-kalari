@@ -1,0 +1,15 @@
+{
+  "name": "psc-kalari",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Free, mobile-first Kerala PSC practice site. Static HTML, CSS and vanilla JS.",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "validate": "node tools/validate.mjs",
+    "serve": "python -m http.server 4173"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

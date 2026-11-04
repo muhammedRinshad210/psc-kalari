@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PSC Kalari">
+  <rect width="64" height="64" rx="13" fill="#0E4A3A"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="10" fill="none" stroke="#B58420" stroke-width="1.2" opacity=".85"/>
+  <path d="M8 12h48M8 52h48" stroke="#B58420" stroke-width="1.1" opacity=".55"/>
+  <!-- nilavilakku: flame, bowl, stem, base -->
+  <ellipse cx="32" cy="17" rx="3.1" ry="5" fill="#F6E7B8"/>
+  <path d="M23 26h18l-3.4 6H26.4z" fill="#E9C46A"/>
+  <rect x="30.4" y="32" width="3.2" height="10" rx="1.2" fill="#E9C46A"/>
+  <path d="M24 42h16l2 5H22z" fill="#E9C46A"/>
+</svg>
