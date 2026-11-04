@@ -1,7 +1,7 @@
 /* Progress maths, the progress screen, backup/restore and the reset flow. */
 
 import { S, replaceState, resetState } from './state.js';
-import { isPersistent } from './storage.js';
+import { exportState, importState as parseBackup, storageStatus } from './storage.js';
 import { subjectKeys, subjectInfo } from './data.js';
 import { dayKey, dayOffset, esc } from './util.js';
 import { subjectName } from './i18n.js';
@@ -71,7 +71,7 @@ export function viewProgress() {
   const st = currentStreak();
   const mocks = S.mocks.slice(-8);
   const all = sylAll();
-  const stored = isPersistent();
+  const stored = storageStatus().persistent;
   let h = '<div class="stack">';
 
   h += `<section class="card"><div class="row" style="align-items:center;flex-wrap:nowrap;gap:18px">
@@ -102,7 +102,7 @@ export function viewProgress() {
     <p class="sub">${stored
       ? 'Your data lives in this browser only. Copy the backup text to move it to another phone or browser.'
       : 'This browser is blocking storage, so progress will be lost when you close the page. Copy the backup text to keep it.'}</p>
-    <label for="exp" class="sub">Backup text</label><textarea id="exp" readonly>${esc(JSON.stringify(S))}</textarea>
+    <label for="exp" class="sub">Backup text</label><textarea id="exp" readonly>${esc(exportState(S))}</textarea>
     <div class="row"><button type="button" class="btn sm" data-act="copy">Copy backup</button>
     <span class="sub" id="copyMsg" role="status">${esc(ui.copyMsg)}</span></div>
     <label for="imp" class="sub">Restore from backup text</label>
@@ -145,16 +145,14 @@ export function copyBackup() {
 }
 
 export function importBackup(text) {
-  try {
-    const parsed = JSON.parse(text);
-    if (!parsed || typeof parsed !== 'object' || !parsed.subj || !parsed.streak) throw new Error('shape');
-    replaceState(parsed);
-    ui.importMsg = 'Restored.';
-    return true;
-  } catch (err) {
-    ui.importMsg = 'That text is not a valid backup.';
+  const result = parseBackup(text);
+  if (!result.ok) {
+    ui.importMsg = `That text is not a valid backup. ${result.error}`;
     return false;
   }
+  replaceState(result.state);
+  ui.importMsg = 'Restored.';
+  return true;
 }
 
 export function eraseAll() {
