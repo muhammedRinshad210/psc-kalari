@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "notice": "Official papers are published by Kerala PSC. We link to them and do not host them.",
+  "officialHome": "https://www.keralapsc.gov.in",
+  "officialHomeLabel": "Kerala Public Service Commission — official website",
+  "linkNote": "Links open the official Kerala PSC website. We never host paper PDFs and never reproduce paper questions.",
+  "todo": "officialUrl is empty for every entry until the exact paper listing page is confirmed on keralapsc.gov.in. Do not guess deep links; fill them in only after opening the page and checking it.",
+  "papers": [
+    {
+      "exam": "Kerala PSC common recruitment examination",
+      "post": "Lower Division Clerk (LDC)",
+      "year": "",
+      "language": "Malayalam and English",
+      "officialUrl": "",
+      "topicsCovered": ["Kerala renaissance and social reform", "Indian Constitution and polity", "General science", "Arithmetic and mental ability", "English", "Kerala facts and current affairs"],
+      "note": "Tenth-level stream. Expect more Kerala-specific history and geography than national polity.",
+      "todo": "officialUrl: confirm the LDC paper listing page on keralapsc.gov.in"
+    },
+    {
+      "exam": "Kerala PSC common recruitment examination",
+      "post": "Village Field Assistant",
+      "year": "",
+      "language": "Malayalam and English",
+      "officialUrl": "",
+      "topicsCovered": ["Kerala facts", "Renaissance and social reform", "General science", "Arithmetic", "Current affairs"],
+      "note": "Village-level administration questions sit close to the Kerala facts portion of the paper.",
+      "todo": "officialUrl: confirm the Village Field Assistant paper listing page on keralapsc.gov.in"
+    },
+    {
+      "exam": "Kerala PSC recruitment examination",
+      "post": "Company / Corporation Assistant, Clerk and Typist",
+      "year": "",
+      "language": "Malayalam and English",
+      "officialUrl": "",
+      "topicsCovered": ["Indian Constitution", "Kerala renaissance", "Geography", "Arithmetic and mental ability", "English", "Current affairs"],
+      "note": "A degree-level paper that leans on polity and arithmetic rather than on Kerala-only facts.",
+      "todo": "officialUrl: confirm the Company/Corporation Assistant paper listing page on keralapsc.gov.in"
+    },
+    {
+      "exam": "Kerala PSC Degree Level Common Preliminary Examination",
+      "post": "Various degree-level posts",
+      "year": "",
+      "language": "Malayalam and English",
+      "officialUrl": "",
+      "topicsCovered": ["Constitution and polity", "Kerala renaissance", "Geography of Kerala and India", "General science", "Arithmetic and mental ability", "English"],
+      "note": "One preliminary paper screens candidates for many posts, so the syllabus is broad and the cut-off tight.",
+      "todo": "officialUrl: confirm the Degree Level Preliminary paper listing page on keralapsc.gov.in"
+    },
+    {
+      "exam": "Kerala PSC recruitment examination",
+      "post": "Civil Police Officer (Police Constable)",
+      "year": "",
+      "language": "Malayalam and English",
+      "officialUrl": "",
+      "topicsCovered": ["Kerala facts", "Renaissance", "General science", "Arithmetic", "Current affairs"],
+      "note": "The written test is followed by physical efficiency and medical tests; the paper itself stays at the tenth level.",
+      "todo": "officialUrl: confirm the Civil Police Officer paper listing page on keralapsc.gov.in"
+    },
+    {
+      "exam": "Kerala PSC recruitment examination",
+      "post": "Sub Inspector of Police (General)",
+      "year": "",
+      "language": "Malayalam and English",
+      "officialUrl": "",
+      "topicsCovered": ["Constitution and polity", "Kerala renaissance and social reform", "General science", "Arithmetic and mental ability", "Current affairs"],
+      "note": "Degree level, with a separate physical test; polity questions tend to be more exacting than in constable papers.",
+      "todo": "officialUrl: confirm the Sub Inspector paper listing page on keralapsc.gov.in"
+    },
+    {
+      "exam": "Kerala PSC common recruitment examination",
+      "post": "Last Grade Servant",
+      "year": "",
+      "language": "Malayalam and English",
+      "officialUrl": "",
+      "topicsCovered": ["Kerala facts", "General science", "Arithmetic", "Renaissance basics", "Current affairs"],
+      "note": "The shortest syllabus of the common streams: strong Kerala facts and basic arithmetic carry it.",
+      "todo": "officialUrl: confirm the Last Grade Servant paper listing page on keralapsc.gov.in"
+    },
+    {
+      "exam": "Kerala Administrative Service (KAS)",
+      "post": "Junior Time Scale officer",
+      "year": "",
+      "language": "Malayalam or English, at the candidate's choice",
+      "officialUrl": "",
+      "topicsCovered": ["Constitution, polity and governance", "Kerala history and renaissance", "Geography and environment", "Economy", "Science and technology", "Current affairs; mains adds essay and descriptive papers"],
+      "note": "A three-stage process: preliminary objective paper, descriptive mains, then interview.",
+      "todo": "officialUrl: confirm the KAS notification and syllabus page on keralapsc.gov.in"
+    }
+  ],
+  "analysis": {
+    "meta": "These notes describe the published syllabus and the question types it implies. They are not a statistical count of past papers.",
+    "bySubject": [
+      {
+        "key": "ren",
+        "often": ["Sree Narayana Guru and the SNDP", "Vaikom and Guruvayur satyagrahas", "Ayyankali and Dalit struggles"],
+        "types": ["Name-to-event matching: which reformer did this", "Which year a movement or organisation began", "Which organisation a leader founded"],
+        "tip": "A single timeline from Aruvippuram in 1888 to the 1936 proclamation answers most of this section."
+      },
+      {
+        "key": "consti",
+        "often": ["Fundamental Rights", "Parliament and the President", "Amendments and schedules"],
+        "types": ["Article-to-subject matching", "Which amendment changed what", "Which body elects or appoints whom"],
+        "tip": "Learn articles as numbers, not as descriptions: 14, 17, 19, 21A, 32, 40, 44, 51A, 123, 368."
+      },
+      {
+        "key": "geo",
+        "often": ["Rivers of Kerala", "Districts and borders", "Mountains and forests"],
+        "types": ["River-to-district matching", "Which river rises where", "Map-based questions on districts and passes"],
+        "tip": "Fix the map first: districts, then rivers, then hills. Facts stick to a place better than to a list."
+      },
+      {
+        "key": "sci",
+        "often": ["Human body and vitamins", "Elements and symbols", "Units and motion"],
+        "types": ["Definition and unit questions", "Deficiency and disease pairing", "Symbol, formula and everyday application"],
+        "tip": "Most questions here are one-line recall, so revision beats practice; keep a short list of units and symbols."
+      },
+      {
+        "key": "math",
+        "often": ["Percentage", "Profit and loss", "Time, speed and distance"],
+        "types": ["Direct computation with whole-number answers", "Ratio and average word problems", "Series and simple reasoning"],
+        "tip": "Answers are usually friendly numbers. If your arithmetic gets messy, re-read the question, not the sum."
+      },
+      {
+        "key": "eng",
+        "often": ["Synonyms and antonyms", "Idioms and phrases", "Articles and prepositions"],
+        "types": ["Choose the correct word for a blank", "Meaning of an idiom", "Spot the grammatically correct sentence"],
+        "tip": "Read the whole sentence before choosing; PSC options often differ only in preposition or tense."
+      },
+      {
+        "key": "ker",
+        "often": ["Formation of Kerala", "Chief Ministers", "Festivals and arts"],
+        "types": ["Which year, which person, which place", "Literature and award matching", "Language and press history"],
+        "tip": "This is the highest-yield section per hour of study, and the easiest to revise from a single notebook page."
+      },
+      {
+        "key": "his",
+        "often": ["Congress and its leaders", "Gandhian movements", "Freedom movement"],
+        "types": ["Event-to-year matching", "Session and resolution questions", "Leader-to-movement pairing"],
+        "tip": "Build one chain: 1857, 1885, 1905, 1919, 1930, 1942, 1947. Most questions hang off that spine."
+      }
+    ]
+  }
+}

@@ -81,6 +81,14 @@ details.rev .body span{overflow-wrap:anywhere}
 .chk input{width:22px;height:22px;accent-color:var(--brand);flex:none}
 .chk.done span{color:var(--muted);text-decoration:line-through}
 
+/* previous papers hub */
+.pmeta{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:var(--t-xs);font-weight:700;color:var(--muted)}
+.pmeta span{background:var(--surface2);border:1px solid var(--line);border-radius:99px;padding:4px 10px}
+.ptags{display:flex;flex-wrap:wrap;gap:6px}
+.ptags span{font-size:var(--t-xs);color:var(--muted);border:1px dashed var(--line);border-radius:99px;padding:4px 10px}
+.ptopics{margin:2px 0 10px;padding-left:18px;font-size:var(--t-sm);color:var(--muted)}
+.ptopics li{margin-block:3px}
+
 @media (prefers-reduced-motion:no-preference){
   .sbar i,.pbar i{transition:width .35s ease}
   .btn,.opt,.scard,.pick{transition:background-color .15s ease,border-color .15s ease}

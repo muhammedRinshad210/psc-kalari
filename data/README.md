@@ -76,3 +76,23 @@ shuffles the four options every time a question is shown.
 
 Keep older months; the practice screen filters by topic, so a growing archive
 stays usable.
+
+## Previous papers (`data/papers.json`)
+
+This file does **not** hold papers. It holds a catalogue that points at them.
+
+- `notice` — the sentence the papers screen must show. It is checked by the
+  validator, so do not reword it into something weaker.
+- `officialHome` — the official Kerala PSC website. Every outbound link falls
+  back to this page.
+- `papers[]` — one entry per exam stream, with `exam`, `post`, `year`,
+  `language`, `officialUrl`, `topicsCovered` and `note`. Leave `year` and
+  `officialUrl` empty until they are confirmed on the official site; each entry
+  carries a `todo` string saying exactly what to check. Never guess a deep link.
+- `analysis.bySubject[]` — our own reading of the syllabus: which topics come up
+  and what question types to expect. It describes the syllabus, not a count of
+  past papers, and `analysis.meta` says so on the page.
+
+`npm run validate` fails if a paper entry loses a required field, if
+`officialHome` stops being an https URL, or if the notice no longer states that
+papers are not hosted here.

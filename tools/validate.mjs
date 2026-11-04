@@ -127,6 +127,41 @@ const perSubject = subjects.map((s) => `${s.key} ${counts.get(s.key)}`).join(' �
 const spread = answerSpread.map((n) => (questions.length ? Math.round((n / questions.length) * 100) : 0));
 const flagged = questions.filter((q) => q.needsReview).length;
 
+/* ---------- previous papers hub ---------- */
+
+let paperCount = 0;
+let paperTodo = 0;
+const papers = readJson('data/papers.json');
+
+if (!/do not host/i.test(papers.notice || '')) {
+  errors.push('papers.json: notice must say plainly that papers are not hosted here');
+}
+if (!/^https:\/\//.test(papers.officialHome || '')) {
+  errors.push('papers.json: officialHome must be an https URL');
+}
+
+(papers.papers || []).forEach((p, i) => {
+  const at = `papers[${i}] (${p.post || 'no post'})`;
+  paperCount += 1;
+  ['exam', 'post', 'language', 'note'].forEach((field) => {
+    if (!String(p[field] || '').trim()) errors.push(`${at}: ${field} is empty`);
+  });
+  if (!Array.isArray(p.topicsCovered) || !p.topicsCovered.length) {
+    errors.push(`${at}: topicsCovered is empty`);
+  }
+  if (p.officialUrl && !/^https:\/\//.test(p.officialUrl)) {
+    errors.push(`${at}: officialUrl must be https or empty`);
+  }
+  if (!p.officialUrl) paperTodo += 1;
+});
+
+if (!papers.analysis || !Array.isArray(papers.analysis.bySubject)) {
+  warnings.push('papers.json: no per-subject analysis');
+}
+if (paperTodo) {
+  warnings.push(`papers.json: ${paperTodo} of ${paperCount} papers have no officialUrl yet (TODO, not guessed)`);
+}
+
 /* ---------- output ---------- */
 
 console.log(`\nQuestions: ${questions.length}`);
@@ -134,6 +169,7 @@ console.log(`Subjects:  ${perSubject}`);
 console.log(`Difficulty: easy ${difficulty[1]} · medium ${difficulty[2]} · hard ${difficulty[3]}`);
 console.log(`Stored answer position: A ${spread[0]}% · B ${spread[1]}% · C ${spread[2]}% · D ${spread[3]}%  (options are shuffled at runtime)`);
 console.log(`Malayalam flagged needsReview: ${flagged}`);
+console.log(`Previous papers listed: ${paperCount} (${paperTodo} awaiting a verified official link)`);
 
 if (warnings.length) {
   console.log(`\nWarnings (${warnings.length}):`);

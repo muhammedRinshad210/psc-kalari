@@ -8,6 +8,7 @@ import { route, syncTabs } from './router.js';
 import { viewHome } from './home.js';
 import { startMock, viewMock } from './mock.js';
 import { refreshHeading, setTopic, togglePanel, viewSyllabus } from './syllabus.js';
+import { viewPapers } from './papers.js';
 import {
   copyBackup, eraseAll, importBackup, setResetPrompt, viewProgress
 } from './progress.js';
@@ -26,6 +27,7 @@ function screen(name) {
   switch (name) {
     case 'mock': return viewMock();
     case 'syllabus': return viewSyllabus();
+    case 'papers': return viewPapers();
     case 'progress': return viewProgress();
     default: return viewHome();
   }
@@ -88,6 +90,9 @@ document.addEventListener('click', (event) => {
       return;
     case 'retry':
       run(() => loadIndex(), 'Trying again…');
+      return;
+    case 'papers-retry':
+      render();
       return;
     case 'exit':
       quiz.endSession();

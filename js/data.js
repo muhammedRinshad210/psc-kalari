@@ -9,6 +9,7 @@ let index = null;
 const chunks = new Map();      // subject key -> questions
 const byId = new Map();        // question id -> question
 let allPromise = null;
+let papersPromise = null;
 
 async function fetchJson(relative) {
   const url = new URL(relative, DATA_BASE);
@@ -70,4 +71,10 @@ export function loadAllQuestions() {
 
 export function questionById(id) {
   return byId.get(id) || null;
+}
+
+/** Previous-papers catalogue and syllabus analysis. Only the papers screen needs it. */
+export function loadPapers() {
+  if (!papersPromise) papersPromise = fetchJson('papers.json');
+  return papersPromise;
 }
