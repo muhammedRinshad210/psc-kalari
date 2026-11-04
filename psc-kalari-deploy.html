@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E4A3A">
+<title>PSC Kalari</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@400;600&display=swap">
+<style>
+/* Layout: app-style column on phones with a bottom tab bar; left rail + wider content from 900px.
+   Look: kasavu (white and gold border) on deep green ink. */
+:root{
+  --bg:#F4F7F4; --surface:#FFFFFF; --surface2:#E9F0EB; --ink:#10241D; --muted:#566B61; --line:#D8E2DB;
+  --brand:#0E4A3A; --on-brand:#FFFFFF; --gold:#B58420; --gold-ink:#86600F; --gold-soft:#EBD9A8;
+  --ok:#17794A; --ok-bg:#E1F2E8; --bad:#B2301E; --bad-bg:#F8E3DF;
+  --hero-bg:#0E4A3A; --hero-fg:#FFFFFF; --hero-sub:#BCD6CA; --focus:#B58420;
+  --f-display:'Bricolage Grotesque','Noto Sans Malayalam',system-ui,sans-serif;
+  --f-body:'Hanken Grotesk','Noto Sans Malayalam',system-ui,sans-serif;
+  --t-xs:.75rem; --t-sm:.875rem; --t-base:1rem; --t-lg:1.25rem; --t-xl:1.75rem; --t-2xl:2.4rem;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A1511; --surface:#101F19; --surface2:#172A22; --ink:#E6EFEA; --muted:#97ABA1; --line:#223A30;
+    --brand:#3DA47E; --on-brand:#06120D; --gold:#D9A940; --gold-ink:#E3B650; --gold-soft:#6B5420;
+    --ok:#4CC48A; --ok-bg:#12301F; --bad:#F0806E; --bad-bg:#3A1C17;
+    --hero-bg:#123A2D; --hero-fg:#F2F8F4; --hero-sub:#9CC2B2; --focus:#D9A940; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A1511; --surface:#101F19; --surface2:#172A22; --ink:#E6EFEA; --muted:#97ABA1; --line:#223A30;
+  --brand:#3DA47E; --on-brand:#06120D; --gold:#D9A940; --gold-ink:#E3B650; --gold-soft:#6B5420;
+  --ok:#4CC48A; --ok-bg:#12301F; --bad:#F0806E; --bad-bg:#3A1C17;
+  --hero-bg:#123A2D; --hero-fg:#F2F8F4; --hero-sub:#9CC2B2; --focus:#D9A940; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg); color:var(--ink); font:400 var(--t-base)/1.55 var(--f-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0;
+}
+button{font:inherit;color:inherit;cursor:pointer}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.15}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:6px}
+
+.app{max-width:1080px;margin:0 auto;display:block}
+main{min-width:0;padding-block:12px 112px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:8px 16px}
+.brand{display:flex;flex-direction:column;gap:2px}
+.brand b{font:700 1.35rem/1 var(--f-display);letter-spacing:-.01em}
+.brand span{font-size:var(--t-sm);color:var(--gold-ink);font-weight:600}
+.icon-btn{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);display:grid;place-items:center}
+.icon-btn svg{width:20px;height:20px;stroke:var(--ink);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+.langbar{display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding-bottom:14px;font-size:var(--t-sm);color:var(--muted)}
+.langbar span{margin-right:4px}
+.langbar button{min-height:36px;padding:4px 12px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);font-weight:600;font-size:var(--t-sm)}
+.langbar button[aria-pressed="true"]{background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
+.ml{display:block;margin-top:3px;font-size:.92em;font-weight:400;color:var(--muted)}
+.qtext .ml{font-family:var(--f-body);font-size:.95rem;line-height:1.5}
+
+/* tab bar */
+nav.tabs{
+  position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;justify-content:space-around;gap:4px;
+  background:var(--surface);border-top:1px solid var(--line);
+  padding:6px max(10px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(10px,env(safe-area-inset-left,0px));
+}
+nav.tabs a{
+  flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:8px 4px;border-radius:12px;
+  color:var(--muted);text-decoration:none;font-size:var(--t-xs);font-weight:600;min-width:0;
+}
+nav.tabs a svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs a[aria-current="page"]{color:var(--brand);background:var(--surface2)}
+:root[data-theme="dark"] nav.tabs a[aria-current="page"]{color:var(--ink)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) nav.tabs a[aria-current="page"]{color:var(--ink)}}
+
+@media (min-width:900px){
+  .app{display:grid;grid-template-columns:200px minmax(0,1fr);gap:40px;padding-block:20px}
+  nav.tabs{position:sticky;top:20px;align-self:start;flex-direction:column;justify-content:flex-start;gap:6px;
+    border:0;background:transparent;padding:64px 0 0}
+  nav.tabs a{flex:none;flex-direction:row;gap:12px;padding:12px 14px;font-size:var(--t-base)}
+  main{padding-block:12px 64px}
+}
+
+/* cards & text */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px}
+.eyebrow{font-size:var(--t-xs);letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--gold-ink)}
+.muted{color:var(--muted)}
+.stack{display:flex;flex-direction:column;gap:16px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+h2.sec{font-size:var(--t-lg);margin-block:8px 2px}
+.sub{font-size:var(--t-sm);color:var(--muted)}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 20px;border-radius:12px;
+  border:1.5px solid var(--brand);background:var(--brand);color:var(--on-brand);font-weight:700;
+}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.warn{background:var(--bad);border-color:var(--bad);color:#fff}
+.btn.sm{min-height:40px;padding:8px 14px;font-size:var(--t-sm)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:var(--t-xs);font-weight:700;background:var(--surface2);color:var(--ink);border:1px solid var(--line)}
+.chip.gold{background:var(--gold-soft);border-color:transparent;color:#2A1D00}
+:root[data-theme="dark"] .chip.gold{color:#FFF3D6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .chip.gold{color:#FFF3D6}}
+
+/* hero */
+.hero{background:var(--hero-bg);color:var(--hero-fg);border-radius:18px;overflow:hidden;position:relative}
+.kasavu{height:12px;background:
+  linear-gradient(var(--gold),var(--gold)) top/100% 2px no-repeat,
+  linear-gradient(var(--gold),var(--gold)) bottom/100% 2px no-repeat,
+  repeating-linear-gradient(90deg,var(--gold-soft) 0 9px,transparent 9px 18px) center/100% 4px no-repeat}
+.hero-in{padding:20px 20px 22px;display:flex;flex-direction:column;gap:12px}
+.hero .eyebrow{color:var(--gold-soft)}
+.hero h2{font-size:var(--t-xl);letter-spacing:-.01em}
+.hero p{color:var(--hero-sub);max-width:46ch}
+.hero .btn{background:var(--gold-soft);border-color:var(--gold-soft);color:#2A1D00;align-self:flex-start}
+
+.pick-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.pick{display:flex;flex-direction:column;gap:4px;text-align:left;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--line)}
+.pick b{font-family:var(--f-display)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.scard{display:flex;flex-direction:column;gap:3px;text-align:left;padding:14px;border-radius:14px;background:var(--surface);border:1px solid var(--line);min-width:0}
+.scard .sml{font-size:1.1rem;font-weight:600;line-height:1.35}
+.scard .sen{font-size:var(--t-sm);color:var(--muted)}
+.scard .smeta{font-size:var(--t-xs);color:var(--muted);margin-top:6px}
+.sbar{display:block;height:6px;background:var(--surface2);border-radius:99px;overflow:hidden;margin-top:6px}
+.sbar i{display:block;height:100%;background:var(--brand);border-radius:99px}
+
+/* quiz */
+.qtop{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.qtop .grow{flex:1;min-width:0}
+.qtitle{font-size:var(--t-sm);font-weight:700;color:var(--muted)}
+.pbar{height:6px;background:var(--surface2);border-radius:99px;overflow:hidden;margin-top:6px}
+.pbar i{display:block;height:100%;background:var(--gold);border-radius:99px}
+.timer{font:700 1.1rem var(--f-display);font-variant-numeric:tabular-nums;padding:6px 12px;border-radius:10px;background:var(--surface);border:1px solid var(--line)}
+.timer.low{color:var(--bad);border-color:var(--bad)}
+.qcard{display:flex;flex-direction:column;gap:16px}
+.qtext{font:600 1.2rem/1.4 var(--f-display);max-width:60ch}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{
+  display:grid;grid-template-columns:30px minmax(0,1fr) auto;align-items:center;gap:12px;text-align:left;
+  min-height:54px;padding:12px 14px;border-radius:12px;background:var(--surface);border:1.5px solid var(--line);
+}
+.opt .l{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:var(--t-sm);background:var(--surface2)}
+.opt .tx{overflow-wrap:anywhere}
+.opt .tag{font-size:var(--t-xs);font-weight:700}
+.opt.sel{border-color:var(--brand);background:var(--surface2)}
+.opt.sel .l{background:var(--brand);color:var(--on-brand)}
+.opt.right{border-color:var(--ok);background:var(--ok-bg)}
+.opt.right .tag{color:var(--ok)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.opt.wrong .tag{color:var(--bad)}
+.opt[disabled]{cursor:default}
+.explain{padding:14px 16px;border-radius:12px;background:var(--surface2);border-left:4px solid var(--gold);font-size:var(--t-sm)}
+.explain b{display:block;margin-bottom:2px}
+.palette{display:grid;grid-template-columns:repeat(auto-fill,minmax(38px,1fr));gap:6px}
+.palette button{height:38px;border-radius:9px;border:1.5px solid var(--line);background:var(--surface);font-weight:600;font-variant-numeric:tabular-nums}
+.palette button.ans{background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
+.palette button.cur{outline:3px solid var(--gold);outline-offset:1px}
+.navrow{display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.confirm{border:1.5px solid var(--gold);border-radius:14px;padding:16px;background:var(--surface)}
+
+/* results & lists */
+.score{font:700 var(--t-2xl)/1 var(--f-display);letter-spacing:-.02em}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px}
+.stat{padding:12px 14px;border-radius:12px;background:var(--surface2)}
+.stat b{display:block;font:700 1.4rem var(--f-display);font-variant-numeric:tabular-nums}
+.stat span{font-size:var(--t-xs);color:var(--muted)}
+details.rev{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0}
+details.rev summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;gap:10px;align-items:flex-start}
+details.rev summary::-webkit-details-marker{display:none}
+details.rev .body{padding:0 14px 14px;display:flex;flex-direction:column;gap:6px;font-size:var(--t-sm)}
+.pill{flex:none;font-size:var(--t-xs);font-weight:700;padding:3px 9px;border-radius:99px}
+.pill.ok{background:var(--ok-bg);color:var(--ok)}
+.pill.no{background:var(--bad-bg);color:var(--bad)}
+.pill.skip{background:var(--surface2);color:var(--muted)}
+.brow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center}
+.brow .sbar{grid-column:1/-1}
+.ring{width:112px;height:112px;flex:none}
+.ring-t{fill:var(--ink);font:700 22px var(--f-display)}
+.bars{display:flex;align-items:flex-end;gap:10px;height:132px;padding-top:8px;overflow-x:auto}
+.bar{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:4px;min-width:34px}
+.bar i{display:block;width:26px;background:var(--brand);border-radius:6px 6px 0 0}
+.bar .bv{font-size:var(--t-xs);font-weight:700;font-variant-numeric:tabular-nums}
+.bar .bd{font-size:10px;color:var(--muted)}
+.list{display:flex;flex-direction:column;gap:8px;margin:0;padding:0;list-style:none}
+.list li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:var(--t-sm)}
+.list li:last-child{border-bottom:0}
+textarea{width:100%;min-height:96px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);padding:10px;font:var(--t-xs)/1.4 ui-monospace,Menlo,monospace}
+
+/* syllabus */
+.syl{padding:0;overflow:hidden}
+.syl-h{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;text-align:left;padding:14px 16px;background:transparent;border:0}
+.syl-h .sbar{grid-column:1/-1}
+.syl-b{padding:2px 16px 14px;display:flex;flex-direction:column}
+.chk{display:flex;align-items:center;gap:12px;min-height:44px;padding:4px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.chk:last-child{border-bottom:0}
+.chk input{width:22px;height:22px;accent-color:var(--brand);flex:none}
+.chk.done span{color:var(--muted);text-decoration:line-through}
+.note{font-size:var(--t-xs);color:var(--muted);text-align:center;margin-top:24px}
+@media (prefers-reduced-motion:no-preference){
+  .sbar i,.pbar i{transition:width .35s ease}
+  .btn,.opt,.scard,.pick{transition:background-color .15s ease,border-color .15s ease}
+}
+</style>
+
+</head>
+<body>
+<div class="app">
+  <nav class="tabs" id="tabs" aria-label="Main">
+    <a href="#home" data-tab="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v10h13V10"/></svg>Home</a>
+    <a href="#mock" data-tab="mock"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 8.5V13l3 2"/><path d="M9.5 3h5"/></svg>Mock test</a>
+    <a href="#syllabus" data-tab="syllabus"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5l1.6 1.6L8.5 5"/><path d="M4 13.5l1.6 1.6L8.5 12"/><path d="M12 7h8M12 14h8M4 20h16"/></svg>Syllabus</a>
+    <a href="#progress" data-tab="progress"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg>Progress</a>
+  </nav>
+  <main>
+    <header class="top">
+      <div class="brand"><b>PSC Kalari</b><span>പി.എസ്.സി കളരി</span></div>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg>
+      </button>
+    </header>
+    <div class="langbar" role="group" aria-label="Question language"><span>Questions in</span>
+      <button type="button" data-lang="en" aria-pressed="false">English</button>
+      <button type="button" data-lang="ml" aria-pressed="false">മലയാളം</button>
+      <button type="button" data-lang="both" aria-pressed="true">Both</button></div>
+    <div id="view"></div>
+    <p class="note">Progress is saved in this browser. No login, no account.</p>
+  </main>
+</div>
+
+<script>
+(function(){
+'use strict';
+
+/* ---------- content ---------- */
+var SUBJ={
+  ren:{en:'Kerala Renaissance',ml:'കേരള നവോത്ഥാനം'},
+  con:{en:'Indian Constitution',ml:'ഇന്ത്യൻ ഭരണഘടന'},
+  geo:{en:'Geography',ml:'ഭൂമിശാസ്ത്രം'},
+  sci:{en:'General Science',ml:'പൊതുശാസ്ത്രം'},
+  math:{en:'Maths & Mental Ability',ml:'ഗണിതം'},
+  eng:{en:'English',ml:'ഇംഗ്ലീഷ്'},
+  ker:{en:'Kerala Facts',ml:'കേരള വസ്തുതകൾ'},
+  his:{en:'Indian History',ml:'ഇന്ത്യാ ചരിത്രം'}
+};
+var SKEYS=Object.keys(SUBJ);
+
+/* [subject, question, [correct, wrong, wrong, wrong], explanation] */
+var RAW=[
+['ren','The Vaikom Satyagraha, a struggle for the right of lower castes to use the roads around the Vaikom temple, began in which year?',['1924','1921','1930','1936'],'It began in 1924 and is remembered as a landmark struggle for road access in caste-restricted temple streets.'],
+['ren','Who issued the Temple Entry Proclamation of 1936 in Travancore?',['Sree Chithira Thirunal Balarama Varma','Marthanda Varma','Swathi Thirunal','Sree Moolam Thirunal'],'The proclamation of 12 November 1936 opened state-controlled temples in Travancore to all Hindus.'],
+['ren','Who was the first general secretary of the SNDP Yogam, founded in 1903?',['Kumaran Asan','Dr. Palpu','Ayyankali','Chattampi Swamikal'],'The Yogam was founded in 1903 with Sree Narayana Guru as president and Kumaran Asan as secretary.'],
+['ren','Who led the Guruvayur Satyagraha of 1931–32?',['K. Kelappan','Vakkom Moulavi','C. Kesavan','Mannathu Padmanabhan'],'K. Kelappan, known as Kerala Gandhi, led the Guruvayur Satyagraha for temple entry.'],
+['ren','In which year did Ayyankali found the Sadhu Jana Paripalana Sangham?',['1907','1893','1914','1924'],'Ayyankali is remembered for leading Dalit struggles for school entry and the right to use public roads.'],
+['ren','The Malayali Memorial, a petition asking for a fair share of government jobs for native people, was submitted in which year?',['1891','1888','1903','1920'],'It was submitted to the Maharaja of Travancore in 1891.'],
+
+['con','On what date did the Constituent Assembly adopt the Constitution of India?',['26 November 1949','15 August 1947','26 January 1950','9 December 1946'],'It came into force on 26 January 1950, which is celebrated as Republic Day.'],
+['con','Fundamental Rights are contained in which Part of the Constitution?',['Part III','Part II','Part IV','Part IV-A'],'Part III covers Articles 12 to 35.'],
+['con','Who chaired the Drafting Committee of the Constituent Assembly?',['B. R. Ambedkar','Rajendra Prasad','Jawaharlal Nehru','Sardar Patel'],'Rajendra Prasad was the President of the Constituent Assembly; Ambedkar chaired the Drafting Committee.'],
+['con','Article 21 of the Constitution guarantees:',['Protection of life and personal liberty','Right to equality','Freedom of religion','Right to constitutional remedies'],'Article 21 protects life and personal liberty, and courts have read many rights into it.'],
+['con','Fundamental Duties were added to the Constitution by which Amendment?',['42nd Amendment','44th Amendment','52nd Amendment','73rd Amendment'],'The 42nd Amendment Act of 1976 added them, on the recommendation of the Swaran Singh Committee.'],
+['con','What is the minimum age to contest an election to the Lok Sabha?',['25 years','21 years','30 years','35 years'],'Lok Sabha: 25 years. Rajya Sabha: 30 years. President: 35 years.'],
+
+['geo','Which is the longest river in Kerala?',['Periyar','Bharathapuzha','Pamba','Chaliyar'],'The Periyar is about 244 km long, longer than the Bharathapuzha.'],
+['geo','How many districts does Kerala have?',['14','12','13','15'],'The districts run from Kasaragod in the north to Thiruvananthapuram in the south.'],
+['geo','The highest peak in Kerala is:',['Anamudi','Meesapulimala','Chembra Peak','Agasthyamala'],'Anamudi in Idukki rises about 2,695 m and is the highest peak in South India.'],
+['geo','Which is the largest lake in Kerala?',['Vembanad','Ashtamudi','Sasthamkotta','Pookode'],'Vembanad is the largest lake and part of a Ramsar wetland site.'],
+['geo','Silent Valley National Park is in which district?',['Palakkad','Idukki','Wayanad','Malappuram'],'Silent Valley in Palakkad district is known for its evergreen forest.'],
+['geo','Which is the smallest district of Kerala by area?',['Alappuzha','Kasaragod','Ernakulam','Thiruvananthapuram'],'Alappuzha covers about 1,414 sq km.'],
+
+['sci','Deficiency of which vitamin causes scurvy?',['Vitamin C','Vitamin A','Vitamin D','Vitamin K'],'Citrus fruits and amla are rich sources of vitamin C.'],
+['sci','The SI unit of force is:',['Newton','Joule','Pascal','Watt'],'One newton is the force that gives a 1 kg mass an acceleration of 1 m/s².'],
+['sci','Which gas forms the largest part of Earth’s atmosphere?',['Nitrogen','Oxygen','Carbon dioxide','Argon'],'Nitrogen makes up about 78% of dry air.'],
+['sci','The chemical symbol of gold is:',['Au','Ag','Gd','Go'],'Au comes from the Latin word aurum.'],
+['sci','Which cell organelle is known as the powerhouse of the cell?',['Mitochondria','Ribosome','Golgi body','Nucleus'],'Mitochondria release most of the cell’s usable energy as ATP.'],
+['sci','Which blood group is called the universal donor?',['O negative','AB positive','A positive','B negative'],'Red cells of O negative blood carry no A, B or Rh D antigens.'],
+
+['math','What is 15% of 240?',['36','32','40','24'],'15% of 240 = 0.15 × 240 = 36.'],
+['math','Find the next number: 2, 6, 12, 20, 30, ?',['42','40','44','36'],'The differences are 4, 6, 8, 10, so the next difference is 12 and 30 + 12 = 42.'],
+['math','What is the average of the first five natural numbers?',['3','2.5','4','5'],'(1 + 2 + 3 + 4 + 5) ÷ 5 = 3.'],
+['math','An article bought for ₹500 is sold for ₹600. What is the profit percentage?',['20%','10%','16.67%','25%'],'Profit ₹100 on cost ₹500 gives 100 ÷ 500 × 100 = 20%.'],
+['math','What is the LCM of 12 and 18?',['36','6','72','24'],'12 = 2² × 3 and 18 = 2 × 3², so LCM = 2² × 3² = 36.'],
+['math','A train runs at 60 km/h. How far does it travel in 2.5 hours?',['150 km','120 km','135 km','180 km'],'Distance = speed × time = 60 × 2.5 = 150 km.'],
+
+['eng','Choose the synonym of “abundant”.',['Plentiful','Scarce','Fragile','Rare'],'Abundant means existing in large quantities, the same as plentiful.'],
+['eng','Choose the antonym of “ancient”.',['Modern','Old','Historic','Primitive'],'Ancient means very old; modern is its opposite.'],
+['eng','Choose the correct sentence.',['She has been working here since 2020.','She is working here since 2020.','She works here since 2020.','She was working here since 2020.'],'“Since” with a starting point in the past takes the present perfect (continuous).'],
+['eng','What is the plural of “child”?',['Children','Childs','Childrens','Childes'],'Child has an irregular plural: children.'],
+['eng','The idiom “a piece of cake” means:',['Something very easy','A small gift','A sweet dish','A difficult task'],'It describes a task that takes almost no effort.'],
+['eng','Give one word for “a person who loves books”.',['Bibliophile','Philanthropist','Misogynist','Bibliographer'],'Biblio- means book and -phile means lover.'],
+
+['ker','Kerala state was formed on which date?',['1 November 1956','15 August 1947','26 January 1950','1 January 1957'],'It was formed under the States Reorganisation Act, 1956, by joining Malayalam-speaking regions.'],
+['ker','Who was the first Chief Minister of Kerala?',['E. M. S. Namboodiripad','C. Achutha Menon','Pattom Thanu Pillai','R. Sankar'],'He led the first elected government in 1957.'],
+['ker','Who wrote the novel “Chemmeen”?',['Thakazhi Sivasankara Pillai','Vaikom Muhammad Basheer','S. K. Pottekkatt','O. V. Vijayan'],'Chemmeen was first published in 1956.'],
+['ker','Who was the first Malayali to win the Jnanpith Award?',['G. Sankara Kurup','S. K. Pottekkatt','Thakazhi Sivasankara Pillai','M. T. Vasudevan Nair'],'G. Sankara Kurup received it for his poetry collection Odakkuzhal.'],
+['ker','In which year did Malayalam receive classical language status?',['2013','2004','2008','2016'],'The Government of India granted the status in 2013.'],
+['ker','Which was the first Malayalam newspaper?',['Rajyasamacharam','Deepika','Malayala Manorama','Mathrubhumi'],'Hermann Gundert started it in 1847 from Illikkunnu, Thalassery.'],
+
+['his','The Battle of Plassey was fought in which year?',['1757','1764','1857','1707'],'Robert Clive’s victory over Siraj-ud-Daulah in 1757 began British political control in Bengal.'],
+['his','Who was the first Governor-General of independent India?',['Lord Mountbatten','C. Rajagopalachari','Lord Curzon','Lord Dalhousie'],'C. Rajagopalachari was the first Indian and the last Governor-General.'],
+['his','The Quit India Movement was launched in which year?',['1942','1930','1920','1946'],'It was launched on 8 August 1942 at Bombay.'],
+['his','Who helped found the Indian National Congress in 1885?',['A. O. Hume','Dadabhai Naoroji','Gopal Krishna Gokhale','Bal Gangadhar Tilak'],'A. O. Hume was a founder; W. C. Bonnerjee presided over the first session.'],
+['his','The Jallianwala Bagh massacre took place in which year?',['1919','1905','1922','1930'],'It happened at Amritsar on 13 April 1919.'],
+['his','Gandhi’s Dandi March against the salt tax took place in which year?',['1930','1920','1922','1942'],'The march began on 12 March 1930.']
+];
+/* Malayalam: [question, options or null when identical to English, explanation] in the same order as RAW */
+var ML=[
+['വൈക്കം ക്ഷേത്രത്തിനു ചുറ്റുമുള്ള വഴികളിൽ താഴ്ന്ന ജാതിക്കാർക്ക് സഞ്ചാരസ്വാതന്ത്ര്യം ആവശ്യപ്പെട്ടുള്ള വൈക്കം സത്യാഗ്രഹം ഏത് വർഷമാണ് ആരംഭിച്ചത്?',null,'1924-ൽ ആരംഭിച്ച ഈ സമരം ജാതിനിയന്ത്രണമുള്ള ക്ഷേത്രവീഥികളിലെ വഴിനടപ്പ് അവകാശത്തിനായുള്ള നാഴികക്കല്ലായ പോരാട്ടമായി ഓർമ്മിക്കപ്പെടുന്നു.'],
+['1936-ലെ ക്ഷേത്രപ്രവേശന വിളംബരം തിരുവിതാംകൂറിൽ പുറപ്പെടുവിച്ചത് ആര്?',['ശ്രീ ചിത്തിര തിരുനാൾ ബാലരാമവർമ്മ','മാർത്താണ്ഡവർമ്മ','സ്വാതി തിരുനാൾ','ശ്രീമൂലം തിരുനാൾ'],'1936 നവംബർ 12-ലെ വിളംബരം തിരുവിതാംകൂറിലെ സർക്കാർ നിയന്ത്രണത്തിലുള്ള ക്ഷേത്രങ്ങൾ എല്ലാ ഹിന്ദുക്കൾക്കും തുറന്നുകൊടുത്തു.'],
+['1903-ൽ സ്ഥാപിതമായ എസ്.എൻ.ഡി.പി. യോഗത്തിന്റെ ആദ്യ ജനറൽ സെക്രട്ടറി ആരായിരുന്നു?',['കുമാരനാശാൻ','ഡോ. പല്പു','അയ്യങ്കാളി','ചട്ടമ്പിസ്വാമികൾ'],'1903-ൽ ശ്രീനാരായണഗുരു പ്രസിഡന്റും കുമാരനാശാൻ സെക്രട്ടറിയുമായി യോഗം സ്ഥാപിതമായി.'],
+['1931–32-ലെ ഗുരുവായൂർ സത്യാഗ്രഹത്തിനു നേതൃത്വം നൽകിയത് ആര്?',['കെ. കേളപ്പൻ','വക്കം മൗലവി','സി. കേശവൻ','മന്നത്ത് പത്മനാഭൻ'],'കേരള ഗാന്ധി എന്നറിയപ്പെടുന്ന കെ. കേളപ്പൻ ക്ഷേത്രപ്രവേശനത്തിനായുള്ള ഗുരുവായൂർ സത്യാഗ്രഹത്തിനു നേതൃത്വം നൽകി.'],
+['അയ്യങ്കാളി സാധുജന പരിപാലന സംഘം സ്ഥാപിച്ചത് ഏത് വർഷം?',null,'സ്കൂൾ പ്രവേശനത്തിനും പൊതുവഴി ഉപയോഗിക്കാനുമുള്ള ദളിത് സമരങ്ങൾക്കു നേതൃത്വം നൽകിയ വ്യക്തിയായി അയ്യങ്കാളി ഓർമ്മിക്കപ്പെടുന്നു.'],
+['സർക്കാർ ജോലികളിൽ നാട്ടുകാർക്കു ന്യായമായ പങ്ക് ആവശ്യപ്പെട്ടുള്ള മലയാളി മെമ്മോറിയൽ സമർപ്പിച്ചത് ഏത് വർഷം?',null,'1891-ൽ തിരുവിതാംകൂർ മഹാരാജാവിനു സമർപ്പിച്ചു.'],
+
+['ഇന്ത്യൻ ഭരണഘടന ഭരണഘടനാ നിർമ്മാണസഭ അംഗീകരിച്ചത് ഏത് തീയതിയിൽ?',['1949 നവംബർ 26','1947 ഓഗസ്റ്റ് 15','1950 ജനുവരി 26','1946 ഡിസംബർ 9'],'1950 ജനുവരി 26-ന് ഇത് നിലവിൽ വന്നു; ആ ദിവസം റിപ്പബ്ലിക് ദിനമായി ആഘോഷിക്കുന്നു.'],
+['മൗലികാവകാശങ്ങൾ ഭരണഘടനയുടെ ഏത് ഭാഗത്താണ്?',['ഭാഗം III','ഭാഗം II','ഭാഗം IV','ഭാഗം IV-A'],'ഭാഗം III-ൽ 12 മുതൽ 35 വരെ അനുച്ഛേദങ്ങൾ ഉൾപ്പെടുന്നു.'],
+['ഭരണഘടനാ നിർമ്മാണസഭയുടെ കരട് നിർമ്മാണ സമിതിയുടെ അധ്യക്ഷൻ ആരായിരുന്നു?',['ബി. ആർ. അംബേദ്കർ','രാജേന്ദ്ര പ്രസാദ്','ജവഹർലാൽ നെഹ്റു','സർദാർ പട്ടേൽ'],'രാജേന്ദ്ര പ്രസാദ് ഭരണഘടനാ നിർമ്മാണസഭയുടെ അധ്യക്ഷനായിരുന്നു; കരട് നിർമ്മാണ സമിതിയുടെ അധ്യക്ഷൻ അംബേദ്കർ ആയിരുന്നു.'],
+['ഭരണഘടനയുടെ 21-ാം അനുച്ഛേദം ഉറപ്പുനൽകുന്നത്:',['ജീവനും വ്യക്തിസ്വാതന്ത്ര്യത്തിനുമുള്ള സംരക്ഷണം','സമത്വത്തിനുള്ള അവകാശം','മതസ്വാതന്ത്ര്യം','ഭരണഘടനാപരമായ പരിഹാരങ്ങൾക്കുള്ള അവകാശം'],'21-ാം അനുച്ഛേദം ജീവനും വ്യക്തിസ്വാതന്ത്ര്യത്തിനും സംരക്ഷണം നൽകുന്നു; പല അവകാശങ്ങളും കോടതികൾ ഇതിൽ ഉൾപ്പെടുത്തി വ്യാഖ്യാനിച്ചിട്ടുണ്ട്.'],
+['മൗലിക കടമകൾ ഭരണഘടനയിൽ ഉൾപ്പെടുത്തിയത് ഏത് ഭേദഗതിയിലൂടെ?',['42-ാം ഭേദഗതി','44-ാം ഭേദഗതി','52-ാം ഭേദഗതി','73-ാം ഭേദഗതി'],'സ്വരൺ സിങ് കമ്മിറ്റിയുടെ ശുപാർശ പ്രകാരം 1976-ലെ 42-ാം ഭേദഗതി നിയമമാണ് ഇവ ചേർത്തത്.'],
+['ലോക്സഭയിലേക്കു മത്സരിക്കാനുള്ള കുറഞ്ഞ പ്രായം എത്ര?',['25 വയസ്സ്','21 വയസ്സ്','30 വയസ്സ്','35 വയസ്സ്'],'ലോക്സഭ: 25 വയസ്സ്. രാജ്യസഭ: 30 വയസ്സ്. രാഷ്ട്രപതി: 35 വയസ്സ്.'],
+
+['കേരളത്തിലെ ഏറ്റവും നീളം കൂടിയ നദി ഏത്?',['പെരിയാർ','ഭാരതപ്പുഴ','പമ്പ','ചാലിയാർ'],'പെരിയാറിന് ഏകദേശം 244 കിലോമീറ്റർ നീളമുണ്ട്; ഇത് ഭാരതപ്പുഴയെക്കാൾ കൂടുതലാണ്.'],
+['കേരളത്തിൽ എത്ര ജില്ലകളുണ്ട്?',null,'വടക്ക് കാസർഗോഡ് മുതൽ തെക്ക് തിരുവനന്തപുരം വരെയാണ് ജില്ലകൾ.'],
+['കേരളത്തിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടി:',['ആനമുടി','മീശപ്പുലിമല','ചെമ്പ്ര കൊടുമുടി','അഗസ്ത്യമല'],'ഇടുക്കിയിലെ ആനമുടിക്ക് ഏകദേശം 2,695 മീറ്റർ ഉയരമുണ്ട്; ദക്ഷിണേന്ത്യയിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടിയാണിത്.'],
+['കേരളത്തിലെ ഏറ്റവും വലിയ കായൽ (തടാകം) ഏത്?',['വേമ്പനാട്','അഷ്ടമുടി','ശാസ്താംകോട്ട','പൂക്കോട്'],'വേമ്പനാട് ഏറ്റവും വലുതും ഒരു റാംസർ തണ്ണീർത്തടത്തിന്റെ ഭാഗവുമാണ്.'],
+['സൈലന്റ് വാലി ദേശീയോദ്യാനം ഏത് ജില്ലയിലാണ്?',['പാലക്കാട്','ഇടുക്കി','വയനാട്','മലപ്പുറം'],'പാലക്കാട് ജില്ലയിലെ സൈലന്റ് വാലി നിത്യഹരിത വനത്തിനു പ്രശസ്തമാണ്.'],
+['വിസ്തീർണത്തിൽ കേരളത്തിലെ ഏറ്റവും ചെറിയ ജില്ല ഏത്?',['ആലപ്പുഴ','കാസർഗോഡ്','എറണാകുളം','തിരുവനന്തപുരം'],'ആലപ്പുഴയുടെ വിസ്തീർണം ഏകദേശം 1,414 ചതുരശ്ര കിലോമീറ്ററാണ്.'],
+
+['ഏത് വിറ്റാമിന്റെ അഭാവം മൂലമാണ് സ്കർവി ഉണ്ടാകുന്നത്?',['വിറ്റാമിൻ C','വിറ്റാമിൻ A','വിറ്റാമിൻ D','വിറ്റാമിൻ K'],'നാരങ്ങ വർഗ്ഗ പഴങ്ങളും നെല്ലിക്കയും വിറ്റാമിൻ C-യുടെ സമൃദ്ധമായ സ്രോതസ്സുകളാണ്.'],
+['ബലത്തിന്റെ SI യൂണിറ്റ്:',['ന്യൂട്ടൺ','ജൂൾ','പാസ്കൽ','വാട്ട്'],'1 കിലോഗ്രാം പിണ്ഡത്തിന് 1 m/s² ത്വരണം നൽകുന്ന ബലമാണ് ഒരു ന്യൂട്ടൺ.'],
+['ഭൂമിയുടെ അന്തരീക്ഷത്തിൽ ഏറ്റവും കൂടുതലുള്ള വാതകം ഏത്?',['നൈട്രജൻ','ഓക്സിജൻ','കാർബൺ ഡൈ ഓക്സൈഡ്','ആർഗൺ'],'വരണ്ട വായുവിന്റെ ഏകദേശം 78% നൈട്രജനാണ്.'],
+['സ്വർണത്തിന്റെ രാസചിഹ്നം:',null,'Au എന്നത് ലാറ്റിൻ പദമായ aurum-ൽ നിന്നാണ്.'],
+['കോശത്തിന്റെ പവർഹൗസ് എന്നറിയപ്പെടുന്ന കോശാംഗം ഏത്?',['മൈറ്റോകോൺഡ്രിയ','റൈബോസോം','ഗോൾഗി ബോഡി','ന്യൂക്ലിയസ്'],'കോശത്തിന് ഉപയോഗിക്കാവുന്ന ഊർജ്ജത്തിന്റെ വലിയൊരു ഭാഗം ATP ആയി പുറത്തുവിടുന്നത് മൈറ്റോകോൺഡ്രിയയാണ്.'],
+['സാർവത്രിക ദാതാവ് (യൂണിവേഴ്സൽ ഡോണർ) എന്നറിയപ്പെടുന്ന രക്തഗ്രൂപ്പ് ഏത്?',['O നെഗറ്റീവ്','AB പോസിറ്റീവ്','A പോസിറ്റീവ്','B നെഗറ്റീവ്'],'O നെഗറ്റീവ് രക്തത്തിലെ ചുവന്ന രക്താണുക്കളിൽ A, B, Rh D ആന്റിജനുകൾ ഇല്ല.'],
+
+['240-ന്റെ 15% എത്ര?',null,'240-ന്റെ 15% = 0.15 × 240 = 36.'],
+['അടുത്ത സംഖ്യ കണ്ടെത്തുക: 2, 6, 12, 20, 30, ?',null,'വ്യത്യാസങ്ങൾ 4, 6, 8, 10 ആണ്; അടുത്ത വ്യത്യാസം 12, അതിനാൽ 30 + 12 = 42.'],
+['ആദ്യത്തെ അഞ്ച് എണ്ണൽസംഖ്യകളുടെ ശരാശരി എത്ര?',null,'(1 + 2 + 3 + 4 + 5) ÷ 5 = 3.'],
+['₹500-ന് വാങ്ങിയ ഒരു സാധനം ₹600-ന് വിറ്റാൽ ലാഭശതമാനം എത്ര?',null,'₹500 വിലയിൽ ₹100 ലാഭം: 100 ÷ 500 × 100 = 20%.'],
+['12, 18 എന്നിവയുടെ ലസാഗു (LCM) എത്ര?',null,'12 = 2² × 3, 18 = 2 × 3²; അതിനാൽ ലസാഗു = 2² × 3² = 36.'],
+['മണിക്കൂറിൽ 60 കി.മീ. വേഗത്തിൽ ഓടുന്ന ഒരു ട്രെയിൻ 2.5 മണിക്കൂറിൽ എത്ര ദൂരം സഞ്ചരിക്കും?',['150 കി.മീ.','120 കി.മീ.','135 കി.മീ.','180 കി.മീ.'],'ദൂരം = വേഗം × സമയം = 60 × 2.5 = 150 കി.മീ.'],
+
+['“Abundant” എന്ന വാക്കിന്റെ പര്യായം തിരഞ്ഞെടുക്കുക.',null,'Abundant എന്നാൽ ധാരാളമായി ഉള്ളത് എന്നർത്ഥം; Plentiful എന്ന വാക്കിനും അതേ അർത്ഥമാണ്.'],
+['“Ancient” എന്ന വാക്കിന്റെ വിപരീതപദം തിരഞ്ഞെടുക്കുക.',null,'Ancient എന്നാൽ വളരെ പഴയത്; അതിന്റെ വിപരീതം Modern ആണ്.'],
+['ശരിയായ വാക്യം തിരഞ്ഞെടുക്കുക.',null,'ഭൂതകാലത്തിലെ ഒരു തുടക്കബിന്ദു സൂചിപ്പിക്കുന്ന “since” ഉള്ള വാക്യത്തിൽ present perfect (continuous) ഉപയോഗിക്കണം.'],
+['“Child” എന്ന വാക്കിന്റെ ബഹുവചനം ഏത്?',null,'Child-ന്റെ ബഹുവചനം ക്രമരഹിതമാണ്: children.'],
+['“A piece of cake” എന്ന ശൈലിയുടെ അർത്ഥം:',null,'ഒട്ടും ബുദ്ധിമുട്ടില്ലാത്ത കാര്യത്തെയാണ് ഇത് സൂചിപ്പിക്കുന്നത്.'],
+['“പുസ്തകങ്ങളെ സ്നേഹിക്കുന്ന വ്യക്തി” എന്നതിന് ഒറ്റവാക്ക് ഏത്?',null,'Biblio- എന്നാൽ പുസ്തകം, -phile എന്നാൽ സ്നേഹിക്കുന്നയാൾ.'],
+
+['കേരള സംസ്ഥാനം രൂപീകരിച്ചത് ഏത് തീയതിയിൽ?',['1956 നവംബർ 1','1947 ഓഗസ്റ്റ് 15','1950 ജനുവരി 26','1957 ജനുവരി 1'],'1956-ലെ സംസ്ഥാന പുനഃസംഘടനാ നിയമപ്രകാരം മലയാളം സംസാരിക്കുന്ന പ്രദേശങ്ങൾ ചേർത്താണ് രൂപീകരിച്ചത്.'],
+['കേരളത്തിന്റെ ആദ്യ മുഖ്യമന്ത്രി ആരായിരുന്നു?',['ഇ. എം. എസ്. നമ്പൂതിരിപ്പാട്','സി. അച്യുതമേനോൻ','പട്ടം താണുപിള്ള','ആർ. ശങ്കർ'],'1957-ൽ അധികാരമേറ്റ ആദ്യ തിരഞ്ഞെടുക്കപ്പെട്ട സർക്കാരിനെ അദ്ദേഹം നയിച്ചു.'],
+['“ചെമ്മീൻ” എന്ന നോവൽ എഴുതിയത് ആര്?',['തകഴി ശിവശങ്കരപ്പിള്ള','വൈക്കം മുഹമ്മദ് ബഷീർ','എസ്. കെ. പൊറ്റെക്കാട്ട്','ഒ. വി. വിജയൻ'],'ചെമ്മീൻ ആദ്യമായി പ്രസിദ്ധീകരിച്ചത് 1956-ലാണ്.'],
+['ജ്ഞാനപീഠ പുരസ്കാരം നേടിയ ആദ്യ മലയാളി ആര്?',['ജി. ശങ്കരക്കുറുപ്പ്','എസ്. കെ. പൊറ്റെക്കാട്ട്','തകഴി ശിവശങ്കരപ്പിള്ള','എം. ടി. വാസുദേവൻ നായർ'],'ഓടക്കുഴൽ എന്ന കവിതാസമാഹാരത്തിനാണ് ജി. ശങ്കരക്കുറുപ്പിന് പുരസ്കാരം ലഭിച്ചത്.'],
+['മലയാളത്തിന് ശ്രേഷ്ഠഭാഷാ പദവി ലഭിച്ചത് ഏത് വർഷം?',null,'2013-ൽ കേന്ദ്രസർക്കാർ ഈ പദവി നൽകി.'],
+['ആദ്യത്തെ മലയാള പത്രം ഏത്?',['രാജ്യസമാചാരം','ദീപിക','മലയാള മനോരമ','മാതൃഭൂമി'],'1847-ൽ ഹെർമൻ ഗുണ്ടർട്ട് തലശ്ശേരിയിലെ ഇല്ലിക്കുന്നിൽ നിന്ന് ഇത് ആരംഭിച്ചു.'],
+
+['പ്ലാസി യുദ്ധം നടന്നത് ഏത് വർഷം?',null,'1757-ൽ റോബർട്ട് ക്ലൈവ് സിറാജ്-ഉദ്-ദൗളയെ തോൽപ്പിച്ചത് ബംഗാളിൽ ബ്രിട്ടീഷ് രാഷ്ട്രീയാധിപത്യത്തിന് തുടക്കമിട്ടു.'],
+['സ്വതന്ത്ര ഇന്ത്യയുടെ ആദ്യ ഗവർണർ ജനറൽ ആരായിരുന്നു?',['മൗണ്ട്ബാറ്റൺ പ്രഭു','സി. രാജഗോപാലാചാരി','കഴ്സൺ പ്രഭു','ഡൽഹൗസി പ്രഭു'],'സി. രാജഗോപാലാചാരി ആദ്യത്തെ ഇന്ത്യക്കാരനും അവസാനത്തെയും ഗവർണർ ജനറലായിരുന്നു.'],
+['ക്വിറ്റ് ഇന്ത്യ സമരം ആരംഭിച്ചത് ഏത് വർഷം?',null,'1942 ഓഗസ്റ്റ് 8-ന് ബോംബെയിൽ ആരംഭിച്ചു.'],
+['1885-ൽ ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ് സ്ഥാപിക്കാൻ സഹായിച്ചത് ആര്?',['എ. ഒ. ഹ്യൂം','ദാദാഭായ് നവറോജി','ഗോപാലകൃഷ്ണ ഗോഖലെ','ബാല ഗംഗാധര തിലക്'],'എ. ഒ. ഹ്യൂം സ്ഥാപകരിൽ ഒരാളായിരുന്നു; ആദ്യ സമ്മേളനത്തിന് അധ്യക്ഷത വഹിച്ചത് ഡബ്ല്യു. സി. ബാനർജിയാണ്.'],
+['ജാലിയൻവാലാബാഗ് കൂട്ടക്കൊല നടന്നത് ഏത് വർഷം?',null,'1919 ഏപ്രിൽ 13-ന് അമൃത്സറിൽ നടന്നു.'],
+['ഉപ്പുനികുതിക്കെതിരായ ഗാന്ധിജിയുടെ ദണ്ഡി യാത്ര നടന്നത് ഏത് വർഷം?',null,'1930 മാർച്ച് 12-ന് യാത്ര ആരംഭിച്ചു.']
+];
+var QS=RAW.map(function(r,i){var m=ML[i]||[];return {id:i,s:r[0],q:r[1],o:r[2],e:r[3],mq:m[0]||r[1],mo:m[1]||r[2],me:m[2]||r[3]};});
+
+var SYL={
+  ren:['Sree Narayana Guru and the SNDP','Ayyankali and social struggles','Temple entry movement','Vaikom and Guruvayur Satyagrahas','Malayali Memorial and early reform','Press and literature of reform'],
+  con:['Preamble','Fundamental Rights','Directive Principles','Fundamental Duties','Parliament and the President','Important Amendments'],
+  geo:['Rivers of Kerala','Districts and borders','Mountains and forests','Lakes and backwaters','Climate and soils','Physiography of India'],
+  sci:['Human body and vitamins','Cell biology','Units and motion','Atmosphere and gases','Elements and symbols','Blood and health'],
+  math:['Percentage','Profit and loss','Time, speed and distance','Number series','LCM and HCF','Average and ratio'],
+  eng:['Synonyms and antonyms','Tenses','Idioms and phrases','One-word substitution','Articles and prepositions','Plurals and spelling'],
+  ker:['Formation of Kerala','Chief Ministers','Literature and awards','Classical arts','Festivals','Newspapers and firsts'],
+  his:['Plassey and the Revolt of 1857','Freedom movement','Gandhian movements','Congress and its leaders','Independence and after','Ancient India basics']
+};
+
+/* ---------- state ---------- */
+var KEY='pscKalari.v1', canSave=true;
+function blank(){return {subj:{},daily:{},streak:{last:'',count:0,best:0},mocks:[],syl:{},theme:'auto',lang:'both'};}
+function load(){
+  try{var r=localStorage.getItem(KEY); if(r){var o=JSON.parse(r); if(o&&typeof o==='object') return Object.assign(blank(),o);}}
+  catch(e){canSave=false;}
+  return blank();
+}
+var S=load();
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S));canSave=true;}catch(e){canSave=false;}}
+
+/* ---------- helpers ---------- */
+function $(s,r){return (r||document).querySelector(s);}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function dayKey(d){d=d||new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function shuffle(a,rnd){a=a.slice();rnd=rnd||Math.random;for(var i=a.length-1;i>0;i--){var j=Math.floor(rnd()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function seedRand(seed){var a=seed>>>0;return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+function r2(n){return Math.round(n*100)/100;}
+function curStreak(){var t=dayKey(),y=new Date();y.setDate(y.getDate()-1);return (S.streak.last===t||S.streak.last===dayKey(y))?S.streak.count:0;}
+function touchStreak(){
+  var t=dayKey(); if(S.streak.last===t) return;
+  var y=new Date(); y.setDate(y.getDate()-1);
+  S.streak.count=(S.streak.last===dayKey(y))?S.streak.count+1:1;
+  S.streak.last=t; S.streak.best=Math.max(S.streak.best||0,S.streak.count);
+}
+function record(subject,ok){var s=S.subj[subject]||(S.subj[subject]={a:0,c:0});s.a++;if(ok)s.c++;}
+function build(list){
+  return list.map(function(q){
+    var idx=shuffle([0,1,2,3]);
+    return {id:q.id,s:q.s,q:q.q,e:q.e,mq:q.mq,me:q.me,opts:idx.map(function(i){return q.o[i];}),mopts:idx.map(function(i){return q.mo[i];}),ans:idx.indexOf(0)};
+  });
+}
+function accOf(k){var s=S.subj[k];return s&&s.a?Math.round(s.c/s.a*100):null;}
+function totals(){var a=0,c=0;SKEYS.forEach(function(k){var s=S.subj[k];if(s){a+=s.a;c+=s.c;}});return {a:a,c:c,p:a?Math.round(c/a*100):0};}
+function weakest(){
+  var best=null;
+  SKEYS.forEach(function(k){var s=S.subj[k];if(s&&s.a>=3){var p=s.c/s.a;if(!best||p<best.p)best={k:k,p:p};}});
+  return best&&best.p<0.85?best.k:null;
+}
+var LET=['A','B','C','D'];
+function L(){return S.lang==='en'||S.lang==='ml'?S.lang:'both';}
+function tx(en,ml){
+  var l=L();
+  if(!ml||ml===en||l==='en')return esc(en);
+  if(l==='ml')return esc(ml);
+  return esc(en)+'<span class="ml">'+esc(ml)+'</span>';
+}
+function verdict(ok,it){
+  var l=L(),en=ok?'Right.':'The answer is '+it.opts[it.ans]+'.',ml=ok?'ശരി.':'ശരിയുത്തരം: '+it.mopts[it.ans]+'.';
+  if(l==='en')return esc(en);
+  if(l==='ml')return esc(ml);
+  return esc(en)+' <span style="font-weight:400;color:var(--muted)">'+esc(ml)+'</span>';
+}
+function syncLang(){
+  Array.prototype.forEach.call(document.querySelectorAll('.langbar button'),function(b){
+    b.setAttribute('aria-pressed',b.getAttribute('data-lang')===L()?'true':'false');
+  });
+}
+
+/* ---------- theme ---------- */
+function applyTheme(){
+  var r=document.documentElement;
+  if(S.theme==='dark'||S.theme==='light') r.setAttribute('data-theme',S.theme); else r.removeAttribute('data-theme');
+}
+function isDark(){
+  var t=document.documentElement.getAttribute('data-theme');
+  if(t) return t==='dark';
+  return window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
+applyTheme();
+
+/* ---------- quiz session ---------- */
+var Z=null, ui={open:{},reset:false,importMsg:''};
+function endQuiz(){if(Z&&Z.timer)clearInterval(Z.timer);Z=null;}
+function startQuiz(opts){
+  endQuiz();
+  Z=Object.assign({i:0,picks:[],finished:false,confirm:false},opts);
+  Z.items=build(opts.list);
+  if(opts.mode==='mock'){
+    Z.t0=Date.now();
+    Z.timer=setInterval(tick,1000);
+  }
+  render();
+}
+function dailyIds(){var t=+dayKey().replace(/-/g,'');return shuffle(QS.map(function(q){return q.id;}),seedRand(t)).slice(0,5);}
+function startDaily(){startQuiz({mode:'daily',title:'Today’s five',list:dailyIds().map(function(i){return QS[i];})});}
+function startSubject(k){startQuiz({mode:'practice',title:SUBJ[k].en,list:QS.filter(function(q){return q.s===k;})});}
+function startMix(){startQuiz({mode:'practice',title:'Quick mix',list:shuffle(QS).slice(0,10)});}
+function startMock(){startQuiz({mode:'mock',title:'Mini mock test',limit:20*60,list:shuffle(QS).slice(0,20)});}
+
+function remaining(){return Math.max(0,Z.limit-Math.floor((Date.now()-Z.t0)/1000));}
+function fmtTime(s){return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}
+function tick(){
+  if(!Z||Z.mode!=='mock'||Z.finished)return;
+  var r=remaining(), el=$('#timer');
+  if(el){el.textContent=fmtTime(r);el.classList.toggle('low',r<=120);}
+  if(r<=0)finishMock();
+}
+function finishPractice(){
+  Z.finished=true;
+  var c=0;Z.items.forEach(function(it,i){if(Z.picks[i]===it.ans)c++;});
+  Z.correct=c;
+  if(Z.mode==='daily'){S.daily[dayKey()]={c:c,n:Z.items.length};}
+  save();
+}
+function finishMock(){
+  if(!Z||Z.finished)return;
+  clearInterval(Z.timer);
+  var c=0,w=0,u=0;
+  Z.items.forEach(function(it,i){
+    var p=Z.picks[i];
+    if(p===undefined){u++;return;}
+    var ok=p===it.ans; if(ok)c++; else w++;
+    record(it.s,ok);
+  });
+  Z.finished=true;Z.confirm=false;
+  Z.res={c:c,w:w,u:u,n:Z.items.length,sc:r2(c-w/3)};
+  Z.spent=Z.limit-remaining();
+  if(c+w>0)touchStreak();
+  S.mocks.push({d:dayKey(),sc:Z.res.sc,c:c,w:w,u:u,n:Z.res.n});
+  if(S.mocks.length>20)S.mocks=S.mocks.slice(-20);
+  save();
+}
+
+/* ---------- views ---------- */
+var view=$('#view');
+function curTab(){var h=(location.hash||'#home').slice(1);return ['home','mock','syllabus','progress'].indexOf(h)>-1?h:'home';}
+function render(keep){
+  var t=curTab();
+  Array.prototype.forEach.call(document.querySelectorAll('#tabs a'),function(a){
+    if(a.getAttribute('data-tab')===t)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');
+  });
+  if(Z){view.innerHTML=Z.finished?viewResult():viewQuiz();}
+  else if(t==='home')view.innerHTML=viewHome();
+  else if(t==='mock')view.innerHTML=viewMock();
+  else if(t==='syllabus')view.innerHTML=viewSyllabus();
+  else view.innerHTML=viewProgress();
+  if(!keep)window.scrollTo(0,0);
+}
+
+function subjCard(k){
+  var s=SUBJ[k],n=QS.filter(function(q){return q.s===k;}).length,st=S.subj[k]||{a:0,c:0},acc=accOf(k);
+  return '<button type="button" class="scard" data-act="subj" data-k="'+k+'"><span class="sml">'+s.ml+'</span><span class="sen">'+s.en+'</span>'+
+    '<span class="smeta">'+(acc===null?n+' questions · not started':acc+'% right · '+st.a+' answered')+'</span>'+
+    '<span class="sbar"><i style="width:'+(acc||0)+'%"></i></span></button>';
+}
+
+function viewHome(){
+  var d=S.daily[dayKey()],st=curStreak(),weak=weakest();
+  var dateStr=new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long'});
+  var h='<div class="stack">';
+  h+='<section class="hero"><div class="kasavu"></div><div class="hero-in">'+
+    '<span class="eyebrow">'+esc(dateStr)+'</span>'+
+    '<h2>'+(d?'Today’s five are done: '+d.c+' of '+d.n+' right':'Five questions, five minutes')+'</h2>'+
+    '<p>'+(d?'Come back tomorrow for a fresh set, or keep going with a subject below.':'One short set every day builds the habit that clears the cut-off.')+'</p>'+
+    '<div class="row" style="align-items:center">'+
+    '<button type="button" class="btn" data-act="daily">'+(d?'Practise today’s set again':'Start today’s five')+'</button>'+
+    '<span class="chip gold">'+(st?st+'-day streak':'Start your streak')+'</span></div></div></section>';
+  h+='<div class="pick-row">'+
+    '<button type="button" class="pick" data-act="mix"><b>Quick mix</b><span class="sub">10 random questions from every subject</span></button>'+
+    (weak?'<button type="button" class="pick" data-act="subj" data-k="'+weak+'"><b>Strengthen '+SUBJ[weak].en+'</b><span class="sub">Your lowest accuracy so far: '+accOf(weak)+'%</span></button>':
+      '<a class="pick" href="#mock" style="text-decoration:none;color:inherit"><b>Try the mini mock</b><span class="sub">20 questions, 20 minutes, negative marking</span></a>')+
+    '</div>';
+  h+='<div><h2 class="sec">Subjects</h2><p class="sub">Tap a subject to practise it with an explanation after every answer.</p></div>';
+  h+='<div class="grid">'+SKEYS.map(subjCard).join('')+'</div>';
+  h+='</div>';
+  return h;
+}
+
+function bars(list){
+  return '<div class="bars" role="img" aria-label="Scores of your last mock tests">'+list.map(function(m){
+    var pct=Math.max(0,m.sc)/m.n*100;
+    return '<div class="bar"><span class="bv">'+m.sc+'</span><i style="height:'+Math.max(4,Math.round(pct*0.85))+'px"></i><span class="bd">'+m.d.slice(8)+'/'+m.d.slice(5,7)+'</span></div>';
+  }).join('')+'</div>';
+}
+
+function viewMock(){
+  var ms=S.mocks.slice(-8), best=S.mocks.length?Math.max.apply(null,S.mocks.map(function(m){return m.sc;})):null;
+  var h='<div class="stack"><section class="card stack"><span class="eyebrow">Mini mock test</span>'+
+    '<h2 style="font-size:var(--t-xl)">20 questions, 20 minutes</h2>'+
+    '<ul class="list" style="margin-top:-4px"><li><span>Marks per correct answer</span><b>1</b></li><li><span>Negative marking per wrong answer</span><b>1/3</b></li><li><span>Unanswered</span><b>0</b></li><li><span>Questions drawn from</span><b>all 8 subjects</b></li></ul>'+
+    '<button type="button" class="btn" data-act="mock" style="align-self:flex-start">Start the test</button>'+
+    '<p class="sub">The timer starts as soon as you tap Start. Leaving the page ends the test without saving.</p></section>';
+  if(ms.length){
+    h+='<section class="card stack"><div><h2 class="sec" style="margin:0">Your last '+ms.length+' attempt'+(ms.length>1?'s':'')+'</h2><p class="sub">Score out of 20 · best '+best+'</p></div>'+bars(ms)+'</section>';
+  }else{
+    h+='<section class="card"><p class="sub">No attempts yet. Your scores will appear here after the first test.</p></section>';
+  }
+  return h+'</div>';
+}
+
+function viewQuiz(){
+  var it=Z.items[Z.i],n=Z.items.length,isMock=Z.mode==='mock',picked=Z.picks[Z.i],revealed=!isMock&&picked!==undefined;
+  var h='<div class="stack"><div class="qtop"><button type="button" class="icon-btn" data-act="exit" aria-label="Leave this quiz"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>'+
+    '<div class="grow"><div class="qtitle">'+esc(Z.title)+' · Question '+(Z.i+1)+' of '+n+'</div><div class="pbar"><i style="width:'+((Z.i+(revealed?1:0))/n*100)+'%"></i></div></div>'+
+    (isMock?'<div class="timer'+(remaining()<=120?' low':'')+'" id="timer" role="timer">'+fmtTime(remaining())+'</div>':'')+'</div>';
+  h+='<section class="card qcard"><span class="chip" style="align-self:flex-start">'+SUBJ[it.s].en+'</span><p class="qtext">'+tx(it.q,it.mq)+'</p><div class="opts">';
+  it.opts.forEach(function(o,i){
+    var cls='opt',tag='';
+    if(isMock){if(picked===i)cls+=' sel';}
+    else if(revealed){if(i===it.ans){cls+=' right';tag='Correct';}else if(i===picked){cls+=' wrong';tag='Your answer';}}
+    h+='<button type="button" class="'+cls+'" data-act="pick" data-i="'+i+'"'+(revealed?' disabled':'')+'><span class="l">'+LET[i]+'</span><span class="tx">'+tx(o,it.mopts[i])+'</span><span class="tag">'+tag+'</span></button>';
+  });
+  h+='</div>';
+  if(revealed)h+='<div class="explain"><b>'+verdict(picked===it.ans,it)+'</b>'+tx(it.e,it.me)+'</div>';
+  h+='</section>';
+  if(isMock){
+    h+='<div class="palette" aria-label="Question palette">'+Z.items.map(function(_,i){
+      return '<button type="button" data-act="go" data-i="'+i+'" class="'+(Z.picks[i]!==undefined?'ans ':'')+(i===Z.i?'cur':'')+'" aria-label="Question '+(i+1)+(Z.picks[i]!==undefined?', answered':'')+'">'+(i+1)+'</button>';
+    }).join('')+'</div>';
+    h+='<div class="navrow"><button type="button" class="btn ghost" data-act="prev"'+(Z.i===0?' disabled':'')+'>Previous</button>'+
+      (Z.i<n-1?'<button type="button" class="btn" data-act="next">Next</button>':'<button type="button" class="btn" data-act="ask-submit">Review and submit</button>')+'</div>';
+    if(Z.confirm){
+      var un=Z.items.length-Z.picks.filter(function(p){return p!==undefined;}).length;
+      h+='<div class="confirm stack"><b>'+(un?un+' question'+(un>1?'s are':' is')+' still unanswered.':'All questions are answered.')+'</b><p class="sub">Submit now to see your score and explanations.</p><div class="row"><button type="button" class="btn" data-act="submit">Submit test</button><button type="button" class="btn ghost" data-act="keep">Keep going</button></div></div>';
+    }else if(Z.i<n-1){
+      h+='<div><button type="button" class="btn ghost sm" data-act="ask-submit">Submit early</button></div>';
+    }
+  }else if(revealed){
+    h+='<div class="navrow"><span></span><button type="button" class="btn" data-act="next">'+(Z.i<n-1?'Next question':'See results')+'</button></div>';
+  }
+  return h+'</div>';
+}
+
+function reviewList(){
+  return '<div class="stack" style="gap:8px">'+Z.items.map(function(it,i){
+    var p=Z.picks[i],st=p===undefined?'skip':(p===it.ans?'ok':'no'),lab=p===undefined?'Skipped':(p===it.ans?'Right':'Wrong');
+    return '<details class="rev"><summary><span class="pill '+st+'">'+lab+'</span><span>'+tx(it.q,it.mq)+'</span></summary><div class="body">'+
+      '<span><b>Answer:</b> '+tx(it.opts[it.ans],it.mopts[it.ans])+'</span>'+(p!==undefined&&p!==it.ans?'<span><b>You chose:</b> '+tx(it.opts[p],it.mopts[p])+'</span>':'')+
+      '<span class="muted">'+tx(it.e,it.me)+'</span></div></details>';
+  }).join('')+'</div>';
+}
+
+function viewResult(){
+  var n=Z.items.length,h='<div class="stack">';
+  if(Z.mode==='mock'){
+    var r=Z.res,by={};
+    Z.items.forEach(function(it,i){var b=by[it.s]||(by[it.s]={a:0,c:0});if(Z.picks[i]!==undefined){b.a++;if(Z.picks[i]===it.ans)b.c++;}});
+    h+='<section class="card stack"><span class="eyebrow">Mini mock test · result</span><div class="score">'+r.sc+' <span class="muted" style="font-size:var(--t-lg)">/ '+r.n+'</span></div>'+
+      '<p class="sub">Score = correct − wrong ÷ 3. Time used: '+fmtTime(Z.spent)+'.</p>'+
+      '<div class="stats"><div class="stat"><b>'+r.c+'</b><span>Correct</span></div><div class="stat"><b>'+r.w+'</b><span>Wrong</span></div><div class="stat"><b>'+r.u+'</b><span>Skipped</span></div></div></section>';
+    h+='<section class="card stack"><h2 class="sec" style="margin:0">By subject</h2>'+Object.keys(by).map(function(k){
+      var b=by[k],p=b.a?Math.round(b.c/b.a*100):0;
+      return '<div class="brow"><span>'+SUBJ[k].en+'</span><b>'+b.c+'/'+b.a+'</b><span class="sbar"><i style="width:'+p+'%"></i></span></div>';
+    }).join('')+'</section>';
+  }else{
+    var p=Math.round(Z.correct/n*100);
+    h+='<section class="card stack"><span class="eyebrow">'+esc(Z.title)+'</span><div class="score">'+Z.correct+' <span class="muted" style="font-size:var(--t-lg)">/ '+n+'</span></div>'+
+      '<p>'+(p>=80?'Strong round. Keep this level on the mock test.':p>=50?'Good progress. Read the explanations below and run it again.':'This topic needs another pass. Check the syllabus tab and try again.')+'</p></section>';
+  }
+  h+='<h2 class="sec" style="margin:0">Review</h2>'+reviewList();
+  h+='<div class="row"><button type="button" class="btn" data-act="again">'+(Z.mode==='mock'?'Take another test':'Practise again')+'</button><button type="button" class="btn ghost" data-act="exit">Back</button></div></div>';
+  return h;
+}
+
+function sylStats(k){var n=SYL[k].length,d=0;for(var i=0;i<n;i++)if(S.syl[k+'-'+i])d++;return {n:n,d:d};}
+function sylAll(){var n=0,d=0;SKEYS.forEach(function(k){var s=sylStats(k);n+=s.n;d+=s.d;});return {n:n,d:d};}
+function viewSyllabus(){
+  var all=sylAll();
+  var h='<div class="stack"><div><span class="eyebrow">Syllabus tracker</span><h2 style="font-size:var(--t-xl);margin-top:4px">'+all.d+' of '+all.n+' topics covered</h2><p class="sub">Tick a topic when you have studied it. This list covers what the practice questions test, so check it against the official notification for your exam.</p></div>';
+  SKEYS.forEach(function(k){
+    var s=sylStats(k),open=!!ui.open[k];
+    h+='<section class="card syl"><button type="button" class="syl-h" data-act="sylopen" data-k="'+k+'" aria-expanded="'+open+'" aria-controls="syb-'+k+'">'+
+      '<span><b style="font-size:1.05rem">'+SUBJ[k].ml+'</b> <span class="sub">· '+SUBJ[k].en+'</span></span><b id="syc-'+k+'" style="font-variant-numeric:tabular-nums">'+s.d+'/'+s.n+'</b>'+
+      '<span class="sbar"><i id="syp-'+k+'" style="width:'+(s.d/s.n*100)+'%"></i></span></button>'+
+      '<div class="syl-b" id="syb-'+k+'"'+(open?'':' hidden')+'>'+SYL[k].map(function(t,i){
+        var id=k+'-'+i,on=!!S.syl[id];
+        return '<label class="chk'+(on?' done':'')+'" for="sy-'+id+'"><input type="checkbox" id="sy-'+id+'" data-act="syl" data-id="'+id+'"'+(on?' checked':'')+'><span>'+esc(t)+'</span></label>';
+      }).join('')+'</div></section>';
+  });
+  return h+'</div>';
+}
+
+function ring(p){
+  var c=2*Math.PI*42;
+  return '<svg viewBox="0 0 100 100" class="ring" role="img" aria-label="'+p+' percent accuracy"><circle cx="50" cy="50" r="42" fill="none" stroke="var(--line)" stroke-width="10"/>'+
+    '<circle cx="50" cy="50" r="42" fill="none" stroke="var(--brand)" stroke-width="10" stroke-linecap="round" stroke-dasharray="'+(c*p/100).toFixed(1)+' '+c.toFixed(1)+'" transform="rotate(-90 50 50)"/>'+
+    '<text x="50" y="57" text-anchor="middle" class="ring-t">'+p+'%</text></svg>';
+}
+function viewProgress(){
+  var t=totals(),st=curStreak(),ms=S.mocks.slice(-8);
+  var h='<div class="stack"><section class="card"><div class="row" style="align-items:center;flex-wrap:nowrap;gap:18px">'+ring(t.p)+
+    '<div class="stack" style="gap:8px;min-width:0"><span class="eyebrow">Overall accuracy</span>'+
+    '<p>'+(t.a?t.c+' right out of '+t.a+' answered.':'Answer a few questions and your accuracy will show here.')+'</p>'+
+    '<div class="row" style="gap:8px"><span class="chip gold">'+st+'-day streak</span><span class="chip">Best '+(S.streak.best||0)+' days</span></div></div></div></section>';
+  h+='<section class="card stack"><h2 class="sec" style="margin:0">By subject</h2>'+SKEYS.map(function(k){
+    var a=accOf(k),s=S.subj[k]||{a:0,c:0};
+    return '<div class="brow"><span>'+SUBJ[k].en+'</span><b style="font-variant-numeric:tabular-nums">'+(a===null?'Not started':a+'% · '+s.c+'/'+s.a)+'</b><span class="sbar"><i style="width:'+(a||0)+'%"></i></span></div>';
+  }).join('')+'</section>';
+  if(ms.length)h+='<section class="card stack"><div><h2 class="sec" style="margin:0">Mock test scores</h2><p class="sub">Out of 20, after negative marking.</p></div>'+bars(ms)+'</section>';
+  var all=sylAll();
+  h+='<section class="card"><div class="brow"><span>Syllabus covered</span><b style="font-variant-numeric:tabular-nums">'+all.d+'/'+all.n+'</b><span class="sbar"><i style="width:'+(all.d/all.n*100)+'%"></i></span></div></section>';
+  var exp=JSON.stringify(S);
+  h+='<section class="card stack"><h2 class="sec" style="margin:0">Backup and restore</h2>'+
+    '<p class="sub">'+(canSave?'Your data lives in this browser only. Copy the backup text to move it to another phone or browser.':'This browser is blocking storage, so progress will be lost when you close the page. Copy the backup text to keep it.')+'</p>'+
+    '<label for="exp" class="sub">Backup text</label><textarea id="exp" readonly>'+esc(exp)+'</textarea>'+
+    '<div class="row"><button type="button" class="btn sm" data-act="copy">Copy backup</button><span class="sub" id="copyMsg" role="status"></span></div>'+
+    '<label for="imp" class="sub">Restore from backup text</label><textarea id="imp" placeholder="Paste backup text here"></textarea>'+
+    '<div class="row"><button type="button" class="btn sm ghost" data-act="import">Restore</button><span class="sub" role="status">'+esc(ui.importMsg)+'</span></div></section>';
+  if(ui.reset){
+    h+='<section class="confirm stack"><b>Erase all progress on this device?</b><p class="sub">Scores, streak, mock history and syllabus ticks will be removed. This cannot be undone.</p><div class="row"><button type="button" class="btn warn" data-act="reset-yes">Erase everything</button><button type="button" class="btn ghost" data-act="reset-no">Cancel</button></div></section>';
+  }else{
+    h+='<div><button type="button" class="btn ghost sm" data-act="reset">Erase my progress</button></div>';
+  }
+  return h+'</div>';
+}
+
+/* ---------- events ---------- */
+document.addEventListener('click',function(e){
+  var tab=e.target.closest('#tabs a');
+  if(tab&&Z){endQuiz();setTimeout(render,0);return;}
+  var el=e.target.closest('[data-act]'); if(!el)return;
+  var a=el.getAttribute('data-act');
+  if(a==='daily')return startDaily();
+  if(a==='mix')return startMix();
+  if(a==='subj')return startSubject(el.getAttribute('data-k'));
+  if(a==='mock')return startMock();
+  if(a==='exit'){endQuiz();return render();}
+  if(a==='again'){
+    if(Z.mode==='mock')return startMock();
+    if(Z.mode==='daily')return startDaily();
+    var t=Z.title,k=SKEYS.filter(function(x){return SUBJ[x].en===t;})[0];
+    return k?startSubject(k):startMix();
+  }
+  if(a==='pick'&&Z){
+    var i=+el.getAttribute('data-i'),it=Z.items[Z.i];
+    if(Z.mode==='mock'){if(Z.picks[Z.i]===i)delete Z.picks[Z.i];else Z.picks[Z.i]=i;return render();}
+    if(Z.picks[Z.i]!==undefined)return;
+    Z.picks[Z.i]=i;record(it.s,i===it.ans);touchStreak();save();return render();
+  }
+  if(a==='next'&&Z){
+    if(Z.i<Z.items.length-1){Z.i++;return render();}
+    if(Z.mode!=='mock')finishPractice();
+    return render();
+  }
+  if(a==='prev'&&Z){if(Z.i>0)Z.i--;return render();}
+  if(a==='go'&&Z){Z.i=+el.getAttribute('data-i');return render();}
+  if(a==='ask-submit'&&Z){Z.confirm=true;render();window.scrollTo(0,document.body.scrollHeight);return;}
+  if(a==='keep'&&Z){Z.confirm=false;return render();}
+  if(a==='submit'&&Z){finishMock();return render();}
+  if(a==='sylopen'){var k=el.getAttribute('data-k');ui.open[k]=!ui.open[k];
+    el.setAttribute('aria-expanded',ui.open[k]);var b=$('#syb-'+k);if(b)b.hidden=!ui.open[k];return;}
+  if(a==='copy'){
+    var ta=$('#exp'),m=$('#copyMsg');
+    var ok=function(){if(m)m.textContent='Copied.';};
+    var fb=function(){if(ta){ta.focus();ta.select();}if(m)m.textContent='Select and copy the text above.';};
+    try{navigator.clipboard.writeText(ta.value).then(ok,fb);}catch(err){fb();}
+    return;
+  }
+  if(a==='import'){
+    var v=($('#imp')||{}).value||'';
+    try{
+      var o=JSON.parse(v);
+      if(!o||typeof o!=='object'||!o.subj||!o.streak)throw new Error('bad');
+      S=Object.assign(blank(),o);save();applyTheme();syncLang();ui.importMsg='Restored.';
+    }catch(err){ui.importMsg='That text is not a valid backup.';}
+    return render();
+  }
+  if(a==='reset'){ui.reset=true;return render();}
+  if(a==='reset-no'){ui.reset=false;return render();}
+  if(a==='reset-yes'){S=blank();save();ui.reset=false;ui.importMsg='';applyTheme();syncLang();return render();}
+});
+document.addEventListener('change',function(e){
+  var el=e.target.closest('[data-act="syl"]'); if(!el)return;
+  var id=el.getAttribute('data-id'),k=id.split('-')[0];
+  if(el.checked)S.syl[id]=1;else delete S.syl[id];
+  save();
+  el.parentNode.classList.toggle('done',el.checked);
+  var s=sylStats(k),c=$('#syc-'+k),p=$('#syp-'+k);
+  if(c)c.textContent=s.d+'/'+s.n;
+  if(p)p.style.width=(s.d/s.n*100)+'%';
+  var all=sylAll(),h=$('#view h2');
+  if(h)h.textContent=all.d+' of '+all.n+' topics covered';
+});
+$('#themeBtn').addEventListener('click',function(){
+  S.theme=isDark()?'light':'dark';applyTheme();save();
+});
+window.addEventListener('hashchange',function(){endQuiz();render();});
+document.addEventListener('visibilitychange',function(){if(!document.hidden)tick();});
+
+$('.langbar').addEventListener('click',function(e){
+  var b=e.target.closest('button[data-lang]'); if(!b)return;
+  S.lang=b.getAttribute('data-lang');save();syncLang();
+  if(Z)render(true);
+});
+syncLang();
+render();
+})();
+</script>
+
+</body>
+</html>
