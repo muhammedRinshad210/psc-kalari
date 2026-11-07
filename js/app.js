@@ -12,8 +12,10 @@ import { viewPapers } from './papers.js';
 import {
   copyBackup, eraseAll, importBackup, setResetPrompt, viewProgress
 } from './progress.js';
+import { setReviewSegment, startReviewSession, viewReview } from './review.js';
 import * as quiz from './quiz.js';
 import { applyTheme, toggleTheme } from './theme.js';
+import { toggleMark } from './state.js';
 import { errorCard, loadingCard, scrollTop } from './ui.js';
 
 const viewEl = document.getElementById('view');
@@ -29,6 +31,7 @@ function screen(name) {
     case 'syllabus': return viewSyllabus();
     case 'papers': return viewPapers();
     case 'progress': return viewProgress();
+    case 'review': return viewReview();
     default: return viewHome();
   }
 }
@@ -97,6 +100,19 @@ document.addEventListener('click', (event) => {
     case 'exit':
       quiz.endSession();
       render();
+      return;
+    case 'mark':
+      event.stopPropagation();
+      event.preventDefault();
+      toggleMark(el.dataset.id);
+      render(true);
+      return;
+    case 'review-tab':
+      setReviewSegment(el.dataset.tab);
+      render(true);
+      return;
+    case 'practise-review':
+      run(() => startReviewSession(el.dataset.seg), 'Setting up review session…');
       return;
     case 'again': {
       const z = quiz.session();

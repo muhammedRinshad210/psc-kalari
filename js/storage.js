@@ -16,7 +16,8 @@
  */
 
 export const STORAGE_KEY = 'pscKalari.v1';
-export const SCHEMA_VERSION = 1;
+export const SCHEMA_VERSION = 2;
+export const MAX_WRONG = 300;
 export const EXPORT_FORMAT = 'psc-kalari-backup';
 
 /* ---------- drivers ---------- */
@@ -73,9 +74,28 @@ export function blankState() {
     streak: { last: '', count: 0, best: 0 },
     mocks: [],                      // [{ d, sc, c, w, u, n }]
     syl: {},                        // { 'subject-topicIndex': 1 }
+    wrong: {},                      // { questionId: { n, last: 'YYYY-MM-DD' } }
+    marks: [],                      // [questionId]
     theme: 'auto',
     lang: 'both'
   };
+}
+
+/** Cap wrong at MAX_WRONG entries, dropping the oldest first. */
+export function pruneWrong(wrong) {
+  if (!wrong || typeof wrong !== 'object') return {};
+  const entries = Object.entries(wrong);
+  if (entries.length <= MAX_WRONG) return wrong;
+  entries.sort((a, b) => {
+    const da = (a[1] && a[1].last) || '';
+    const db = (b[1] && b[1].last) || '';
+    return da.localeCompare(db);
+  });
+  const toDrop = entries.length - MAX_WRONG;
+  for (let i = 0; i < toDrop; i++) {
+    delete wrong[entries[i][0]];
+  }
+  return wrong;
 }
 
 /** Fill in keys added since the document was written. */
@@ -83,6 +103,8 @@ function migrate(doc) {
   const base = blankState();
   const next = Object.assign(base, doc);
   next.streak = Object.assign(base.streak, doc && doc.streak);
+  next.wrong = pruneWrong(Object.assign({}, base.wrong, doc && doc.wrong));
+  next.marks = Array.isArray(doc && doc.marks) ? [...doc.marks] : [];
   next.v = SCHEMA_VERSION;
   return next;
 }
@@ -101,6 +123,7 @@ export function getAll() {
 
 export function setAll(state) {
   try {
+    if (state && state.wrong) pruneWrong(state.wrong);
     driver.write(STORAGE_KEY, JSON.stringify(state));
     persistent = driver.id !== 'memory';
     return true;

@@ -4,7 +4,7 @@ import { S, replaceState, resetState } from './state.js';
 import { exportState, importState as parseBackup, storageStatus } from './storage.js';
 import { subjectKeys, subjectInfo } from './data.js';
 import { dayKey, dayOffset, esc } from './util.js';
-import { subjectName } from './i18n.js';
+import { subjectName, tx } from './i18n.js';
 import { bars, ring } from './ui.js';
 import { sylStats, sylAll } from './syllabus.js';
 
@@ -97,6 +97,18 @@ export function viewProgress() {
   h += `<section class="card"><div class="brow"><span>Syllabus covered</span>
     <b style="font-variant-numeric:tabular-nums">${all.d}/${all.n}</b>
     <span class="sbar"><i style="width:${all.n ? (all.d / all.n) * 100 : 0}%"></i></span></div></section>`;
+
+  const nWrong = Object.keys(S.wrong || {}).length;
+  const nSaved = (S.marks || []).length;
+  h += `<section class="card stack">
+    <div class="row" style="align-items:center;justify-content:space-between;gap:12px">
+      <div>
+        <h2 class="sec" style="margin:0">${tx('Mistakes & Saved', 'തെറ്റിയവയും സേവ് ചെയ്തവയും')}</h2>
+        <p class="sub">${tx(`${nWrong} to retry · ${nSaved} saved`, `${nWrong} വീണ്ടും ശ്രമിക്കാൻ · ${nSaved} സേവ് ചെയ്തവ`)}</p>
+      </div>
+      <a class="btn sm" href="#review">${tx('Open review', 'റിവ്യൂ തുറക്കുക')}</a>
+    </div>
+  </section>`;
 
   h += `<section class="card stack"><h2 class="sec" style="margin:0">Backup and restore</h2>
     <p class="sub">${stored

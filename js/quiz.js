@@ -1,7 +1,7 @@
 /* Quiz engine: one session object, practice and mock modes, question screen
    and result screen. Screens return HTML strings; the shell owns the DOM. */
 
-import { S, save } from './state.js';
+import { isMarked, recordMiss, removeMiss, S, save } from './state.js';
 import { loadAllQuestions, loadQuestions, questionById } from './data.js';
 import { dayKey, esc, fmtTime, LET, r2, seedRand, shuffle } from './util.js';
 import { subjectName, tx, verdict } from './i18n.js';
@@ -9,6 +9,11 @@ import { requestRender } from './ui.js';
 import { accOf, record, touchStreak } from './progress.js';
 
 let Z = null;
+
+export function starButton(id) {
+  const marked = isMarked(id);
+  return `<button type="button" class="star-btn" data-act="mark" data-id="${esc(id)}" aria-label="${marked ? 'Remove saved question' : 'Save question'}" aria-pressed="${String(marked)}"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></button>`;
+}
 
 /* ---------- session ---------- */
 
@@ -128,7 +133,12 @@ export function finishMock() {
     const pick = Z.picks[i];
     if (pick === undefined) { u += 1; return; }
     const ok = pick === item.ans;
-    if (ok) c += 1; else w += 1;
+    if (ok) {
+      c += 1;
+    } else {
+      w += 1;
+      recordMiss(item.id);
+    }
     record(item.s, ok);
   });
   Z.finished = true;
@@ -160,8 +170,14 @@ export function pick(index) {
   if (Z.picks[Z.i] !== undefined) return;
   Z.picks[Z.i] = index;
   const item = current();
-  record(item.s, index === item.ans);
+  const ok = index === item.ans;
+  record(item.s, ok);
   touchStreak();
+  if (!ok) {
+    recordMiss(item.id);
+  } else if (Z.mode === 'review' || Z.review) {
+    removeMiss(item.id);
+  }
   save();
   requestRender();
 }
@@ -215,7 +231,9 @@ export function viewQuiz() {
     ${isMock ? `<div class="timer${remaining() <= 120 ? ' low' : ''}" id="timer" role="timer" aria-live="off">${fmtTime(remaining())}</div>` : ''}
   </div>`;
 
-  h += `<section class="card qcard"><span class="chip" style="align-self:flex-start">${esc(subjectName(item.s))}</span>
+  h += `<section class="card qcard"><div class="row" style="align-items:center;justify-content:space-between">
+    <span class="chip">${esc(subjectName(item.s))}</span>
+    ${!isMock ? starButton(item.id) : ''}</div>
     <p class="qtext">${tx(item.q, item.mq)}</p><div class="opts">`;
 
   item.opts.forEach((opt, i) => {
@@ -273,7 +291,8 @@ function reviewList() {
     const state = pick === undefined ? 'skip' : (pick === item.ans ? 'ok' : 'no');
     const label = pick === undefined ? 'Skipped' : (pick === item.ans ? 'Right' : 'Wrong');
     return `<details class="rev"><summary><span class="pill ${state}">${label}</span>
-      <span>${tx(item.q, item.mq)}</span></summary><div class="body">
+      <span style="flex:1;min-width:0">${tx(item.q, item.mq)}</span>
+      ${starButton(item.id)}</summary><div class="body">
       <span><b>Answer:</b> ${tx(item.opts[item.ans], item.mopts[item.ans])}</span>
       ${pick !== undefined && pick !== item.ans ? `<span><b>You chose:</b> ${tx(item.opts[pick], item.mopts[pick])}</span>` : ''}
       <span class="muted">${tx(item.e, item.me)}</span></div></details>`;

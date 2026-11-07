@@ -15,14 +15,19 @@ const s = await import('../js/storage.js');
 /* defaults */
 assert.equal(s.storageStatus().persistent, true);
 const blank = s.blankState();
-assert.equal(s.get('v'), 1);
+assert.equal(s.SCHEMA_VERSION, 2);
+assert.equal(s.get('v'), 2);
 assert.equal(blank.streak.count, 0);
 assert.deepEqual(blank.mocks, []);
+assert.deepEqual(blank.wrong, {});
+assert.deepEqual(blank.marks, []);
 
 /* whole document round trip */
-s.setAll({ ...blank, lang: 'ml', subj: { ren: { a: 2, c: 1 } } });
+s.setAll({ ...blank, lang: 'ml', subj: { ren: { a: 2, c: 1 } }, marks: ['ren-001'], wrong: { 'ren-002': { n: 1, last: '2026-11-07' } } });
 assert.equal(s.get('lang'), 'ml');
 assert.equal(s.getAll().subj.ren.a, 2);
+assert.deepEqual(s.getAll().marks, ['ren-001']);
+assert.deepEqual(s.getAll().wrong['ren-002'], { n: 1, last: '2026-11-07' });
 
 /* single key write keeps the rest */
 s.set('theme', 'dark');
@@ -48,9 +53,26 @@ const legacy = JSON.stringify({
 });
 const restored = s.importState(legacy);
 assert.equal(restored.ok, true);
+assert.equal(restored.state.v, 2);
 assert.equal(restored.state.streak.count, 3);
 assert.equal(restored.state.lang, 'en');
 assert.deepEqual(restored.state.daily['2026-01-01'], { c: 3, n: 5 });
+assert.deepEqual(restored.state.wrong, {});
+assert.deepEqual(restored.state.marks, []);
+
+/* wrong cap at 300: drops oldest first */
+const over = {};
+for (let i = 1; i <= 305; i++) {
+  const pad = String(i).padStart(3, '0');
+  over[`q-${pad}`] = { n: 1, last: `2026-01-${pad}` };
+}
+s.setAll({ ...blank, wrong: over });
+const capped = s.getAll().wrong;
+assert.equal(Object.keys(capped).length, 300);
+assert.equal(capped['q-001'], undefined);
+assert.equal(capped['q-005'], undefined);
+assert.notEqual(capped['q-006'], undefined);
+assert.notEqual(capped['q-305'], undefined);
 
 /* import: rejects junk without throwing */
 assert.equal(s.importState('not json').ok, false);

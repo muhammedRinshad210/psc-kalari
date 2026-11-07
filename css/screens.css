@@ -95,7 +95,16 @@ details.rev .body span{overflow-wrap:anywhere}
 .coming-list li{padding:8px 14px;background:var(--surface2);border:1px solid var(--line);border-radius:var(--radius-sm);color:var(--muted);font-size:var(--t-sm);font-weight:600;line-height:1.35}
 .coming-list li .ml{font-size:.85em;margin-top:2px;font-weight:400}
 
+/* star button for saved questions */
+.star-btn{
+  min-width:44px;min-height:44px;display:inline-grid;place-items:center;background:transparent;border:0;
+  padding:0;color:var(--muted);border-radius:10px;flex:none;cursor:pointer;
+}
+.star-btn svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.star-btn[aria-pressed="true"]{color:var(--gold)}
+.star-btn[aria-pressed="true"] svg{fill:currentColor}
+
 @media (prefers-reduced-motion:no-preference){
   .sbar i,.pbar i{transition:width .35s ease}
-  .btn,.opt,.scard,.pick{transition:background-color .15s ease,border-color .15s ease}
+  .btn,.opt,.scard,.pick,.star-btn{transition:background-color .15s ease,border-color .15s ease,color .15s ease}
 }

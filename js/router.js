@@ -1,12 +1,12 @@
 /* Hash router. One screen per route; unknown hashes fall back to home so old
    bookmarks and the SEO landing page links never dead-end. */
 
-const TAB_ROUTES = ['home', 'mock', 'syllabus', 'papers', 'progress'];
+const VALID_ROUTES = ['home', 'mock', 'syllabus', 'papers', 'progress', 'review'];
 
 export function route() {
   const raw = (location.hash || '#home').replace(/^#/, '');
   const [name, param = ''] = raw.split('/');
-  return { name: TAB_ROUTES.includes(name) ? name : 'home', param };
+  return { name: VALID_ROUTES.includes(name) ? name : 'home', param };
 }
 
 export function syncTabs(name) {

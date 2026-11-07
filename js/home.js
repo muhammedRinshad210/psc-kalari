@@ -48,6 +48,17 @@ export function viewHome() {
     : '<a class="pick" href="#mock" style="text-decoration:none;color:inherit"><b>Try the mini mock</b><span class="sub">20 questions, 20 minutes, negative marking</span></a>';
   h += '</div>';
 
+  const nWrong = Object.keys(S.wrong || {}).length;
+  const nSaved = (S.marks || []).length;
+  h += `<a class="card" href="#review" style="text-decoration:none;color:inherit;display:block">
+    <div class="row" style="align-items:center;justify-content:space-between;gap:12px">
+      <div>
+        <b style="font-family:var(--f-display);font-size:1.05rem">${tx(`Review: ${nWrong} to retry, ${nSaved} saved`, `റിവ്യൂ: ${nWrong} വീണ്ടും ശ്രമിക്കാൻ, ${nSaved} സേവ് ചെയ്തവ`)}</b>
+        <p class="sub">${tx('Practise questions you missed or saved with a star', 'തെറ്റിയ ചോദ്യങ്ങളും സേവ് ചെയ്തവയും ഇവിടെ പരിശീലിക്കാം')}</p>
+      </div>
+      <span class="btn sm ghost" style="pointer-events:none;flex:none">${tx('Review', 'റിവ്യൂ')}</span>
+    </div></a>`;
+
   h += '<div><h2 class="sec">Subjects</h2><p class="sub">Tap a subject to practise it with an explanation after every answer.</p></div>';
   h += `<div class="grid">${ready.map(subjectCard).join('')}</div>`;
   if (coming.length) {
