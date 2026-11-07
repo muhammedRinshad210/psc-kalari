@@ -12,7 +12,8 @@
     "test:share": "node tools/test-share.mjs",
     "test:mock": "node tools/test-mock.mjs",
     "test:offline": "node tools/test-offline.mjs",
-    "check": "node tools/validate.mjs && node tools/test-storage.mjs && node tools/test-share.mjs && node tools/test-mock.mjs && node tools/test-offline.mjs",
+    "test:seo": "node tools/check-seo.mjs",
+    "check": "node tools/validate.mjs && node tools/test-storage.mjs && node tools/test-share.mjs && node tools/test-mock.mjs && node tools/test-offline.mjs && node tools/check-seo.mjs",
     "serve": "python -m http.server 4173"
   },
   "engines": {

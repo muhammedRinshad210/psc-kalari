@@ -7,6 +7,10 @@
       "slug": "kerala-renaissance",
       "en": "Kerala Renaissance",
       "ml": "കേരള നവോത്ഥാനം",
+      "intro": {
+        "en": "Practise Kerala Renaissance questions covering social reform movements, leaders, and historic agitations for Kerala PSC exams.",
+        "ml": "കേരള പി.എസ്.സി പരീക്ഷകൾക്കായുള്ള കേരള നവോത്ഥാന നായകർ, പ്രസ്ഥാനങ്ങൾ, ചരിത്രപരമായ സമരങ്ങൾ എന്നിവയെക്കുറിച്ചുള്ള ചോദ്യങ്ങൾ പരിശീലിക്കുക."
+      },
       "topics": [
         "Sree Narayana Guru and the SNDP",
         "Ayyankali and Dalit struggles",
@@ -21,6 +25,10 @@
       "slug": "indian-constitution",
       "en": "Indian Constitution",
       "ml": "ഇന്ത്യൻ ഭരണഘടന",
+      "intro": {
+        "en": "Free Kerala PSC practice questions on the Indian Constitution, Fundamental Rights, Directive Principles, and constitutional amendments.",
+        "ml": "ഇന്ത്യൻ ഭരണഘടന, മൗലികാവകാശങ്ങൾ, നിർദ്ദേശക തത്ത്വങ്ങൾ, ഭരണഘടനാ ഭേദഗതികൾ എന്നിവയെക്കുറിച്ചുള്ള പി.എസ്.സി പരിശീലന ചോദ്യങ്ങൾ."
+      },
       "topics": [
         "Preamble and basics",
         "Fundamental Rights",
@@ -35,6 +43,10 @@
       "slug": "geography",
       "en": "Geography",
       "ml": "ഭൂമിശാസ്ത്രം",
+      "intro": {
+        "en": "Kerala PSC geography practice questions covering Kerala physical geography, rivers, districts, and Indian physiography.",
+        "ml": "കേരളത്തിലെ നദികൾ, ജില്ലകൾ, ഭൂപ്രകൃതി, ഇന്ത്യൻ ഭൂമിശാസ്ത്രം എന്നിവയെക്കുറിച്ചുള്ള പി.എസ്.സി പരിശീലന ചോദ്യങ്ങൾ."
+      },
       "topics": [
         "Rivers of Kerala",
         "Districts and borders",
@@ -49,6 +61,10 @@
       "slug": "general-science",
       "en": "General Science",
       "ml": "പൊതുശാസ്ത്രം",
+      "intro": {
+        "en": "General science questions for Kerala PSC exams covering basic physics, chemistry, human biology, and daily life science.",
+        "ml": "ഭൗതികശാസ്ത്രം, രസതന്ത്രം, ജീവശാസ്ത്രം, ആരോഗ്യ ശാസ്ത്രം എന്നിവയെക്കുറിച്ചുള്ള കേരള പി.എസ്.സി ചോദ്യങ്ങൾ."
+      },
       "topics": [
         "Human body and vitamins",
         "Cell biology",
@@ -63,6 +79,10 @@
       "slug": "maths-mental-ability",
       "en": "Maths & Mental Ability",
       "ml": "ഗണിതവും മാനസിക ശേഷിയും",
+      "intro": {
+        "en": "Practise Kerala PSC quantitative aptitude and mental ability questions with step-by-step problem-solving methods.",
+        "ml": "ലളിത ഗണിതം, മാനസിക ശേഷി പരിശോധന എന്നിവയെക്കുറിച്ചുള്ള കേരള പി.എസ്.സി പരീക്ഷാ ചോദ്യങ്ങൾ പരിശീലിക്കുക."
+      },
       "topics": [
         "Percentage",
         "Profit and loss",
@@ -77,6 +97,10 @@
       "slug": "english",
       "en": "English",
       "ml": "ഇംഗ്ലീഷ്",
+      "intro": {
+        "en": "General English practice questions for Kerala PSC including grammar, vocabulary, idioms, and sentence correction.",
+        "ml": "കേരള പി.എസ്.സി പരീക്ഷകൾക്കായുള്ള ജനറൽ ഇംഗ്ലീഷ് വ്യാകരണം, പദാവലി, പ്രയോഗങ്ങൾ എന്നിവ പരിശീലിക്കുക."
+      },
       "topics": [
         "Synonyms and antonyms",
         "Tenses",
@@ -91,6 +115,10 @@
       "slug": "kerala-facts",
       "en": "Kerala Facts",
       "ml": "കേരള വസ്തുതകൾ",
+      "intro": {
+        "en": "Kerala general knowledge questions covering state history, cultural heritage, literature, and prominent milestones.",
+        "ml": "കേരളത്തിന്റെ ചരിത്രം, സാംസ്കാരിക പൈതൃകം, സാഹിത്യം, പ്രധാന നാഴികക്കല്ലുകൾ എന്നിവയെക്കുറിച്ചുള്ള ചോദ്യങ്ങൾ."
+      },
       "topics": [
         "Formation of Kerala",
         "Chief Ministers",
@@ -105,6 +133,10 @@
       "slug": "indian-history",
       "en": "Indian History",
       "ml": "ഇന്ത്യാ ചരിത്രം",
+      "intro": {
+        "en": "Indian history questions for Kerala PSC exams covering ancient India, freedom movement, and post-independence history.",
+        "ml": "പ്രാചീന ഇന്ത്യ, ഇന്ത്യൻ സ്വാതന്ത്ര്യ സമരം, ദേശീയ പ്രസ്ഥാനങ്ങൾ എന്നിവയെക്കുറിച്ചുള്ള കേരള പി.എസ്.സി ചോദ്യങ്ങൾ."
+      },
       "topics": [
         "Ancient India basics",
         "Plassey and the Revolt of 1857",
@@ -119,6 +151,10 @@
       "slug": "current-affairs",
       "en": "Current Affairs",
       "ml": "കരന്റ് അഫയേഴ്സ്",
+      "intro": {
+        "en": "Latest Kerala and national current affairs updates, awards, and important events for Kerala PSC preparation.",
+        "ml": "കേരള പി.എസ്.സി പരീക്ഷകൾക്കായുള്ള സമകാലിക സംഭവങ്ങൾ, പ്രധാന പുരസ്കാരങ്ങൾ, വാർത്തകൾ."
+      },
       "topics": []
     }
   ]

@@ -180,6 +180,9 @@ document.addEventListener('click', (event) => {
         window.location.hash = '#mock';
       } else {
         quiz.endSession();
+        if (route().name === 'practice') {
+          window.location.hash = '#home';
+        }
       }
       render();
       return;
@@ -304,6 +307,11 @@ window.addEventListener('hashchange', () => {
       quiz.suspendMock();
     }
   }
+  const r = route();
+  if (r.name === 'practice' && r.param) {
+    run(() => quiz.startSubject(r.param), 'Loading this subject…');
+    return;
+  }
   render();
 });
 
@@ -328,7 +336,12 @@ async function boot() {
     console.error('[PSC Kalari]', err);
     loadError = 'The question bank could not be loaded.';
   }
-  render();
+  const r = route();
+  if (r.name === 'practice' && r.param) {
+    run(() => quiz.startSubject(r.param), 'Loading this subject…');
+  } else {
+    render();
+  }
   prefetchQuestions();
 }
 

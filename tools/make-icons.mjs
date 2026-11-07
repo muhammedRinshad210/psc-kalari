@@ -91,3 +91,4 @@ ${job.svg}
 }
 
 console.log('All icons generated successfully.');
+

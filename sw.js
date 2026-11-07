@@ -1,7 +1,7 @@
 /* Service Worker for PSC Kalari.
    App shell precaching, stale-while-revalidate for data, network-first for navigations. */
 
-const CACHE_NAME = 'psc-kalari-2026-11-07T10-46-13-524Z';
+const CACHE_NAME = 'psc-kalari-2026-11-07T11-13-42-976Z';
 
 const PRECACHE_URLS = [
   './',
@@ -15,6 +15,7 @@ const PRECACHE_URLS = [
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
   './assets/icons/icon-maskable-512.png',
+  './assets/og-image.png',
   './assets/fonts/bricolage-grotesque/bricolage-grotesque-latin.woff2',
   './assets/fonts/bricolage-grotesque/bricolage-grotesque-latin-ext.woff2',
   './assets/fonts/bricolage-grotesque/bricolage-grotesque-vietnamese.woff2',
