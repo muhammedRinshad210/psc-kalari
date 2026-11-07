@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://psckalari.pages.dev/</loc>
+    <loc>https://psc-kalari.kalariapps.workers.dev/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://psckalari.pages.dev/kerala-renaissance/</loc>
+    <loc>https://psc-kalari.kalariapps.workers.dev/kerala-renaissance/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psckalari.pages.dev/indian-constitution/</loc>
+    <loc>https://psc-kalari.kalariapps.workers.dev/indian-constitution/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

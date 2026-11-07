@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://psckalari.pages.dev/sitemap.xml
+Sitemap: https://psc-kalari.kalariapps.workers.dev/sitemap.xml
