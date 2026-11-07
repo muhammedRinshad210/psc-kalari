@@ -99,3 +99,7 @@ This file does **not** hold papers. It holds a catalogue that points at them.
 `npm run validate` fails if a paper entry loses a required field, if
 `officialHome` stops being an https URL, or if the notice no longer states that
 papers are not hosted here.
+
+## Search
+
+In-memory search normalises text using Unicode NFC, converts to lowercase, removes zero-width characters (U+200C and U+200D), and collapses spaces. Note: Malayalam spelling variants (for example chillu forms) are not matched yet.

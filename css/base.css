@@ -48,7 +48,7 @@ main{min-width:0;padding-block:12px 112px}
 .brand{display:flex;flex-direction:column;gap:2px}
 .brand b{font:700 1.35rem/1 var(--f-display);letter-spacing:-.01em}
 .brand span{font-size:var(--t-sm);color:var(--gold-ink);font-weight:600}
-.icon-btn{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);display:grid;place-items:center}
+.icon-btn{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);display:grid;place-items:center;text-decoration:none}
 .icon-btn svg{width:20px;height:20px;stroke:var(--ink);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 
 .langbar{display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding-bottom:14px;font-size:var(--t-sm);color:var(--muted)}

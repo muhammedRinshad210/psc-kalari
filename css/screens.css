@@ -104,6 +104,19 @@ details.rev .body span{overflow-wrap:anywhere}
 .star-btn[aria-pressed="true"]{color:var(--gold)}
 .star-btn[aria-pressed="true"] svg{fill:currentColor}
 
+/* search */
+.search-input{
+  width:100%;min-height:48px;padding:10px 16px;border-radius:var(--radius-sm);
+  border:1.5px solid var(--line);background:var(--surface);color:var(--ink);
+  font:inherit;font-size:var(--t-base);
+}
+.search-input:focus{outline:3px solid var(--focus);outline-offset:2px;border-color:var(--brand)}
+mark{background:var(--gold-soft);color:inherit;padding:1px 3px;border-radius:4px}
+:root[data-theme="dark"] mark{background:var(--gold-soft);color:#FFF3D6}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) mark{background:var(--gold-soft);color:#FFF3D6}
+}
+
 @media (prefers-reduced-motion:no-preference){
   .sbar i,.pbar i{transition:width .35s ease}
   .btn,.opt,.scard,.pick,.star-btn{transition:background-color .15s ease,border-color .15s ease,color .15s ease}

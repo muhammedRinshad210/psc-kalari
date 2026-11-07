@@ -13,6 +13,7 @@ import {
   copyBackup, eraseAll, importBackup, setResetPrompt, viewProgress
 } from './progress.js';
 import { setReviewSegment, startReviewSession, viewReview } from './review.js';
+import { onSearchInput, setSearchQuery, viewSearch } from './search.js';
 import * as quiz from './quiz.js';
 import { applyTheme, toggleTheme } from './theme.js';
 import { toggleMark } from './state.js';
@@ -32,6 +33,7 @@ function screen(name) {
     case 'papers': return viewPapers();
     case 'progress': return viewProgress();
     case 'review': return viewReview();
+    case 'search': return viewSearch();
     default: return viewHome();
   }
 }
@@ -101,18 +103,26 @@ document.addEventListener('click', (event) => {
       quiz.endSession();
       render();
       return;
-    case 'mark':
+    case 'mark': {
       event.stopPropagation();
       event.preventDefault();
-      toggleMark(el.dataset.id);
-      render(true);
+      const nextMarked = toggleMark(el.dataset.id);
+      const sel = `button[data-act="mark"][data-id="${CSS.escape ? CSS.escape(el.dataset.id) : el.dataset.id}"]`;
+      document.querySelectorAll(sel).forEach((btn) => {
+        btn.setAttribute('aria-pressed', String(nextMarked));
+        btn.setAttribute('aria-label', nextMarked ? 'Remove saved question' : 'Save question');
+      });
       return;
+    }
     case 'review-tab':
       setReviewSegment(el.dataset.tab);
       render(true);
       return;
     case 'practise-review':
       run(() => startReviewSession(el.dataset.seg), 'Setting up review session…');
+      return;
+    case 'search-example':
+      setSearchQuery(el.dataset.q);
       return;
     case 'again': {
       const z = quiz.session();
@@ -181,6 +191,12 @@ document.addEventListener('change', (event) => {
   setTopic(el.dataset.id, el.checked);
   el.parentElement.classList.toggle('done', el.checked);
   refreshHeading();
+});
+
+document.addEventListener('input', (event) => {
+  if (event.target && event.target.id === 'searchInput') {
+    onSearchInput(event.target.value);
+  }
 });
 
 document.querySelector('.langbar').addEventListener('click', (event) => {

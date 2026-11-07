@@ -1,7 +1,7 @@
 /* Hash router. One screen per route; unknown hashes fall back to home so old
    bookmarks and the SEO landing page links never dead-end. */
 
-const VALID_ROUTES = ['home', 'mock', 'syllabus', 'papers', 'progress', 'review'];
+const VALID_ROUTES = ['home', 'mock', 'syllabus', 'papers', 'progress', 'review', 'search'];
 
 export function route() {
   const raw = (location.hash || '#home').replace(/^#/, '');
