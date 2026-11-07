@@ -25,6 +25,16 @@ export function tx(en, ml) {
   return l === 'ml' ? esc(ml) : safeEn + safeMl;
 }
 
+/** Render an English/Malayalam pair as plain escaped text (no HTML) safe for attributes. */
+export function txPlain(en, ml) {
+  const l = lang();
+  const safeEn = en || '';
+  const safeMl = ml || '';
+  if (!safeMl || safeMl === safeEn || l === 'en') return esc(safeEn);
+  if (l === 'ml') return esc(safeMl);
+  return esc(`${safeEn} / ${safeMl}`);
+}
+
 /** Short feedback line after answering. `item` is a built session item. */
 export function verdict(ok, item) {
   const l = lang();

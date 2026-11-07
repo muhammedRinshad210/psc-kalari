@@ -2,7 +2,7 @@
 
 import { loadAllQuestions, loadIndex } from './data.js';
 import { esc, LET } from './util.js';
-import { lang, subjectName, tx } from './i18n.js';
+import { lang, subjectName, tx, txPlain } from './i18n.js';
 import { starButton } from './quiz.js';
 import { loadingCard, requestRender } from './ui.js';
 import {
@@ -263,7 +263,7 @@ export function viewSearch() {
     <span class="eyebrow">${tx('Search', 'തിരയുക')}</span>
     <h1 style="font-size:var(--t-xl)">${tx('Question bank search', 'ചോദ്യങ്ങളിൽ തിരയുക')}</h1>
     <div style="position:relative">
-      <input type="search" id="searchInput" class="search-input" placeholder="${tx('Search in English or Malayalam…', 'ഇംഗ്ലീഷിലോ മലയാളത്തിലോ തിരയുക…')}" value="${esc(currentQuery)}" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="${tx('Search query', 'തിരയേണ്ട വാക്ക്')}">
+      <input type="search" id="searchInput" class="search-input" placeholder="${txPlain('Search in English or Malayalam…', 'ഇംഗ്ലീഷിലോ മലയാളത്തിലോ തിരയുക…')}" value="${esc(currentQuery)}" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="${txPlain('Search query', 'തിരയേണ്ട വാക്ക്')}">
     </div>
   </div>`;
 

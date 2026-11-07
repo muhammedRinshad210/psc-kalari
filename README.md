@@ -47,7 +47,8 @@ npm run serve
 4. `tools/test-mock.mjs` — tests mock exam scoring formula, balanced draws, and session persistence.
 5. `tools/test-offline.mjs` — tests manifest, icon dimensions, self-hosted font files, and PWA logic.
 6. `tools/check-seo.mjs` — verifies `<h1>` tags, unique titles (< 60 chars), descriptions (< 160 chars), canonical URLs, and sitemap inclusion.
-7. `tools/test-build-clean.mjs` — verifies `npm run build` is deterministic and leaves a clean git working tree when source data has not changed.
+7. `tools/check-attrs.mjs` — verifies no `tx()` calls are embedded inside HTML attribute values (which would leak HTML markup into attributes).
+8. `tools/test-build-clean.mjs` — verifies `npm run build` is deterministic and leaves a clean git working tree when source data has not changed.
 
 ---
 
