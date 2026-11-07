@@ -5,6 +5,7 @@ import { activeSubjects, MIN_QUESTIONS } from './data.js';
 import { dayKey, esc } from './util.js';
 import { dateLine, subjectName, tx } from './i18n.js';
 import { accOf, currentStreak, weakest } from './progress.js';
+import { renderInstallCard } from './pwa.js';
 
 function subjectCard(subject) {
   const acc = accOf(subject.key);
@@ -26,6 +27,9 @@ export function viewHome() {
   const ready = allActive.filter((s) => s.count >= MIN_QUESTIONS);
   const coming = allActive.filter((s) => s.count < MIN_QUESTIONS);
   let h = '<div class="stack">';
+
+  const installHtml = renderInstallCard();
+  if (installHtml) h += installHtml;
 
   h += `<section class="hero"><div class="kasavu"></div><div class="hero-in">
     <span class="eyebrow">${esc(dateLine())}</span>

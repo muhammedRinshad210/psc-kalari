@@ -16,7 +16,7 @@
  */
 
 export const STORAGE_KEY = 'pscKalari.v1';
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 export const MAX_WRONG = 300;
 export const EXPORT_FORMAT = 'psc-kalari-backup';
 
@@ -76,6 +76,8 @@ export function blankState() {
     syl: {},                        // { 'subject-topicIndex': 1 }
     wrong: {},                      // { questionId: { n, last: 'YYYY-MM-DD' } }
     marks: [],                      // [questionId]
+    visits: 0,
+    installDismissed: false,
     theme: 'auto',
     lang: 'both'
   };
@@ -105,6 +107,8 @@ function migrate(doc) {
   next.streak = Object.assign(base.streak, doc && doc.streak);
   next.wrong = pruneWrong(Object.assign({}, base.wrong, doc && doc.wrong));
   next.marks = Array.isArray(doc && doc.marks) ? [...doc.marks] : [];
+  next.visits = typeof (doc && doc.visits) === 'number' ? doc.visits : 0;
+  next.installDismissed = Boolean(doc && doc.installDismissed);
   next.v = SCHEMA_VERSION;
   return next;
 }

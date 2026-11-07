@@ -141,6 +141,23 @@ mark{background:var(--gold-soft);color:inherit;padding:1px 3px;border-radius:4px
   :root:not([data-theme="light"]) mark{background:var(--gold-soft);color:#FFF3D6}
 }
 
+/* offline & update notice bars */
+.notice-area{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+.notice-area:empty{display:none}
+.notice-bar{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:10px 14px;border-radius:var(--radius-sm);background:var(--surface);
+  border:1.5px solid var(--line);font-size:var(--t-sm);font-weight:600;min-height:48px;
+}
+.notice-text{display:flex;align-items:center;gap:10px;flex:1;min-width:0;line-height:1.4}
+.notice-icon{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.offline-bar{background:var(--surface2);border-color:var(--line);color:var(--ink)}
+.offline-bar .notice-icon{color:var(--muted)}
+.update-bar{background:var(--surface);border-color:var(--gold);color:var(--ink)}
+.update-bar .btn{min-height:44px}
+.install-card{border-left:4px solid var(--gold)}
+.install-card .btn{min-height:44px}
+
 @media (prefers-reduced-motion:no-preference){
   .sbar i,.pbar i{transition:width .35s ease}
   .btn,.opt,.scard,.pick,.star-btn,.qaction-btn{transition:background-color .15s ease,border-color .15s ease,color .15s ease}

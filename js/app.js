@@ -23,6 +23,9 @@ import { errorCard, loadingCard, scrollTop } from './ui.js';
 import {
   copyToClipboard, formatQuestionShare, formatResultShare, showCopiedConfirmation
 } from './share.js';
+import {
+  dismissInstall, initPwa, prefetchQuestions, reloadApp, triggerInstall, updateNoticeArea
+} from './pwa.js';
 
 const viewEl = document.getElementById('view');
 
@@ -105,6 +108,15 @@ document.addEventListener('click', (event) => {
   const act = el.dataset.act;
 
   switch (act) {
+    case 'reload-app':
+      reloadApp();
+      return;
+    case 'install-pwa':
+      triggerInstall();
+      return;
+    case 'dismiss-install':
+      dismissInstall();
+      return;
     case 'resume-mock':
       run(() => resumeMock(), 'Resuming your test…');
       return;
@@ -274,6 +286,7 @@ document.querySelector('.langbar').addEventListener('click', (event) => {
   setLang(btn.dataset.lang);
   save();
   syncLangBar();
+  updateNoticeArea();
   render(true);
 });
 
@@ -304,8 +317,11 @@ document.addEventListener('visibilitychange', () => {
 /* ---------- boot ---------- */
 
 async function boot() {
+  S.visits = (typeof S.visits === 'number' ? S.visits : 0) + 1;
+  save();
   applyTheme();
   syncLangBar();
+  initPwa();
   try {
     await loadIndex();
   } catch (err) {
@@ -313,6 +329,7 @@ async function boot() {
     loadError = 'The question bank could not be loaded.';
   }
   render();
+  prefetchQuestions();
 }
 
 boot();

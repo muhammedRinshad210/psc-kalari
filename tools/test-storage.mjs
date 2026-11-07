@@ -15,19 +15,23 @@ const s = await import('../js/storage.js');
 /* defaults */
 assert.equal(s.storageStatus().persistent, true);
 const blank = s.blankState();
-assert.equal(s.SCHEMA_VERSION, 2);
-assert.equal(s.get('v'), 2);
+assert.equal(s.SCHEMA_VERSION, 3);
+assert.equal(s.get('v'), 3);
 assert.equal(blank.streak.count, 0);
 assert.deepEqual(blank.mocks, []);
 assert.deepEqual(blank.wrong, {});
 assert.deepEqual(blank.marks, []);
+assert.equal(blank.visits, 0);
+assert.equal(blank.installDismissed, false);
 
 /* whole document round trip */
-s.setAll({ ...blank, lang: 'ml', subj: { ren: { a: 2, c: 1 } }, marks: ['ren-001'], wrong: { 'ren-002': { n: 1, last: '2026-11-07' } } });
+s.setAll({ ...blank, lang: 'ml', subj: { ren: { a: 2, c: 1 } }, marks: ['ren-001'], wrong: { 'ren-002': { n: 1, last: '2026-11-07' } }, visits: 5, installDismissed: true });
 assert.equal(s.get('lang'), 'ml');
 assert.equal(s.getAll().subj.ren.a, 2);
 assert.deepEqual(s.getAll().marks, ['ren-001']);
 assert.deepEqual(s.getAll().wrong['ren-002'], { n: 1, last: '2026-11-07' });
+assert.equal(s.get('visits'), 5);
+assert.equal(s.get('installDismissed'), true);
 
 /* single key write keeps the rest */
 s.set('theme', 'dark');
@@ -53,12 +57,14 @@ const legacy = JSON.stringify({
 });
 const restored = s.importState(legacy);
 assert.equal(restored.ok, true);
-assert.equal(restored.state.v, 2);
+assert.equal(restored.state.v, 3);
 assert.equal(restored.state.streak.count, 3);
 assert.equal(restored.state.lang, 'en');
 assert.deepEqual(restored.state.daily['2026-01-01'], { c: 3, n: 5 });
 assert.deepEqual(restored.state.wrong, {});
 assert.deepEqual(restored.state.marks, []);
+assert.equal(restored.state.visits, 0);
+assert.equal(restored.state.installDismissed, false);
 
 /* wrong cap at 300: drops oldest first */
 const over = {};

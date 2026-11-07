@@ -59,6 +59,18 @@ const manifest = {
 
 writeJson('data/index.json', manifest);
 
+/* Update sw.js cache name with a version stamped on every build so each deploy replaces the old cache */
+const swPath = resolve(root, 'sw.js');
+try {
+  let sw = readFileSync(swPath, 'utf8');
+  const cacheVersion = `psc-kalari-${manifest.generated.replace(/[:.]/g, '-')}`;
+  sw = sw.replace(/const CACHE_NAME = '[^']+';/, `const CACHE_NAME = '${cacheVersion}';`);
+  writeFileSync(swPath, sw, 'utf8');
+  console.log(`Updated sw.js cache name: ${cacheVersion}`);
+} catch (err) {
+  console.warn('Could not update sw.js cache name:', err.message);
+}
+
 /* Keep the generated folder tidy if a subject is ever removed. Names stay free
    of Windows device names (no con/aux/nul) so the repo clones on Windows. */
 const known = new Set(subjects.map((s) => s.key));
