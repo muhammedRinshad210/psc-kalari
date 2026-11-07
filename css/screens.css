@@ -104,6 +104,30 @@ details.rev .body span{overflow-wrap:anywhere}
 .star-btn[aria-pressed="true"]{color:var(--gold)}
 .star-btn[aria-pressed="true"] svg{fill:currentColor}
 
+/* question card action buttons (share, copy) */
+.qaction-btn{
+  min-width:44px;min-height:44px;display:inline-grid;place-items:center;background:transparent;border:0;
+  padding:0;color:var(--muted);border-radius:10px;flex:none;cursor:pointer;text-decoration:none;
+}
+.qaction-btn:hover,.qaction-btn:focus-visible{color:var(--ink)}
+.qaction-btn svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+
+.share-btn,.copy-btn{min-width:44px;min-height:44px}
+.copy-btn.copied{color:var(--ok)}
+
+/* toast notification for copied confirmation */
+.toast{
+  position:fixed;bottom:72px;left:50%;transform:translateX(-50%) translateY(16px);
+  background:var(--ink);color:var(--surface);padding:8px 18px;border-radius:999px;
+  font-size:var(--t-sm);font-weight:600;box-shadow:0 4px 16px rgba(0,0,0,.25);
+  opacity:0;pointer-events:none;z-index:100;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media (min-width:720px){
+  .toast{bottom:24px}
+}
+
 /* search */
 .search-input{
   width:100%;min-height:48px;padding:10px 16px;border-radius:var(--radius-sm);
@@ -119,5 +143,6 @@ mark{background:var(--gold-soft);color:inherit;padding:1px 3px;border-radius:4px
 
 @media (prefers-reduced-motion:no-preference){
   .sbar i,.pbar i{transition:width .35s ease}
-  .btn,.opt,.scard,.pick,.star-btn{transition:background-color .15s ease,border-color .15s ease,color .15s ease}
+  .btn,.opt,.scard,.pick,.star-btn,.qaction-btn{transition:background-color .15s ease,border-color .15s ease,color .15s ease}
+  .toast{transition:opacity .2s ease,transform .2s ease}
 }

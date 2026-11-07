@@ -5,6 +5,9 @@ import { esc, LET } from './util.js';
 import { lang, subjectName, tx } from './i18n.js';
 import { starButton } from './quiz.js';
 import { loadingCard, requestRender } from './ui.js';
+import {
+  copyIconSvg, shareIconSvg, whatsAppQuestionUrl
+} from './share.js';
 
 let index = null;
 let indexPromise = null;
@@ -193,9 +196,17 @@ export function renderResultsHtml(query) {
     <details class="rev qresult">
       <summary style="cursor:pointer">
         <div class="stack" style="gap:6px;flex:1;min-width:0">
-          <div class="row" style="align-items:center;justify-content:space-between">
+          <div class="row" style="align-items:center;justify-content:space-between;gap:8px">
             <span class="chip">${esc(subjectName(q.subject))}</span>
-            ${starButton(q.id)}
+            <div class="row" style="align-items:center;gap:4px">
+              ${starButton(q.id)}
+              <a class="qaction-btn share-btn" href="${whatsAppQuestionUrl(q)}" target="_blank" rel="noopener" aria-label="Share question to WhatsApp">
+                ${shareIconSvg}
+              </a>
+              <button type="button" class="qaction-btn copy-btn" data-act="copy-q" data-id="${esc(q.id)}" aria-label="Copy question text">
+                ${copyIconSvg}
+              </button>
+            </div>
           </div>
           <div class="qtext" style="font-size:1.05rem;line-height:1.4">${highlightTx(q.q.en, q.q.ml, words)}</div>
         </div>
@@ -203,9 +214,17 @@ export function renderResultsHtml(query) {
       <div class="body">
         ${renderOptions(q, words)}
         ${renderExplanation(q, words)}
-        <div class="row" style="margin-top:10px">
+        <div class="row" style="margin-top:10px;align-items:center;gap:8px;flex-wrap:wrap">
           <button type="button" class="btn sm" data-act="subj" data-k="${esc(q.subject)}">
             ${tx('Practise this subject', 'ഈ വിഷയം പരിശീലിക്കുക')}
+          </button>
+          <a class="btn sm ghost share-btn" href="${whatsAppQuestionUrl(q)}" target="_blank" rel="noopener" aria-label="Share question to WhatsApp">
+            ${shareIconSvg}
+            <span class="btn-label">${tx('Share', 'പങ്കിടുക')}</span>
+          </a>
+          <button type="button" class="btn sm ghost copy-btn" data-act="copy-q" data-id="${esc(q.id)}" aria-label="Copy question text">
+            ${copyIconSvg}
+            <span class="btn-label">${tx('Copy', 'കോപ്പി')}</span>
           </button>
         </div>
       </div>

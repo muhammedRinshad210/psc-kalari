@@ -7,6 +7,9 @@ import { dayKey, esc, fmtTime, LET, r2, seedRand, shuffle } from './util.js';
 import { subjectName, tx, verdict } from './i18n.js';
 import { requestRender } from './ui.js';
 import { accOf, record, touchStreak } from './progress.js';
+import {
+  copyIconSvg, shareIconSvg, whatsAppQuestionUrl, whatsAppResultUrl
+} from './share.js';
 
 let Z = null;
 
@@ -231,9 +234,17 @@ export function viewQuiz() {
     ${isMock ? `<div class="timer${remaining() <= 120 ? ' low' : ''}" id="timer" role="timer" aria-live="off">${fmtTime(remaining())}</div>` : ''}
   </div>`;
 
-  h += `<section class="card qcard"><div class="row" style="align-items:center;justify-content:space-between">
+  h += `<section class="card qcard"><div class="row" style="align-items:center;justify-content:space-between;gap:8px">
     <span class="chip">${esc(subjectName(item.s))}</span>
-    ${!isMock ? starButton(item.id) : ''}</div>
+    <div class="row" style="align-items:center;gap:4px">
+      ${!isMock ? starButton(item.id) : ''}
+      <a class="qaction-btn share-btn" href="${whatsAppQuestionUrl(item)}" target="_blank" rel="noopener" aria-label="Share question to WhatsApp">
+        ${shareIconSvg}
+      </a>
+      <button type="button" class="qaction-btn copy-btn" data-act="copy-q" data-id="${esc(item.id)}" aria-label="Copy question text">
+        ${copyIconSvg}
+      </button>
+    </div></div>
     <p class="qtext">${tx(item.q, item.mq)}</p><div class="opts">`;
 
   item.opts.forEach((opt, i) => {
@@ -318,7 +329,17 @@ export function viewResult() {
       <p class="sub">Score = correct − wrong ÷ 3. Time used: ${fmtTime(Z.spent)}.</p>
       <div class="stats"><div class="stat"><b>${r.c}</b><span>Correct</span></div>
         <div class="stat"><b>${r.w}</b><span>Wrong</span></div>
-        <div class="stat"><b>${r.u}</b><span>Skipped</span></div></div></section>`;
+        <div class="stat"><b>${r.u}</b><span>Skipped</span></div></div>
+      <div class="row" style="margin-top:6px;gap:8px">
+        <a class="btn ghost share-btn" href="${whatsAppResultUrl(Z)}" target="_blank" rel="noopener" aria-label="Share result on WhatsApp">
+          ${shareIconSvg}
+          <span class="btn-label">Share result</span>
+        </a>
+        <button type="button" class="btn ghost copy-btn" data-act="copy-res" aria-label="Copy result to clipboard">
+          ${copyIconSvg}
+          <span class="btn-label">Copy result</span>
+        </button>
+      </div></section>`;
     h += `<section class="card stack"><h2 class="sec" style="margin:0">By subject</h2>${Object.keys(by).map((k) => {
       const b = by[k];
       const p = b.a ? Math.round((b.c / b.a) * 100) : 0;
@@ -334,7 +355,17 @@ export function viewResult() {
         : 'This topic needs another pass. Check the syllabus tab and try again.';
     h += `<section class="card stack"><span class="eyebrow">${esc(Z.title)}</span>
       <div class="score">${Z.correct} <span class="muted" style="font-size:var(--t-lg)">/ ${n}</span></div>
-      <p>${esc(line)}</p>${Z.subjectKey ? `<p class="sub">Lifetime accuracy in this subject: ${accOf(Z.subjectKey) ?? 0}%</p>` : ''}</section>`;
+      <p>${esc(line)}</p>${Z.subjectKey ? `<p class="sub">Lifetime accuracy in this subject: ${accOf(Z.subjectKey) ?? 0}%</p>` : ''}
+      <div class="row" style="margin-top:6px;gap:8px">
+        <a class="btn ghost share-btn" href="${whatsAppResultUrl(Z)}" target="_blank" rel="noopener" aria-label="Share result on WhatsApp">
+          ${shareIconSvg}
+          <span class="btn-label">Share result</span>
+        </a>
+        <button type="button" class="btn ghost copy-btn" data-act="copy-res" aria-label="Copy result to clipboard">
+          ${copyIconSvg}
+          <span class="btn-label">Copy result</span>
+        </button>
+      </div></section>`;
   }
 
   h += `<h2 class="sec" style="margin:0">Review</h2>${reviewList()}`;

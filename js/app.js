@@ -1,7 +1,7 @@
 /* App shell: boots the data manifest, paints the active screen and routes
    every click/change to its module. Screens never touch the DOM directly. */
 
-import { loadIndex } from './data.js';
+import { loadIndex, questionById } from './data.js';
 import { S, save } from './state.js';
 import { setLang, syncLangBar } from './i18n.js';
 import { route, syncTabs } from './router.js';
@@ -18,6 +18,9 @@ import * as quiz from './quiz.js';
 import { applyTheme, toggleTheme } from './theme.js';
 import { toggleMark } from './state.js';
 import { errorCard, loadingCard, scrollTop } from './ui.js';
+import {
+  copyToClipboard, formatQuestionShare, formatResultShare, showCopiedConfirmation
+} from './share.js';
 
 const viewEl = document.getElementById('view');
 
@@ -73,6 +76,11 @@ async function run(task, label = 'Loading questions…') {
 /* ---------- events ---------- */
 
 document.addEventListener('click', (event) => {
+  const shareLink = event.target.closest('a.share-btn');
+  if (shareLink && shareLink.closest('summary')) {
+    event.stopPropagation();
+  }
+
   const tab = event.target.closest('#tabs a');
   if (tab && quiz.session()) quiz.endSession();
 
@@ -81,6 +89,37 @@ document.addEventListener('click', (event) => {
   const act = el.dataset.act;
 
   switch (act) {
+    case 'copy-q': {
+      event.stopPropagation();
+      event.preventDefault();
+      const qId = el.dataset.id;
+      const z = quiz.session();
+      let item = null;
+      if (z && z.items && z.items[z.i] && z.items[z.i].id === qId) {
+        item = z.items[z.i];
+      } else {
+        item = questionById(qId);
+      }
+      if (item) {
+        const text = formatQuestionShare(item);
+        copyToClipboard(text).then(() => {
+          showCopiedConfirmation(el);
+        });
+      }
+      return;
+    }
+    case 'copy-res': {
+      event.stopPropagation();
+      event.preventDefault();
+      const z = quiz.session();
+      if (z) {
+        const text = formatResultShare(z);
+        copyToClipboard(text).then(() => {
+          showCopiedConfirmation(el);
+        });
+      }
+      return;
+    }
     case 'daily':
       run(() => quiz.startDaily(), 'Setting up today’s five…');
       return;
