@@ -6,7 +6,9 @@ import { S, save } from './state.js';
 import { setLang, syncLangBar } from './i18n.js';
 import { route, syncTabs } from './router.js';
 import { viewHome } from './home.js';
-import { startMock, viewMock } from './mock.js';
+import {
+  autoSubmitSavedMock, discardMock, loadRunningMock, resumeMock, startMock, tickMockResume, viewMock
+} from './mock.js';
 import { refreshHeading, setTopic, togglePanel, viewSyllabus } from './syllabus.js';
 import { viewPapers } from './papers.js';
 import {
@@ -45,6 +47,14 @@ function render(keepScroll = false) {
   const z = quiz.session();
   syncTabs(route().name);
 
+  if (route().name === 'mock' && (!z || z.finished)) {
+    const saved = loadRunningMock();
+    if (saved && saved.endsAt <= Date.now()) {
+      run(() => autoSubmitSavedMock(saved), 'Submitting your test…');
+      return;
+    }
+  }
+
   if (z) viewEl.innerHTML = z.finished ? quiz.viewResult() : quiz.viewQuiz();
   else if (pendingHtml) viewEl.innerHTML = pendingHtml;
   else if (loadError) viewEl.innerHTML = errorCard(loadError);
@@ -82,13 +92,26 @@ document.addEventListener('click', (event) => {
   }
 
   const tab = event.target.closest('#tabs a');
-  if (tab && quiz.session()) quiz.endSession();
+  if (tab) {
+    const z = quiz.session();
+    if (z) {
+      if (z.mode !== 'mock' || z.finished) quiz.endSession();
+      else quiz.suspendMock();
+    }
+  }
 
   const el = event.target.closest('[data-act]');
   if (!el) return;
   const act = el.dataset.act;
 
   switch (act) {
+    case 'resume-mock':
+      run(() => resumeMock(), 'Resuming your test…');
+      return;
+    case 'discard-mock':
+      discardMock();
+      render();
+      return;
     case 'copy-q': {
       event.stopPropagation();
       event.preventDefault();
@@ -138,10 +161,17 @@ document.addEventListener('click', (event) => {
     case 'papers-retry':
       render();
       return;
-    case 'exit':
-      quiz.endSession();
+    case 'exit': {
+      const z = quiz.session();
+      if (z && z.mode === 'mock' && !z.finished) {
+        quiz.suspendMock();
+        window.location.hash = '#mock';
+      } else {
+        quiz.endSession();
+      }
       render();
       return;
+    }
     case 'mark': {
       event.stopPropagation();
       event.preventDefault();
@@ -253,12 +283,22 @@ document.getElementById('themeBtn').addEventListener('click', () => {
 });
 
 window.addEventListener('hashchange', () => {
-  quiz.endSession();
+  const z = quiz.session();
+  if (z) {
+    if (z.mode !== 'mock' || z.finished) {
+      quiz.endSession();
+    } else {
+      quiz.suspendMock();
+    }
+  }
   render();
 });
 
 document.addEventListener('visibilitychange', () => {
-  if (!document.hidden) quiz.tick();
+  if (!document.hidden) {
+    quiz.tick();
+    tickMockResume();
+  }
 });
 
 /* ---------- boot ---------- */

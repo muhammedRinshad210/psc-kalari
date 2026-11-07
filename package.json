@@ -10,7 +10,8 @@
     "validate:full": "node tools/validate.mjs --min 300",
     "test:storage": "node tools/test-storage.mjs",
     "test:share": "node tools/test-share.mjs",
-    "check": "node tools/validate.mjs && node tools/test-storage.mjs && node tools/test-share.mjs",
+    "test:mock": "node tools/test-mock.mjs",
+    "check": "node tools/validate.mjs && node tools/test-storage.mjs && node tools/test-share.mjs && node tools/test-mock.mjs",
     "serve": "python -m http.server 4173"
   },
   "engines": {

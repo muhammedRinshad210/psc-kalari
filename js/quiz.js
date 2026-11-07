@@ -10,6 +10,7 @@ import { accOf, record, touchStreak } from './progress.js';
 import {
   copyIconSvg, shareIconSvg, whatsAppQuestionUrl, whatsAppResultUrl
 } from './share.js';
+import { clearRunningMock, saveRunningMock, score } from './mock.js';
 
 let Z = null;
 
@@ -33,7 +34,8 @@ function build(list) {
       me: q.explanation.ml,
       opts: order.map((i) => q.options.en[i]),
       mopts: order.map((i) => q.options.ml[i]),
-      ans: order.indexOf(q.answerIndex)
+      ans: order.indexOf(q.answerIndex),
+      order
     };
   });
 }
@@ -47,13 +49,40 @@ export function endSession() {
   Z = null;
 }
 
+export function saveMockState() {
+  if (!Z || Z.mode !== 'mock' || Z.finished) return;
+  const answers = {};
+  Z.picks.forEach((p, idx) => {
+    if (p !== undefined) answers[idx] = p;
+  });
+  saveRunningMock({
+    kind: Z.kind || 'mini',
+    title: Z.title,
+    limit: Z.limit,
+    endsAt: Z.endsAt,
+    i: Z.i,
+    answers,
+    qids: Z.items.map((it) => it.id),
+    optOrders: Z.items.map((it) => it.order)
+  });
+}
+
+export function suspendMock() {
+  if (Z && Z.mode === 'mock') {
+    saveMockState();
+    if (Z.timer) clearInterval(Z.timer);
+    Z = null;
+  }
+}
+
 export function startSession(opts) {
   endSession();
   Z = Object.assign({ i: 0, picks: [], finished: false, confirm: false }, opts);
-  Z.items = build(opts.list);
+  Z.items = opts.items || build(opts.list || []);
   if (Z.mode === 'mock') {
-    Z.t0 = Date.now();
+    if (!Z.endsAt) Z.endsAt = Date.now() + Z.limit * 1000;
     Z.timer = setInterval(tick, 1000);
+    saveMockState();
   }
   requestRender();
 }
@@ -100,6 +129,10 @@ export async function startMix() {
 /* ---------- timer ---------- */
 
 function remaining() {
+  if (!Z) return 0;
+  if (Z.endsAt) {
+    return Math.max(0, Math.floor((Z.endsAt - Date.now()) / 1000));
+  }
   return Math.max(0, Z.limit - Math.floor((Date.now() - Z.t0) / 1000));
 }
 
@@ -146,11 +179,12 @@ export function finishMock() {
   });
   Z.finished = true;
   Z.confirm = false;
-  Z.res = { c, w, u, n: Z.items.length, sc: r2(c - w / 3) };
+  Z.res = { c, w, u, n: Z.items.length, sc: score(c, w) };
   Z.spent = Z.limit - remaining();
   if (c + w > 0) touchStreak();
   S.mocks.push({ d: dayKey(), sc: Z.res.sc, c, w, u, n: Z.res.n });
   if (S.mocks.length > 20) S.mocks = S.mocks.slice(-20);
+  clearRunningMock();
   save();
   requestRender();
 }
@@ -167,6 +201,7 @@ export function pick(index) {
   if (isMock) {
     if (Z.picks[Z.i] === index) delete Z.picks[Z.i];
     else Z.picks[Z.i] = index;
+    saveMockState();
     requestRender();
     return;
   }
@@ -189,6 +224,7 @@ export function next() {
   if (!Z) return;
   if (Z.i < Z.items.length - 1) {
     Z.i += 1;
+    if (Z.mode === 'mock') saveMockState();
     requestRender();
     return;
   }
@@ -199,6 +235,7 @@ export function next() {
 export function prev() {
   if (Z && Z.i > 0) {
     Z.i -= 1;
+    if (Z.mode === 'mock') saveMockState();
     requestRender();
   }
 }
@@ -206,6 +243,7 @@ export function prev() {
 export function goTo(index) {
   if (!Z) return;
   Z.i = Math.max(0, Math.min(Z.items.length - 1, index));
+  if (Z.mode === 'mock') saveMockState();
   requestRender();
 }
 
