@@ -1,0 +1,56 @@
+# PSC Kalari caching headers (Cloudflare Pages and static CDN hosts)
+
+# App shell and navigations:
+# Must always revalidate with the server so new deploys are picked up immediately
+# without requiring manual hard reloads.
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Service Worker:
+# Must never be cached by the HTTP cache so browsers check for service worker
+# script updates on every page visit or background sync.
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+# Web App Manifest:
+# Revalidate on each check so app icon, theme color, or name updates reflect quickly.
+/manifest.webmanifest
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Static SEO subject landing pages:
+# Short revalidation (1 hour) ensures updated questions and links propagate while still benefiting from CDN cache.
+/*/index.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Question bank JSON data:
+# Short cache (5 minutes) with stale-while-revalidate allows instant loads while keeping question bank updates fresh.
+/data/*.json
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
+/data/q/*.json
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
+# Self-hosted fonts:
+# WOFF2 files are static and versioned by filename. Long immutable cache (1 year) avoids redundant downloads.
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# App icons and social cards:
+# Cached long-term (1 year) with immutable so PWA launchers and search engine crawlers don't repeatedly fetch them.
+/assets/icons/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+# CSS stylesheets:
+# 1-day cache with 7-day stale-while-revalidate balances freshness and performance.
+/css/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+

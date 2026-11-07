@@ -5,7 +5,7 @@
   --bg:#F4F7F4; --surface:#FFFFFF; --surface2:#E9F0EB; --ink:#10241D; --muted:#566B61; --line:#D8E2DB;
   --brand:#0E4A3A; --on-brand:#FFFFFF; --gold:#B58420; --gold-ink:#86600F; --gold-soft:#EBD9A8;
   --ok:#17794A; --ok-bg:#E1F2E8; --bad:#B2301E; --bad-bg:#F8E3DF;
-  --hero-bg:#0E4A3A; --hero-fg:#FFFFFF; --hero-sub:#BCD6CA; --focus:#B58420;
+  --hero-bg:#0E4A3A; --hero-fg:#FFFFFF; --hero-sub:#BCD6CA; --hero-accent:var(--gold-soft); --focus:#B58420;
   --f-display:'Bricolage Grotesque','Noto Sans Malayalam',system-ui,sans-serif;
   --f-body:'Hanken Grotesk','Noto Sans Malayalam',system-ui,sans-serif;
   --t-xs:.75rem; --t-sm:.875rem; --t-base:1rem; --t-lg:1.25rem; --t-xl:1.75rem; --t-2xl:2.4rem;
@@ -16,14 +16,14 @@
     --bg:#0A1511; --surface:#101F19; --surface2:#172A22; --ink:#E6EFEA; --muted:#97ABA1; --line:#223A30;
     --brand:#3DA47E; --on-brand:#06120D; --gold:#D9A940; --gold-ink:#E3B650; --gold-soft:#6B5420;
     --ok:#4CC48A; --ok-bg:#12301F; --bad:#F0806E; --bad-bg:#3A1C17;
-    --hero-bg:#123A2D; --hero-fg:#F2F8F4; --hero-sub:#9CC2B2; --focus:#D9A940; color-scheme:dark;
+    --hero-bg:#123A2D; --hero-fg:#F2F8F4; --hero-sub:#9CC2B2; --hero-accent:var(--gold); --focus:#D9A940; color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0A1511; --surface:#101F19; --surface2:#172A22; --ink:#E6EFEA; --muted:#97ABA1; --line:#223A30;
   --brand:#3DA47E; --on-brand:#06120D; --gold:#D9A940; --gold-ink:#E3B650; --gold-soft:#6B5420;
   --ok:#4CC48A; --ok-bg:#12301F; --bad:#F0806E; --bad-bg:#3A1C17;
-  --hero-bg:#123A2D; --hero-fg:#F2F8F4; --hero-sub:#9CC2B2; --focus:#D9A940; color-scheme:dark;
+  --hero-bg:#123A2D; --hero-fg:#F2F8F4; --hero-sub:#9CC2B2; --hero-accent:var(--gold); --focus:#D9A940; color-scheme:dark;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -56,6 +56,7 @@ main{min-width:0;padding-block:12px 112px}
 .langbar button{min-height:36px;padding:4px 12px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);font-weight:600;font-size:var(--t-sm)}
 .langbar button[aria-pressed="true"]{background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
 .ml{display:block;margin-top:3px;font-size:.92em;font-weight:400;color:var(--muted)}
+.btn .ml{color:inherit}
 .qtext .ml{font-family:var(--f-body);font-size:.95rem;line-height:1.5}
 
 /* tab bar */

@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { SITE_URL } from '../js/config.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -48,9 +49,27 @@ for (const subject of subjects) {
   writeJson(`data/q/${subject.key}.json`, { subject: subject.key, count: list.length, questions: list });
 }
 
+const questionsRaw = readFileSync(resolve(root, 'data/questions.json'), 'utf8');
+const subjectsRaw = readFileSync(resolve(root, 'data/subjects.json'), 'utf8');
+const contentHash = createHash('sha256')
+  .update(questionsRaw)
+  .update(subjectsRaw)
+  .digest('hex')
+  .slice(0, 10);
+
+let prevIndex = null;
+try {
+  prevIndex = readJson('data/index.json');
+} catch (e) {}
+
+const generatedTime = (prevIndex && prevIndex.contentHash === contentHash && prevIndex.generated)
+  ? prevIndex.generated
+  : new Date().toISOString();
+
 const manifest = {
   schema: 1,
-  generated: new Date().toISOString(),
+  generated: generatedTime,
+  contentHash,
   total: questions.length,
   subjects: subjects.map((subject) => {
     const list = counts.get(subject.key);
@@ -70,14 +89,17 @@ const manifest = {
 
 writeJson('data/index.json', manifest);
 
-/* Update sw.js cache name with a version stamped on every build so each deploy replaces the old cache */
+/* Update sw.js cache name with a version stamped on every build so each deploy replaces the old cache.
+   Deterministic timestamp ensures running build twice without data changes leaves a clean git working tree. */
 const swPath = resolve(root, 'sw.js');
 try {
   let sw = readFileSync(swPath, 'utf8');
   const cacheVersion = `psc-kalari-${manifest.generated.replace(/[:.]/g, '-')}`;
-  sw = sw.replace(/const CACHE_NAME = '[^']+';/, `const CACHE_NAME = '${cacheVersion}';`);
-  writeFileSync(swPath, sw, 'utf8');
-  console.log(`Updated sw.js cache name: ${cacheVersion}`);
+  if (!sw.includes(`const CACHE_NAME = '${cacheVersion}';`)) {
+    sw = sw.replace(/const CACHE_NAME = '[^']+';/, `const CACHE_NAME = '${cacheVersion}';`);
+    writeFileSync(swPath, sw, 'utf8');
+    console.log(`Updated sw.js cache name: ${cacheVersion}`);
+  }
 } catch (err) {
   console.warn('Could not update sw.js cache name:', err.message);
 }
@@ -174,7 +196,7 @@ ${JSON.stringify(breadcrumbLd, null, 2)}
   .landing-hero{background:var(--hero-bg);color:var(--hero-fg);border-radius:var(--radius);padding:24px 20px;margin-bottom:24px;border:1px solid var(--line)}
   .landing-hero h1{font-size:var(--t-xl);margin-bottom:8px}
   .landing-hero p{color:var(--hero-sub);margin-bottom:8px;font-size:var(--t-base)}
-  .landing-hero .ml{color:var(--gold-soft)}
+  .landing-hero .ml{color:var(--hero-sub)}
   .topic-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;list-style:none;padding:0;margin:12px 0 24px}
   .topic-list li{padding:10px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);font-size:var(--t-sm);font-weight:500}
   .back-link{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:var(--t-sm);font-weight:600;margin-bottom:16px}
@@ -199,7 +221,7 @@ ${JSON.stringify(breadcrumbLd, null, 2)}
     <a class="back-link" href="../">← Back to PSC Kalari Home</a>
 
     <section class="landing-hero">
-      <div class="eyebrow" style="color:var(--gold-soft);margin-bottom:4px">${esc(subject.en)} · ${esc(subject.ml)}</div>
+      <div class="eyebrow" style="color:var(--hero-accent,var(--gold-soft));margin-bottom:4px">${esc(subject.en)} · ${esc(subject.ml)}</div>
       <h1>${esc(subject.en)} questions for Kerala PSC</h1>
       <p>${esc(subject.intro ? subject.intro.en : '')}</p>
       <p class="ml" lang="ml">${esc(subject.intro ? subject.intro.ml : '')}</p>

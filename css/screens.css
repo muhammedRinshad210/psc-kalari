@@ -7,10 +7,10 @@
   linear-gradient(var(--gold),var(--gold)) bottom/100% 2px no-repeat,
   repeating-linear-gradient(90deg,var(--gold-soft) 0 9px,transparent 9px 18px) center/100% 4px no-repeat}
 .hero-in{padding:20px 20px 22px;display:flex;flex-direction:column;gap:12px}
-.hero .eyebrow{color:var(--gold-soft)}
+.hero .eyebrow{color:var(--hero-accent,var(--gold-soft))}
 .hero h2{font-size:var(--t-xl);letter-spacing:-.01em}
 .hero p{color:var(--hero-sub);max-width:46ch}
-.hero .btn{background:var(--gold-soft);border-color:var(--gold-soft);color:#2A1D00;align-self:flex-start}
+.hero .btn{background:var(--hero-accent,var(--gold-soft));border-color:var(--hero-accent,var(--gold-soft));color:#2A1D00;align-self:flex-start}
 
 /* quiz */
 .qtop{display:flex;align-items:center;gap:12px;margin-bottom:14px}
