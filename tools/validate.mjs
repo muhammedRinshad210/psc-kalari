@@ -101,7 +101,19 @@ questions.forEach((q, index) => {
   /* --- provenance --- */
   if (!isText(q.source) || q.source.length < 6) fail(where, 'source must name a reference');
   if (typeof q.verified !== 'boolean') fail(where, 'verified must be true or false');
-  else if (q.verified === false) warn(where, 'shipped while verified is false');
+  else if (q.verified) {
+    if (!isText(q.reviewedBy) || !/^\d{4}-\d{2}-\d{2}$/.test(q.reviewedOn || '')) {
+      fail(where, 'verified is true but reviewedBy (string) and reviewedOn (YYYY-MM-DD) are required');
+    }
+  } else {
+    warn(where, 'shipped while verified is false');
+  }
+  if (q.reviewedBy !== undefined && !isText(q.reviewedBy)) {
+    fail(where, 'reviewedBy must be a non-empty string');
+  }
+  if (q.reviewedOn !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(q.reviewedOn)) {
+    fail(where, 'reviewedOn must match YYYY-MM-DD');
+  }
   if (typeof q.needsReview !== 'boolean') fail(where, 'needsReview must be true or false');
   else if (q.needsReview) warn(where, 'Malayalam flagged needsReview');
 });

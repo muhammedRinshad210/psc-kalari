@@ -4,6 +4,8 @@
 
 const DATA_BASE = new URL('../data/', import.meta.url);
 
+export const MIN_QUESTIONS = 20;
+
 let indexPromise = null;
 let index = null;
 const chunks = new Map();      // subject key -> questions
@@ -50,7 +52,7 @@ export function totalQuestions() {
   return index ? index.total : 0;
 }
 
-/** Load one subject's questions (cached in memory and in the service worker). */
+/** Load one subject's questions (cached in memory). */
 export async function loadQuestions(key) {
   if (chunks.has(key)) return chunks.get(key);
   const data = await fetchJson(`q/${key}.json`);

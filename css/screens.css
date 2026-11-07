@@ -89,6 +89,12 @@ details.rev .body span{overflow-wrap:anywhere}
 .ptopics{margin:2px 0 10px;padding-left:18px;font-size:var(--t-sm);color:var(--muted)}
 .ptopics li{margin-block:3px}
 
+/* home coming soon */
+.coming-soon{margin-top:4px}
+.coming-list{display:flex;flex-wrap:wrap;gap:8px 10px;padding:0;margin:0;list-style:none}
+.coming-list li{padding:8px 14px;background:var(--surface2);border:1px solid var(--line);border-radius:var(--radius-sm);color:var(--muted);font-size:var(--t-sm);font-weight:600;line-height:1.35}
+.coming-list li .ml{font-size:.85em;margin-top:2px;font-weight:400}
+
 @media (prefers-reduced-motion:no-preference){
   .sbar i,.pbar i{transition:width .35s ease}
   .btn,.opt,.scard,.pick{transition:background-color .15s ease,border-color .15s ease}

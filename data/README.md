@@ -33,7 +33,9 @@ npm run check         # validate + storage tests
     "ml": "1950 ജനുവരി 26-ന് നിലവിൽ വന്നു; അന്ന് റിപ്പബ്ലിക് ദിനമായി ആചരിക്കുന്നു."
   },
   "source": "Constitution of India, Article 394 (indiacode.nic.in)",
-  "verified": true,                // fact checked against the source
+  "verified": false,               // fact checked against the source (requires reviewedBy & reviewedOn when true)
+  "reviewedBy": "Muhammed Rinshad",// optional string; required if verified is true
+  "reviewedOn": "2026-11-07",      // optional YYYY-MM-DD; required if verified is true
   "needsReview": false             // Malayalam wording needs a native review
 }
 ```
@@ -46,6 +48,7 @@ Rules the validator enforces:
 - `topic` belongs to the subject's topic list in `data/subjects.json`
 - no duplicate ids and no duplicate English question text
 - `source` names a real reference; `verified` and `needsReview` are booleans
+- `verified`: true is an error unless `reviewedBy` (string) and `reviewedOn` (YYYY-MM-DD) are both present
 
 The correct option is written first in the data for easy authoring; the app
 shuffles the four options every time a question is shown.

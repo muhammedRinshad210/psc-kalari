@@ -1,9 +1,9 @@
 /* Home screen: today's set, quick mix, weakest subject and the subject grid. */
 
 import { S } from './state.js';
-import { activeSubjects } from './data.js';
+import { activeSubjects, MIN_QUESTIONS } from './data.js';
 import { dayKey, esc } from './util.js';
-import { dateLine, subjectName } from './i18n.js';
+import { dateLine, subjectName, tx } from './i18n.js';
 import { accOf, currentStreak, weakest } from './progress.js';
 
 function subjectCard(subject) {
@@ -22,6 +22,9 @@ export function viewHome() {
   const done = S.daily[dayKey()];
   const streak = currentStreak();
   const weak = weakest();
+  const allActive = activeSubjects();
+  const ready = allActive.filter((s) => s.count >= MIN_QUESTIONS);
+  const coming = allActive.filter((s) => s.count < MIN_QUESTIONS);
   let h = '<div class="stack">';
 
   h += `<section class="hero"><div class="kasavu"></div><div class="hero-in">
@@ -46,6 +49,10 @@ export function viewHome() {
   h += '</div>';
 
   h += '<div><h2 class="sec">Subjects</h2><p class="sub">Tap a subject to practise it with an explanation after every answer.</p></div>';
-  h += `<div class="grid">${activeSubjects().map(subjectCard).join('')}</div>`;
+  h += `<div class="grid">${ready.map(subjectCard).join('')}</div>`;
+  if (coming.length) {
+    h += `<div class="coming-soon"><h3 class="sec muted" style="font-size:var(--t-base);margin-block:16px 8px">${tx('Coming soon', 'ഉടൻ വരുന്നു')}</h3>
+    <ul class="coming-list">${coming.map((s) => `<li>${tx(s.en, s.ml)}</li>`).join('')}</ul></div>`;
+  }
   return `${h}</div>`;
 }
