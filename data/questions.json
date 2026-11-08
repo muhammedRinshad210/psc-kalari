@@ -3710,5 +3710,2181 @@
     "source": "Constitution (One Hundred and First Amendment) Act, 2016 (indiacode.nic.in)",
     "verified": false,
     "needsReview": false
+  },
+  {
+    "id": "geo-007",
+    "subject": "geo",
+    "topic": "Rivers of Kerala",
+    "difficulty": 1,
+    "q": {
+      "en": "The Pamba river originates from which plateau region in the Western Ghats?",
+      "ml": "പമ്പാനദി പശ്ചിമഘട്ടത്തിലെ ഏത് പീഠഭൂമി പ്രദേശത്തു നിന്നാണ് ഉത്ഭവിക്കുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Pulachimalai (Peerumedu plateau)",
+        "Sivagiri hills",
+        "Anamalai hills",
+        "Brahmagiri hills"
+      ],
+      "ml": [
+        "പുലച്ചിമല (പീരുമേട് പീഠഭൂമി)",
+        "ശിവഗിരി മലകൾ",
+        "ആനമല കുന്നുകൾ",
+        "ബ്രഹ്മഗിരി മലനിരകൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Pamba, the third longest river in Kerala, originates from the Pulachimalai hill on the Peerumedu plateau in Idukki district.",
+      "ml": "കേരളത്തിലെ മൂന്നാമത്തെ നീളമേറിയ നദിയായ പമ്പ ഇടുക്കി ജില്ലയിലെ പീരുമേട് പീഠഭൂമിയിലുള്ള പുലച്ചിമലയിൽ നിന്നാണ് ഉത്ഭവിക്കുന്നത്."
+    },
+    "source": "SCERT Kerala Social Science Class 10, Part 2 (Geography of Kerala); Kerala State Land Use Board",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-008",
+    "subject": "geo",
+    "topic": "Rivers of Kerala",
+    "difficulty": 2,
+    "q": {
+      "en": "Out of the 44 recognized rivers in Kerala, how many flow westward into the Arabian Sea or backwaters?",
+      "ml": "കേരളത്തിലെ 44 അംഗീകൃത നദികളിൽ എത്രയെണ്ണമാണ് പടിഞ്ഞാറോട്ട് ഒഴുകി അറബിക്കടലിലോ കായലുകളിലോ ചേരുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "41",
+        "38",
+        "44",
+        "35"
+      ],
+      "ml": [
+        "41",
+        "38",
+        "44",
+        "35"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Of Kerala's 44 recognized rivers, 41 flow westward and 3 (Kabani, Bhavani, and Pambar) flow eastward into neighbouring states.",
+      "ml": "കേരളത്തിലെ 44 നദികളിൽ 41 എണ്ണം പടിഞ്ഞാറോട്ടും 3 എണ്ണം (കബനി, ഭവാനി, പാമ്പാർ) കിഴക്കോട്ടും ഒഴുകുന്നു."
+    },
+    "source": "Kerala State Land Use Board, Water Resources of Kerala; Kerala State Portal",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-009",
+    "subject": "geo",
+    "topic": "Rivers of Kerala",
+    "difficulty": 2,
+    "q": {
+      "en": "Which of the following is an east-flowing river that originates in Kerala?",
+      "ml": "കേരളത്തിൽ നിന്ന് ഉത്ഭവിച്ച് കിഴക്കോട്ട് ഒഴുകുന്ന നദി ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Kabani",
+        "Chaliyar",
+        "Kallada",
+        "Meenachil"
+      ],
+      "ml": [
+        "കബനി",
+        "ചാലിയാർ",
+        "കല്ലട",
+        "മീനച്ചിൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kabani, Bhavani, and Pambar are the three east-flowing rivers of Kerala that join the Cauvery river system.",
+      "ml": "കാവേരി നദീവ്യവസ്ഥയുടെ ഭാഗമായ കബനി, ഭവാനി, പാമ്പാർ എന്നിവയാണ് കേരളത്തിലെ മൂന്ന് കിഴക്കോട്ടൊഴുകുന്ന നദികൾ."
+    },
+    "source": "SCERT Kerala Social Science Class 10, Part 2; Kerala State Land Use Board",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-010",
+    "subject": "geo",
+    "topic": "Rivers of Kerala",
+    "difficulty": 3,
+    "q": {
+      "en": "Which of the following is a major tributary of the Periyar river?",
+      "ml": "പെരിയാറിന്റെ പ്രധാന പോഷകനദികളിൽ ഒന്നേത്?"
+    },
+    "options": {
+      "en": [
+        "Muthirapuzha",
+        "Gayathripuzha",
+        "Kunthipuzha",
+        "Achankovil"
+      ],
+      "ml": [
+        "മുതിരപ്പുഴ",
+        "ഗായത്രിപ്പുഴ",
+        "കുന്തിപ്പുഴ",
+        "അച്ചൻകോവിൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Muthirapuzha, Mullayar, Cheruthoni, and Perinjankutti are major tributaries of the Periyar. Gayathripuzha and Kunthipuzha belong to the Bharathapuzha basin.",
+      "ml": "മുതിരപ്പുഴ, മുല്ലയാർ, ചെറുതോണി, പെരിഞ്ഞാൻകുട്ടി എന്നിവ പെരിയാറിന്റെ പ്രധാന പോഷകനദികളാണ്. ഗായത്രിപ്പുഴയും കുന്തിപ്പുഴയും ഭാരതപ്പുഴയുടെ പോഷകനദികളാണ്."
+    },
+    "source": "Central Water Commission (CWC) Periyar Basin Study; SCERT Kerala Social Science Class 10",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-011",
+    "subject": "geo",
+    "topic": "Rivers of Kerala",
+    "difficulty": 1,
+    "q": {
+      "en": "Which river flows through the core valley of Silent Valley National Park?",
+      "ml": "സൈലന്റ് വാലി ദേശീയോദ്യാനത്തിലൂടെ ഒഴുകുന്ന പ്രധാന നദി ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Kunthipuzha",
+        "Bhavani",
+        "Siruvani",
+        "Kallada"
+      ],
+      "ml": [
+        "കുന്തിപ്പുഴ",
+        "ഭവാനി",
+        "ശിരുവാണി",
+        "കല്ലട"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Kunthipuzha river originates in the Silent Valley evergreen forests and joins the Bharathapuzha.",
+      "ml": "സൈലന്റ് വാലി വനങ്ങളിൽ നിന്ന് ഉത്ഭവിക്കുന്ന കുന്തിപ്പുഴ ഭാരതപ്പുഴയുടെ ഒരു പ്രധാന പോഷകനദിയാണ്."
+    },
+    "source": "Kerala Forest and Wildlife Department; SCERT Kerala Class 9 Social Science",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-012",
+    "subject": "geo",
+    "topic": "Rivers of Kerala",
+    "difficulty": 2,
+    "q": {
+      "en": "The Idukki Arch Dam on the Periyar river is built between which two granite hills?",
+      "ml": "പെരിയാറിലെ ഇടുക്കി ആർച്ച് ഡാം നിർമ്മിച്ചിരിക്കുന്നത് ഏത് രണ്ട് മലകൾക്കിടയിലാണ്?"
+    },
+    "options": {
+      "en": [
+        "Kuravan and Kurathi",
+        "Sivagiri and Pulachimalai",
+        "Chembra and Banasura",
+        "Agasthyamala and Ponmudi"
+      ],
+      "ml": [
+        "കുറവൻ, കുറത്തി",
+        "ശിവഗിരി, പുലച്ചിമല",
+        "ചെമ്പ്ര, ബാണാസുര",
+        "അഗസ്ത്യമല, പൊൻമുടി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The double-curvature arch dam of Idukki connects the two rocky peaks Kuravan and Kurathi across the gorge of the Periyar river.",
+      "ml": "പെരിയാറിന്റെ മലയിടുക്കിലുള്ള കുറവൻ, കുറത്തി എന്നീ രണ്ട് പാറക്കെട്ടുകളെ ബന്ധിപ്പിച്ചാണ് ഇടുക്കി ആർച്ച് ഡാം നിർമ്മിച്ചിട്ടുള്ളത്."
+    },
+    "source": "Kerala State Electricity Board (KSEB) Dam Profile; Kerala State Land Use Board",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-013",
+    "subject": "geo",
+    "topic": "Districts and borders",
+    "difficulty": 1,
+    "q": {
+      "en": "Which district of Kerala does not share a border with any neighbouring state and has no coastline?",
+      "ml": "മറ്റു സംസ്ഥാനങ്ങളുമായി അതിർത്തി പങ്കിടാത്തതും കടൽത്തീരമില്ലാത്തതുമായ കേരളത്തിലെ ജില്ല ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Kottayam",
+        "Palakkad",
+        "Wayanad",
+        "Idukki"
+      ],
+      "ml": [
+        "കോട്ടയം",
+        "പാലക്കാട്",
+        "വയനാട്",
+        "ഇടുക്കി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kottayam is completely landlocked within Kerala, sharing borders only with Ernakulam, Idukki, Pathanamthitta, and Alappuzha.",
+      "ml": "എറണാകുളം, ഇടുക്കി, പത്തനംതിട്ട, ആലപ്പുഴ എന്നീ കേരള ജില്ലകളാൽ മാത്രം ചുറ്റപ്പെട്ടതാണ് കോട്ടയം ജില്ല."
+    },
+    "source": "Survey of India, Administrative Atlas of Kerala; Kerala State Portal",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-014",
+    "subject": "geo",
+    "topic": "Districts and borders",
+    "difficulty": 2,
+    "q": {
+      "en": "Kerala shares land borders with which two Indian states?",
+      "ml": "കേരളം കര അതിർത്തി പങ്കിടുന്ന രണ്ട് ഇന്ത്യൻ സംസ്ഥാനങ്ങൾ ഏതെല്ലാം?"
+    },
+    "options": {
+      "en": [
+        "Tamil Nadu and Karnataka",
+        "Tamil Nadu and Andhra Pradesh",
+        "Karnataka and Goa",
+        "Tamil Nadu and Maharashtra"
+      ],
+      "ml": [
+        "തമിഴ്നാടും കർണാടകയും",
+        "തമിഴ്നാടും ആന്ധ്രാപ്രദേശും",
+        "കർണാടകയും ഗോവയും",
+        "തമിഴ്നാടും മഹാരാഷ്ട്രയും"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kerala is bounded by Karnataka to the north and northeast, and by Tamil Nadu to the east and south.",
+      "ml": "കേരളത്തിന്റെ വടക്കും വടക്കുകിഴക്കും കർണാടകയും കിഴക്കും തെക്കും തമിഴ്നാടും സ്ഥിതി ചെയ്യുന്നു."
+    },
+    "source": "Census of India 2011, Administrative Atlas of Kerala; Survey of India",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-015",
+    "subject": "geo",
+    "topic": "Districts and borders",
+    "difficulty": 2,
+    "q": {
+      "en": "Which is the southernmost district of Kerala?",
+      "ml": "കേരളത്തിലെ ഏറ്റവും തെക്കേയറ്റത്തെ ജില്ല ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Thiruvananthapuram",
+        "Kollam",
+        "Pathanamthitta",
+        "Alappuzha"
+      ],
+      "ml": [
+        "തിരുവനന്തപുരം",
+        "കൊല്ലം",
+        "പത്തനംതിട്ട",
+        "ആലപ്പുഴ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Thiruvananthapuram is the southernmost district of Kerala, bordering Tirunelveli and Kanyakumari districts of Tamil Nadu.",
+      "ml": "കേരളത്തിന്റെ തെക്കേയറ്റത്തെ ജില്ലയായ തിരുവനന്തപുരം തമിഴ്നാട്ടിലെ തിരുനെൽവേലി, കന്യാകുമാരി ജില്ലകളുമായി അതിർത്തി പങ്കിടുന്നു."
+    },
+    "source": "Survey of India, District Map of Kerala; Kerala State Portal",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-016",
+    "subject": "geo",
+    "topic": "Districts and borders",
+    "difficulty": 3,
+    "q": {
+      "en": "Which is the northernmost taluk in Kerala?",
+      "ml": "കേരളത്തിലെ ഏറ്റവും വടക്കേയറ്റത്തുള്ള താലൂക്ക് ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Manjeshwaram",
+        "Kasaragod",
+        "Hosdurg",
+        "Vellarikundu"
+      ],
+      "ml": [
+        "മഞ്ചേശ്വരം",
+        "കാസർഗോഡ്",
+        "ഹോസ്ദുർഗ്",
+        "വെള്ളരിക്കുണ്ട്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Manjeshwaram taluk in Kasaragod district is the northernmost administrative taluk of Kerala, bordering Dakshina Kannada district of Karnataka.",
+      "ml": "കാസർഗോഡ് ജില്ലയിലെ മഞ്ചേശ്വരം താലൂക്കാണ് കർണാടകയുമായി അതിർത്തി പങ്കിടുന്ന കേരളത്തിലെ ഏറ്റവും വടക്കേയറ്റത്തുള്ള താലൂക്ക്."
+    },
+    "source": "Kerala Government Gazette (Taluk reorganisation); Kasaragod District Administration",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-017",
+    "subject": "geo",
+    "topic": "Districts and borders",
+    "difficulty": 2,
+    "q": {
+      "en": "The major mountain pass in the Western Ghats connecting Palakkad with Coimbatore is:",
+      "ml": "പാലക്കാടിനെയും കോയമ്പത്തൂരിനെയും തമ്മിൽ ബന്ധിപ്പിക്കുന്ന പശ്ചിമഘട്ടത്തിലെ പ്രധാന ചുരം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Palakkad Gap",
+        "Bhorghat",
+        "Thalghat",
+        "Shencottah Gap"
+      ],
+      "ml": [
+        "പാലക്കാട് ചുരം",
+        "ഭോർഘട്ട്",
+        "താൽഘട്ട്",
+        "ചെങ്കോട്ട ചുരം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Palakkad Gap is a low mountain break about 30 to 40 km wide between the Nilgiris and the Anamalais.",
+      "ml": "നീലഗിരി മലനിരകൾക്കും ആനമലയ്ക്കും ഇടയിൽ ഏകദേശം 30 മുതൽ 40 കിലോമീറ്റർ വരെ വീതിയുള്ള പശ്ചിമഘട്ടത്തിലെ പ്രകൃതിദത്ത വിടവാണ് പാലക്കാട് ചുരം."
+    },
+    "source": "NCERT Class 11 Geography (India: Physical Environment, Chapter 2); Survey of India",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-018",
+    "subject": "geo",
+    "topic": "Mountains and forests",
+    "difficulty": 1,
+    "q": {
+      "en": "Eravikulam National Park in Idukki is known as the habitat of which endangered animal?",
+      "ml": "ഇടുക്കിയിലെ ഇരവികുളം ദേശീയോദ്യാനം ഏത് വംശനാശഭീഷണി നേരിടുന്ന മൃഗത്തിന്റെ സ്വാഭാവിക ആവാസകേന്ദ്രമാണ്?"
+    },
+    "options": {
+      "en": [
+        "Nilgiri Tahr",
+        "Lion-tailed Macaque",
+        "Bengal Tiger",
+        "Great Indian Hornbill"
+      ],
+      "ml": [
+        "വരയാട് (നീലഗിരി താർ)",
+        "സിംഹവാലൻ കുരങ്ങ്",
+        "ബംഗാൾ കടുവ",
+        "മലമുഴക്കി വേഴാമ്പൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Eravikulam National Park protects the largest surviving wild population of the Nilgiri Tahr (Nilgiritragus hylocrius).",
+      "ml": "വംശനാശഭീഷണി നേരിടുന്ന വരയാടുകളുടെ (നീലഗിരി താർ) ഏറ്റവും വലിയ കാട്ടുപറ്റത്തെ സംരക്ഷിക്കുന്നത് ഇരവികുളം ദേശീയോദ്യാനത്തിലാണ്."
+    },
+    "source": "Kerala Forest and Wildlife Department; Wildlife Institute of India",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-019",
+    "subject": "geo",
+    "topic": "Mountains and forests",
+    "difficulty": 2,
+    "q": {
+      "en": "In which southern hill range of the Western Ghats is the Agasthyarkoodam peak situated?",
+      "ml": "പശ്ചിമഘട്ടത്തിലെ ഏത് മലനിരകളിലാണ് അഗസ്ത്യാർകൂടം കൊടുമുടി സ്ഥിതി ചെയ്യുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Ashambu hills",
+        "Nilgiri hills",
+        "Cardamom hills",
+        "Palani hills"
+      ],
+      "ml": [
+        "അഗസ്ത്യ (അശമ്പ്) മലനിരകൾ",
+        "നീലഗിരി മലനിരകൾ",
+        "ഏലമലകൾ",
+        "പളനി മലകൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Agasthyarkoodam (1,868 m) is situated in the Ashambu / Southern Western Ghats within the Agasthyamala Biosphere Reserve.",
+      "ml": "അഗസ്ത്യമല ബയോസ്ഫിയർ റിസർവിലെ അശമ്പ് (അഗസ്ത്യ) മലനിരകളിലാണ് 1,868 മീറ്റർ ഉയരമുള്ള അഗസ്ത്യാർകൂടം സ്ഥിതി ചെയ്യുന്നത്."
+    },
+    "source": "UNESCO World Network of Biosphere Reserves; Kerala Forest and Wildlife Department",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-020",
+    "subject": "geo",
+    "topic": "Mountains and forests",
+    "difficulty": 2,
+    "q": {
+      "en": "Montane stunt evergreen forests found in sheltered valleys surrounded by grasslands in high-altitude Western Ghats are called:",
+      "ml": "പശ്ചിമഘട്ടത്തിലെ ഉയർന്ന മലനിരകളിൽ പുൽമേടുകൾക്കിടയിലെ താഴ്വരകളിൽ കാണപ്പെടുന്ന നിത്യഹരിത ചോലവനങ്ങളെ എന്തു വിളിക്കുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Shola forests",
+        "Mangrove forests",
+        "Dry deciduous forests",
+        "Thorn scrub"
+      ],
+      "ml": [
+        "ഷോല വനങ്ങൾ",
+        "കണ്ടൽക്കാടുകൾ",
+        "ഇലപൊഴിയും കാടുകൾ",
+        "മുൾക്കാടുകൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Sholas are high-altitude stunted tropical montane evergreen forests found in depressions and folds surrounded by rolling montane grasslands.",
+      "ml": "ഉയർന്ന പ്രദേശങ്ങളിലെ മലമടക്കുകളിൽ പുൽമേടുകൾക്ക് നടുവിൽ കാണപ്പെടുന്ന പ്രത്യേകതരം നിത്യഹരിത വനങ്ങളാണ് ഷോലകൾ."
+    },
+    "source": "SCERT Kerala Class 9 Social Science; NCERT Class 11 Geography (Natural Vegetation)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-021",
+    "subject": "geo",
+    "topic": "Mountains and forests",
+    "difficulty": 3,
+    "q": {
+      "en": "Which forest type accounts for the largest share of recorded forest area in Kerala?",
+      "ml": "കേരളത്തിലെ വനവിസ്തൃതിയിൽ ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്ന വനവിഭാഗം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Tropical moist deciduous forest",
+        "Tropical wet evergreen forest",
+        "Montane subtropical forest",
+        "Littoral and swamp forest"
+      ],
+      "ml": [
+        "ആർദ്ര ഇലപൊഴിയും കാടുകൾ (ട്രോപ്പിക്കൽ മോയിസ്റ്റ് ഡിസിഡുവസ്)",
+        "നിത്യഹരിത കാടുകൾ (ട്രോപ്പിക്കൽ വെറ്റ് എവർഗ്രീൻ)",
+        "ഉപോഷ്ണമേഖലാ മലയോര വനങ്ങൾ",
+        "തീരദേശ ചതുപ്പ് വനങ്ങൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Tropical moist deciduous forests cover the largest area among forest types in Kerala, followed by tropical wet evergreen forests.",
+      "ml": "കേരളത്തിലെ വനങ്ങളിൽ ഏറ്റവും കൂടുതൽ വിസ്തൃതിയുള്ളത് ആർദ്ര ഇലപൊഴിയും കാടുകൾക്കാണ്; അതിനു പിന്നിലാണ് നിത്യഹരിത വനങ്ങൾ."
+    },
+    "source": "Forest Survey of India (India State of Forest Report - Kerala chapter); Kerala Forest Statistics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-022",
+    "subject": "geo",
+    "topic": "Mountains and forests",
+    "difficulty": 3,
+    "q": {
+      "en": "Which is the highest mountain peak in Wayanad district?",
+      "ml": "വയനാട് ജില്ലയിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടി ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Chembra Peak",
+        "Banasura Hill",
+        "Brahmagiri",
+        "Vellarimala"
+      ],
+      "ml": [
+        "ചെമ്പ്ര കൊടുമുടി",
+        "ബാണാസുര മല",
+        "ബ്രഹ്മഗിരി",
+        "വെള്ളരിമല"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Chembra Peak rises to about 2,100 m above sea level and is the highest peak in Wayanad district.",
+      "ml": "സമുദ്രനിരപ്പിൽ നിന്ന് ഏകദേശം 2,100 മീറ്റർ ഉയരമുള്ള ചെമ്പ്ര കൊടുമുടിയാണ് വയനാട് ജില്ലയിലെ ഏറ്റവും ഉയർന്ന മലനിര."
+    },
+    "source": "Wayanad District Administration Portal; Kerala State Land Use Board",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-023",
+    "subject": "geo",
+    "topic": "Lakes and backwaters",
+    "difficulty": 1,
+    "q": {
+      "en": "Which is the largest natural freshwater lake in Kerala?",
+      "ml": "കേരളത്തിലെ ഏറ്റവും വലിയ ശുദ്ധജല തടാകം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Sasthamkotta Lake",
+        "Vembanad Lake",
+        "Ashtamudi Lake",
+        "Vellayani Lake"
+      ],
+      "ml": [
+        "ശാസ്താംകോട്ട കായൽ",
+        "വേമ്പനാട്ട് കായൽ",
+        "അഷ്ടമുടിക്കായൽ",
+        "വെള്ളായണി കായൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Sasthamkotta Lake in Kollam district is the largest natural freshwater lake in Kerala and is designated as a Ramsar site.",
+      "ml": "കൊല്ലം ജില്ലയിലെ ശാസ്താംകോട്ട കായലാണ് കേരളത്തിലെ ഏറ്റവും വലിയ ശുദ്ധജല തടാകം; ഇതൊരു റാംസർ തണ്ണീർത്തടവുമാണ്."
+    },
+    "source": "Ramsar Sites Information Service (Site No. 1212); Kerala State Wetland Authority",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-024",
+    "subject": "geo",
+    "topic": "Lakes and backwaters",
+    "difficulty": 1,
+    "q": {
+      "en": "The name 'Ashtamudi Lake' in Kollam originates from which geographical characteristic?",
+      "ml": "കൊല്ലത്തെ 'അഷ്ടമുടിക്കായൽ' എന്ന പേരിന് കാരണം ഏത് സവിശേഷതയാണ്?"
+    },
+    "options": {
+      "en": [
+        "Having eight distinct arms or branches",
+        "Formed by eight different rivers",
+        "Having eight inhabited islands",
+        "Surrounded by eight historical towns"
+      ],
+      "ml": [
+        "എട്ട് ശാഖകളായി പിരിഞ്ഞു കിടക്കുന്നത്",
+        "എട്ട് നദികൾ ചേരുന്നതിലൂടെ ഉണ്ടായത്",
+        "എട്ട് ജനവാസ ദ്വീപുകൾ ഉള്ളത്",
+        "എട്ട് പുരാതന പട്ടണങ്ങളാൽ ചുറ്റപ്പെട്ടത്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "In Malayalam, 'Ashtamudi' signifies eight braids or branches, referring to the eight deep arms of this palm-shaped estuarine lake.",
+      "ml": "എട്ട് മുടികൾ (ശാഖകൾ) ഉള്ളതിനാലാണ് ഈ കായലിന് അഷ്ടമുടി എന്ന പേര് ലഭിച്ചത്."
+    },
+    "source": "Ramsar Sites Information Service; Kerala Tourism Portal",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-025",
+    "subject": "geo",
+    "topic": "Lakes and backwaters",
+    "difficulty": 2,
+    "q": {
+      "en": "Pookode Lake, a natural freshwater lake, is situated in which district of Kerala?",
+      "ml": "പ്രകൃതിദത്ത ശുദ്ധജല തടാകമായ പൂക്കോട് തടാകം കേരളത്തിലെ ഏത് ജില്ലയിലാണ് സ്ഥിതി ചെയ്യുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Wayanad",
+        "Idukki",
+        "Palakkad",
+        "Kozhikode"
+      ],
+      "ml": [
+        "വയനാട്",
+        "ഇടുക്കി",
+        "പാലക്കാട്",
+        "കോഴിക്കോട്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Pookode Lake is a high-altitude freshwater lake nestled in the evergreen forests of Wayanad district.",
+      "ml": "വയനാട് ജില്ലയിലെ വൈത്തിരിക്കടുത്ത് മലനിരകൾക്കിടയിൽ സ്ഥിതി ചെയ്യുന്ന ശുദ്ധജല തടാകമാണ് പൂക്കോട് തടാകം."
+    },
+    "source": "Kerala Tourism Department; Wayanad District Portal",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-026",
+    "subject": "geo",
+    "topic": "Lakes and backwaters",
+    "difficulty": 2,
+    "q": {
+      "en": "Which navigable canal stretch forms the primary corridor of National Waterway 3 in Kerala?",
+      "ml": "കേരളത്തിലൂടെ കടന്നുപോകുന്ന ദേശീയ ജലപാത 3-ന്റെ (NW-3) പ്രധാന ഭാഗം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "West Coast Canal (Kottapuram to Kollam)",
+        "Pamba navigation canal",
+        "Beypore to Thalassery canal",
+        "Periyar to Bharathapuzha canal"
+      ],
+      "ml": [
+        "പടിഞ്ഞാറൻ തീര കനാൽ (കോട്ടപ്പുറം മുതൽ കൊല്ലം വരെ)",
+        "പമ്പാ ജലപാത കനാൽ",
+        "ബേപ്പൂർ - തലശ്ശേരി കനാൽ",
+        "പെരിയാർ - ഭാരതപ്പുഴ കനാൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "National Waterway 3 runs along the West Coast Canal from Kottapuram to Kollam, alongside the Udyogmandal and Champakkara canals.",
+      "ml": "കോട്ടപ്പുറം മുതൽ കൊല്ലം വരെയുള്ള പശ്ചിമതീര കനാലും ഉദ്യോഗമണ്ഡൽ, ചമ്പക്കര കനാലുകളുമാണ് ദേശീയ ജലപാത 3-ന്റെ ഭാഗമായി വികസിപ്പിച്ചിട്ടുള്ളത്."
+    },
+    "source": "Inland Waterways Authority of India (IWAI), National Waterways Act",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-027",
+    "subject": "geo",
+    "topic": "Lakes and backwaters",
+    "difficulty": 2,
+    "q": {
+      "en": "The saltwater barrier built across Vembanad Lake to prevent seawater intrusion into Kuttanad is:",
+      "ml": "കുട്ടനാട്ടിലെ കൃഷിയിടങ്ങളിലേക്ക് ഉപ്പുവെള്ളം കയറുന്നത് തടയാൻ വേമ്പനാട്ട് കായലിന് കുറുകെ നിർമ്മിച്ച ബണ്ട് ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Thanneermukkom Bund",
+        "Thottappally Spillway",
+        "Kattampally Regulator",
+        "Asramam Barrier"
+      ],
+      "ml": [
+        "തണ്ണീർമുക്കം ബണ്ട്",
+        "തോട്ടപ്പള്ളി സ്പിൽവേ",
+        "കാട്ടാമ്പള്ളി റെഗുലേറ്റർ",
+        "ആശ്രാമം ബാരിയർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Thanneermukkom Salt Water Barrier was constructed to divide Vembanad Lake into a freshwater southern part and a brackish northern part.",
+      "ml": "വേമ്പനാട്ട് കായലിലെ കുട്ടനാടൻ മേഖലയിലേക്ക് കടലിൽ നിന്നുള്ള ഉപ്പുവെള്ളം കയറുന്നത് തടയാനാണ് തണ്ണീർമുക്കം ബണ്ട് നിർമ്മിച്ചത്."
+    },
+    "source": "Kerala Irrigation Department; Kuttanad Package Report",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-028",
+    "subject": "geo",
+    "topic": "Lakes and backwaters",
+    "difficulty": 3,
+    "q": {
+      "en": "How many wetland sites in Kerala are designated as Ramsar Wetlands of International Importance?",
+      "ml": "കേരളത്തിൽ അന്താരാഷ്ട്ര പ്രാധാന്യമുള്ള റാംസർ തണ്ണീർത്തടങ്ങളായി അംഗീകരിക്കപ്പെട്ട എത്ര സൈറ്റുകളുണ്ട്?"
+    },
+    "options": {
+      "en": [
+        "3",
+        "5",
+        "2",
+        "7"
+      ],
+      "ml": [
+        "3",
+        "5",
+        "2",
+        "7"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kerala has 3 designated Ramsar sites: Vembanad-Kol wetland, Ashtamudi Lake, and Sasthamkotta Lake, all designated in November 2002.",
+      "ml": "വേമ്പനാട്-കോൾ തണ്ണീർത്തടം, അഷ്ടമുടിക്കായൽ, ശാസ്താംകോട്ട കായൽ എന്നിവയാണ് കേരളത്തിലെ 3 റാംസർ തണ്ണീർത്തടങ്ങൾ (2002-ൽ പ്രഖ്യാപിക്കപ്പെട്ടവ)."
+    },
+    "source": "Ramsar Convention on Wetlands Official List; MoEFCC",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-029",
+    "subject": "geo",
+    "topic": "Climate and soils",
+    "difficulty": 1,
+    "q": {
+      "en": "The Southwest Monsoon rainfall season arriving in Kerala around June is locally called:",
+      "ml": "ജൂൺ മാസത്തോടെ കേരളത്തിൽ എത്തുന്ന തെക്കുപടിഞ്ഞാറൻ മൺസൂൺ കാലവർഷം പ്രാദേശികമായി അറിയപ്പെടുന്നത് എങ്ങനെയാണ്?"
+    },
+    "options": {
+      "en": [
+        "Edavappathi",
+        "Thulavarsham",
+        "Kaal Baisakhi",
+        "Mango showers"
+      ],
+      "ml": [
+        "ഇടവപ്പാതി",
+        "തുലാവർഷം",
+        "കാൽ ബൈശാഖി",
+        "മാംഗോ ഷവേഴ്സ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The southwest monsoon begins in the Malayalam month of Edavam (late May or early June) and is commonly termed Edavappathi.",
+      "ml": "മലയാള മാസം ഇടവപ്പാതിയോടെ ആരംഭിക്കുന്നതിനാലാണ് തെക്കുപടിഞ്ഞാറൻ മൺസൂണിനെ ഇടവപ്പാതി എന്ന് വിളിക്കുന്നത്."
+    },
+    "source": "SCERT Kerala Class 9 Social Science (Climate of Kerala); IMD",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-030",
+    "subject": "geo",
+    "topic": "Climate and soils",
+    "difficulty": 1,
+    "q": {
+      "en": "The Northeast Monsoon season that brings post-monsoon rain to Kerala in October–November is termed:",
+      "ml": "ഒക്ടോബർ-നവംബർ മാസങ്ങളിൽ കേരളത്തിൽ തുലാം മാസത്തിൽ പെയ്യുന്ന വടക്കുകിഴക്കൻ മൺസൂൺ മഴ അറിയപ്പെടുന്നത്:"
+    },
+    "options": {
+      "en": [
+        "Thulavarsham",
+        "Edavappathi",
+        "Loo",
+        "Norwesters"
+      ],
+      "ml": [
+        "തുലാവർഷം",
+        "ഇടവപ്പാതി",
+        "ലൂ",
+        "നോർവെസ്റ്റേഴ്സ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The retreating northeast monsoon rains occurring mainly during the Malayalam month of Thulam are called Thulavarsham.",
+      "ml": "തുലാം മാസത്തിൽ പെയ്യുന്ന വടക്കുകിഴക്കൻ മൺസൂൺ മഴയെയാണ് തുലാവർഷം എന്ന് വിളിക്കുന്നത്."
+    },
+    "source": "SCERT Kerala Class 9 Social Science; India Meteorological Department",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-031",
+    "subject": "geo",
+    "topic": "Climate and soils",
+    "difficulty": 2,
+    "q": {
+      "en": "Which soil type covers the largest geographical area in Kerala?",
+      "ml": "കേരളത്തിൽ ഏറ്റവും കൂടുതൽ പ്രദേശത്ത് കാണപ്പെടുന്ന മണ്ണ് ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Laterite soil",
+        "Alluvial soil",
+        "Black soil",
+        "Red sandy soil"
+      ],
+      "ml": [
+        "ലാറ്ററൈറ്റ് മണ്ണ് (വെട്ടുകൽ മണ്ണ്)",
+        "എക്കൽ മണ്ണ്",
+        "കരിമണ്ണ്",
+        "ചുവന്ന മണൽമണ്ണ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Laterite soil covers about 65% of the total land area of Kerala, formed by intense leaching under alternate wet and dry tropical conditions.",
+      "ml": "കേരളത്തിന്റെ ഭൂവിസ്തൃതിയുടെ 65 ശതമാനത്തോളം ഭാഗത്തും കാണപ്പെടുന്നത് വെട്ടുകൽ മണ്ണാണ് (ലാറ്ററൈറ്റ് മണ്ണ്)."
+    },
+    "source": "Kerala State Land Use Board, Soils of Kerala; Department of Agriculture",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-032",
+    "subject": "geo",
+    "topic": "Climate and soils",
+    "difficulty": 2,
+    "q": {
+      "en": "Black soil (regur) in Kerala is primarily found in which district?",
+      "ml": "കേരളത്തിൽ കരിമണ്ണ് പ്രധാനമായും കാണപ്പെടുന്നത് ഏത് ജില്ലയിലാണ്?"
+    },
+    "options": {
+      "en": [
+        "Palakkad",
+        "Alappuzha",
+        "Wayanad",
+        "Idukki"
+      ],
+      "ml": [
+        "പാലക്കാട്",
+        "ആലപ്പുഴ",
+        "വയനാട്",
+        "ഇടുക്കി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Pockets of black cotton soil in Kerala are concentrated in the Chittur region of Palakkad district adjacent to Tamil Nadu.",
+      "ml": "പാലക്കാട് ജില്ലയിലെ ചിറ്റൂർ മേഖലയിലാണ് കേരളത്തിൽ കരിമണ്ണ് പ്രധാനമായും കണ്ടുവരുന്നത്."
+    },
+    "source": "Kerala State Land Use Board; SCERT Kerala Social Science Class 10",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-033",
+    "subject": "geo",
+    "topic": "Climate and soils",
+    "difficulty": 3,
+    "q": {
+      "en": "The deep black, organic-rich acid sulfate soils found in low-lying depressions of Kuttanad are called:",
+      "ml": "കുട്ടനാട്ടിലെ താഴ്ന്ന പ്രദേശങ്ങളിൽ കാണപ്പെടുന്ന ജൈവാംശം കൂടിയതും അമ്ലഗുണമുള്ളതുമായ കറുത്ത മണ്ണ് ഏത് പേരിലാണ് അറിയപ്പെടുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Kari soils",
+        "Black cotton soils",
+        "Red loam soils",
+        "Sandy regosols"
+      ],
+      "ml": [
+        "കരിമണ്ണ് (കരിനിലങ്ങൾ)",
+        "കറുത്ത പരുത്തി മണ്ണ്",
+        "ചെമ്മണ്ണ്",
+        "മണൽമണ്ണ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kari soils are acidic peat soils containing high organic matter, characteristic of the low-lying wetland depressions of Kuttanad.",
+      "ml": "കുട്ടനാട്ടിലെ ചില പ്രത്യേക താഴ്ന്ന പ്രദേശങ്ങളിൽ കാണപ്പെടുന്ന ജൈവാംശം നിറഞ്ഞ അസിഡിക് സ്വഭാവമുള്ള മണ്ണാണ് കരിമണ്ണ്."
+    },
+    "source": "Kerala Agricultural University (KAU) Soils Handbook; Kerala State Land Use Board",
+    "verified": false,
+    "needsReview": true
+  },
+  {
+    "id": "geo-034",
+    "subject": "geo",
+    "topic": "Climate and soils",
+    "difficulty": 3,
+    "q": {
+      "en": "Under the Köppen climate classification, the predominant climate type of coastal and lowland Kerala is:",
+      "ml": "കോപ്പന്റെ കാലാവസ്ഥാ വർഗ്ഗീകരണ പ്രകാരം കേരളത്തിന്റെ തീരദേശങ്ങളിലും സമതലങ്ങളിലും അനുഭവപ്പെടുന്ന കാലാവസ്ഥ ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Tropical monsoon climate (Am)",
+        "Tropical wet and dry (Aw)",
+        "Subtropical humid (Cwa)",
+        "Semi-arid steppe (BSh)"
+      ],
+      "ml": [
+        "ഉഷ്ണമേഖലാ മൺസൂൺ കാലാവസ്ഥ (Am)",
+        "ഉഷ്ണമേഖലാ സാവന്ന കാലാവസ്ഥ (Aw)",
+        "ഉപോഷ്ണമേഖലാ ആർദ്ര കാലാവസ്ഥ (Cwa)",
+        "വരണ്ട പുൽമേട് കാലാവസ്ഥ (BSh)"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kerala's coastal and plain regions experience a tropical monsoon climate designated as 'Am' under the Köppen system, characterized by heavy seasonal rain.",
+      "ml": "കോപ്പന്റെ വർഗ്ഗീകരണത്തിൽ 'Am' എന്നറിയപ്പെടുന്ന ഉഷ്ണമേഖലാ മൺസൂൺ കാലാവസ്ഥയാണ് കേരളത്തിൽ പൊതുവേ അനുഭവപ്പെടുന്നത്."
+    },
+    "source": "NCERT Class 11 Geography (India: Physical Environment, Chapter 4)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-035",
+    "subject": "geo",
+    "topic": "Physiography of India",
+    "difficulty": 1,
+    "q": {
+      "en": "The Standard Meridian of India passes through which longitude?",
+      "ml": "ഇന്ത്യയുടെ സ്റ്റാൻഡേർഡ് മെറിഡിയൻ ഏത് രേഖാംശത്തിലൂടെയാണ് കടന്നുപോകുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "82° 30' E",
+        "75° 00' E",
+        "90° 30' E",
+        "68° 07' E"
+      ],
+      "ml": [
+        "82° 30' കിഴക്ക്",
+        "75° 00' കിഴക്ക്",
+        "90° 30' കിഴക്ക്",
+        "68° 07' കിഴക്ക്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The 82°30' E longitude passing near Mirzapur (Uttar Pradesh) is chosen as the standard meridian for Indian Standard Time (IST).",
+      "ml": "ഉത്തർപ്രദേശിലെ മിർസാപൂരിലൂടെ കടന്നുപോകുന്ന 82°30' കിഴക്കൻ രേഖാംശമാണ് ഇന്ത്യൻ സ്റ്റാൻഡേർഡ് സമയത്തിന്റെ (IST) മാനക രേഖാംശം."
+    },
+    "source": "NCERT Class 9 Geography (Contemporary India - I, Chapter 1)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-036",
+    "subject": "geo",
+    "topic": "Physiography of India",
+    "difficulty": 2,
+    "q": {
+      "en": "The Tropic of Cancer (23° 30' N) passes through how many Indian states?",
+      "ml": "ഉത്തരായനരേഖ (23° 30' N) എത്ര ഇന്ത്യൻ സംസ്ഥാനങ്ങളിലൂടെയാണ് കടന്നുപോകുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "ml": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+      "ml": "ഗുജറാത്ത്, രാജസ്ഥാൻ, മധ്യപ്രദേശ്, ഛത്തീസ്ഗഡ്, ഝാർഖണ്ഡ്, പശ്ചിമബംഗാൾ, ത്രിപുര, മിസോറാം എന്നീ 8 സംസ്ഥാനങ്ങളിലൂടെ ഉത്തരായനരേഖ കടന്നുപോകുന്നു."
+    },
+    "source": "NCERT Class 9 Geography, Chapter 1; Survey of India",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-037",
+    "subject": "geo",
+    "topic": "Physiography of India",
+    "difficulty": 2,
+    "q": {
+      "en": "Which mountain range acts as the main water divide between Arabian Sea and Bay of Bengal rivers in South India?",
+      "ml": "ദക്ഷിണേന്ത്യയിൽ അറബിക്കടലിലേക്കും ബംഗാൾ ഉൾക്കടലിലേക്കും ഒഴുകുന്ന നദികൾക്കിടയിലെ പ്രധാന ജലവിഭജനമായി വർത്തിക്കുന്ന പർവ്വതനിര ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Western Ghats",
+        "Aravalli Range",
+        "Satpura Range",
+        "Vindhya Range"
+      ],
+      "ml": [
+        "പശ്ചിമഘട്ടം",
+        "ആരവല്ലി നിരകൾ",
+        "സാത്പുര നിരകൾ",
+        "വിന്ധ്യ നിരകൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Western Ghats form the primary water divide for peninsular rivers like Godavari, Krishna, and Cauvery.",
+      "ml": "ഗോദാവരി, കൃഷ്ണ, കാവേരി തുടങ്ങിയ ഉപദ്വീപീയ നദികളുടെ പ്രധാന ജലവിഭജനമായി പ്രവർത്തിക്കുന്നത് പശ്ചിമഘട്ടമാണ്."
+    },
+    "source": "NCERT Class 11 Geography (India: Physical Environment, Chapter 3)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-038",
+    "subject": "geo",
+    "topic": "Physiography of India",
+    "difficulty": 2,
+    "q": {
+      "en": "Majuli, a large inhabited river island, is situated on which river in India?",
+      "ml": "ഇന്ത്യയിലെ പ്രശസ്തമായ നദീദ്വീപായ മാജുലി ഏത് നദിയിലാണ് സ്ഥിതി ചെയ്യുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Brahmaputra",
+        "Ganga",
+        "Godavari",
+        "Indus"
+      ],
+      "ml": [
+        "ബ്രഹ്മപുത്ര",
+        "ഗംഗ",
+        "ഗോദാവരി",
+        "സിന്ധു"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Majuli is an inhabited freshwater river island located in the Brahmaputra river in Assam.",
+      "ml": "അസമിലെ ബ്രഹ്മപുത്രാ നദിയിൽ സ്ഥിതി ചെയ്യുന്ന വലിയ ശുദ്ധജല നദീദ്വീപാണ് മാജുലി."
+    },
+    "source": "NCERT Class 9 Geography, Chapter 2 (Physical Features of India)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-039",
+    "subject": "geo",
+    "topic": "Physiography of India",
+    "difficulty": 3,
+    "q": {
+      "en": "What is the name of the southernmost point of the Indian Union, situated in the Great Nicobar Island?",
+      "ml": "ഗ്രേറ്റ് നിക്കോബാർ ദ്വീപിൽ സ്ഥിതി ചെയ്യുന്ന ഇന്ത്യൻ യൂണിയന്റെ ഏറ്റവും തെക്കേയറ്റത്തെ ബിന്ദു ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Indira Point",
+        "Kanyakumari",
+        "Kibithu",
+        "Sir Creek"
+      ],
+      "ml": [
+        "ഇന്ദിരാ പോയിന്റ്",
+        "കന്യാകുമാരി",
+        "കിബിത്തു",
+        "സർ ക്രീക്ക്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Indira Point (6°45' N) on Great Nicobar Island is the southernmost point of Indian territory, while Kanyakumari is the southernmost point of mainland India.",
+      "ml": "ഗ്രേറ്റ് നിക്കോബാർ ദ്വീപിലുള്ള ഇന്ദിരാ പോയിന്റാണ് ഇന്ത്യൻ പ്രദേശത്തിന്റെ ഏറ്റവും തെക്കേയറ്റത്തെ ബിന്ദു; കന്യാകുമാരി ഇന്ത്യൻ പ്രധാന കരഭൂമിയുടെ തെക്കേയറ്റമാണ്."
+    },
+    "source": "NCERT Class 9 Geography, Chapter 1 (India - Size and Location)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "geo-040",
+    "subject": "geo",
+    "topic": "Physiography of India",
+    "difficulty": 3,
+    "q": {
+      "en": "Which maritime channel separates the Lakshadweep island of Minicoy from the Maldives?",
+      "ml": "ലക്ഷദ്വീപിലെ മിനിക്കോയി ദ്വീപിനെയും മാലിദ്വീപിനെയും തമ്മിൽ വേർതിരിക്കുന്ന സമുദ്ര ചാനൽ ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Eight Degree Channel (8° Channel)",
+        "Nine Degree Channel (9° Channel)",
+        "Ten Degree Channel (10° Channel)",
+        "Palk Strait"
+      ],
+      "ml": [
+        "എട്ട് ഡിഗ്രി ചാനൽ (8° ചാനൽ)",
+        "ഒൻപത് ഡിഗ്രി ചാനൽ (9° ചാനൽ)",
+        "പത്ത് ഡിഗ്രി ചാനൽ (10° ചാനൽ)",
+        "പാക്ക് കടലിടുക്ക്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Eight Degree Channel separates Minicoy from the Maldives, while the Nine Degree Channel separates Minicoy from the main Lakshadweep islands.",
+      "ml": "മിനിക്കോയി ദ്വീപിനെയും മാലിദ്വീപിനെയും വേർതിരിക്കുന്നത് എട്ട് ഡിഗ്രി ചാനലാണ്; മിനിക്കോയിയെ മറ്റ് ലക്ഷദ്വീപ് ദ്വീപുകളിൽ നിന്ന് വേർതിരിക്കുന്നത് ഒൻപത് ഡിഗ്രി ചാനലാണ്."
+    },
+    "source": "NCERT Class 11 Geography (India: Physical Environment, Chapter 2); Survey of India",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-007",
+    "subject": "sci",
+    "topic": "Human body and vitamins",
+    "difficulty": 1,
+    "q": {
+      "en": "Deficiency of Vitamin D in growing children leads to which disease?",
+      "ml": "കുട്ടികളിൽ വിറ്റാമിൻ D-യുടെ അഭാവം മൂലം ഉണ്ടാകുന്ന രോഗം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Rickets",
+        "Beriberi",
+        "Goitre",
+        "Pellagra"
+      ],
+      "ml": [
+        "റിക്കറ്റ്സ് (കണകരോഗം)",
+        "ബെറിബെറി",
+        "ഗോയിറ്റർ",
+        "പെല്ലഗ്ര"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Vitamin D helps bones absorb calcium; its deficiency causes bones to become soft and bend easily, known as rickets.",
+      "ml": "ശരീരത്തിൽ കാൽസ്യം ആഗിരണം ചെയ്യാൻ വിറ്റാമിൻ D ആവശ്യമാണ്; ഇതിന്റെ കുറവ് മൂലം കുട്ടികളിൽ എല്ലുകൾക്ക് ബലക്ഷയമുണ്ടാകുന്ന രോഗമാണ് റിക്കറ്റ്സ്."
+    },
+    "source": "NCERT Science Class 6 (Components of Food); SCERT Kerala Basic Science Class 7",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-008",
+    "subject": "sci",
+    "topic": "Human body and vitamins",
+    "difficulty": 1,
+    "q": {
+      "en": "Night blindness (poor vision in dim light) is caused by the dietary deficiency of which vitamin?",
+      "ml": "രാത്രികാലങ്ങളിൽ കാഴ്ചക്കുറവുണ്ടാകുന്ന നിശാന്ധത ഏത് വിറ്റാമിന്റെ കുറവ് മൂലമാണ് ഉണ്ടാകുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin K"
+      ],
+      "ml": [
+        "വിറ്റാമിൻ A",
+        "വിറ്റാമിൻ B12",
+        "വിറ്റാമിൻ C",
+        "വിറ്റാമിൻ K"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Vitamin A is essential for the formation of visual pigments like rhodopsin in retinal rod cells; its deficiency impairs night vision.",
+      "ml": "റെറ്റിനയിലെ റോഡ് കോശങ്ങളിലുള്ള റോഡോപ്സിൻ എന്ന വർണ്ണകത്തിന്റെ നിർമ്മാണത്തിന് വിറ്റാമിൻ A ആവശ്യമാണ്. ഇതിന്റെ കുറവ് നിശാന്ധതയ്ക്ക് കാരണമാകുന്നു."
+    },
+    "source": "NCERT Science Class 6, Chapter 2; SCERT Kerala Biology Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-009",
+    "subject": "sci",
+    "topic": "Human body and vitamins",
+    "difficulty": 2,
+    "q": {
+      "en": "Which is the largest internal gland in the human body?",
+      "ml": "മനുഷ്യ ശരീരത്തിലെ ഏറ്റവും വലിയ ഗ്രന്ഥി ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Liver",
+        "Pancreas",
+        "Thyroid",
+        "Pituitary"
+      ],
+      "ml": [
+        "കരൾ",
+        "പാൻക്രിയാസ്",
+        "തൈറോയ്ഡ്",
+        "പിറ്റ്യൂട്ടറി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The liver is the largest internal organ and gland in the human body, weighing about 1.2 to 1.5 kg in an adult.",
+      "ml": "മനുഷ്യ ശരീരത്തിലെ ഏറ്റവും വലിയ ആന്തരികാവയവവും ഗ്രന്ഥിയുമാണ് കരൾ."
+    },
+    "source": "NCERT Science Class 10 (Life Processes); SCERT Kerala Biology Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-010",
+    "subject": "sci",
+    "topic": "Human body and vitamins",
+    "difficulty": 2,
+    "q": {
+      "en": "Where is bile produced by the liver stored and concentrated before entering the intestine?",
+      "ml": "കരൾ ഉത്പാദിപ്പിക്കുന്ന പിത്തരസം (ബൈൽ) ചെറുകുടലിലേക്ക് എത്തുന്നതിന് മുൻപ് സൂക്ഷിച്ചുവെക്കുന്നത് എവിടെയാണ്?"
+    },
+    "options": {
+      "en": [
+        "Gallbladder",
+        "Stomach",
+        "Spleen",
+        "Appendix"
+      ],
+      "ml": [
+        "പിത്താശയം (ഗാൾബ്ലാഡർ)",
+        "ആമാശയം",
+        "പ്ലീഹ",
+        "അപ്പൻഡിക്സ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Bile produced by liver hepatocytes is stored and concentrated in the gallbladder until released into the duodenum to emulsify fats.",
+      "ml": "കരൾ നിർമ്മിക്കുന്ന പിത്തരസം പിത്താശയത്തിൽ ശേഖരിക്കപ്പെടുകയും ആവശ്യമുള്ളപ്പോൾ ചെറുകുടലിലേക്ക് സ്രവിപ്പിക്കപ്പെടുകയും ചെയ്യുന്നു."
+    },
+    "source": "NCERT Biology Class 11 (Digestion and Absorption); SCERT Kerala Biology Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-011",
+    "subject": "sci",
+    "topic": "Human body and vitamins",
+    "difficulty": 3,
+    "q": {
+      "en": "Which digestive enzyme present in human saliva begins the breakdown of starch into maltose?",
+      "ml": "മനുഷ്യന്റെ ഉമിനീരിലടങ്ങിയിരിക്കുന്ന അന്നജത്തെ മാൾട്ടോസാക്കി മാറ്റാൻ സഹായിക്കുന്ന എൻസൈം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Salivary amylase (Ptyalin)",
+        "Pepsin",
+        "Trypsin",
+        "Lipase"
+      ],
+      "ml": [
+        "സലൈവറി അമിലേസ് (ടയാലിൻ)",
+        "പെപ്സിൻ",
+        "ട്രിപ്സിൻ",
+        "ലൈപേസ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Salivary amylase (also known as ptyalin) digests complex starch molecules into simpler disaccharides like maltose in the mouth.",
+      "ml": "ഉമിനീരിലെ സലൈവറി അമിലേസ് (ടയാലിൻ) അന്നജത്തെ വിഘടിപ്പിച്ച് മാൾട്ടോസ് ആക്കി മാറ്റുന്നു."
+    },
+    "source": "NCERT Science Class 10 (Life Processes); SCERT Kerala Biology Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-012",
+    "subject": "sci",
+    "topic": "Human body and vitamins",
+    "difficulty": 3,
+    "q": {
+      "en": "Which of the following is a water-soluble vitamin?",
+      "ml": "താഴെ പറയുന്നവയിൽ ജലത്തിൽ ലയിക്കുന്ന വിറ്റാമിൻ ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "ml": [
+        "വിറ്റാമിൻ C",
+        "വിറ്റാമിൻ A",
+        "വിറ്റാമിൻ D",
+        "വിറ്റാമിൻ K"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Vitamins B-complex and C are water-soluble, whereas vitamins A, D, E, and K are fat-soluble.",
+      "ml": "വിറ്റാമിൻ B കോംപ്ലക്സും വിറ്റാമിൻ C-യും ജലത്തിൽ ലയിക്കുന്നവയാണ്; വിറ്റാമിൻ A, D, E, K എന്നിവ കൊഴുപ്പിൽ ലയിക്കുന്നവയാണ്."
+    },
+    "source": "NCERT Chemistry Class 12 (Biomolecules); SCERT Kerala Basic Science Class 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-013",
+    "subject": "sci",
+    "topic": "Units and motion",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the SI base unit of electric current?",
+      "ml": "വൈദ്യുത പ്രവാഹ തീവ്രതയുടെ (ഇലക്ട്രിക് കറന്റ്) SI അടിസ്ഥാന യൂണിറ്റ് ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Coulomb"
+      ],
+      "ml": [
+        "ആമ്പിയർ",
+        "വോൾട്ട്",
+        "ഓം",
+        "കൂളോം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The ampere (symbol: A) is the International System of Units (SI) base unit of electric current.",
+      "ml": "വൈദ്യുത പ്രവാഹ തീവ്രതയുടെ SI യൂണിറ്റാണ് ആമ്പിയർ (A)."
+    },
+    "source": "NCERT Science Class 10 (Electricity); BIPM SI Brochure",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-014",
+    "subject": "sci",
+    "topic": "Units and motion",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the SI unit of power?",
+      "ml": "പവറിന്റെ (പ്രവർത്തന നിരക്ക്) SI യൂണിറ്റ് ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Watt",
+        "Joule",
+        "Pascal",
+        "Newton"
+      ],
+      "ml": [
+        "വാട്ട്",
+        "ജൂൾ",
+        "പാസ്കൽ",
+        "ന്യൂട്ടൺ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Power is the rate of doing work or transferring energy; its SI unit is the watt (1 W = 1 J/s).",
+      "ml": "പ്രവൃത്തി ചെയ്യാനുള്ള നിരക്കാണ് പവർ; ഇതിന്റെ SI യൂണിറ്റ് വാട്ട് (W) ആണ് (ഒരു സെക്കൻഡിൽ ഒരു ജൂൾ പ്രവൃത്തി)."
+    },
+    "source": "NCERT Science Class 9 (Work and Energy); SCERT Kerala Physics Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-015",
+    "subject": "sci",
+    "topic": "Units and motion",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the approximate standard acceleration due to gravity on Earth's surface?",
+      "ml": "ഭൂമിയുടെ ഉപരിതലത്തിലെ ശരാശരി ഗുരുത്വാകർഷണ ത്വരണം (g) ഏകദേശം എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "11.2 m/s²",
+        "6.7 m/s²"
+      ],
+      "ml": [
+        "9.8 m/s²",
+        "8.9 m/s²",
+        "11.2 m/s²",
+        "6.7 m/s²"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Standard acceleration due to Earth's gravity is taken as 9.8 m/s² (approx. 9.80665 m/s² at sea level).",
+      "ml": "ഭൂമിയുടെ ഉപരിതലത്തിലെ ശരാശരി ഗുരുത്വാകർഷണ ത്വരണം ഏകദേശം 9.8 m/s² ആണ്."
+    },
+    "source": "NCERT Science Class 9 (Gravitation); SCERT Kerala Physics Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-016",
+    "subject": "sci",
+    "topic": "Units and motion",
+    "difficulty": 2,
+    "q": {
+      "en": "Newton's First Law of Motion defines which fundamental physical property of matter?",
+      "ml": "ന്യൂട്ടന്റെ ഒന്നാം ചലനനിയമം ദ്രവ്യത്തിന്റെ ഏത് അടിസ്ഥാന സവിശേഷതയെയാണ് നിർവചിക്കുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Inertia",
+        "Momentum",
+        "Friction",
+        "Acceleration"
+      ],
+      "ml": [
+        "ജഡത്വം (ഇനർഷ്യ)",
+        "സംവേഗം (മൊമെന്റം)",
+        "ഘർഷണം",
+        "ത്വരണം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Newton's first law states that an object resists any change to its state of rest or uniform motion, which is known as inertia.",
+      "ml": "ഒരു വസ്തുവിന് സ്വയം അതിന്റെ നിശ്ചലാവസ്ഥയ്ക്കോ നേർരേഖാ ചലനാവസ്ഥയ്ക്കോ മാറ്റം വരുത്താനുള്ള കഴിവില്ലായ്മയെ ജഡത്വം എന്ന് വിളിക്കുന്നു; ഇത് ഒന്നാം ചലനനിയമത്തിൽ നിന്നാണ് ലഭിക്കുന്നത്."
+    },
+    "source": "NCERT Science Class 9 (Force and Laws of Motion); SCERT Kerala Physics Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-017",
+    "subject": "sci",
+    "topic": "Units and motion",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the SI unit of frequency of a wave or vibration?",
+      "ml": "ഒരു തരംഗത്തിന്റെ അല്ലെങ്കിൽ കമ്പനത്തിന്റെ ആവൃത്തിയുടെ (ഫ്രീക്വൻസി) SI യൂണിറ്റ് ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Hertz",
+        "Decibel",
+        "Metre",
+        "Tesla"
+      ],
+      "ml": [
+        "ഹെർട്സ്",
+        "ഡെസിബൽ",
+        "മീറ്റർ",
+        "ടെസ്‌ല"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Frequency is measured in hertz (symbol: Hz), where one hertz equals one cycle per second (1 s⁻¹).",
+      "ml": "ഒരു സെക്കൻഡിലുണ്ടാകുന്ന കമ്പനങ്ങളുടെ എണ്ണമാണ് ആവൃത്തി; ഇതിന്റെ SI യൂണിറ്റ് ഹെർട്സ് (Hz) ആണ്."
+    },
+    "source": "NCERT Science Class 9 (Sound); BIPM SI Brochure",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-018",
+    "subject": "sci",
+    "topic": "Units and motion",
+    "difficulty": 3,
+    "q": {
+      "en": "The minimum speed required for an object launched from Earth's surface to escape Earth's gravity without propulsion is approximately:",
+      "ml": "ഭൂമിയുടെ ഉപരിതലത്തിൽ നിന്ന് വിക്ഷേപിക്കുന്ന ഒരു വസ്തു ഭൂഗുരുത്വാകർഷണ വലയത്തിൽ നിന്ന് രക്ഷപ്പെടാൻ ആവശ്യമായ കുറഞ്ഞ പ്രവേഗം (രക്ഷപ്പെടൽ പ്രവേഗം) ഏകദേശം എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "11.2 km/s",
+        "7.9 km/s",
+        "9.8 km/s",
+        "3.0 km/s"
+      ],
+      "ml": [
+        "11.2 km/s",
+        "7.9 km/s",
+        "9.8 km/s",
+        "3.0 km/s"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Earth's escape velocity from its surface is approximately 11.2 km/s, calculated using the formula v = √(2gR).",
+      "ml": "ഭൂമിയുടെ ഉപരിതലത്തിലെ രക്ഷപ്പെടൽ പ്രവേഗം (എസ്കേപ്പ് വെലോസിറ്റി) ഏകദേശം 11.2 km/s ആണ്."
+    },
+    "source": "NCERT Physics Class 11 (Gravitation); SCERT Kerala Physics Class 11",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-019",
+    "subject": "sci",
+    "topic": "Atmosphere and gases",
+    "difficulty": 1,
+    "q": {
+      "en": "Which atmospheric gas do green plants absorb from the air during photosynthesis?",
+      "ml": "പ്രകാശസംശ്ലേഷണ സമയത്ത് ഹരിത സസ്യങ്ങൾ അന്തരീക്ഷത്തിൽ നിന്ന് ആഗിരണം ചെയ്യുന്ന വാതകം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Carbon monoxide",
+        "Ozone"
+      ],
+      "ml": [
+        "കാർബൺ ഡൈ ഓക്സൈഡ്",
+        "നൈട്രജൻ",
+        "കാർബൺ മോണോക്സൈഡ്",
+        "ഓസോൺ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Green plants take in carbon dioxide through stomata to manufacture glucose and release oxygen during photosynthesis.",
+      "ml": "പ്രകാശസംശ്ലേഷണത്തിലൂടെ ആഹാരം നിർമ്മിക്കാൻ സസ്യങ്ങൾ അന്തരീക്ഷത്തിലെ കാർബൺ ഡൈ ഓക്സൈഡ് ഉപയോഗിക്കുകയും ഓക്സിജൻ പുറത്തുവിടുകയും ചെയ്യുന്നു."
+    },
+    "source": "NCERT Science Class 7 (Nutrition in Plants); SCERT Kerala Biology Class 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-020",
+    "subject": "sci",
+    "topic": "Atmosphere and gases",
+    "difficulty": 2,
+    "q": {
+      "en": "In which layer of Earth's atmosphere is the protective ozone layer predominantly found?",
+      "ml": "സൂര്യനിൽ നിന്നുള്ള ഹാനികരമായ അൾട്രാവയലറ്റ് രശ്മികളെ തടയുന്ന ഓസോൺ പാളി അന്തരീക്ഷത്തിന്റെ ഏത് തട്ടിലാണ് സ്ഥിതി ചെയ്യുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "ml": [
+        "സ്ട്രാറ്റോസ്ഫിയർ",
+        "ട്രോപോസ്ഫിയർ",
+        "മീസോസ്ഫിയർ",
+        "തെർമോസ്ഫിയർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The ozone layer is concentrated in the stratosphere between roughly 15 km and 35 km above Earth's surface.",
+      "ml": "ഭൂമിയിൽ നിന്ന് ഏകദേശം 15 മുതൽ 35 കിലോമീറ്റർ വരെ ഉയരത്തിലുള്ള സ്ട്രാറ്റോസ്ഫിയറിലാണ് ഓസോൺ പാളി കേന്ദ്രീകരിച്ചിരിക്കുന്നത്."
+    },
+    "source": "NCERT Class 11 Geography (Composition of Atmosphere); SCERT Kerala Basic Science Class 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-021",
+    "subject": "sci",
+    "topic": "Atmosphere and gases",
+    "difficulty": 2,
+    "q": {
+      "en": "Which gas, after water vapour, contributes most to the greenhouse effect on Earth?",
+      "ml": "നീരാവി കഴിഞ്ഞാൽ ഭൂമിയിലെ ഹരിതഗൃഹ പ്രഭാവത്തിന് ഏറ്റവും കൂടുതൽ കാരണമാകുന്ന വാതകം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Argon",
+        "Nitrogen"
+      ],
+      "ml": [
+        "കാർബൺ ഡൈ ഓക്സൈഡ്",
+        "ഓക്സിജൻ",
+        "ആർഗൺ",
+        "നൈട്രജൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Carbon dioxide (CO₂) is the primary long-lived greenhouse gas in the atmosphere that traps outgoing infrared radiation.",
+      "ml": "ഭൂമിയിൽ നിന്നുള്ള ഇൻഫ്രാറെഡ് വികിരണങ്ങളെ ആഗിരണം ചെയ്ത് ചൂട് നിലനിർത്തുന്നതിൽ നീരാവിക്ക് ശേഷം പ്രധാന പങ്കുവഹിക്കുന്നത് കാർബൺ ഡൈ ഓക്സൈഡാണ്."
+    },
+    "source": "NCERT Science Class 10 (Our Environment); IPCC Reports",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-022",
+    "subject": "sci",
+    "topic": "Atmosphere and gases",
+    "difficulty": 2,
+    "q": {
+      "en": "Which gas is the major chemical component of Compressed Natural Gas (CNG) and biogas?",
+      "ml": "കംപ്രസ്ഡ് നാച്ചുറൽ ഗ്യാസിന്റെയും (CNG) ബയോഗ്യാസിന്റെയും പ്രധാന ഘടകമായ വാതകം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Methane",
+        "Butane",
+        "Propane",
+        "Ethane"
+      ],
+      "ml": [
+        "മീഥെയ്ൻ",
+        "ബ്യൂട്ടെയ്ൻ",
+        "പ്രൊപ്പെയ്ൻ",
+        "ഈഥെയ്ൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Methane (CH₄) constitutes about 75% to 90% of natural gas and is the primary combustible fuel in biogas.",
+      "ml": "പ്രകൃതിവാതകത്തിന്റെയും ബയോഗ്യാസിന്റെയും പ്രധാന ജ്വലന ഘടകം മീഥെയ്ൻ (CH₄) ആണ്."
+    },
+    "source": "NCERT Science Class 10 (Sources of Energy / Carbon and its Compounds); SCERT Kerala Chemistry Class 10",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-023",
+    "subject": "sci",
+    "topic": "Atmosphere and gases",
+    "difficulty": 3,
+    "q": {
+      "en": "Which inert gas is commonly filled in electric incandescent filament bulbs to prevent filament oxidation?",
+      "ml": "വൈദ്യുത ഫിലമെന്റ് ബൾബുകളിൽ ഫിലമെന്റ് കരിഞ്ഞുപോകാതിരിക്കാൻ നിറയ്ക്കുന്ന നിഷ്ക്രിയ വാതകം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Argon",
+        "Oxygen",
+        "Chlorine",
+        "Hydrogen"
+      ],
+      "ml": [
+        "ആർഗൺ",
+        "ഓക്സിജൻ",
+        "ക്ലോറിൻ",
+        "ഹൈഡ്രജൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Argon, often mixed with a small proportion of nitrogen, is chemically unreactive and prolongs the life of the tungsten filament.",
+      "ml": "ഉയർന്ന താപനിലയിൽ ടങ്സ്റ്റൺ ഫിലമെന്റ് ഓക്സീകരിക്കപ്പെടുന്നത് തടയാൻ ബൾബുകളിൽ ആർഗൺ പോലുള്ള നിഷ്ക്രിയ വാതകങ്ങളാണ് നിറയ്ക്കുന്നത്."
+    },
+    "source": "NCERT Science Class 10 (Electricity); SCERT Kerala Physics Class 10",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-024",
+    "subject": "sci",
+    "topic": "Atmosphere and gases",
+    "difficulty": 3,
+    "q": {
+      "en": "Which sulfur-containing chemical compound is added to domestic Liquefied Petroleum Gas (LPG) to detect leaks by smell?",
+      "ml": "ഗാർഹിക എൽ.പി.ജിയിൽ (LPG) വാതകച്ചോർച്ച തിരിച്ചറിയാൻ ദുർഗന്ധത്തിനായി ചേർക്കുന്ന സൾഫർ സംയുക്തം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Ethyl mercaptan (Ethanethiol)",
+        "Methyl alcohol",
+        "Acetone",
+        "Benzene"
+      ],
+      "ml": [
+        "ഈഥൈൽ മെർകാപ്റ്റൻ (ഈഥേൻതയോൾ)",
+        "മീഥൈൽ ആൽക്കഹോൾ",
+        "അസറ്റോൺ",
+        "ബെൻസീൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Pure LPG (butane and propane) is colourless and odourless; ethyl mercaptan (C₂H₅SH) is added as a strong-smelling safety odorant.",
+      "ml": "നിറവും മണവുമില്ലാത്ത എൽ.പി.ജി വാതകച്ചോർച്ച ഉണ്ടായാൽ എളുപ്പം തിരിച്ചറിയാനാണ് തീവ്രമായ ഗന്ധമുള്ള ഈഥൈൽ മെർകാപ്റ്റൻ ചേർക്കുന്നത്."
+    },
+    "source": "NCERT Science Class 10 (Carbon and its Compounds); PNGRB Safety Guidelines",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-025",
+    "subject": "sci",
+    "topic": "Elements and symbols",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the standard chemical symbol for sodium?",
+      "ml": "സോഡിയത്തിന്റെ രാസചിഹ്നം എന്താണ്?"
+    },
+    "options": {
+      "en": [
+        "Na",
+        "So",
+        "Sd",
+        "Sm"
+      ],
+      "ml": [
+        "Na",
+        "So",
+        "Sd",
+        "Sm"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The symbol Na is derived from natrium, the Latin word for sodium compounds.",
+      "ml": "സോഡിയത്തിന്റെ ലാറ്റിൻ നാമമായ നേട്രിയം (natrium) എന്നതിൽ നിന്നാണ് Na എന്ന ചിഹ്നം വന്നത്."
+    },
+    "source": "NCERT Science Class 9 (Atoms and Molecules); IUPAC",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-026",
+    "subject": "sci",
+    "topic": "Elements and symbols",
+    "difficulty": 2,
+    "q": {
+      "en": "Which metallic element is liquid at standard room temperature (25 °C)?",
+      "ml": "സാധാരണ ഊഷ്മാവിൽ (25 °C) ദ്രാവകാവസ്ഥയിൽ കാണപ്പെടുന്ന ലോഹം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Mercury",
+        "Bromine",
+        "Lead",
+        "Aluminium"
+      ],
+      "ml": [
+        "മെർക്കുറി (രസം)",
+        "ബ്രോമിൻ",
+        "ലെഡ് (ഈയം)",
+        "അലുമിനിയം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Mercury (Hg) is the only metal that is liquid at standard room temperature. Bromine is a liquid non-metal.",
+      "ml": "സാധാരണ ഊഷ്മാവിൽ ദ്രാവകാവസ്ഥയിലുള്ള ഒരേയൊരു ലോഹമാണ് മെർക്കുറി. ബ്രോമിൻ ദ്രാവകാവസ്ഥയിലുള്ള അലോഹമാണ്."
+    },
+    "source": "NCERT Science Class 10 (Metals and Non-metals); SCERT Kerala Chemistry Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-027",
+    "subject": "sci",
+    "topic": "Elements and symbols",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the chemical symbol for iron?",
+      "ml": "ഇരുമ്പിന്റെ (അയൺ) രാസചിഹ്നം എന്താണ്?"
+    },
+    "options": {
+      "en": [
+        "Fe",
+        "Ir",
+        "In",
+        "I"
+      ],
+      "ml": [
+        "Fe",
+        "Ir",
+        "In",
+        "I"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The chemical symbol Fe is derived from ferrum, the Latin word for iron.",
+      "ml": "ഇരുമ്പിന്റെ ലാറ്റിൻ നാമമായ ഫെറം (ferrum) എന്നതിൽ നിന്നാണ് Fe എന്ന രാസചിഹ്നം സ്വീകരിച്ചിട്ടുള്ളത്."
+    },
+    "source": "NCERT Science Class 9 (Atoms and Molecules); IUPAC",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-028",
+    "subject": "sci",
+    "topic": "Elements and symbols",
+    "difficulty": 2,
+    "q": {
+      "en": "Which is the most abundant metallic element by mass in Earth's crust?",
+      "ml": "ഭൂവൽക്കത്തിൽ ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്ന ലോഹം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Aluminium",
+        "Iron",
+        "Calcium",
+        "Sodium"
+      ],
+      "ml": [
+        "അലുമിനിയം",
+        "ഇരുമ്പ്",
+        "കാൽസ്യം",
+        "സോഡിയം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Aluminium is the most abundant metal in Earth's continental crust (making up about 8% by mass), followed by iron.",
+      "ml": "ഭൂവൽക്കത്തിൽ ഏറ്റവും സമൃദ്ധമായി കാണപ്പെടുന്ന ലോഹം അലുമിനിയമാണ് (ഏകദേശം 8%); രണ്ടാമത് ഇരുമ്പാണ്."
+    },
+    "source": "NCERT Science Class 10 (Metals and Non-metals); USGS Mineral Information",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-029",
+    "subject": "sci",
+    "topic": "Elements and symbols",
+    "difficulty": 3,
+    "q": {
+      "en": "What is the chemical symbol for potassium?",
+      "ml": "പൊട്ടാസ്യത്തിന്റെ രാസചിഹ്നം എന്താണ്?"
+    },
+    "options": {
+      "en": [
+        "K",
+        "P",
+        "Po",
+        "Pt"
+      ],
+      "ml": [
+        "K",
+        "P",
+        "Po",
+        "Pt"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The symbol K comes from kalium, the neo-Latin name for potassium. P is the symbol for phosphorus.",
+      "ml": "പൊട്ടാസ്യത്തിന്റെ ലാറ്റിൻ നാമമായ കാലിയം (kalium) എന്നതിൽ നിന്നാണ് K എന്ന ചിഹ്നം ലഭിച്ചത്. P എന്നത് ഫോസ്ഫറസിന്റെ ചിഹ്നമാണ്."
+    },
+    "source": "NCERT Science Class 9 (Atoms and Molecules); IUPAC",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-030",
+    "subject": "sci",
+    "topic": "Elements and symbols",
+    "difficulty": 3,
+    "q": {
+      "en": "Which is the lightest and most abundant chemical element in the universe?",
+      "ml": "പ്രപഞ്ചത്തിൽ ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്നതും ഏറ്റവും ഭാരം കുറഞ്ഞതുമായ മൂലകം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Hydrogen",
+        "Helium",
+        "Lithium",
+        "Carbon"
+      ],
+      "ml": [
+        "ഹൈഡ്രജൻ",
+        "ഹീലിയം",
+        "ലിഥിയം",
+        "കാർബൺ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Hydrogen (atomic number 1, symbol H) has an atomic mass of about 1.008 u and makes up roughly 74% of all normal baryonic matter in the universe.",
+      "ml": "അറ്റോമിക നമ്പർ 1 ആയ ഹൈഡ്രജനാണ് പ്രപഞ്ചത്തിൽ ഏറ്റവും കൂടുതലുള്ളതും ഏറ്റവും ഭാരം കുറഞ്ഞതുമായ മൂലകം."
+    },
+    "source": "NCERT Chemistry Class 11 (Hydrogen); SCERT Kerala Chemistry Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-031",
+    "subject": "sci",
+    "topic": "Cell biology",
+    "difficulty": 2,
+    "q": {
+      "en": "The rigid cell wall of plant cells is primarily composed of which carbohydrate?",
+      "ml": "സസ്യകോശങ്ങളുടെ ബാഹ്യ ആവരണമായ കോശഭിത്തി പ്രധാനമായും നിർമ്മിക്കപ്പെട്ടിരിക്കുന്നത് ഏത് അന്നജത്താലാണ്?"
+    },
+    "options": {
+      "en": [
+        "Cellulose",
+        "Chitin",
+        "Glycogen",
+        "Keratin"
+      ],
+      "ml": [
+        "സെല്ലുലോസ്",
+        "കൈറ്റിൻ",
+        "ഗ്ലൈക്കോജൻ",
+        "കെരാറ്റിൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Plant cell walls are made of fibrous cellulose, providing structural support and shape to plant cells.",
+      "ml": "സസ്യകോശങ്ങൾക്ക് ദൃഢതയും ആകൃതിയും നൽകുന്ന കോശഭിത്തി നിർമ്മിച്ചിരിക്കുന്നത് സെല്ലുലോസ് എന്ന കാർബോഹൈഡ്രേറ്റ് കൊണ്ടാണ്."
+    },
+    "source": "NCERT Science Class 9 (The Fundamental Unit of Life); SCERT Kerala Biology Class 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-032",
+    "subject": "sci",
+    "topic": "Cell biology",
+    "difficulty": 1,
+    "q": {
+      "en": "Which cellular organelles are known as the protein factories of the cell?",
+      "ml": "കോശത്തിലെ പ്രോട്ടീൻ നിർമ്മാണ കേന്ദ്രങ്ങൾ എന്നറിയപ്പെടുന്ന കോശാംഗങ്ങൾ ഏവ?"
+    },
+    "options": {
+      "en": [
+        "Ribosomes",
+        "Lysosomes",
+        "Centrosomes",
+        "Vacuoles"
+      ],
+      "ml": [
+        "റൈബോസോമുകൾ",
+        "ലൈസോസോമുകൾ",
+        "സെൻട്രോസോമുകൾ",
+        "ഫേനങ്ങൾ (വാക്യൂളുകൾ)"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Ribosomes synthesize proteins from amino acids using instructions carried by messenger RNA.",
+      "ml": "കോശത്തിനാവശ്യമായ പ്രോട്ടീനുകൾ നിർമ്മിക്കുന്നത് റൈബോസോമുകളാണ്."
+    },
+    "source": "NCERT Science Class 9 (The Fundamental Unit of Life); SCERT Kerala Biology Class 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-033",
+    "subject": "sci",
+    "topic": "Cell biology",
+    "difficulty": 2,
+    "q": {
+      "en": "Which cell organelle containing digestive enzymes is called the 'suicide bag' of the cell?",
+      "ml": "ദഹന എൻസൈമുകൾ അടങ്ങിയിരിക്കുന്നതിനാൽ കോശത്തിന്റെ 'ആത്മഹത്യാ സഞ്ചി' എന്നറിയപ്പെടുന്ന കോശാംഗം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Lysosome",
+        "Peroxisome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "ml": [
+        "ലൈസോസോം",
+        "പെറോക്സിസോം",
+        "ഗോൾഗി ബോഡി",
+        "മൈറ്റോകോൺഡ്രിയ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Lysosomes contain strong hydrolytic enzymes that digest cellular wastes; if a cell is damaged, its lysosomes may burst and digest the cell itself.",
+      "ml": "തീവ്രമായ ദഹന എൻസൈമുകൾ അടങ്ങിയിരിക്കുന്ന ലൈസോസോമുകൾ പൊട്ടി കോശത്തെത്തന്നെ ദഹിപ്പിക്കാൻ സാധ്യതയുള്ളതിനാലാണ് അവയെ ആത്മഹത്യാ സഞ്ചികൾ എന്ന് വിളിക്കുന്നത്."
+    },
+    "source": "NCERT Science Class 9 (The Fundamental Unit of Life); SCERT Kerala Biology Class 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-034",
+    "subject": "sci",
+    "topic": "Cell biology",
+    "difficulty": 2,
+    "q": {
+      "en": "In plant cells, which organelle contains chlorophyll and carries out photosynthesis?",
+      "ml": "സസ്യകോശങ്ങളിൽ ഹരിതകം ഉൾക്കൊള്ളുകയും പ്രകാശസംശ്ലേഷണം നടത്തുകയും ചെയ്യുന്ന കോശാംഗം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Chloroplast",
+        "Chromoplast",
+        "Leucoplast",
+        "Amyloplast"
+      ],
+      "ml": [
+        "ഹരിതകണം (ക്ലോറോപ്ലാസ്റ്റ്)",
+        "വർണ്ണകണം (ക്രോമോപ്ലാസ്റ്റ്)",
+        "ശ്വേതകണം (ല്യൂക്കോപ്ലാസ്റ്റ്)",
+        "അമിലോപ്ലാസ്റ്റ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Chloroplasts are double-membraned plastids containing chlorophyll pigments that capture solar energy for photosynthesis.",
+      "ml": "സൂര്യപ്രകാശം ആഗിരണം ചെയ്യാൻ സഹായിക്കുന്ന ഹരിതകം അടങ്ങിയ ഹരിതകണങ്ങളിലാണ് (ക്ലോറോപ്ലാസ്റ്റ്) പ്രകാശസംശ്ലേഷണം നടക്കുന്നത്."
+    },
+    "source": "NCERT Science Class 9 (The Fundamental Unit of Life); SCERT Kerala Biology Class 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-035",
+    "subject": "sci",
+    "topic": "Cell biology",
+    "difficulty": 3,
+    "q": {
+      "en": "The reductional cell division that halves the chromosome number to produce haploid gametes is called:",
+      "ml": "ക്രോമസോം സംഖ്യ പകുതിയായി കുറച്ച് ഹാപ്ലോയിഡ് ജനനകോശങ്ങൾ (ബീജങ്ങൾ) ഉത്പാദിപ്പിക്കുന്ന കോശവിഭജനം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Meiosis",
+        "Mitosis",
+        "Amitosis",
+        "Binary fission"
+      ],
+      "ml": [
+        "മിയോസിസ് (ഊനഭംഗം)",
+        "മൈറ്റോസിസ് (ക്രമഭംഗം)",
+        "അമൈറ്റോസിസ്",
+        "ദ്വിവിഭജനം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Meiosis reduces chromosome number from diploid (2n) to haploid (n) to ensure chromosome constancy across generations.",
+      "ml": "മാതൃകോശത്തിലെ ക്രോമസോം സംഖ്യ പകുതിയായി കുറച്ച് 4 പുത്രികാകോശങ്ങൾ ഉണ്ടാക്കുന്ന ഊനഭംഗമാണ് (മിയോസിസ്) ലൈംഗിക പ്രത്യുൽപ്പാദനത്തിനായി നടക്കുന്നത്."
+    },
+    "source": "NCERT Biology Class 11 (Cell Cycle and Cell Division); SCERT Kerala Biology Class 10",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-036",
+    "subject": "sci",
+    "topic": "Blood and health",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the normal average core body temperature of a healthy human on the Celsius scale?",
+      "ml": "ആരോഗ്യമുള്ള ഒരു മനുഷ്യന്റെ സാധാരണ ശരീര താപനില സെൽഷ്യസ് അളവിൽ ഏകദേശം എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "37 °C",
+        "32 °C",
+        "42 °C",
+        "98.6 °C"
+      ],
+      "ml": [
+        "37 °C",
+        "32 °C",
+        "42 °C",
+        "98.6 °C"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Normal human body temperature is approximately 37 °C (which corresponds to 98.6 °F).",
+      "ml": "മനുഷ്യന്റെ സാധാരണ ശരീര താപനില ഏകദേശം 37 ഡിഗ്രി സെൽഷ്യസ് (98.6 ഡിഗ്രി ഫാരൻഹീറ്റ്) ആണ്."
+    },
+    "source": "NCERT Science Class 7 (Heat); SCERT Kerala Basic Science Class 7",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-037",
+    "subject": "sci",
+    "topic": "Blood and health",
+    "difficulty": 2,
+    "q": {
+      "en": "Which iron-containing respiratory pigment in red blood cells binds and transports oxygen?",
+      "ml": "ചുവന്ന രക്താണുക്കളിൽ ഓക്സിജൻ സംവഹനം നടത്തുന്ന ഇരുമ്പ് അടങ്ങിയ ശ്വസന വർണ്ണകം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Haemoglobin",
+        "Myoglobin",
+        "Keratin",
+        "Melanin"
+      ],
+      "ml": [
+        "ഹീമോഗ്ലോബിൻ",
+        "മയോഗ്ലോബിൻ",
+        "കെരാറ്റിൻ",
+        "മെലാനിൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Haemoglobin in erythrocytes binds oxygen in the lungs to form oxyhaemoglobin and delivers it to body tissues.",
+      "ml": "രക്തത്തിലെ ചുവന്ന രക്താണുക്കളിലുള്ള ഹീമോഗ്ലോബിനാണ് ശ്വാസകോശത്തിൽ നിന്ന് ശരീരകലകളിലേക്ക് ഓക്സിജൻ എത്തിക്കുന്നത്."
+    },
+    "source": "NCERT Science Class 10 (Life Processes); SCERT Kerala Biology Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-038",
+    "subject": "sci",
+    "topic": "Blood and health",
+    "difficulty": 2,
+    "q": {
+      "en": "Which blood cell components are essential for blood clotting at the site of an injury?",
+      "ml": "ശരീരത്തിൽ മുറിവുണ്ടാകുമ്പോൾ രക്തം കട്ടപിടിക്കാൻ സഹായിക്കുന്ന രക്തഘടകം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Platelets (Thrombocytes)",
+        "Red blood cells (Erythrocytes)",
+        "White blood cells (Leukocytes)",
+        "Plasma albumin"
+      ],
+      "ml": [
+        "പ്ലേറ്റ്‌ലെറ്റുകൾ (ത്രോംബോസൈറ്റുകൾ)",
+        "ചുവന്ന രക്താണുക്കൾ (എറിത്രോസൈറ്റുകൾ)",
+        "ശ്വേത രക്താണുക്കൾ (ല്യൂക്കോസൈറ്റുകൾ)",
+        "പ്ലാസ്മ ആൽബുമിൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Platelets aggregate at injury sites and release clotting factors like thromboplastin to form a protective fibrin blood clot.",
+      "ml": "മുറിവുകളിൽ പ്ലേറ്റ്‌ലെറ്റുകൾ പറ്റിപ്പിടിക്കുകയും ത്രോംബോപ്ലാസ്റ്റിൻ തുടങ്ങിയ ഘടകങ്ങൾ പുറപ്പെടുവിച്ച് രക്തം കട്ടപിടിക്കാൻ സഹായിക്കുകയും ചെയ്യുന്നു."
+    },
+    "source": "NCERT Science Class 10 (Life Processes); SCERT Kerala Biology Class 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-039",
+    "subject": "sci",
+    "topic": "Blood and health",
+    "difficulty": 3,
+    "q": {
+      "en": "Which hormone secreted by beta cells in the islets of Langerhans of the pancreas lowers blood glucose levels?",
+      "ml": "പാൻക്രിയാസിലെ ഐലറ്റ്സ് ഓഫ് ലാംഗർഹാൻസിലെ ബീറ്റാ കോശങ്ങൾ സ്രവിക്കുന്ന രക്തത്തിലെ ഗ്ലൂക്കോസിന്റെ അളവ് കുറയ്ക്കുന്ന ഹോർമോൺ ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Insulin",
+        "Glucagon",
+        "Adrenaline",
+        "Thyroxine"
+      ],
+      "ml": [
+        "ഇൻസുലിൻ",
+        "ഗ്ലൂക്കഗോൺ",
+        "അഡ്രിനാലിൻ",
+        "തൈറോക്സിൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Insulin promotes the uptake of glucose into muscle and liver cells and conversion into glycogen, lowering elevated blood sugar levels.",
+      "ml": "രക്തത്തിലെ അധികമുള്ള ഗ്ലൂക്കോസിനെ ഗ്ലൈക്കോജനാക്കി മാറ്റാൻ പ്രേരിപ്പിച്ച് രക്തത്തിലെ പഞ്ചസാരയുടെ അളവ് നിയന്ത്രിക്കുന്നത് ഇൻസുലിനാണ്."
+    },
+    "source": "NCERT Science Class 10 (Control and Coordination); SCERT Kerala Biology Class 10",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "sci-040",
+    "subject": "sci",
+    "topic": "Blood and health",
+    "difficulty": 3,
+    "q": {
+      "en": "Which of the following infectious diseases is caused by a bacterium?",
+      "ml": "താഴെ പറയുന്നവയിൽ ബാക്ടീരിയ മൂലം ഉണ്ടാകുന്ന സാംക്രമിക രോഗം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Tuberculosis",
+        "Malaria",
+        "Influenza",
+        "Poliomyelitis"
+      ],
+      "ml": [
+        "ക്ഷയരോഗം (ട്യൂബർകുലോസിസ്)",
+        "മലമ്പനി (മലേറിയ)",
+        "ഇൻഫ്ലുവെൻസ",
+        "പോളിയോമൈലിറ്റിസ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis. Malaria is caused by a protozoan parasite, and influenza and polio are caused by viruses.",
+      "ml": "മൈക്കോബാക്ടീരിയം ട്യൂബർകുലോസിസ് എന്ന ബാക്ടീരിയ മൂലമാണ് ക്ഷയരോഗം ഉണ്ടാകുന്നത്. മലേറിയ പ്രോട്ടോസോവ വഴിയും ഇൻഫ്ലുവെൻസയും പോളിയോയും വൈറസ് വഴിയുമാണ് പകരുന്നത്."
+    },
+    "source": "NCERT Science Class 9 (Why Do We Fall Ill); WHO Factsheets",
+    "verified": false,
+    "needsReview": false
   }
 ]

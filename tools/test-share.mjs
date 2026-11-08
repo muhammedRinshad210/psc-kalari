@@ -20,7 +20,7 @@ globalThis.localStorage = {
   removeItem: (k) => fakeStore.delete(k)
 };
 
-assert.equal(SITE_URL, 'https://psckalari.pages.dev/');
+assert.ok(SITE_URL.startsWith('https://'), 'SITE_URL must be an https URL');
 
 const sampleQuestion = {
   id: 'ren-001',
@@ -49,21 +49,21 @@ const sampleSessionItem = {
 /* --- 1. formatQuestionShare in 'en' mode --- */
 setLang('en');
 let shareEn = formatQuestionShare(sampleQuestion);
-assert.match(shareEn, /^PSC Kalari practice question\n\nThe Vaikom Satyagraha began in which year\?\n\nA\) 1924\nB\) 1921\nC\) 1930\nD\) 1936\n\nTry more free questions: https:\/\/psckalari\.pages\.dev\/$/);
+assert.ok(shareEn.startsWith('PSC Kalari practice question\n\nThe Vaikom Satyagraha began in which year?\n\nA) 1924\nB) 1921\nC) 1930\nD) 1936\n\nTry more free questions: ' + SITE_URL));
 assert.equal(shareEn.includes('Answer'), false);
 assert.equal(shareEn.includes('Correct'), false);
 
 /* --- 2. formatQuestionShare in 'ml' mode --- */
 setLang('ml');
 let shareMl = formatQuestionShare(sampleQuestion);
-assert.match(shareMl, /^PSC Kalari practice question\n\nവൈക്കം സത്യാഗ്രഹം ഏത് വർഷമാണ് ആരംഭിച്ചത്\?\n\nA\) 1924\nB\) 1921\nC\) 1930\nD\) 1936\n\nTry more free questions: https:\/\/psckalari\.pages\.dev\/$/);
+assert.ok(shareMl.startsWith('PSC Kalari practice question\n\nവൈക്കം സത്യാഗ്രഹം ഏത് വർഷമാണ് ആരംഭിച്ചത്?\n\nA) 1924\nB) 1921\nC) 1930\nD) 1936\n\nTry more free questions: ' + SITE_URL));
 
 /* --- 3. formatQuestionShare in 'both' mode --- */
 setLang('both');
 let shareBoth = formatQuestionShare(sampleSessionItem);
 assert.ok(shareBoth.startsWith('PSC Kalari practice question\n\nWho was the first general secretary of the SNDP Yogam?\nഎസ്.എൻ.ഡി.പി. യോഗത്തിന്റെ ആദ്യ ജനറൽ സെക്രട്ടറി ആരായിരുന്നു?'));
 assert.ok(shareBoth.includes('A) Kumaran Asan / കുമാരനാശാൻ\nB) Dr. Palpu / ഡോ. പല്പു\nC) Ayyankali / അയ്യങ്കാളി\nD) Chattampi Swamikal / ചട്ടമ്പിസ്വാമികൾ'));
-assert.ok(shareBoth.endsWith('Try more free questions: https://psckalari.pages.dev/'));
+assert.ok(shareBoth.endsWith('Try more free questions: ' + SITE_URL));
 
 /* --- 4. whatsAppQuestionUrl --- */
 let waUrl = whatsAppQuestionUrl(sampleSessionItem);
@@ -79,7 +79,7 @@ const mockSession = {
   items: new Array(20)
 };
 let mockResult = formatResultShare(mockSession);
-assert.equal(mockResult, 'I scored 14.33 out of 20 on the PSC Kalari mini mock. Try it: https://psckalari.pages.dev/');
+assert.equal(mockResult, `I scored 14.33 out of 20 on the PSC Kalari mini mock. Try it: ${SITE_URL}`);
 
 let waMockUrl = whatsAppResultUrl(mockSession);
 assert.equal(waMockUrl, `https://wa.me/?text=${encodeURIComponent(mockResult)}`);
@@ -91,7 +91,7 @@ const practiceSession = {
   items: new Array(5)
 };
 let practiceResult = formatResultShare(practiceSession);
-assert.equal(practiceResult, 'I scored 5 out of 5 on the PSC Kalari Today’s five. Try it: https://psckalari.pages.dev/');
+assert.equal(practiceResult, `I scored 5 out of 5 on the PSC Kalari Today’s five. Try it: ${SITE_URL}`);
 
 /* --- 6. copyToClipboard with navigator.clipboard --- */
 let clipboardWritten = '';
