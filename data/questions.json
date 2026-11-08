@@ -7934,5 +7934,1925 @@
     "source": "Oxford Advanced Learner’s Dictionary",
     "verified": false,
     "needsReview": false
+  },
+  {
+    "id": "ker-007",
+    "subject": "ker",
+    "topic": "Formation of Kerala",
+    "difficulty": 1,
+    "q": {
+      "en": "The state of Kerala was created by merging Travancore-Cochin with the Malabar district and Kasaragod under which legislation?",
+      "ml": "തിരു-കൊച്ചിയും മലബാർ ജില്ലയും കാസർകോടും സംയോജിപ്പിച്ച് കേരള സംസ്ഥാനം രൂപീകരിച്ചത് ഏത് നിയമപ്രകാരമാണ്?"
+    },
+    "options": {
+      "en": [
+        "States Reorganisation Act, 1956",
+        "Government of India Act, 1935",
+        "Indian Independence Act, 1947",
+        "States Merger Act, 1948"
+      ],
+      "ml": [
+        "സംസ്ഥാന പുനഃസംഘടനാ നിയമം, 1956",
+        "ഗവൺമെന്റ് ഓഫ് ഇന്ത്യാ ആക്ട്, 1935",
+        "ഇന്ത്യൻ ഇൻഡിപെൻഡൻസ് ആക്ട്, 1947",
+        "സ്റ്റേറ്റ്സ് ലയന നിയമം, 1948"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Section 5 of the States Reorganisation Act, 1956 provided for the creation of the new State of Kerala on 1 November 1956.",
+      "ml": "1956-ലെ സംസ്ഥാന പുനഃസംഘടനാ നിയമത്തിലെ സെക്ഷൻ 5 പ്രകാരമാണ് 1956 നവംബർ 1-ന് കേരള സംസ്ഥാനം നിലവിൽ വന്നത്."
+    },
+    "source": "States Reorganisation Act, 1956, Section 5; SCERT Class 9 Social Science, Unit 5",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-008",
+    "subject": "ker",
+    "topic": "Formation of Kerala",
+    "difficulty": 2,
+    "q": {
+      "en": "Who was the Chairman of the States Reorganisation Commission appointed in 1953 whose recommendations led to the linguistic formation of Kerala?",
+      "ml": "ഭാഷാടിസ്ഥാനത്തിലുള്ള സംസ്ഥാന പുനഃസംഘടനയ്ക്കായി 1953-ൽ കേന്ദ്ര സർക്കാർ നിയോഗിച്ച കമ്മീഷന്റെ അധ്യക്ഷൻ ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Fazal Ali",
+        "K. M. Panikkar",
+        "H. N. Kunzru",
+        "V. P. Menon"
+      ],
+      "ml": [
+        "ഫസൽ അലി",
+        "കെ. എം. പണിക്കർ",
+        "എച്ച്. എൻ. കുൻസ്രു",
+        "വി. പി. മേനോൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The States Reorganisation Commission was chaired by Justice Fazal Ali, with K. M. Panikkar and H. N. Kunzru as members.",
+      "ml": "ജസ്റ്റിസ് ഫസൽ അലി അധ്യക്ഷനും കെ. എം. പണിക്കർ, എച്ച്. എൻ. കുൻസ്രു എന്നിവർ അംഗങ്ങളുമായിരുന്നു ഈ കമ്മീഷനിൽ."
+    },
+    "source": "Report of the States Reorganisation Commission, 1955; NCERT Class 12 Political Science",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-009",
+    "subject": "ker",
+    "topic": "Formation of Kerala",
+    "difficulty": 2,
+    "q": {
+      "en": "When the princely states of Travancore and Cochin were integrated on 1 July 1949 to form Thiru-Kochi, who was sworn in as its Rajpramukh?",
+      "ml": "1949 ജൂലൈ 1-ന് തിരുവിതാംകൂറും കൊച്ചിയും സംയോജിപ്പിച്ച് തിരു-കൊച്ചി രൂപീകരിച്ചപ്പോൾ അതിന്റെ രാജപ്രമുഖനായി ചുമതലയേറ്റത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Chithira Thirunal Balarama Varma",
+        "Rama Varma Parikshith Thampuran",
+        "Pattom Thanu Pillai",
+        "T. K. Narayana Pillai"
+      ],
+      "ml": [
+        "ചിത്തിര തിരുനാൾ ബാലരാമവർമ്മ",
+        "രാമവർമ്മ പരീക്ഷിത്ത് തമ്പുരാൻ",
+        "പട്ടം താണുപിള്ള",
+        "ടി. കെ. നാരായണപിള്ള"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Maharaja of Travancore, Sree Chithira Thirunal Balarama Varma, became the Rajpramukh of the United State of Travancore and Cochin.",
+      "ml": "തിരുവിതാംകൂർ മഹാരാജാവായിരുന്ന ശ്രീ ചിത്തിര തിരുനാൾ ബാലരാമവർമ്മയാണ് തിരു-കൊച്ചിയുടെ രാജപ്രമുഖനായി സ്ഥാനമേറ്റത്."
+    },
+    "source": "A. Sreedhara Menon, A Survey of Kerala History, Chapter 24; SCERT Class 10 Social Science",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-010",
+    "subject": "ker",
+    "topic": "Formation of Kerala",
+    "difficulty": 3,
+    "q": {
+      "en": "Under the States Reorganisation Act of 1956, four southern taluks of Travancore-Cochin (Thovala, Agastheeswaram, Kalkulam, and Vilavancode) were merged into which state?",
+      "ml": "1956-ലെ സംസ്ഥാന പുനഃസംഘടനാ നിയമപ്രകാരം തിരു-കൊച്ചിയുടെ ഭാഗമായിരുന്ന നാല് തെക്കൻ താലൂക്കുകൾ (തോവാള, അഗസ്തീശ്വരം, കൽക്കുളം, വിളവങ്കോട്) ഏത് സംസ്ഥാനത്തിലേക്കാണ് മാറ്റിയത്?"
+    },
+    "options": {
+      "en": [
+        "Madras State (Tamil Nadu)",
+        "Mysore State (Karnataka)",
+        "Andhra Pradesh",
+        "Bombay State"
+      ],
+      "ml": [
+        "മദ്രാസ് സംസ്ഥാനം (തമിഴ്നാട്)",
+        "മൈസൂർ സംസ്ഥാനം (കർണാടക)",
+        "ആന്ധ്രാപ്രദേശ്",
+        "ബോംബെ സംസ്ഥാനം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "These four Tamil-majority taluks, together with Shenkottai, were transferred to Madras State (later renamed Tamil Nadu).",
+      "ml": "തമിഴ് സംസാരിക്കുന്ന ഭൂരിപക്ഷ പ്രദേശങ്ങൾ എന്ന നിലയിൽ ഈ താലൂക്കുകൾ മദ്രാസ് സംസ്ഥാനത്തിലേക്ക് (ഇന്നത്തെ തമിഴ്നാട്) മാറ്റി."
+    },
+    "source": "States Reorganisation Act, 1956, Section 4; SCERT Class 9 Social Science",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-011",
+    "subject": "ker",
+    "topic": "Formation of Kerala",
+    "difficulty": 1,
+    "q": {
+      "en": "How many revenue districts existed in Kerala on the day of its formation on 1 November 1956?",
+      "ml": "1956 നവംബർ 1-ന് നിലവിൽ വരുമ്പോൾ കേരളത്തിൽ ആകെ എത്ര റവന്യൂ ജില്ലകളാണ് ഉണ്ടായിരുന്നത്?"
+    },
+    "options": {
+      "en": [
+        "5",
+        "7",
+        "9",
+        "14"
+      ],
+      "ml": [
+        "5",
+        "7",
+        "9",
+        "14"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "At formation Kerala had five districts: Thiruvananthapuram, Kollam, Kottayam, Thrissur, and Malabar (Malabar was later split into Kannur, Kozhikode, and Palakkad in January 1957).",
+      "ml": "രൂപീകരണ വേളയിൽ തിരുവനന്തപുരം, കൊല്ലം, കോട്ടയം, തൃശ്ശൂർ, മലബാർ എന്നീ 5 ജില്ലകളാണുണ്ടായിരുന്നത് (1957 ജനുവരിയിൽ മലബാർ വിഭജിച്ച് കണ്ണൂർ, കോഴിക്കോട്, പാലക്കാട് ജില്ലകൾ നിലവിൽ വന്നു)."
+    },
+    "source": "A. Sreedhara Menon, A Survey of Kerala History; Kerala State Land Use Board",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-012",
+    "subject": "ker",
+    "topic": "Chief Ministers",
+    "difficulty": 1,
+    "q": {
+      "en": "Who was the first Prime Minister (Chief Minister) of the United State of Travancore and Cochin (Thiru-Kochi) formed in 1949?",
+      "ml": "1949-ൽ രൂപീകരിച്ച തിരുവിതാംകൂർ-കൊച്ചി (തിരു-കൊച്ചി) സംസ്ഥാനത്തിന്റെ ആദ്യ മുഖ്യമന്ത്രി (പ്രധാനമന്ത്രി) ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "T. K. Narayana Pillai",
+        "C. Kesavan",
+        "Pattom Thanu Pillai",
+        "E. M. S. Namboodiripad"
+      ],
+      "ml": [
+        "ടി. കെ. നാരായണപിള്ള",
+        "സി. കേശവൻ",
+        "പട്ടം താണുപിള്ള",
+        "ഇ. എം. എസ്. നമ്പൂതിരിപ്പാട്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "T. K. Narayana Pillai was the Prime Minister of Travancore and became the first Chief Minister of Thiru-Kochi when the two princely states merged in July 1949.",
+      "ml": "തിരുവിതാംകൂർ പ്രധാനമന്ത്രിയായിരുന്ന ടി. കെ. നാരായണപിള്ളയാണ് 1949 ജൂലൈയിൽ തിരു-കൊച്ചി നിലവിൽ വന്നപ്പോൾ ആദ്യ മുഖ്യമന്ത്രിയായത്."
+    },
+    "source": "Kerala Legislative Assembly (niyamasabha.org); A. Sreedhara Menon, Modern Kerala",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-013",
+    "subject": "ker",
+    "topic": "Chief Ministers",
+    "difficulty": 2,
+    "q": {
+      "en": "In which year was the first elected Communist ministry of Kerala led by E. M. S. Namboodiripad dismissed by the President under Article 356?",
+      "ml": "ഇ. എം. എസ്. നമ്പൂതിരിപ്പാടിന്റെ നേതൃത്വത്തിലുള്ള ആദ്യ കേരള മന്ത്രിസഭയെ ഭരണഘടനയുടെ 356-ാം അനുച്ഛേദപ്രകാരം കേന്ദ്രം പിരിച്ചുവിട്ടത് ഏത് വർഷത്തിലാണ്?"
+    },
+    "options": {
+      "en": [
+        "1959",
+        "1957",
+        "1960",
+        "1962"
+      ],
+      "ml": [
+        "1959",
+        "1957",
+        "1960",
+        "1962"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The EMS ministry was dismissed on 31 July 1959 following the political agitation known as the Liberation Struggle (Vimochana Samaram).",
+      "ml": "വിമോചന സമരത്തെത്തുടർന്ന് 1959 ജൂലൈ 31-നാണ് ആദ്യ ഇ.എം.എസ്. മന്ത്രിസഭ പിരിച്ചുവിടപ്പെട്ടത്."
+    },
+    "source": "Constitution of India Art. 356; Kerala Legislative Assembly (niyamasabha.org); SCERT Class 9 Social Science",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-014",
+    "subject": "ker",
+    "topic": "Chief Ministers",
+    "difficulty": 2,
+    "q": {
+      "en": "Who was the Chief Minister of Kerala when the historic Kerala Land Reforms (Amendment) Act came into effect on 1 January 1970?",
+      "ml": "ചരിത്രപ്രസിദ്ധമായ കേരള ഭൂപരിഷ്കരണ (ഭേദഗതി) നിയമം 1970 ജനുവരി 1-ന് പ്രാബല്യത്തിൽ വരുമ്പോൾ കേരളത്തിന്റെ മുഖ്യമന്ത്രി ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "C. Achutha Menon",
+        "E. M. S. Namboodiripad",
+        "Pattom Thanu Pillai",
+        "R. Sankar"
+      ],
+      "ml": [
+        "സി. അച്യുതമേനോൻ",
+        "ഇ. എം. എസ്. നമ്പൂതിരിപ്പാട്",
+        "പട്ടം താണുപിള്ള",
+        "ആർ. ശങ്കർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The historic land reforms legislation ending landlordism came into force on 1 January 1970 during the tenure of C. Achutha Menon.",
+      "ml": "സി. അച്യുതമേനോൻ മുഖ്യമന്ത്രിയായിരിക്കുമ്പോഴാണ് ജന്മിത്തത്തിന് അറുതിവരുത്തിയ ഭൂപരിഷ്കരണ നിയമം 1970 ജനുവരി 1-ന് പ്രാബല്യത്തിൽ വന്നത്."
+    },
+    "source": "Kerala Land Reforms (Amendment) Act, 1969; Kerala Legislative Assembly records",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-015",
+    "subject": "ker",
+    "topic": "Chief Ministers",
+    "difficulty": 3,
+    "q": {
+      "en": "Which political party did Pattom Thanu Pillai represent when he headed the coalition government of Kerala formed in 1960?",
+      "ml": "1960-ൽ കേരളത്തിൽ അധികാരത്തിൽ വന്ന മുന്നണി മന്ത്രിസഭയുടെ തലവനായപ്പോൾ പട്ടം താണുപിള്ള ഏത് രാഷ്ട്രീയ പാർട്ടിയെയാണ് പ്രതിനിധീകരിച്ചത്?"
+    },
+    "options": {
+      "en": [
+        "Praja Socialist Party (PSP)",
+        "Indian National Congress",
+        "Communist Party of India",
+        "Revolutionary Socialist Party"
+      ],
+      "ml": [
+        "പ്രജാ സോഷ്യലിസ്റ്റ് പാർട്ടി (പി.എസ്.പി.)",
+        "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "കമ്മ്യൂണിസ്റ്റ് പാർട്ടി ഓഫ് ഇന്ത്യ",
+        "റെവല്യൂഷണറി സോഷ്യലിസ്റ്റ് പാർട്ടി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Pattom Thanu Pillai of the Praja Socialist Party (PSP) served as Chief Minister in a coalition with the Congress from 1960 to 1962.",
+      "ml": "പ്രജാ സോഷ്യലിസ്റ്റ് പാർട്ടി നേതാവായിരുന്ന പട്ടം താണുപിള്ളയാണ് കോൺഗ്രസുമായുള്ള സഖ്യത്തിൽ 1960 മുതൽ 1962 വരെ മുഖ്യമന്ത്രിയായിരുന്നത്."
+    },
+    "source": "Kerala Legislative Assembly (niyamasabha.org); A. Sreedhara Menon, Kerala History",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-016",
+    "subject": "ker",
+    "topic": "Chief Ministers",
+    "difficulty": 1,
+    "q": {
+      "en": "Who succeeded Pattom Thanu Pillai as the Chief Minister of Kerala in September 1962?",
+      "ml": "1962 സെപ്റ്റംബറിൽ പട്ടം താണുപിള്ളയ്ക്ക് ശേഷം കേരളത്തിന്റെ മുഖ്യമന്ത്രിയായത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "R. Sankar",
+        "C. Achutha Menon",
+        "K. Karunakaran",
+        "E. M. S. Namboodiripad"
+      ],
+      "ml": [
+        "ആർ. ശങ്കർ",
+        "സി. അച്യുതമേനോൻ",
+        "കെ. കരുണാകരൻ",
+        "ഇ. എം. എസ്. നമ്പൂതിരിപ്പാട്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "R. Sankar served as the third Chief Minister of Kerala from September 1962 until September 1964.",
+      "ml": "1962 സെപ്റ്റംബർ മുതൽ 1964 സെപ്റ്റംബർ വരെ കേരളത്തിന്റെ മൂന്നാമത്തെ മുഖ്യമന്ത്രിയായി ആർ. ശങ്കർ സേവനമനുഷ്ഠിച്ചു."
+    },
+    "source": "Kerala Legislative Assembly (niyamasabha.org)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-017",
+    "subject": "ker",
+    "topic": "Literature and awards",
+    "difficulty": 1,
+    "q": {
+      "en": "Who wrote the renowned Malayalam poem 'Karuna', based on Buddhist lore depicting Upagupta and Vasavadatta?",
+      "ml": "ഉപഗുപ്തന്റെയും വാസവദത്തയുടെയും ബൗദ്ധ കഥയെ ആസ്പദമാക്കി 'കരുണ' എന്ന പ്രശസ്ത കാവ്യം രചിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Kumaran Asan",
+        "Vallathol Narayana Menon",
+        "Ulloor S. Parameswara Iyer",
+        "Changampuzha Krishna Pillai"
+      ],
+      "ml": [
+        "കുമാരനാശാൻ",
+        "വള്ളത്തോൾ നാരായണമേനോൻ",
+        "ഉള്ളൂർ എസ്. പരമേശ്വരയ്യർ",
+        "ചങ്ങമ്പുഴ കൃഷ്ണപിള്ള"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "'Karuna' (1923) was the last major poetic work composed by Mahakavi Kumaran Asan before his death.",
+      "ml": "ഉപഗുപ്തന്റെയും വാസവദത്തയുടെയും കഥ പറയുന്ന 'കരുണ' (1923) കുമാരനാശാന്റെ അവസാനത്തെ പ്രധാന കാവ്യങ്ങളിലൊന്നാണ്."
+    },
+    "source": "SCERT Kerala Class 9 Malayalam; Kerala Sahitya Akademi",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-018",
+    "subject": "ker",
+    "topic": "Literature and awards",
+    "difficulty": 2,
+    "q": {
+      "en": "The highest literary award instituted by the Government of Kerala for comprehensive lifetime contributions to Malayalam literature is:",
+      "ml": "മലയാള സാഹിത്യത്തിന് നൽകിയ സമഗ്ര സംഭാവനകളെ മാനിച്ച് കേരള സർക്കാർ നൽകുന്ന പരമോന്നത സാഹിത്യ പുരസ്കാരം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Ezhuthachan Puraskaram",
+        "Vallathol Puraskaram",
+        "Asan Smaraka Puraskaram",
+        "Vayalar Award"
+      ],
+      "ml": [
+        "എഴുത്തച്ഛൻ പുരസ്കാരം",
+        "വള്ളത്തോൾ പുരസ്കാരം",
+        "ആശാൻ സ്മാരക പുരസ്കാരം",
+        "വയലാർ അവാർഡ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Ezhuthachan Puraskaram was instituted in 1993 by the Department of Cultural Affairs, Government of Kerala.",
+      "ml": "1993-ൽ സാംസ്കാരിക വകുപ്പും കേരള സാഹിത്യ അക്കാദമിയും ചേർന്നാണ് എഴുത്തച്ഛൻ പുരസ്കാരം ഏർപ്പെടുത്തിയത്."
+    },
+    "source": "Department of Cultural Affairs, Government of Kerala (keralaculture.org)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-019",
+    "subject": "ker",
+    "topic": "Literature and awards",
+    "difficulty": 2,
+    "q": {
+      "en": "Who authored the acclaimed novel 'Agnisakshi', which won both the Kendra Sahitya Akademi Award and the inaugural Vayalar Award in 1977?",
+      "ml": "കേന്ദ്ര സാഹിത്യ അക്കാദമി അവാർഡും 1977-ലെ പ്രഥമ വയലാർ അവാർഡും നേടിയ 'അഗ്നിസാക്ഷി' എന്ന നോവൽ രചിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Lalithambika Antharjanam",
+        "Kamala Surayya (Madhavikutty)",
+        "Sarah Joseph",
+        "Sugathakumari"
+      ],
+      "ml": [
+        "ലളിതാംബിക അന്തർജ്ജനം",
+        "കമലാ സുരയ്യ (മാധവിക്കുട്ടി)",
+        "സാറാ ജോസഫ്",
+        "സുഗതകുമാരി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "'Agnisakshi' by Lalithambika Antharjanam depicts social reform and the internal turmoil of Namboodiri women in 20th-century Kerala.",
+      "ml": "നമ്പൂതിരി സമുദായത്തിലെ സ്ത്രീകളുടെ ജീവിതവും സാമൂഹിക മാറ്റവും പ്രമേയമാക്കിയ പ്രശസ്ത നോവലാണ് ലളിതാംബിക അന്തർജ്ജനത്തിന്റെ 'അഗ്നിസാക്ഷി'."
+    },
+    "source": "Kendra Sahitya Akademi Awards Archive; Vayalar Ramavarma Memorial Trust",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-020",
+    "subject": "ker",
+    "topic": "Literature and awards",
+    "difficulty": 3,
+    "q": {
+      "en": "Who wrote the celebrated pastoral elegiac poem 'Ramanan' (1936), one of the best-selling works in Malayalam literature?",
+      "ml": "മലയാള സാഹിത്യത്തിലെ ഏറ്റവും കൂടുതൽ വിറ്റഴിക്കപ്പെട്ട കൃതികളിലൊന്നായ 'രമണൻ' (1936) എന്ന വിലാപകാവ്യം രചിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Changampuzha Krishna Pillai",
+        "Edasseri Govindan Nair",
+        "P. Kunhiraman Nair",
+        "Vailoppilli Sreedhara Menon"
+      ],
+      "ml": [
+        "ചങ്ങമ്പുഴ കൃഷ്ണപിള്ള",
+        "ഇടശ്ശേരി ഗോവിന്ദൻ നായർ",
+        "പി. കുഞ്ഞിരാമൻ നായർ",
+        "വൈലോപ്പിള്ളി ശ്രീധരമേനോൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "'Ramanan' is a pastoral elegy written by Changampuzha Krishna Pillai mourning the tragic death of his poet-friend Edappally Raghavan Pillai.",
+      "ml": "സുഹൃത്തും കവിയുമായിരുന്ന ഇടപ്പള്ളി രാഘവൻപിള്ളയുടെ വേർപാടിൽ ചങ്ങമ്പുഴ കൃഷ്ണപിള്ള രചിച്ച പ്രശസ്ത ഇടയ വിലാപകാവ്യമാണ് 'രമണൻ'."
+    },
+    "source": "SCERT Kerala Class 10 Malayalam; Sahitya Akademi monographs",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-021",
+    "subject": "ker",
+    "topic": "Malayalam language",
+    "difficulty": 1,
+    "q": {
+      "en": "Who is traditionally revered as the 'Father of Modern Malayalam Language' for standardising written Malayalam through the Kilippattu genre?",
+      "ml": "കിളിപ്പാട്ട് പ്രസ്ഥാനത്തിലൂടെ മലയാള ഭാഷയെ നവീകരിക്കുകയും ക്രമപ്പെടുത്തുകയും ചെയ്തതിനാൽ 'മലയാള ഭാഷയുടെ പിതാവ്' എന്ന് വിശേഷിപ്പിക്കപ്പെടുന്നത് ആരെയാണ്?"
+    },
+    "options": {
+      "en": [
+        "Thunchaththu Ramanujan Ezhuthachan",
+        "Cherusseri Namboothiri",
+        "Kunchan Nambiar",
+        "Poonthanam Nambudiri"
+      ],
+      "ml": [
+        "തുഞ്ചത്ത് രാമാനുജൻ എഴുത്തച്ഛൻ",
+        "ചെറുശ്ശേരി നമ്പൂതിരി",
+        "കുഞ്ചൻ നമ്പ്യാർ",
+        "പൂന്താനം നമ്പൂതിരി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Thunchaththu Ezhuthachan shaped modern literary Malayalam through his monumental epics Adhyathma Ramayanam and Mahabharatham Kilippattu.",
+      "ml": "16-ാം നൂറ്റാണ്ടിൽ ജീവിച്ചിരുന്ന തുഞ്ചത്ത് എഴുത്തച്ഛൻ അധ്യാത്മരാമായണം, മഹാഭാരതം കിളിപ്പാട്ടുകളിലൂടെ ആധുനിക മലയാള ഭാഷയുടെ അടിസ്ഥാനശില പാകി."
+    },
+    "source": "SCERT Class 8 Malayalam; A. Sreedhara Menon, Cultural Heritage of Kerala",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-022",
+    "subject": "ker",
+    "topic": "Malayalam language",
+    "difficulty": 2,
+    "q": {
+      "en": "Which 14th-century text written in Sanskrit provides the earliest known grammatical rules and poetic definitions for Manipravalam literature?",
+      "ml": "മണിപ്രവാള സാഹിത്യത്തിന്റെ വ്യാകരണവും ലക്ഷണങ്ങളും പ്രതിപാദിക്കുന്ന 14-ാം നൂറ്റാണ്ടിൽ സംസ്കൃതത്തിൽ രചിക്കപ്പെട്ട ഗ്രന്ഥം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Leelathilakam",
+        "Unnuneeli Sandesam",
+        "Ramacharitham",
+        "Bhasha Bhushanam"
+      ],
+      "ml": [
+        "ലീലാതിലകം",
+        "ഉണ്ണുനീലി സന്ദേശം",
+        "രാമചരിതം",
+        "ഭാഷാഭൂഷണം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Leelathilakam is an anonymous 14th-century treatise setting out rules of grammar and rhetoric for Manipravalam (blend of Malayalam and Sanskrit).",
+      "ml": "'ഭാഷാ സംസ്കൃത യോഗോ മണിപ്രവാളം' എന്ന് നിർവചിച്ചുകൊണ്ട് മണിപ്രവാളത്തിന്റെ വ്യാകരണ നിയമങ്ങൾ വിശദീകരിക്കുന്ന പ്രാചീന ലക്ഷണഗ്രന്ഥമാണ് ലീലാതിലകം."
+    },
+    "source": "SCERT Class 11 Malayalam; Dr. K. M. George, Western Influence on Malayalam",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-023",
+    "subject": "ker",
+    "topic": "Malayalam language",
+    "difficulty": 2,
+    "q": {
+      "en": "Which German missionary compiled the monumental 'Malayalam and English Dictionary' published in 1872?",
+      "ml": "1872-ൽ മംഗലാപുരത്തു നിന്നും പ്രസിദ്ധീകരിച്ച ആധികാരികമായ മലയാളം-ഇംഗ്ലീഷ് നിഘണ്ടു തയ്യാറാക്കിയ ജർമ്മൻ മിഷണറി ആര്?"
+    },
+    "options": {
+      "en": [
+        "Hermann Gundert",
+        "Benjamin Bailey",
+        "Arnos Pathiri (Johann Ernst Hanxleden)",
+        "Clement Peanius"
+      ],
+      "ml": [
+        "ഹെർമൻ ഗുണ്ടർട്ട്",
+        "ബഞ്ചമിൻ ബെയ്‌ലി",
+        "അർണ്ണോസ് പാതിരി",
+        "ക്ലമന്റ് പിയാനിയസ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Dr. Hermann Gundert of the Basel Mission compiled a pioneering Malayalam grammar book and the landmark 1872 Malayalam-English Dictionary.",
+      "ml": "ബാസൽ മിഷൻ പ്രവർത്തകനായ ഡോ. ഹെർമൻ ഗുണ്ടർട്ടാണ് മലയാള വ്യാകരണവും സമഗ്രമായ മലയാളം-ഇംഗ്ലീഷ് നിഘണ്ടുവും തയ്യാറാക്കിയത്."
+    },
+    "source": "Kerala State Gazetteer; SCERT Class 9 Social Science, Unit 'Making of Modern Kerala'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-024",
+    "subject": "ker",
+    "topic": "Malayalam language",
+    "difficulty": 3,
+    "q": {
+      "en": "The modern script of the Malayalam language primarily developed from which ancient South Indian script?",
+      "ml": "മലയാള ഭാഷയുടെ ആധുനിക ലിപി പ്രധാനമായും വികസിച്ചു വന്നത് ഏത് പ്രാചീന ദക്ഷിണേന്ത്യൻ ലിപിയിൽ നിന്നാണ്?"
+    },
+    "options": {
+      "en": [
+        "Grantha script",
+        "Kharosthi script",
+        "Sharada script",
+        "Devanagari script"
+      ],
+      "ml": [
+        "ഗ്രന്ഥ ലിപി",
+        "ഖരോഷ്ഠി ലിപി",
+        "ശാരദാ ലിപി",
+        "ദേവനാഗരി ലിപി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Modern Malayalam script developed through Arya Ezhuttu from the Grantha script, which was used in Southern India to transcribe Sanskrit.",
+      "ml": "ദക്ഷിണേന്ത്യയിൽ സംസ്കൃതം എഴുതാൻ ഉപയോഗിച്ചിരുന്ന ഗ്രന്ഥ ലിപിയിൽ നിന്നും വട്ടെഴുത്തിൽ നിന്നുമാണ് മലയാള ലിപി രൂപപ്പെട്ടത്."
+    },
+    "source": "SCERT Class 11 Malayalam (Bhasha Charithram); Archaeological Survey of India",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-025",
+    "subject": "ker",
+    "topic": "Malayalam language",
+    "difficulty": 3,
+    "q": {
+      "en": "The Vazhappally copper plate inscription (circa 830 CE), among the earliest dated epigraphic records in early Malayalam, belongs to which Chera king?",
+      "ml": "മലയാള ഭാഷാ ചരിത്രത്തിലെ ഏറ്റവും പഴയ രേഖകളിലൊന്നായ വാഴപ്പള്ളി ചെപ്പേട് (ഏകദേശം ക്രി.വ. 830) ഏത് ചേര പെരുമാൾ രാജാവിന്റെ ഭരണകാലത്തുള്ളതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Rajasekhara Varman",
+        "Kulasekhara Varman",
+        "Sthanu Ravi Varma",
+        "Rama Varma Kulasekhara"
+      ],
+      "ml": [
+        "രാജശേഖര വർമ്മൻ",
+        "കുലശേഖര വർമ്മൻ",
+        "സ്ഥാണു രവിവർമ്മൻ",
+        "രാമവർമ്മ കുലശേഖരൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Vazhappally copper plate in Vatteluttu script is dated to the 12th regnal year of Chera King Rajasekhara Varman.",
+      "ml": "വട്ടെഴുത്ത് ലിപിയിലുള്ള വാഴപ്പള്ളി ശാസനം ചേര രാജാവായ രാജശേഖര വർമ്മന്റെ ഭരണത്തിന്റെ 12-ാം ആണ്ടിലേതാണ്."
+    },
+    "source": "Epigraphia Indica; A. Sreedhara Menon, A Survey of Kerala History, Chapter 8",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-026",
+    "subject": "ker",
+    "topic": "Festivals and arts",
+    "difficulty": 1,
+    "q": {
+      "en": "Kathakali, the classical dance-drama of Kerala, directly evolved from which 17th-century theatrical art form created by the Raja of Kottarakkara?",
+      "ml": "കേരളത്തിന്റെ ശാസ്ത്രീയ നൃത്തനാടകമായ കഥകളി കൊട്ടാരക്കര തമ്പുരാൻ ചിട്ടപ്പെടുത്തിയ ഏത് കലാരൂപത്തിൽ നിന്നാണ് നേരിട്ട് രൂപപ്പെട്ടത്?"
+    },
+    "options": {
+      "en": [
+        "Ramanattam",
+        "Krishnanattam",
+        "Chavittu Nadakam",
+        "Ottamthullal"
+      ],
+      "ml": [
+        "രാമനാട്ടം",
+        "കൃഷ്ണനാട്ടം",
+        "ചവിട്ടുനാടകം",
+        "ഓട്ടൻതുള്ളൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Ramanattam, created by Kottarakkara Thampuran based on the Ramayana, was modified over time to form Kathakali.",
+      "ml": "കൊട്ടാരക്കര തമ്പുരാൻ രാമായണകഥയെ ആസ്പദമാക്കി ചിട്ടപ്പെടുത്തിയ രാമനാട്ടമാണ് പിൽക്കാലത്ത് കഥകളിയായി പരിണമിച്ചത്."
+    },
+    "source": "SCERT Class 8 Social Science; Kerala Kalamandalam publication on Kathakali",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-027",
+    "subject": "ker",
+    "topic": "Festivals and arts",
+    "difficulty": 2,
+    "q": {
+      "en": "In which year was Koodiyattam, the traditional Sanskrit temple theatre of Kerala, proclaimed by UNESCO as a Masterpiece of the Oral and Intangible Heritage of Humanity?",
+      "ml": "കേരളത്തിലെ പരമ്പരാഗത സംസ്കൃത നാടകരൂപമായ കൂടിയാട്ടത്തെ യുനെസ്കോ (UNESCO) ലോക പൈതൃക കലയായി പ്രഖ്യാപിച്ചത് ഏത് വർഷത്തിലാണ്?"
+    },
+    "options": {
+      "en": [
+        "2001",
+        "2008",
+        "1998",
+        "2013"
+      ],
+      "ml": [
+        "2001",
+        "2008",
+        "1998",
+        "2013"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "UNESCO proclaimed Koodiyattam as a Masterpiece of Oral and Intangible Cultural Heritage in May 2001.",
+      "ml": "2001 മെയ് മാസത്തിലാണ് യുനെസ്കോ കൂടിയാട്ടത്തെ മനുഷ്യവംശത്തിന്റെ അദൃശ്യ സാംസ്കാരിക പൈതൃകമായി പ്രഖ്യാപിച്ചത്."
+    },
+    "source": "UNESCO Intangible Cultural Heritage (ich.unesco.org, 2001 proclamation)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-028",
+    "subject": "ker",
+    "topic": "Festivals and arts",
+    "difficulty": 1,
+    "q": {
+      "en": "Kerala Kalamandalam, established in 1930 at Cheruthuruthy to revive and promote traditional performing arts, was founded by:",
+      "ml": "കേരളത്തിന്റെ പരമ്പരാഗത രംഗകലകളെ സംരക്ഷിക്കുന്നതിനായി 1930-ൽ ചെറുതുരുത്തിയിൽ കേരള കലാമണ്ഡലം സ്ഥാപിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Vallathol Narayana Menon",
+        "Kumaran Asan",
+        "Ulloor S. Parameswara Iyer",
+        "K. Kelappan"
+      ],
+      "ml": [
+        "വള്ളത്തോൾ നാരായണമേനോൻ",
+        "കുമാരനാശാൻ",
+        "ഉള്ളൂർ എസ്. പരമേശ്വരയ്യർ",
+        "കെ. കേളപ്പൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Mahakavi Vallathol Narayana Menon and Manakkulam Mukunda Raja founded Kerala Kalamandalam in 1930.",
+      "ml": "മഹാകവി വള്ളത്തോൾ നാരായണമേനോനും മണക്കുളം മുകുന്ദരാജയും ചേർന്നാണ് 1930-ൽ കലാമണ്ഡലം സ്ഥാപിച്ചത്."
+    },
+    "source": "Kerala Kalamandalam Act, 2006; SCERT Class 9 Social Science",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-029",
+    "subject": "ker",
+    "topic": "Festivals and arts",
+    "difficulty": 2,
+    "q": {
+      "en": "Who introduced the satirical narrative dance-drama known as Ottamthullal in the 18th century?",
+      "ml": "പതിനെട്ടാം നൂറ്റാണ്ടിൽ ആക്ഷേപഹാസ്യ പ്രധാനമായ ഓട്ടൻതുള്ളൽ എന്ന ജനകീയ കലാരൂപത്തിന് തുടക്കം കുറിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Kalakkathu Kunchan Nambiar",
+        "Unnayi Warrier",
+        "Cherusseri Namboothiri",
+        "Irayimman Thampi"
+      ],
+      "ml": [
+        "കലക്കത്ത് കുഞ്ചൻ നമ്പ്യാർ",
+        "ഉണ്ണായി വാര്യർ",
+        "ചെറുശ്ശേരി നമ്പൂതിരി",
+        "ഇരയിമ്മൻ തമ്പി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kunchan Nambiar originated Thullal to present mythological stories enriched with sharp humour and social critique.",
+      "ml": "സാമൂഹിക വിമർശനവും ഫലിതവും ചേർത്ത് പുരാണകഥകൾ ലളിതമായി അവതരിപ്പിക്കാൻ കുഞ്ചൻ നമ്പ്യാർ തുള്ളൽ പ്രസ്ഥാനം ആരംഭിച്ചു."
+    },
+    "source": "SCERT Class 9 Malayalam; A. Sreedhara Menon, Cultural Heritage of Kerala",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-030",
+    "subject": "ker",
+    "topic": "Festivals and arts",
+    "difficulty": 2,
+    "q": {
+      "en": "The celebrated Thrissur Pooram festival held at the Vadakkunnathan Temple grounds was initiated in 1798 by which ruler of Cochin?",
+      "ml": "തൃശ്ശൂർ വടക്കുന്നാഥ ക്ഷേത്ര മൈതാനിയിൽ നടക്കുന്ന പ്രസിദ്ധമായ തൃശ്ശൂർ പൂരം 1798-ൽ ആരംഭിച്ച കൊച്ചി രാജാവ് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Sakthan Thampuran (Rama Varma IX)",
+        "Marthanda Varma",
+        "Swathi Thirunal",
+        "Rama Varma Parikshith Thampuran"
+      ],
+      "ml": [
+        "ശക്തൻ തമ്പുരാൻ (രാമവർമ്മ IX)",
+        "മാർത്താണ്ഡവർമ്മ",
+        "സ്വാതി തിരുനാൾ",
+        "രാമവർമ്മ പരീക്ഷിത്ത് തമ്പുരാൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Raja Rama Varma, popularly known as Sakthan Thampuran, unified local temple festivities to establish the grand annual Thrissur Pooram.",
+      "ml": "ശക്തൻ തമ്പുരാൻ എന്ന് വിളിക്കപ്പെടുന്ന രാമവർമ്മ രാജാവാണ് 1798-ൽ തൃശ്ശൂർ പൂരത്തിന് തുടക്കം കുറിച്ചത്."
+    },
+    "source": "Cochin State Manual; A. Sreedhara Menon, A Survey of Kerala History",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-031",
+    "subject": "ker",
+    "topic": "Festivals and arts",
+    "difficulty": 3,
+    "q": {
+      "en": "Which traditional temple-singing musical style of Kerala forms the core stylistic accompaniment for classical Mohiniyattam?",
+      "ml": "ക്ഷേത്ര ആചാരങ്ങളോടും സോപാനങ്ങളോടും ബന്ധപ്പെട്ട കേരളത്തിന്റെ ഏത് തനത് സംഗീത ശൈലിയാണ് മോഹിനിയാട്ടത്തിന്റെ ആലാപന രീതിക്ക് അടിസ്ഥാനം?"
+    },
+    "options": {
+      "en": [
+        "Sopana Sangeetham",
+        "Carnatic Keerthanam style exclusively",
+        "Hindustani Dhrupad style",
+        "Baul tradition"
+      ],
+      "ml": [
+        "സോപാന സംഗീതം",
+        "കർണ്ണാടക കീർത്തന ശൈലി മാത്രം",
+        "ഹിന്ദുസ്ഥാനി ധ്രുപദ് ശൈലി",
+        "ബാവുൾ സമ്പ്രദായം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Mohiniyattam incorporates Sopana Sangeetham, the slow and expressive devotional singing style native to Kerala temples.",
+      "ml": "ക്ഷേത്രപ്പടികളിൽ (സോപാനം) നിന്നുള്ള തനത് ആലാപന ശൈലിയായ സോപാന സംഗീതത്തിന്റെ ഈണങ്ങൾ മോഹിനിയാട്ടത്തിൽ ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Sangeet Natak Akademi monograph on Mohiniyattam; Kerala Kalamandalam",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-032",
+    "subject": "ker",
+    "topic": "Newspapers and firsts",
+    "difficulty": 1,
+    "q": {
+      "en": "The Malayalam daily 'Deepika' (first published as 'Nazrani Deepika' in 1887) was launched from which location?",
+      "ml": "1887-ൽ 'നസ്രാണി ദീപിക' എന്ന പേരിൽ പ്രസിദ്ധീകരണം ആരംഭിച്ച ഇന്നത്തെ ദീപിക പത്രം ഏത് സ്ഥലത്തു നിന്നാണ് പുറത്തിറങ്ങിയത്?"
+    },
+    "options": {
+      "en": [
+        "Mannanam",
+        "Kozhikode",
+        "Kochi",
+        "Thiruvananthapuram"
+      ],
+      "ml": [
+        "മാന്നാനം",
+        "കോഴിക്കോട്",
+        "കൊച്ചി",
+        "തിരുവനന്തപുരം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Nazrani Deepika was launched on 15 April 1887 from St. Joseph's Press at Mannanam near Kottayam.",
+      "ml": "കോട്ടയത്തിനടുത്തുള്ള മാന്നാനം സെന്റ് ജോസഫ്സ് പ്രസ്സിൽ നിന്നാണ് 1887 ഏപ്രിൽ 15-ന് നസ്രാണി ദീപിക ആരംഭിച്ചത്."
+    },
+    "source": "Press Academy of Kerala, History of Journalism in Kerala; SCERT Class 10 Social Science",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-033",
+    "subject": "ker",
+    "topic": "Newspapers and firsts",
+    "difficulty": 2,
+    "q": {
+      "en": "Who served as the founding editor of the Malayalam nationalist daily 'Mathrubhumi' when it began publication in Kozhikode in 1923?",
+      "ml": "1923-ൽ കോഴിക്കോട് നിന്നും പ്രസിദ്ധീകരണം ആരംഭിച്ച 'മാതൃഭൂമി' ദിനപത്രത്തിന്റെ സ്ഥാപക പത്രാധിപർ ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "K. P. Kesava Menon",
+        "K. Kelappan",
+        "C. Krishnan",
+        "K. P. Gopala Menon"
+      ],
+      "ml": [
+        "കെ. പി. കേശവമേനോൻ",
+        "കെ. കേളപ്പൻ",
+        "സി. കൃഷ്ണൻ",
+        "കെ. പി. ഗോപാലമേനോൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Mathrubhumi was founded in 1923 to support the Indian national movement under the editorship of K. P. Kesava Menon.",
+      "ml": "സ്വാതന്ത്ര്യസമര ആശയങ്ങൾ പ്രചരിപ്പിക്കാനായി 1923-ൽ ആരംഭിച്ച മാതൃഭൂമിയുടെ സ്ഥാപക എഡിറ്റർ കെ. പി. കേശവമേനോനായിരുന്നു."
+    },
+    "source": "Mathrubhumi archives; SCERT Class 10 Social Science, 'Freedom Movement in Kerala'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-034",
+    "subject": "ker",
+    "topic": "Newspapers and firsts",
+    "difficulty": 2,
+    "q": {
+      "en": "Who was the editor of the journal 'Swadeshabhimani' who was arrested and exiled from Travancore in September 1910 for fearlessly criticizing the royal administration?",
+      "ml": "ദിവാന്റെ അഴിമതിയെയും ദുർഭരണത്തെയും തുറന്നെതിർത്തതിന് 1910 സെപ്റ്റംബറിൽ തിരുവിതാംകൂറിൽ നിന്നും നാടുകടത്തപ്പെട്ട 'സ്വദേശാഭിമാനി' പത്രാധിപർ ആര്?"
+    },
+    "options": {
+      "en": [
+        "K. Ramakrishna Pillai",
+        "Vakkom Abdul Khader Maulavi",
+        "Moorkoth Kumaran",
+        "C. V. Raman Pillai"
+      ],
+      "ml": [
+        "കെ. രാമകൃഷ്ണപിള്ള",
+        "വക്കം അബ്ദുൾ ഖാദർ മൗലവി",
+        "മൂർക്കോത്ത് കുമാരൻ",
+        "സി. വി. രാമൻപിള്ള"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "K. Ramakrishna Pillai was exiled from Travancore on 26 September 1910 and his printing press seized by royal order.",
+      "ml": "1910 സെപ്റ്റംബർ 26-നാണ് കെ. രാമകൃഷ്ണപിള്ളയെ തിരുവിതാംകൂർ ഭരണകൂടം നാടുകടത്തുകയും പത്രത്തിന്റെ അച്ചുകൂടം കണ്ടുകെട്ടുകയും ചെയ്തത്."
+    },
+    "source": "SCERT Class 9 Social Science, Unit 'Making of Modern Kerala'; Kerala Press Academy",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-035",
+    "subject": "ker",
+    "topic": "Newspapers and firsts",
+    "difficulty": 3,
+    "q": {
+      "en": "Malayala Manorama was founded as a joint-stock company in Kottayam in 1888 and launched its first issue in 1890 under the editorship of:",
+      "ml": "1888-ൽ കോട്ടയത്ത് ഒരു ലിമിറ്റഡ് കമ്പനിയായി ആരംഭിച്ച് 1890-ൽ ആദ്യ ലക്കം പുറത്തിറക്കിയ മലയാള മനോരമയുടെ സ്ഥാപക പത്രാധിപർ ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Kandathil Varghese Mappillai",
+        "K. C. Mammen Mappillai",
+        "Mammen Mathew",
+        "K. M. Cherian"
+      ],
+      "ml": [
+        "കണ്ടത്തിൽ വറുഗീസ് മാപ്പിള",
+        "കെ. സി. മാമ്മൻ മാപ്പിള",
+        "മാമ്മൻ മാത്യു",
+        "കെ. എം. ചെറിയാൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Kandathil Varghese Mappillai founded Malayala Manorama, publishing its first weekly edition on 22 March 1890.",
+      "ml": "കണ്ടത്തിൽ വറുഗീസ് മാപ്പിളയാണ് മലയാള മനോരമയ്ക്ക് തുടക്കമിട്ടതും 1890 മാർച്ച് 22-ന് ആദ്യ ലക്കം പുറത്തിറക്കിയതും."
+    },
+    "source": "Kerala Sahitya Akademi; Press Academy of Kerala",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "ker-036",
+    "subject": "ker",
+    "topic": "Newspapers and firsts",
+    "difficulty": 3,
+    "q": {
+      "en": "Which prominent nationalist leader founded the Malayalam newspaper 'Al-Ameen' at Kozhikode in 1924 to champion national movement ideals in Malabar?",
+      "ml": "കോൺഗ്രസ് ആശയങ്ങളും സ്വാതന്ത്ര്യസമര സന്ദേശങ്ങളും പ്രചരിപ്പിക്കുന്നതിനായി 1924-ൽ കോഴിക്കോട് നിന്നും 'അൽ-അമീൻ' പത്രം ആരംഭിച്ച ദേശീയ നേതാവ് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Mohammed Abdur Rahiman",
+        "Vakkom Abdul Khader Maulavi",
+        "E. Moidu Maulavi",
+        "Sayyid Sanaullah Makti Thangal"
+      ],
+      "ml": [
+        "മുഹമ്മദ് അബ്ദുർ റഹിമാൻ",
+        "വക്കം അബ്ദുൾ ഖാദർ മൗലവി",
+        "ഇ. മൊയ്തു മൗലവി",
+        "സയ്യിദ് സനാവുള്ള മക്തി തങ്ങൾ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Mohammed Abdur Rahiman founded 'Al-Ameen' in October 1924 to bring the people of Malabar into the national freedom struggle.",
+      "ml": "ദേശീയ പ്രസ്ഥാനത്തിലേക്ക് ജനങ്ങളെ ആകർഷിക്കാൻ 1924 ഒക്ടോബറിലാണ് മുഹമ്മദ് അബ്ദുർ റഹിമാൻ സാഹിബ് 'അൽ-അമീൻ' തുടങ്ങിയത്."
+    },
+    "source": "SCERT Class 10 Social Science; A. Sreedhara Menon, Kerala History",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-007",
+    "subject": "his",
+    "topic": "Ancient India basics",
+    "difficulty": 1,
+    "q": {
+      "en": "The Great Bath, an elaborate brick-lined public water basin of the Indus Valley Civilisation, was excavated at which ancient site?",
+      "ml": "സിന്ധുനദീതട സംസ്കാരത്തിലെ പ്രസിദ്ധമായ 'മഹാസ്നാനഘട്ടം' (Great Bath) കണ്ടെത്തിയത് ഏത് പുരാവസ്തു കേന്ദ്രത്തിലാണ്?"
+    },
+    "options": {
+      "en": [
+        "Mohenjo-daro",
+        "Harappa",
+        "Kalibangan",
+        "Lothal"
+      ],
+      "ml": [
+        "മൊഹൻജൊ-ദാരോ",
+        "ഹാരപ്പ",
+        "കാലിബംഗൻ",
+        "ലോഥൽ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Great Bath was discovered at Mohenjo-daro in Sindh (modern Pakistan), sealed with mortar and bitumen to make it watertight.",
+      "ml": "സിന്ധിലെ മൊഹൻജൊ-ദാരോയിലാണ് ജിപ്സവും ബിറ്റുമിനും ഉപയോഗിച്ച് ചോർച്ച തടഞ്ഞ നിലയിൽ വലിയ കുളം കണ്ടെത്തിയത്."
+    },
+    "source": "NCERT Class 12 Themes in Indian History Part I, Chapter 1 'Bricks, Beads and Bones'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-008",
+    "subject": "his",
+    "topic": "Ancient India basics",
+    "difficulty": 1,
+    "q": {
+      "en": "Which Harappan site located in Gujarat featured a tidal dockyard connected by a channel to the Bhogava river for maritime trade?",
+      "ml": "ഗുജറാത്തിൽ ഭോഗാവോ നദിയുമായി ബന്ധിപ്പിച്ച കൃത്രിമ കപ്പൽ തുറമുഖം (ഡോക്ക് യാർഡ്) നിലനിന്നിരുന്ന സിന്ധുനദീതട നഗരം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Lothal",
+        "Dholavira",
+        "Rakhigarhi",
+        "Surkotada"
+      ],
+      "ml": [
+        "ലോഥൽ",
+        "ധോളവീര",
+        "രാഖിഗഡി",
+        "സുർക്കോട്ടഡ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Lothal in Gujarat was an important Harappan port town with a large baked-brick basin serving as a dockyard.",
+      "ml": "ഗുജറാത്തിലെ ലോഥലിൽ ഇഷ്ടികകൾ കൊണ്ട് നിർമ്മിച്ച കപ്പൽ തുറമുഖവും വ്യാപാര കേന്ദ്രവും നിലനിന്നിരുന്നു."
+    },
+    "source": "Archaeological Survey of India (ASI); NCERT Class 12 Themes in Indian History Part I",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-009",
+    "subject": "his",
+    "topic": "Ancient India basics",
+    "difficulty": 2,
+    "q": {
+      "en": "The Third Buddhist Council was convened at Pataliputra during the 3rd century BCE under the patronage of which Mauryan emperor?",
+      "ml": "ബി.സി.ഇ. മൂന്നാം നൂറ്റാണ്ടിൽ പാടലീപുത്രത്തിൽ വെച്ച് നടന്ന മൂന്നാമത് ബുദ്ധമത സമ്മേളനം ഏത് മൗര്യ ചക്രവർത്തിയുടെ കാലത്താണ് കൂടിയത്?"
+    },
+    "options": {
+      "en": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Brihadratha"
+      ],
+      "ml": [
+        "അശോകൻ",
+        "ചന്ദ്രഗുപ്ത മൗര്യൻ",
+        "ബിന്ദുസാരൻ",
+        "ബൃഹദ്രഥൻ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Emperor Ashoka sponsored the Third Buddhist Council at Pataliputra, presided over by Moggaliputta Tissa.",
+      "ml": "മോഗലിപുത്ത തിസ്സയുടെ അധ്യക്ഷതയിൽ അശോക ചക്രവർത്തിയാണ് പാടലീപുത്രത്തിൽ മൂന്നാം ബുദ്ധസംഗീതി വിളിച്ചുചേർത്തത്."
+    },
+    "source": "NCERT Class 12 Themes in Indian History Part I; Mahavamsa / Dipavamsa historical records",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-010",
+    "subject": "his",
+    "topic": "Ancient India basics",
+    "difficulty": 2,
+    "q": {
+      "en": "Which ancient treatise on statecraft, political administration, and military strategy is attributed to Kautilya (Chanakya)?",
+      "ml": "ഭരണതന്ത്രം, രാഷ്ട്രമീമാംസ, സൈനിക തന്ത്രങ്ങൾ എന്നിവയെക്കുറിച്ച് കൗടില്യൻ (ചാണക്യൻ) രചിച്ച പ്രാചീന ഗ്രന്ഥം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Arthashastra",
+        "Indica",
+        "Mudrarakshasa",
+        "Manusmriti"
+      ],
+      "ml": [
+        "അർത്ഥശാസ്ത്രം",
+        "ഇൻഡിക്ക",
+        "മുദ്രാരാക്ഷസം",
+        "മനുസ്മൃതി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Arthashastra deals systematically with the machinery of government, revenue collection, foreign policy, and statecraft.",
+      "ml": "ഭരണകൂടത്തിന്റെ പ്രവർത്തനങ്ങൾ, നീതിന്യായം, സമ്പദ്‌വ്യവസ്ഥ എന്നിവ സമഗ്രമായി പ്രതിപാദിക്കുന്ന ഗ്രന്ഥമാണ് അർത്ഥശാസ്ത്രം."
+    },
+    "source": "NCERT Class 12 Themes in Indian History Part I; R. Shamasastry (ed.), Kautilya's Arthashastra",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-011",
+    "subject": "his",
+    "topic": "Ancient India basics",
+    "difficulty": 3,
+    "q": {
+      "en": "The Allahabad Pillar Inscription (Prayag Prashasti), celebrating the military victories of Gupta ruler Samudragupta, was composed by his court poet:",
+      "ml": "സമുദ്രഗുപ്തന്റെ സൈനിക വിജയങ്ങളെ പ്രകീർത്തിക്കുന്ന പ്രയാഗ പ്രശസ്തി (അലഹബാദ് സ്തംഭ ശാസനം) രചിച്ച കൊട്ടാരം കവി ആര്?"
+    },
+    "options": {
+      "en": [
+        "Harisena",
+        "Kalidasa",
+        "Banabhatta",
+        "Ravikirti"
+      ],
+      "ml": [
+        "ഹരിഷേണൻ",
+        "കാളിദാസൻ",
+        "ബാണഭട്ടൻ",
+        "രവികീർത്തി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Harisena composed the Sanskrit eulogy of Samudragupta on the Ashokan pillar at Prayagraj (Allahabad).",
+      "ml": "അലഹബാദിലെ അശോക സ്തംഭത്തിൽ സംസ്കൃതത്തിൽ രേഖപ്പെടുത്തിയ പ്രയാഗ പ്രശസ്തിയുടെ കർത്താവ് സമുദ്രഗുപ്തന്റെ സഭാകവിയായ ഹരിഷേണനാണ്."
+    },
+    "source": "Corpus Inscriptionum Indicarum; NCERT Class 12 Themes in Indian History Part I, Chapter 2",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-012",
+    "subject": "his",
+    "topic": "Ancient India basics",
+    "difficulty": 3,
+    "q": {
+      "en": "Which Chinese Buddhist pilgrim visited India during the 7th century CE during the reign of King Harsha and recorded detailed observations of Nalanda University?",
+      "ml": "ഏഴാം നൂറ്റാണ്ടിൽ ഹർഷവർദ്ധനന്റെ ഭരണകാലത്ത് ഇന്ത്യ സന്ദർശിക്കുകയും നളന്ദ സർവ്വകലാശാലയെക്കുറിച്ച് വിശദമായ വിവരണം നൽകുകയും ചെയ്ത ചൈനീസ് യാത്രികൻ ആര്?"
+    },
+    "options": {
+      "en": [
+        "Xuanzang (Hiuen Tsang)",
+        "Faxian (Fa-Hien)",
+        "Yijing (I-Tsing)",
+        "Megasthenes"
+      ],
+      "ml": [
+        "ഹുവാൻ സാങ് (യുവാൻ ച്വാങ്)",
+        "ഫാഹിയാൻ",
+        "ഇത്സിങ്",
+        "മെഗസ്തനീസ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Xuanzang studied at Nalanda under Silabhadra and documented political, religious, and academic conditions in India.",
+      "ml": "ഹർഷന്റെ കാലത്ത് ഇന്ത്യയിലെത്തിയ ഹുവാൻ സാങ് നളന്ദയിൽ പഠിക്കുകയും അന്നത്തെ സാമൂഹിക-വിദ്യാഭ്യാസ രംഗങ്ങളെക്കുറിച്ച് രേഖപ്പെടുത്തുകയും ചെയ്തു."
+    },
+    "source": "NCERT Class 6 & 11 History; Xuanzang, Records of the Western Regions",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-013",
+    "subject": "his",
+    "topic": "Plassey and the Revolt of 1857",
+    "difficulty": 1,
+    "q": {
+      "en": "Who was the Nawab of Bengal defeated by the British East India Company forces under Robert Clive at the Battle of Plassey in 1757?",
+      "ml": "1757-ൽ റോബർട്ട് ക്ലൈവിന്റെ നേതൃത്വത്തിലുള്ള ഈസ്റ്റ് ഇന്ത്യാ കമ്പനി പ്ലാസി യുദ്ധത്തിൽ പരാജയപ്പെടുത്തിയ ബംഗാൾ നവാബ് ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Siraj-ud-Daulah",
+        "Mir Jafar",
+        "Mir Qasim",
+        "Shuja-ud-Daula"
+      ],
+      "ml": [
+        "സിറാജ് ഉദ്-ദൗള",
+        "മീർ ജാഫർ",
+        "മീർ ഖാസിം",
+        "ഷുജാ ഉദ്-ദൗള"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Siraj-ud-Daulah was defeated on 23 June 1757 after his army commander Mir Jafar conspired with the British.",
+      "ml": "1757 ജൂൺ 23-ന് നടന്ന പ്ലാസി യുദ്ധത്തിൽ സൈന്യാധിപനായ മീർ ജാഫറിന്റെ വഞ്ചനയെത്തുടർന്ന് സിറാജ് ഉദ്-ദൗള പരാജയപ്പെട്ടു."
+    },
+    "source": "NCERT Class 8 Our Pasts-III, Chapter 2 'From Trade to Territory'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-014",
+    "subject": "his",
+    "topic": "Plassey and the Revolt of 1857",
+    "difficulty": 2,
+    "q": {
+      "en": "In the Battle of Buxar (1764), the British defeated the allied forces of Mir Qasim, Mughal Emperor Shah Alam II, and which Nawab of Awadh?",
+      "ml": "1764-ലെ ചരിത്രപ്രസിദ്ധമായ ബക്സർ യുദ്ധത്തിൽ ബ്രിട്ടീഷുകാരോട് പോരാടിയ സംയുക്ത സൈന്യത്തിൽ മീർ ഖാസിം, മുഗൾ ചക്രവർത്തി ഷാ ആലം രണ്ടാമൻ എന്നിവർക്കൊപ്പം പങ്കെടുത്ത അവധിലെ നവാബ് ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Shuja-ud-Daula",
+        "Siraj-ud-Daulah",
+        "Alivardi Khan",
+        "Asaf-ud-Daula"
+      ],
+      "ml": [
+        "ഷുജാ ഉദ്-ദൗള",
+        "സിറാജ് ഉദ്-ദൗള",
+        "അലിബർദി ഖാൻ",
+        "ആസഫ് ഉദ്-ദൗള"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The British victory at Buxar in October 1764 led to the Treaty of Allahabad in 1765 granting Diwani rights of Bengal, Bihar, and Orissa.",
+      "ml": "ബക്സർ യുദ്ധവിജയത്തോടെ 1765-ൽ അലഹബാദ് ഉടമ്പടി ഒപ്പുവെക്കുകയും കമ്പനിക്ക് ബംഗാൾ, ബീഹാർ, ഒറീസ്സ എന്നിവിടങ്ങളിലെ ദിവാണി അവകാശം ലഭിക്കുകയും ചെയ്തു."
+    },
+    "source": "NCERT Class 8 Our Pasts-III, Chapter 2; Treaty of Allahabad records",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-015",
+    "subject": "his",
+    "topic": "Plassey and the Revolt of 1857",
+    "difficulty": 1,
+    "q": {
+      "en": "Which sepoy of the 34th Bengal Native Infantry rose in revolt against British officers at Barrackpore on 29 March 1857?",
+      "ml": "1857 മാർച്ച് 29-ന് ബാരക്പൂരിൽ ബ്രിട്ടീഷ് ഉദ്യോഗസ്ഥർക്കെതിരെ കലാപമുയർത്തിയ 34-ാം ബംഗാൾ നേറ്റീവ് ഇൻഫൻട്രിയിലെ ശിപായി ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Mangal Pandey",
+        "Bakht Khan",
+        "Tatya Tope",
+        "Kunwar Singh"
+      ],
+      "ml": [
+        "മംഗൽ പാണ്ഡെ",
+        "ഭക്ത് ഖാൻ",
+        "താന്തിയാ തോപ്പി",
+        "കൻവർ സിംഗ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Mangal Pandey attacked his British officers in protest against the greased cartridges, becoming an early martyr of the 1857 revolt.",
+      "ml": "പുതിയ എൻഫീൽഡ് തോക്കിലെ തിരകൾക്കെതിരെ പ്രതിഷേധിച്ച് ബ്രിട്ടീഷ് മേലുദ്യോഗസ്ഥരെ ആക്രമിച്ച മംഗൽ പാണ്ഡെയെ പിന്നീട് തൂക്കിലേറ്റി."
+    },
+    "source": "NCERT Class 8 Our Pasts-III, Chapter 5 'When People Rebel: 1857 and After'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-016",
+    "subject": "his",
+    "topic": "Plassey and the Revolt of 1857",
+    "difficulty": 2,
+    "q": {
+      "en": "During the 1857 Revolt, which Mughal ruler was declared the symbolic leader and Emperor of Hindustan by the rebelling soldiers at Delhi?",
+      "ml": "1857-ലെ ഒന്നാം സ്വാതന്ത്ര്യസമരത്തിൽ ഡൽഹിയിലെത്തിയ വിമത സൈനികർ ഇന്ത്യയുടെ ചക്രവർത്തിയായി പ്രഖ്യാപിച്ചത് ആരെയാണ്?"
+    },
+    "options": {
+      "en": [
+        "Bahadur Shah II (Zafar)",
+        "Shah Alam II",
+        "Akbar II",
+        "Jahandar Shah"
+      ],
+      "ml": [
+        "ബഹദൂർ ഷാ രണ്ടാമൻ (സഫർ)",
+        "ഷാ ആലം രണ്ടാമൻ",
+        "അക്ബർ രണ്ടാമൻ",
+        "ജഹന്ദർ ഷാ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Sepoys from Meerut marched to Delhi and proclaimed the last Mughal Emperor, Bahadur Shah II (Zafar), as Shahenshah-e-Hindustan.",
+      "ml": "മീററ്റിൽ നിന്നും ഡൽഹിയിലെത്തിയ ശിപായിമാർ വൃദ്ധനായ ബഹദൂർ ഷാ രണ്ടാമനെ കലാപത്തിന്റെ പരമോന്നത നേതാവായി പ്രഖ്യാപിച്ചു."
+    },
+    "source": "NCERT Class 12 Themes in Indian History Part III, Chapter 11 'Rebels and the Raj'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-017",
+    "subject": "his",
+    "topic": "Plassey and the Revolt of 1857",
+    "difficulty": 3,
+    "q": {
+      "en": "Following the suppression of the 1857 Revolt, through which British legislation was the administration of India transferred from the Company to the British Crown?",
+      "ml": "1857-ലെ കലാപത്തെത്തുടർന്ന് ഇന്ത്യയുടെ ഭരണം ഈസ്റ്റ് ഇന്ത്യാ കമ്പനിയിൽ നിന്ന് ബ്രിട്ടീഷ് രാജ്ഞിയുടെ നേരിട്ടുള്ള നിയന്ത്രണത്തിലേക്ക് മാറ്റിയത് ഏത് നിയമത്തിലൂടെയാണ്?"
+    },
+    "options": {
+      "en": [
+        "Government of India Act, 1858",
+        "Regulating Act, 1773",
+        "Charter Act, 1853",
+        "Indian Councils Act, 1861"
+      ],
+      "ml": [
+        "ഗവൺമെന്റ് ഓഫ് ഇന്ത്യാ ആക്ട്, 1858",
+        "റെഗുലേറ്റിംഗ് ആക്ട്, 1773",
+        "ചാർട്ടർ ആക്ട്, 1853",
+        "ഇന്ത്യൻ കൗൺസിൽസ് ആക്ട്, 1861"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Government of India Act 1858 ended Company rule and established direct governance by the Crown via the Viceroy and Secretary of State.",
+      "ml": "1858-ലെ ഗവൺമെന്റ് ഓഫ് ഇന്ത്യാ ആക്ട് വഴി ഈസ്റ്റ് ഇന്ത്യാ കമ്പനിയുടെ ഭരണം അവസാനിപ്പിച്ച് വൈസ്രോയിയിലൂടെ ബ്രിട്ടീഷ് പാർലമെന്റ് ഭരണം ഏറ്റെടുത്തു."
+    },
+    "source": "Government of India Act 1858 (21 & 22 Vict. c. 106); Queen Victoria's Proclamation of 1858",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-018",
+    "subject": "his",
+    "topic": "Congress and its leaders",
+    "difficulty": 1,
+    "q": {
+      "en": "Who presided over the first session of the Indian National Congress held in Bombay in December 1885?",
+      "ml": "1885 ഡിസംബറിൽ ബോംബെയിൽ നടന്ന ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസിന്റെ ആദ്യ സമ്മേളനത്തിൽ അധ്യക്ഷത വഹിച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Womesh Chandra Bonnerjee",
+        "Dadabhai Naoroji",
+        "Badruddin Tyabji",
+        "Pherozeshah Mehta"
+      ],
+      "ml": [
+        "ഡബ്ല്യു. സി. ബാനർജി",
+        "ദാദാഭായ് നവറോജി",
+        "ബദറുദ്ദീൻ ത്യാബ്ജി",
+        "ഫിറോസ് ഷാ മേത്ത"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "W. C. Bonnerjee presided over the first session of the Indian National Congress attended by 72 delegates in Bombay.",
+      "ml": "ബോംബെയിലെ ഗോകുൽദാസ് തേജ്പാൽ സംസ്കൃത കോളേജിൽ 72 പ്രതിനിധികൾ പങ്കെടുത്ത ആദ്യ സമ്മേളനത്തിൽ ഡബ്ല്യു. സി. ബാനർജി അധ്യക്ഷത വഹിച്ചു."
+    },
+    "source": "INC Official Records; NCERT Class 8 Our Pasts-III, Chapter 9",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-019",
+    "subject": "his",
+    "topic": "Congress and its leaders",
+    "difficulty": 2,
+    "q": {
+      "en": "Who propounded the 'Drain of Wealth' theory in his 1901 book 'Poverty and Un-British Rule in India'?",
+      "ml": "1901-ൽ പ്രസിദ്ധീകരിച്ച 'പോവർട്ടി ആൻഡ് അൺ-ബ്രിട്ടീഷ് റൂൾ ഇൻ ഇന്ത്യ' എന്ന പുസ്തകത്തിലൂടെ സമ്പത്ത് ചോർച്ചാ സിദ്ധാന്തം (Drain of Wealth) മുന്നോട്ടുവെച്ചത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Dadabhai Naoroji",
+        "Gopal Krishna Gokhale",
+        "Romesh Chunder Dutt",
+        "Mahadev Govind Ranade"
+      ],
+      "ml": [
+        "ദാദാഭായ് നവറോജി",
+        "ഗോപാലകൃഷ്ണ ഗോഖലെ",
+        "ആർ. സി. ദത്ത്",
+        "എം. ജി. റാനഡെ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Dadabhai Naoroji highlighted how British colonial extraction of revenues impoverished India through systemic drain of wealth.",
+      "ml": "ഇന്ത്യയിൽ നിന്നുള്ള സമ്പത്ത് യാതൊരു സാമ്പത്തിക നേട്ടവുമില്ലാതെ ബ്രിട്ടനിലേക്ക് ഒഴുകുന്നുവെന്ന് ദാദാഭായ് നവറോജി കണക്കുകൾ നിരത്തി സമർത്ഥിച്ചു."
+    },
+    "source": "Dadabhai Naoroji, Poverty and Un-British Rule in India (1901); NCERT Class 12 History",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-020",
+    "subject": "his",
+    "topic": "Congress and its leaders",
+    "difficulty": 2,
+    "q": {
+      "en": "The historic split between Moderates and Extremists in the Indian National Congress took place at which session in 1907?",
+      "ml": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസിൽ മിതവാദികളും തീവ്രവാദികളും തമ്മിലുള്ള ഔദ്യോഗിക പിളർപ്പ് ഉണ്ടായ 1907-ലെ വാർഷിക സമ്മേളനം എവിടെയാണ് നടന്നത്?"
+    },
+    "options": {
+      "en": [
+        "Surat Session",
+        "Calcutta Session",
+        "Nagpur Session",
+        "Madras Session"
+      ],
+      "ml": [
+        "സൂററ്റ് സമ്മേളനം",
+        "കൽക്കട്ട സമ്മേളനം",
+        "നാഗ്പൂർ സമ്മേളനം",
+        "മദ്രാസ് സമ്മേളനം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The 1907 session at Surat, presided over by Rash Behari Ghosh, witnessed an open split over goals and methods between the two factions.",
+      "ml": "റാഷ് ബിഹാരി ഘോഷ് അധ്യക്ഷത വഹിച്ച സൂററ്റ് സമ്മേളനത്തിൽ മിതവാദികളും തീവ്രവാദികളും തമ്മിൽ രൂക്ഷമായ തർക്കമുണ്ടാവുകയും പാർട്ടി പിളരുകയും ചെയ്തു."
+    },
+    "source": "INC Session records 1907; NCERT Class 8/12 History",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-021",
+    "subject": "his",
+    "topic": "Congress and its leaders",
+    "difficulty": 1,
+    "q": {
+      "en": "Who was the first woman to become President of the Indian National Congress, presiding over the 1917 Calcutta session?",
+      "ml": "1917-ൽ കൽക്കട്ട സമ്മേളനത്തിൽ അധ്യക്ഷത വഹിച്ചുകൊണ്ട് ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസിന്റെ അധ്യക്ഷയായ ആദ്യ വനിത ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Annie Besant",
+        "Sarojini Naidu",
+        "Nellie Sengupta",
+        "Kasturba Gandhi"
+      ],
+      "ml": [
+        "ആനി ബസന്റ്",
+        "സരോജിനി നായിഡു",
+        "നെല്ലി സെൻഗുപ്ത",
+        "കസ്തൂർബാ ഗാന്ധി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Annie Besant was elected President of the INC at the Calcutta session in 1917; Sarojini Naidu was the first Indian woman President in 1925.",
+      "ml": "1917-ൽ ആനി ബസന്റ് ആദ്യത്തെ വനിതാ പ്രസിഡന്റായി. കോൺഗ്രസ് അധ്യക്ഷയായ ആദ്യത്തെ ഇന്ത്യൻ വനിത സരോജിനി നായിഡുവാണ് (1925)."
+    },
+    "source": "INC Presidential Archives; NCERT Class 10/12 History",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-022",
+    "subject": "his",
+    "topic": "Congress and its leaders",
+    "difficulty": 3,
+    "q": {
+      "en": "At which historic Congress session in December 1929 was the resolution demanding 'Purna Swaraj' (Complete Independence) adopted?",
+      "ml": "1929-ൽ ജവഹർലാൽ നെഹ്റുവിന്റെ അധ്യക്ഷതയിൽ ചേർന്ന കോൺഗ്രസിന്റെ ഏത് ചരിത്രപ്രസിദ്ധമായ സമ്മേളനത്തിലാണ് 'പൂർണ്ണ സ്വരാജ്' പ്രമേയം അംഗീകരിച്ചത്?"
+    },
+    "options": {
+      "en": [
+        "Lahore Session",
+        "Karachi Session",
+        "Belgaum Session",
+        "Lucknow Session"
+      ],
+      "ml": [
+        "ലാഹോർ സമ്മേളനം",
+        "കറാച്ചി സമ്മേളനം",
+        "ബെൽഗാം സമ്മേളനം",
+        "ലഖ്നൗ സമ്മേളനം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Lahore session presided over by Jawaharlal Nehru declared Purna Swaraj and hoisted the Tricolour on the banks of the Ravi.",
+      "ml": "ലാഹോർ സമ്മേളനം പൂർണ്ണ സ്വരാജ് പ്രഖ്യാപിക്കുകയും 1930 ജനുവരി 26 സ്വാതന്ത്ര്യദിനമായി ആചരിക്കാൻ ആഹ്വാനം ചെയ്യുകയും ചെയ്തു."
+    },
+    "source": "INC Lahore Resolution (December 1929); NCERT Class 10 'Nationalism in India'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-023",
+    "subject": "his",
+    "topic": "Gandhian movements",
+    "difficulty": 1,
+    "q": {
+      "en": "Mahatma Gandhi’s first major civil disobedience movement in India, launched in 1917 in Bihar to support oppressed indigo farmers, took place at:",
+      "ml": "തീൻകത്തിയ വ്യവസ്ഥയ്ക്കെതിരെ നീലം കർഷകരെ സഹായിക്കാനായി 1917-ൽ ബീഹാറിൽ മഹാത്മാഗാന്ധി നടത്തിയ ഇന്ത്യയിലെ ആദ്യ സത്യാഗ്രഹ സമരം എവിടെയായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Champaran",
+        "Kheda",
+        "Ahmedabad",
+        "Bardoli"
+      ],
+      "ml": [
+        "ചമ്പാരൻ",
+        "ഖേദ",
+        "അഹമ്മദാബാദ്",
+        "ബർദോളി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Champaran Satyagraha in 1917 was Gandhi's first satyagraha in India, successfully protesting the exploitative tinkathia system.",
+      "ml": "രാജ്കുമാർ ശുക്ലയുടെ ക്ഷണപ്രകാരം ചമ്പാരനിലെത്തിയ ഗാന്ധിജി നടത്തിയ സത്യാഗ്രഹത്തെത്തുടർന്ന് കർഷകരെ ചൂഷണം ചെയ്ത തീൻകത്തിയ വ്യവസ്ഥ റദ്ദാക്കി."
+    },
+    "source": "NCERT Class 12 Themes in Indian History Part III, Chapter 13",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-024",
+    "subject": "his",
+    "topic": "Gandhian movements",
+    "difficulty": 2,
+    "q": {
+      "en": "Mahatma Gandhi suspended the Non-Cooperation Movement in February 1922 following a violent incident involving the burning of a police station at which location?",
+      "ml": "1922 ഫെബ്രുവരിയിൽ ഉത്തർപ്രദേശിലെ ഏത് സ്ഥലത്തുണ്ടായ അക്രമാസക്തമായ സംഭവത്തെത്തുടർന്നാണ് മഹാത്മാഗാന്ധി നിസ്സഹകരണ സമരം പെട്ടെന്ന് പിൻവലിച്ചത്?"
+    },
+    "options": {
+      "en": [
+        "Chauri Chaura",
+        "Kakori",
+        "Jhansi",
+        "Meerut"
+      ],
+      "ml": [
+        "ചൗരി ചൗര",
+        "കക്കോരി",
+        "ഝാൻസി",
+        "മീററ്റ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Following the death of 22 policemen at Chauri Chaura on 4 February 1922, Gandhi halted the movement to preserve non-violence.",
+      "ml": "ചൗരി ചൗരയിൽ ജനക്കൂട്ടം പോലീസ് സ്റ്റേഷൻ അഗ്നിക്കിരയാക്കിയ സംഭവത്തെത്തുടർന്ന് അഹിംസ തത്വം ലംഘിക്കപ്പെട്ടുവെന്ന് ചൂണ്ടിക്കാട്ടി ഗാന്ധിജി സമരം നിർത്തിവെച്ചു."
+    },
+    "source": "Congress Working Committee resolution at Bardoli (February 1922); NCERT Class 10",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-025",
+    "subject": "his",
+    "topic": "Gandhian movements",
+    "difficulty": 2,
+    "q": {
+      "en": "Mahatma Gandhi's 1930 Salt Satyagraha march commenced from which place before concluding at the coastal village of Dandi?",
+      "ml": "1930-ൽ മഹാത്മാഗാന്ധി ദണ്ഡി കടപ്പുറത്തേക്ക് നടത്തിയ ചരിത്രപ്രസിദ്ധമായ ഉപ്പുസത്യാഗ്രഹ മാർച്ച് ആരംഭിച്ചത് എവിടെ നിന്നായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Sabarmati Ashram (Ahmedabad)",
+        "Sevagram Ashram (Wardha)",
+        "Kochrab Ashram",
+        "Porbandar"
+      ],
+      "ml": [
+        "സബർമതി ആശ്രമം (അഹമ്മദാബാദ്)",
+        "സേവാഗ്രാം ആശ്രമം (വാർധ)",
+        "കൊച്ച്രാബ് ആശ്രമം",
+        "പോർബന്ദർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Gandhi and 78 selected followers marched 240 miles from Sabarmati Ashram to Dandi from 12 March to 6 April 1930.",
+      "ml": "1930 മാർച്ച് 12-ന് സബർമതി ആശ്രമത്തിൽ നിന്ന് 78 അനുയായികളോടെ ആരംഭിച്ച മാർച്ച് ഏപ്രിൽ 6-ന് ദണ്ഡിയിലെത്തി ഉപ്പുനിയമം ലംഘിച്ചു."
+    },
+    "source": "NCERT Class 10 Social Science 'Nationalism in India'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-026",
+    "subject": "his",
+    "topic": "Gandhian movements",
+    "difficulty": 3,
+    "q": {
+      "en": "Under the Gandhi-Irwin Pact signed in March 1931, the Congress agreed to suspend Civil Disobedience and participate in which conference in London?",
+      "ml": "1931 മാർച്ചിൽ ഒപ്പുവെച്ച ഗാന്ധി-ഇർവിൻ കരാർ പ്രകാരം നിയമലംഘന സമരം താത്കാലികമായി നിർത്തിവെച്ച് കോൺഗ്രസ് പങ്കെടുക്കാൻ സമ്മതിച്ച സമ്മേളനം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Second Round Table Conference",
+        "First Round Table Conference",
+        "Third Round Table Conference",
+        "Poona Conference"
+      ],
+      "ml": [
+        "രണ്ടാം വട്ടമേശ സമ്മേളനം",
+        "ഒന്നാം വട്ടമേശ സമ്മേളനം",
+        "മൂന്നാം വട്ടമേശ സമ്മേളനം",
+        "പൂന സമ്മേളനം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Gandhi-Irwin Pact led to the release of political prisoners and Gandhi's sole representation of the Congress at the Second Round Table Conference.",
+      "ml": "കരാറിന്റെ ഭാഗമായി രാഷ്ട്രീയ തടവുകാരെ മോചിപ്പിക്കുകയും കോൺഗ്രസ് ലണ്ടനിൽ നടന്ന രണ്ടാം വട്ടമേശ സമ്മേളനത്തിൽ പങ്കെടുക്കുകയും ചെയ്തു."
+    },
+    "source": "Gandhi-Irwin Agreement (5 March 1931); NCERT Class 12 Themes in Indian History Part III",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-027",
+    "subject": "his",
+    "topic": "Gandhian movements",
+    "difficulty": 1,
+    "q": {
+      "en": "At the launch of the Quit India Movement in Bombay on 8 August 1942, Mahatma Gandhi gave which famous call to the nation?",
+      "ml": "1942 ആഗസ്റ്റ് 8-ന് ബോംബെയിൽ ക്വിറ്റ് ഇന്ത്യാ സമരം ആരംഭിച്ചുകൊണ്ട് മഹാത്മാഗാന്ധി രാജ്യത്തിന് നൽകിയ പ്രസിദ്ധമായ ആഹ്വാനം എന്തായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "'Do or Die'",
+        "'Jai Hind'",
+        "'Inquilab Zindabad'",
+        "'Swaraj is my birthright'"
+      ],
+      "ml": [
+        "'പ്രവർത്തിക്കുക അല്ലെങ്കിൽ മരിക്കുക' (Do or Die)",
+        "'ജയ് ഹിന്ദ്'",
+        "'ഇങ്ക്വിലാബ് സിന്ദാബാദ്'",
+        "'സ്വരാജ്യം എന്റെ ജന്മാവകാശമാണ്'"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Gandhi delivered his 'Do or Die' speech at Gowalia Tank Maidan in Bombay calling for determined, non-violent mass resistance until freedom was attained.",
+      "ml": "ബോംബെയിലെ ഗൊവാലിയ ടാങ്ക് മൈതാനിയിൽ ചേർന്ന എ.ഐ.സി.സി. സമ്മേളനത്തിലാണ് ഗാന്ധിജി 'പ്രവർത്തിക്കുക അല്ലെങ്കിൽ മരിക്കുക' എന്ന മന്ത്രം മുഴക്കിയത്."
+    },
+    "source": "NCERT Class 12 Themes in Indian History Part III; The Collected Works of Mahatma Gandhi",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-028",
+    "subject": "his",
+    "topic": "Freedom movement",
+    "difficulty": 1,
+    "q": {
+      "en": "The Partition of Bengal in 1905, which provoked the nationwide Swadeshi Movement, was ordered by which British Viceroy?",
+      "ml": "ഇന്ത്യയിലുടനീളം സ്വദേശി പ്രസ്ഥാനത്തിന് തിരികൊളുത്തിയ 1905-ലെ ബംഗാൾ വിഭജനം നടപ്പിലാക്കിയ ബ്രിട്ടീഷ് വൈസ്രോയി ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Lord Curzon",
+        "Lord Minto",
+        "Lord Hardinge",
+        "Lord Ripon"
+      ],
+      "ml": [
+        "കഴ്സൺ പ്രഭു",
+        "മിന്റോ പ്രഭു",
+        "ഹാർഡിഞ്ച് പ്രഭു",
+        "റിപ്പൺ പ്രഭു"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Lord Curzon partitioned Bengal in October 1905, triggering the anti-partition agitation and the Swadeshi and Boycott movements.",
+      "ml": "ഭരണസൗകര്യം എന്ന കാരണം പറഞ്ഞാണ് 1905 ഒക്ടോബർ 16-ന് കഴ്സൺ പ്രഭു ബംഗാളിനെ വിഭജിച്ചതെങ്കിലും ദേശീയ പ്രസ്ഥാനത്തെ തകർക്കുകയായിരുന്നു ലക്ഷ്യം."
+    },
+    "source": "NCERT Class 8 Our Pasts-III, Chapter 9; Bipan Chandra, India's Struggle for Independence",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-029",
+    "subject": "his",
+    "topic": "Freedom movement",
+    "difficulty": 2,
+    "q": {
+      "en": "In 1916, two separate Home Rule Leagues advocating self-government for India within the British Empire were founded by Annie Besant and:",
+      "ml": "1916-ൽ ബ്രിട്ടീഷ് ഭരണത്തിൻ കീഴിൽ സ്വയംഭരണാവകാശം ആവശ്യപ്പെട്ടുകൊണ്ട് രണ്ട് പ്രത്യേക ഹോം റൂൾ പ്രസ്ഥാനങ്ങൾ ആരംഭിച്ചത് ആനി ബസന്റും ഒപ്പം ആരുമാണ്?"
+    },
+    "options": {
+      "en": [
+        "Bal Gangadhar Tilak",
+        "Gopal Krishna Gokhale",
+        "Bipin Chandra Pal",
+        "Lala Lajpat Rai"
+      ],
+      "ml": [
+        "ബാലഗംഗാധര തിലകൻ",
+        "ഗോപാലകൃഷ്ണ ഗോഖലെ",
+        "ബിപിൻ ചന്ദ്രപാൽ",
+        "ലാലാ ലജ്പത് റായ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Tilak launched his Home Rule League in Maharashtra in April 1916, and Annie Besant launched hers in Madras in September 1916.",
+      "ml": "1916 ഏപ്രിലിൽ തിലകൻ ബെൽഗാമിലും സെപ്റ്റംബറിൽ ആനി ബസന്റ് മദ്രാസിലും ഹോം റൂൾ ലീഗുകൾക്ക് തുടക്കം കുറിച്ചു."
+    },
+    "source": "NCERT Class 12 Themes in Indian History Part III; Bipan Chandra, India's Struggle for Independence",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-030",
+    "subject": "his",
+    "topic": "Freedom movement",
+    "difficulty": 2,
+    "q": {
+      "en": "The Hindustan Socialist Republican Association (HSRA) was reorganized at Feroz Shah Kotla in Delhi in 1928 under the leadership of Chandrashekhar Azad and:",
+      "ml": "1928-ൽ ഡൽഹിയിലെ ഫിറോസ് ഷാ കോട്‌ലയിൽ വെച്ച് ചന്ദ്രശേഖർ ആസാദും ഒപ്പം ആരും ചേർന്നാണ് ഹിന്ദുസ്ഥാൻ സോഷ്യലിസ്റ്റ് റിപ്പബ്ലിക്കൻ അസോസിയേഷൻ (HSRA) പുനഃസംഘടിപ്പിച്ചത്?"
+    },
+    "options": {
+      "en": [
+        "Bhagat Singh",
+        "Subhas Chandra Bose",
+        "Surya Sen",
+        "Rash Behari Bose"
+      ],
+      "ml": [
+        "ഭഗത് സിംഗ്",
+        "സുഭാഷ് ചന്ദ്രബോസ്",
+        "സൂര്യ സെൻ",
+        "റാഷ് ബിഹാരി ബോസ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Bhagat Singh, Sukhdev, and Chandrashekhar Azad reconstituted the organization to emphasize socialist ideals alongside revolutionary struggle.",
+      "ml": "സോഷ്യലിസ്റ്റ് ലക്ഷ്യങ്ങൾ ഉൾപ്പെടുത്തി ഭഗത് സിംഗും ചന്ദ്രശേഖർ ആസാദും സുഖ്‌ദേവും ചേർന്നാണ് എച്ച്.ആർ.എ. യെ എച്ച്.എസ്.ആർ.എ. ആയി മാറ്റിയത്."
+    },
+    "source": "NCERT Class 12 History; National Archives of India, HSRA trial papers",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-031",
+    "subject": "his",
+    "topic": "Freedom movement",
+    "difficulty": 3,
+    "q": {
+      "en": "The historic Chittagong Armoury Raid of April 1930 was planned and led by which prominent revolutionary leader?",
+      "ml": "1930 ഏപ്രിലിൽ ഇന്ത്യൻ റിപ്പബ്ലിക്കൻ ആർമിയുടെ നേതൃത്വത്തിൽ നടന്ന പ്രസിദ്ധമായ ചിറ്റഗോംഗ് ആയുധപ്പുര ആക്രമണത്തിന് നേതൃത്വം നൽകിയ വിപ്ലവകാരി ആര്?"
+    },
+    "options": {
+      "en": [
+        "Surya Sen ('Masterda')",
+        "Batukeshwar Dutt",
+        "Jatin Das",
+        "Pritilata Waddedar alone"
+      ],
+      "ml": [
+        "സൂര്യ സെൻ ('മാസ്റ്റർ ദാ')",
+        "ബടുകേശ്വർ ദത്ത്",
+        "ജതീന്ദ്രനാഥ് ദാസ്",
+        "പ്രീതിലതാ വദ്ദേദാറും കൽപ്പന ദത്തും മാത്രം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Surya Sen, revered as 'Masterda', led the armed raid on the colonial armoury in Chittagong (now in Bangladesh) on 18 April 1930.",
+      "ml": "'മാസ്റ്റർ ദാ' എന്ന് വിളിക്കപ്പെട്ട സൂര്യ സെന്നിന്റെ നേതൃത്വത്തിലാണ് യുവാക്കൾ ചിറ്റഗോംഗിലെ ആയുധപ്പുരകൾ ആക്രമിച്ചത്."
+    },
+    "source": "NCERT Class 10/12 History; Bipan Chandra, India's Struggle for Independence",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-032",
+    "subject": "his",
+    "topic": "Independence and after",
+    "difficulty": 1,
+    "q": {
+      "en": "Who served as the first Deputy Prime Minister and Minister of Home Affairs of independent India, leading the integration of princely states?",
+      "ml": "സ്വതന്ത്ര ഇന്ത്യയുടെ ആദ്യത്തെ ആഭ്യന്തര മന്ത്രിയും ഉപപ്രധാനമന്ത്രിയുമായിരുന്നുകൊണ്ട് നാട്ടുരാജ്യങ്ങളുടെ സംയോജനത്തിന് നേതൃത്വം നൽകിയത് ആര്?"
+    },
+    "options": {
+      "en": [
+        "Sardar Vallabhbhai Patel",
+        "Jawaharlal Nehru",
+        "B. R. Ambedkar",
+        "Maulana Abul Kalam Azad"
+      ],
+      "ml": [
+        "സർദാർ വല്ലഭ്ഭായ് പട്ടേൽ",
+        "ജവഹർലാൽ നെഹ്റു",
+        "ബി. ആർ. അംബേദ്കർ",
+        "മൗലാനാ അബുൽ കലാം ആസാദ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Sardar Vallabhbhai Patel, through diplomatic skill and firmness, secured the accession of over 500 princely states into the Indian Union.",
+      "ml": "വി. പി. മേനോന്റെ സഹായത്തോടെ അഞ്ഞൂറിലധികം നാട്ടുരാജ്യങ്ങളെ ഇന്ത്യൻ യൂണിയനിൽ ലയിപ്പിച്ചത് സർദാർ പട്ടേലായിരുന്നു."
+    },
+    "source": "White Paper on Indian States (1950); NCERT Class 12 Political Science 'Challenges of Nation Building'",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-033",
+    "subject": "his",
+    "topic": "Independence and after",
+    "difficulty": 2,
+    "q": {
+      "en": "Who was appointed chairman of the two Boundary Commissions tasked with demarcating the borders between India and Pakistan in 1947?",
+      "ml": "1947-ൽ ഇന്ത്യയും പാകിസ്ഥാനും തമ്മിലുള്ള അതിർത്തികൾ നിർണ്ണയിക്കാൻ നിയോഗിച്ച അതിർത്തി കമ്മീഷനുകളുടെ അധ്യക്ഷൻ ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Sir Cyril Radcliffe",
+        "Sir Stafford Cripps",
+        "Lord Pethick-Lawrence",
+        "Lord Wavell"
+      ],
+      "ml": [
+        "സർ സിറിൽ റാഡ്ക്ലിഫ്",
+        "സർ സ്റ്റാഫോർഡ് ക്രിപ്സ്",
+        "പെത്തിക്-ലോറൻസ്",
+        "വേവൽ പ്രഭു"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Sir Cyril Radcliffe chaired the Bengal and Punjab boundary commissions that defined the international border (Radcliffe Line).",
+      "ml": "പഞ്ചാബിലും ബംഗാളിലും ഇന്ത്യ-പാക് അതിർത്തി രേഖ നിർണ്ണയിച്ച കമ്മീഷനുകളുടെ തലവൻ സർ സിറിൽ റാഡ്ക്ലിഫായിരുന്നു."
+    },
+    "source": "Indian Independence Act, 1947; Boundary Commissions Report (Radcliffe Award)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-034",
+    "subject": "his",
+    "topic": "Independence and after",
+    "difficulty": 3,
+    "q": {
+      "en": "Which three members of the British government constituted the Cabinet Mission that arrived in India in March 1946 to plan the transfer of power?",
+      "ml": "1946 മാർച്ചിൽ ഇന്ത്യയിലേക്ക് അയച്ച ക്യാബിനറ്റ് മിഷനിലെ മൂന്ന് ബ്രിട്ടീഷ് മന്ത്രിമാർ ആരെല്ലാമായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Lord Pethick-Lawrence, Sir Stafford Cripps, and A. V. Alexander",
+        "Lord Mountbatten, Clement Attlee, and Anthony Eden",
+        "Lord Wavell, Stafford Cripps, and John Simon",
+        "Lord Linlithgow, Samuel Hoare, and Leo Amery"
+      ],
+      "ml": [
+        "പെത്തിക്-ലോറൻസ്, സർ സ്റ്റാഫോർഡ് ക്രിപ്സ്, എ. വി. അലക്സാണ്ടർ",
+        "മൗണ്ട്ബാറ്റൺ പ്രഭു, ക്ലെമന്റ് ആറ്റ്ലി, ആന്റണി ഈഡൻ",
+        "വേവൽ പ്രഭു, സ്റ്റാഫോർഡ് ക്രിപ്സ്, ജോൺ സൈമൺ",
+        "ലിൻലിത്ഗോ പ്രഭു, സാമുവൽ ഹോർ, ലിയോ അമേരി"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The Cabinet Mission comprised Lord Pethick-Lawrence (Secretary of State for India), Sir Stafford Cripps, and A. V. Alexander (First Lord of the Admiralty).",
+      "ml": "പെത്തിക്-ലോറൻസ് പ്രഭു, സർ സ്റ്റാഫോർഡ് ക്രിപ്സ്, എ. വി. അലക്സാണ്ടർ എന്നിവരടങ്ങിയ സംഘമാണ് ക്യാബിനറ്റ് മിഷൻ."
+    },
+    "source": "Cabinet Mission Plan (May 16, 1946); NCERT Class 12 Themes in Indian History Part III",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-035",
+    "subject": "his",
+    "topic": "Independence and after",
+    "difficulty": 3,
+    "q": {
+      "en": "The police action launched by the Government of India in September 1948 to integrate the princely state of Hyderabad was codenamed:",
+      "ml": "1948 സെപ്റ്റംബറിൽ ഹൈദരാബാദ് നാട്ടുരാജ്യത്തെ ഇന്ത്യൻ യൂണിയനിൽ ലയിപ്പിക്കാനായി കേന്ദ്ര സർക്കാർ നടത്തിയ സൈനിക നടപടിയുടെ രഹസ്യനാമം എന്തായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Operation Polo",
+        "Operation Vijay",
+        "Operation Cactus",
+        "Operation Blue Star"
+      ],
+      "ml": [
+        "ഓപ്പറേഷൻ പോളോ",
+        "ഓപ്പറേഷൻ വിജയ്",
+        "ഓപ്പറേഷൻ കാക്ടസ്",
+        "ഓപ്പറേഷൻ ബ്ലൂസ്റ്റാർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Operation Polo was conducted from 13 to 17 September 1948, leading to the surrender of the Nizam's armed forces and accession of Hyderabad.",
+      "ml": "നിസാമിന്റെ സൈന്യത്തെയും റസാക്കാർമാരെയും കീഴടക്കി ഹൈദരാബാദിനെ സംയോജിപ്പിച്ച സൈനിക നടപടിയാണ് ഓപ്പറേഷൻ പോളോ."
+    },
+    "source": "Ministry of States records; V. P. Menon, The Story of the Integration of the Indian States",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "his-036",
+    "subject": "his",
+    "topic": "Independence and after",
+    "difficulty": 3,
+    "q": {
+      "en": "Who was appointed as the Constitutional Adviser to the Constituent Assembly of India in 1946, preparing the initial draft of the Constitution?",
+      "ml": "1946-ൽ ഇന്ത്യൻ ഭരണഘടനാ നിർമ്മാണ സഭയുടെ ഉപദേശകനായി (Constitutional Adviser) നിയമിതനായ നിയമവിദഗ്ദ്ധൻ ആരായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Sir B. N. Rau",
+        "K. M. Munshi",
+        "Alladi Krishnaswamy Iyer",
+        "Sachchidananda Sinha"
+      ],
+      "ml": [
+        "സർ ബി. എൻ. റാവു",
+        "കെ. എം. മുൻഷി",
+        "അല്ലാഡി കൃഷ്ണസ്വാമി അയ്യർ",
+        "സച്ചിദാനന്ദ സിൻഹ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Sir B. N. Rau prepared the initial draft of the Indian Constitution, which was then revised and finalized by the Drafting Committee.",
+      "ml": "ഭരണഘടനാ നിർമ്മാണ സഭയുടെ ഉപദേശകനായ ബി. എൻ. റാവുവാണ് ഭരണഘടനയുടെ ആദ്യ കരട് തയ്യാറാക്കി സമർപ്പിച്ചത്."
+    },
+    "source": "Constituent Assembly Debates (cadindia.clpr.org.in); B. Shiva Rao, The Framing of India's Constitution",
+    "verified": false,
+    "needsReview": false
   }
 ]
