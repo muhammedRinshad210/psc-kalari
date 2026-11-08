@@ -11,6 +11,7 @@ import {
   copyIconSvg, shareIconSvg, whatsAppQuestionUrl, whatsAppResultUrl
 } from './share.js';
 import { clearRunningMock, saveRunningMock, score } from './mock.js';
+import { reportButton } from './report.js';
 
 let Z = null;
 
@@ -35,7 +36,8 @@ function build(list) {
       opts: order.map((i) => q.options.en[i]),
       mopts: order.map((i) => q.options.ml[i]),
       ans: order.indexOf(q.answerIndex),
-      order
+      order,
+      verified: Boolean(q.verified)
     };
   });
 }
@@ -272,8 +274,12 @@ export function viewQuiz() {
     ${isMock ? `<div class="timer${remaining() <= 120 ? ' low' : ''}" id="timer" role="timer" aria-live="off">${fmtTime(remaining())}</div>` : ''}
   </div>`;
 
+  const repBtn = !isMock ? reportButton(item.id) : '';
   h += `<section class="card qcard"><div class="row" style="align-items:center;justify-content:space-between;gap:8px">
-    <span class="chip">${esc(subjectName(item.s))}</span>
+    <div class="row" style="align-items:center;gap:6px">
+      <span class="chip">${esc(subjectName(item.s))}</span>
+      ${item.verified ? `<span class="chip">${tx('Reviewed', 'പരിശോധിച്ചത്')}</span>` : ''}
+    </div>
     <div class="row" style="align-items:center;gap:4px">
       ${!isMock ? starButton(item.id) : ''}
       <a class="qaction-btn share-btn" href="${whatsAppQuestionUrl(item)}" target="_blank" rel="noopener" aria-label="Share question to WhatsApp">
@@ -301,6 +307,7 @@ export function viewQuiz() {
 
   h += '</div>';
   if (revealed) h += `<div class="explain"><b>${verdict(picked === item.ans, item)}</b>${tx(item.e, item.me)}</div>`;
+  if (repBtn) h += `<div class="row" style="margin-top:14px;justify-content:flex-end">${repBtn}</div>`;
   h += '</section>';
 
   if (isMock) {
@@ -339,12 +346,15 @@ function reviewList() {
     const pick = Z.picks[i];
     const state = pick === undefined ? 'skip' : (pick === item.ans ? 'ok' : 'no');
     const label = pick === undefined ? 'Skipped' : (pick === item.ans ? 'Right' : 'Wrong');
+    const repBtn = reportButton(item.id);
     return `<details class="rev"><summary><span class="pill ${state}">${label}</span>
       <span style="flex:1;min-width:0">${tx(item.q, item.mq)}</span>
+      ${item.verified ? `<span class="chip" style="font-size:0.75rem;padding:2px 8px">${tx('Reviewed', 'പരിശോധിച്ചത്')}</span>` : ''}
       ${starButton(item.id)}</summary><div class="body">
       <span><b>Answer:</b> ${tx(item.opts[item.ans], item.mopts[item.ans])}</span>
       ${pick !== undefined && pick !== item.ans ? `<span><b>You chose:</b> ${tx(item.opts[pick], item.mopts[pick])}</span>` : ''}
-      <span class="muted">${tx(item.e, item.me)}</span></div></details>`;
+      <span class="muted">${tx(item.e, item.me)}</span>
+      ${repBtn ? `<div class="row" style="margin-top:10px">${repBtn}</div>` : ''}</div></details>`;
   }).join('')}</div>`;
 }
 

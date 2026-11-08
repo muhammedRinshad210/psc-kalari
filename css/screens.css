@@ -113,6 +113,8 @@ details.rev .body span{overflow-wrap:anywhere}
 .qaction-btn svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
 
 .share-btn,.copy-btn{min-width:44px;min-height:44px}
+.report-btn{min-height:44px;font-size:var(--t-sm);text-decoration:none}
+.btn.sec:hover{background:var(--surface2)}
 .copy-btn.copied{color:var(--ok)}
 
 /* toast notification for copied confirmation */

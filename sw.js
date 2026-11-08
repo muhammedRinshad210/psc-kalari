@@ -37,6 +37,7 @@ const PRECACHE_URLS = [
   './js/progress.js',
   './js/pwa.js',
   './js/quiz.js',
+  './js/report.js',
   './js/review.js',
   './js/router.js',
   './js/search.js',

@@ -8,6 +8,7 @@ import { loadingCard, requestRender } from './ui.js';
 import {
   copyIconSvg, shareIconSvg, whatsAppQuestionUrl
 } from './share.js';
+import { reportButton } from './report.js';
 
 let index = null;
 let indexPromise = null;
@@ -197,7 +198,10 @@ export function renderResultsHtml(query) {
       <summary style="cursor:pointer">
         <div class="stack" style="gap:6px;flex:1;min-width:0">
           <div class="row" style="align-items:center;justify-content:space-between;gap:8px">
-            <span class="chip">${esc(subjectName(q.subject))}</span>
+            <div class="row" style="align-items:center;gap:6px">
+              <span class="chip">${esc(subjectName(q.subject))}</span>
+              ${q.verified ? `<span class="chip">${tx('Reviewed', 'പരിശോധിച്ചത്')}</span>` : ''}
+            </div>
             <div class="row" style="align-items:center;gap:4px">
               ${starButton(q.id)}
               <a class="qaction-btn share-btn" href="${whatsAppQuestionUrl(q)}" target="_blank" rel="noopener" aria-label="Share question to WhatsApp">
@@ -226,6 +230,7 @@ export function renderResultsHtml(query) {
             ${copyIconSvg}
             <span class="btn-label">${tx('Copy', 'കോപ്പി')}</span>
           </button>
+          ${reportButton(q.id)}
         </div>
       </div>
     </details>

@@ -122,6 +122,7 @@ function renderSubjectPage(subject, subjectQuestions) {
   const sampleQuestions = subjectQuestions.slice(0, 10);
 
   const sampleQuestionsHtml = sampleQuestions.map((q, idx) => {
+    const verifiedChip = q.verified ? ' <span class="chip" style="font-size:0.75rem;padding:2px 8px">Reviewed</span>' : '';
     const optionsHtml = q.options.en.map((optEn, optIdx) => `
         <li style="margin-bottom:8px">
           <div>${esc(optEn)}</div>
@@ -130,7 +131,7 @@ function renderSubjectPage(subject, subjectQuestions) {
 
     return `
       <article class="card sample-q" style="margin-bottom:16px">
-        <div style="font-size:var(--t-xs);font-weight:700;color:var(--gold-ink);text-transform:uppercase;margin-bottom:6px">Question ${idx + 1} · ${esc(q.topic)}</div>
+        <div style="font-size:var(--t-xs);font-weight:700;color:var(--gold-ink);text-transform:uppercase;margin-bottom:6px">Question ${idx + 1} · ${esc(q.topic)}${verifiedChip}</div>
         <div class="qtext" style="font-weight:600;font-size:1.1rem;line-height:1.4">
           <p style="margin-bottom:4px">${esc(q.q.en)}</p>
           <p lang="ml" class="ml" style="color:var(--muted);font-size:0.95rem">${esc(q.q.ml)}</p>
@@ -258,6 +259,11 @@ ${JSON.stringify(breadcrumbLd, null, 2)}
         Practise all ${subjectQuestions.length} questions
       </a>
     </div>
+
+    <p class="note" style="margin-top:28px;line-height:1.6">
+      These practice questions are written by us and are still being checked against official sources. If you find a mistake, please <a href="../" style="color:inherit;text-decoration:underline">report it</a> in the PSC Kalari app.
+      <span class="ml" lang="ml" style="display:block;margin-top:4px">ഈ പരിശീലന ചോദ്യങ്ങൾ ഞങ്ങൾ തയ്യാറാക്കിയതാണ്, അവ ഔദ്യോഗിക ഉറവിടങ്ങളുമായി ഒത്തുനോക്കിക്കൊണ്ടിരിക്കുകയാണ്. എന്തെങ്കിലും തെറ്റ് കണ്ടെത്തിയാൽ ദയവായി പി.എസ്.സി കളരി ആപ്പിൽ <a href="../" style="color:inherit;text-decoration:underline">റിപ്പോർട്ട് ചെയ്യുക</a>.</span>
+    </p>
 
     <p class="note" style="margin-top:40px">
       <a href="../" style="color:inherit">PSC Kalari</a> — Free Kerala PSC practice portal. No login, no ads.

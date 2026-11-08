@@ -95,7 +95,7 @@ h2.sec{font-size:var(--t-lg);margin-block:8px 2px}
   display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 20px;border-radius:var(--radius-sm);
   border:1.5px solid var(--brand);background:var(--brand);color:var(--on-brand);font-weight:700;
 }
-.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.ghost, .btn.sec{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn.warn{background:var(--bad);border-color:var(--bad);color:#fff}
 .btn.sm{min-height:40px;padding:8px 14px;font-size:var(--t-sm)}
 .btn[disabled]{opacity:.5;cursor:not-allowed}

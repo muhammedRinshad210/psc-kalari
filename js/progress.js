@@ -7,6 +7,7 @@ import { dayKey, dayOffset, esc } from './util.js';
 import { subjectName, tx } from './i18n.js';
 import { bars, ring } from './ui.js';
 import { sylStats, sylAll } from './syllabus.js';
+import { reviewNoticeHtml } from './report.js';
 
 /* ---------- statistics ---------- */
 
@@ -130,6 +131,7 @@ export function viewProgress() {
   } else {
     h += '<div><button type="button" class="btn ghost sm" data-act="reset">Erase my progress</button></div>';
   }
+  h += `<p class="note">${reviewNoticeHtml()}</p>`;
   return `${h}</div>`;
 }
 

@@ -6,6 +6,7 @@ import { dayKey, esc } from './util.js';
 import { dateLine, subjectName, tx } from './i18n.js';
 import { accOf, currentStreak, weakest } from './progress.js';
 import { renderInstallCard } from './pwa.js';
+import { reviewNoticeHtml } from './report.js';
 
 function subjectCard(subject) {
   const acc = accOf(subject.key);
@@ -69,5 +70,6 @@ export function viewHome() {
     h += `<div class="coming-soon"><h3 class="sec muted" style="font-size:var(--t-base);margin-block:16px 8px">${tx('Coming soon', 'ഉടൻ വരുന്നു')}</h3>
     <ul class="coming-list">${coming.map((s) => `<li>${tx(s.en, s.ml)}</li>`).join('')}</ul></div>`;
   }
+  h += `<p class="note">${reviewNoticeHtml()}</p>`;
   return `${h}</div>`;
 }
