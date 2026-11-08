@@ -1,7 +1,7 @@
 /* Service Worker for PSC Kalari.
    App shell precaching, stale-while-revalidate for data, network-first for navigations. */
 
-const CACHE_NAME = 'psc-kalari-2026-11-08T02-41-45-867Z';
+const CACHE_NAME = 'psc-kalari-2026-11-08T06-46-36-515Z';
 
 const PRECACHE_URLS = [
   './',

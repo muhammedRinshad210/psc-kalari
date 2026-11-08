@@ -4165,31 +4165,31 @@
     "topic": "Mountains and forests",
     "difficulty": 3,
     "q": {
-      "en": "Which forest type accounts for the largest share of recorded forest area in Kerala?",
-      "ml": "കേരളത്തിലെ വനവിസ്തൃതിയിൽ ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്ന വനവിഭാഗം ഏതാണ്?"
+      "en": "Shendurney Wildlife Sanctuary, named after the endemic tree species Chenkurinji (Gluta travancorica), is situated in which district of Kerala?",
+      "ml": "ചെന്തുരുണി (ഗ്ലൂട്ടാ ട്രാവൻകോറിക്ക) എന്ന തനത് വൃക്ഷത്തിന്റെ പേരിൽ അറിയപ്പെടുന്ന ശെന്തുരുണി വന്യജീവി സങ്കേതം കേരളത്തിലെ ഏത് ജില്ലയിലാണ് സ്ഥിതി ചെയ്യുന്നത്?"
     },
     "options": {
       "en": [
-        "Tropical moist deciduous forest",
-        "Tropical wet evergreen forest",
-        "Montane subtropical forest",
-        "Littoral and swamp forest"
+        "Kollam",
+        "Pathanamthitta",
+        "Thiruvananthapuram",
+        "Idukki"
       ],
       "ml": [
-        "ആർദ്ര ഇലപൊഴിയും കാടുകൾ (ട്രോപ്പിക്കൽ മോയിസ്റ്റ് ഡിസിഡുവസ്)",
-        "നിത്യഹരിത കാടുകൾ (ട്രോപ്പിക്കൽ വെറ്റ് എവർഗ്രീൻ)",
-        "ഉപോഷ്ണമേഖലാ മലയോര വനങ്ങൾ",
-        "തീരദേശ ചതുപ്പ് വനങ്ങൾ"
+        "കൊല്ലം",
+        "പത്തനംതിട്ട",
+        "തിരുവനന്തപുരം",
+        "ഇടുക്കി"
       ]
     },
     "answerIndex": 0,
     "explanation": {
-      "en": "Tropical moist deciduous forests cover the largest area among forest types in Kerala, followed by tropical wet evergreen forests.",
-      "ml": "കേരളത്തിലെ വനങ്ങളിൽ ഏറ്റവും കൂടുതൽ വിസ്തൃതിയുള്ളത് ആർദ്ര ഇലപൊഴിയും കാടുകൾക്കാണ്; അതിനു പിന്നിലാണ് നിത്യഹരിത വനങ്ങൾ."
+      "en": "Shendurney Wildlife Sanctuary, established in 1984 in the Western Ghats of Kollam district, derives its name from the endemic tree Chenkurinji (Gluta travancorica).",
+      "ml": "കൊല്ലം ജില്ലയിൽ പശ്ചിമഘട്ട മലനിരകളിൽ സ്ഥിതി ചെയ്യുന്ന ശെന്തുരുണി വന്യജീവി സങ്കേതത്തിന് ആ പേര് ലഭിച്ചത് അവിടെ കാണപ്പെടുന്ന ചെന്തുരുണി എന്ന വൃക്ഷത്തിൽ നിന്നാണ്."
     },
-    "source": "Forest Survey of India (India State of Forest Report - Kerala chapter); Kerala Forest Statistics",
+    "source": "Kerala Forest and Wildlife Department; Kerala State Biodiversity Board",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "geo-022",
@@ -4408,12 +4408,12 @@
     },
     "answerIndex": 0,
     "explanation": {
-      "en": "Kerala has 3 designated Ramsar sites: Vembanad-Kol wetland, Ashtamudi Lake, and Sasthamkotta Lake, all designated in November 2002.",
-      "ml": "വേമ്പനാട്-കോൾ തണ്ണീർത്തടം, അഷ്ടമുടിക്കായൽ, ശാസ്താംകോട്ട കായൽ എന്നിവയാണ് കേരളത്തിലെ 3 റാംസർ തണ്ണീർത്തടങ്ങൾ (2002-ൽ പ്രഖ്യാപിക്കപ്പെട്ടവ)."
+      "en": "Kerala has 3 designated Ramsar sites: Vembanad-Kol wetland, Ashtamudi Lake, and Sasthamkotta Lake.",
+      "ml": "വേമ്പനാട്-കോൾ തണ്ണീർത്തടം, അഷ്ടമുടിക്കായൽ, ശാസ്താംകോട്ട കായൽ എന്നിവയാണ് കേരളത്തിലെ 3 റാംസർ തണ്ണീർത്തടങ്ങൾ."
     },
     "source": "Ramsar Convention on Wetlands Official List; MoEFCC",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "geo-029",
@@ -7960,12 +7960,12 @@
     },
     "answerIndex": 0,
     "explanation": {
-      "en": "Section 5 of the States Reorganisation Act, 1956 provided for the creation of the new State of Kerala on 1 November 1956.",
-      "ml": "1956-ലെ സംസ്ഥാന പുനഃസംഘടനാ നിയമത്തിലെ സെക്ഷൻ 5 പ്രകാരമാണ് 1956 നവംബർ 1-ന് കേരള സംസ്ഥാനം നിലവിൽ വന്നത്."
+      "en": "The States Reorganisation Act, 1956 provided for the creation of the new State of Kerala on 1 November 1956.",
+      "ml": "1956-ലെ സംസ്ഥാന പുനഃസംഘടനാ നിയമപ്രകാരമാണ് 1956 നവംബർ 1-ന് കേരള സംസ്ഥാനം നിലവിൽ വന്നത്."
     },
-    "source": "States Reorganisation Act, 1956, Section 5; SCERT Class 9 Social Science, Unit 5",
+    "source": "States Reorganisation Act, 1956; SCERT Class 9 Social Science, Unit 5",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "ker-008",
@@ -8517,31 +8517,31 @@
     "topic": "Malayalam language",
     "difficulty": 3,
     "q": {
-      "en": "The Vazhappally copper plate inscription (circa 830 CE), among the earliest dated epigraphic records in early Malayalam, belongs to which Chera king?",
-      "ml": "മലയാള ഭാഷാ ചരിത്രത്തിലെ ഏറ്റവും പഴയ രേഖകളിലൊന്നായ വാഴപ്പള്ളി ചെപ്പേട് (ഏകദേശം ക്രി.വ. 830) ഏത് ചേര പെരുമാൾ രാജാവിന്റെ ഭരണകാലത്തുള്ളതാണ്?"
+      "en": "The Vazhappally copper plate inscription, among the earliest epigraphic records in early Malayalam, belongs to the reign of which Chera Perumal king?",
+      "ml": "മലയാള ഭാഷാ ചരിത്രത്തിലെ ഏറ്റവും പഴയ രേഖകളിലൊന്നായ വാഴപ്പള്ളി ചെപ്പേട് ഏത് ചേര പെരുമാൾ രാജാവിന്റെ ഭരണകാലത്തുള്ളതാണ്?"
     },
     "options": {
       "en": [
-        "Rajasekhara Varman",
-        "Kulasekhara Varman",
+        "Rama Rajasekhara",
         "Sthanu Ravi Varma",
-        "Rama Varma Kulasekhara"
+        "Bhaskara Ravi Varman",
+        "Godamarthanda Varma"
       ],
       "ml": [
-        "രാജശേഖര വർമ്മൻ",
-        "കുലശേഖര വർമ്മൻ",
+        "രാമ രാജശേഖരൻ",
         "സ്ഥാണു രവിവർമ്മൻ",
-        "രാമവർമ്മ കുലശേഖരൻ"
+        "ഭാസ്കര രവിവർമ്മൻ",
+        "ഗോദമാർത്താണ്ഡ വർമ്മൻ"
       ]
     },
     "answerIndex": 0,
     "explanation": {
-      "en": "The Vazhappally copper plate in Vatteluttu script is dated to the 12th regnal year of Chera King Rajasekhara Varman.",
-      "ml": "വട്ടെഴുത്ത് ലിപിയിലുള്ള വാഴപ്പള്ളി ശാസനം ചേര രാജാവായ രാജശേഖര വർമ്മന്റെ ഭരണത്തിന്റെ 12-ാം ആണ്ടിലേതാണ്."
+      "en": "The Vazhappally copper plate inscription in Vatteluttu script is dated to the 12th regnal year of Chera Perumal King Rama Rajasekhara.",
+      "ml": "വട്ടെഴുത്ത് ലിപിയിലുള്ള വാഴപ്പള്ളി ശാസനം ചേര പെരുമാൾ രാജാവായ രാമ രാജശേഖരന്റെ ഭരണത്തിന്റെ 12-ാം ആണ്ടിലേതാണ്."
     },
     "source": "Epigraphia Indica; A. Sreedhara Menon, A Survey of Kerala History, Chapter 8",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "ker-026",
@@ -8549,8 +8549,8 @@
     "topic": "Festivals and arts",
     "difficulty": 1,
     "q": {
-      "en": "Kathakali, the classical dance-drama of Kerala, directly evolved from which 17th-century theatrical art form created by the Raja of Kottarakkara?",
-      "ml": "കേരളത്തിന്റെ ശാസ്ത്രീയ നൃത്തനാടകമായ കഥകളി കൊട്ടാരക്കര തമ്പുരാൻ ചിട്ടപ്പെടുത്തിയ ഏത് കലാരൂപത്തിൽ നിന്നാണ് നേരിട്ട് രൂപപ്പെട്ടത്?"
+      "en": "Which theatre art form of Kerala was created in the 17th century by the Raja of Kottarakkara?",
+      "ml": "പതിനേഴാം നൂറ്റാണ്ടിൽ കൊട്ടാരക്കര തമ്പുരാൻ ചിട്ടപ്പെടുത്തിയ കേരളത്തിലെ രംഗകലാരൂപം ഏതാണ്?"
     },
     "options": {
       "en": [
@@ -8568,12 +8568,12 @@
     },
     "answerIndex": 0,
     "explanation": {
-      "en": "Ramanattam, created by Kottarakkara Thampuran based on the Ramayana, was modified over time to form Kathakali.",
-      "ml": "കൊട്ടാരക്കര തമ്പുരാൻ രാമായണകഥയെ ആസ്പദമാക്കി ചിട്ടപ്പെടുത്തിയ രാമനാട്ടമാണ് പിൽക്കാലത്ത് കഥകളിയായി പരിണമിച്ചത്."
+      "en": "Ramanattam was created in the 17th century by the Raja of Kottarakkara based on the Ramayana; Kathakali later developed from Ramanattam.",
+      "ml": "പതിനേഴാം നൂറ്റാണ്ടിൽ കൊട്ടാരക്കര തമ്പുരാൻ രാമായണകഥയെ ആസ്പദമാക്കി ചിട്ടപ്പെടുത്തിയ കലാരൂപമാണ് രാമനാട്ടം; രാമനാട്ടത്തിൽ നിന്നാണ് പിൽക്കാലത്ത് കഥകളി വികസിച്ചത്."
     },
     "source": "SCERT Class 8 Social Science; Kerala Kalamandalam publication on Kathakali",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "ker-027",
@@ -8613,8 +8613,8 @@
     "topic": "Festivals and arts",
     "difficulty": 1,
     "q": {
-      "en": "Kerala Kalamandalam, established in 1930 at Cheruthuruthy to revive and promote traditional performing arts, was founded by:",
-      "ml": "കേരളത്തിന്റെ പരമ്പരാഗത രംഗകലകളെ സംരക്ഷിക്കുന്നതിനായി 1930-ൽ ചെറുതുരുത്തിയിൽ കേരള കലാമണ്ഡലം സ്ഥാപിച്ചത് ആര്?"
+      "en": "Kerala Kalamandalam, established in 1930 to revive and promote traditional performing arts, was founded by:",
+      "ml": "കേരളത്തിന്റെ പരമ്പരാഗത രംഗകലകളെ സംരക്ഷിക്കുന്നതിനായി 1930-ൽ കേരള കലാമണ്ഡലം സ്ഥാപിച്ചത് ആര്?"
     },
     "options": {
       "en": [
@@ -8637,7 +8637,7 @@
     },
     "source": "Kerala Kalamandalam Act, 2006; SCERT Class 9 Social Science",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "ker-029",
@@ -8709,31 +8709,31 @@
     "topic": "Festivals and arts",
     "difficulty": 3,
     "q": {
-      "en": "Which traditional temple-singing musical style of Kerala forms the core stylistic accompaniment for classical Mohiniyattam?",
-      "ml": "ക്ഷേത്ര ആചാരങ്ങളോടും സോപാനങ്ങളോടും ബന്ധപ്പെട്ട കേരളത്തിന്റെ ഏത് തനത് സംഗീത ശൈലിയാണ് മോഹിനിയാട്ടത്തിന്റെ ആലാപന രീതിക്ക് അടിസ്ഥാനം?"
+      "en": "Which traditional Sanskrit dance-drama of Kerala was created in the 17th century by Manaveda, the Zamorin of Kozhikode, based on his text 'Krishnageethi'?",
+      "ml": "കോഴിക്കോട് സാമൂതിരിയായിരുന്ന മാനവേദ രാജാവ് തന്റെ 'കൃഷ്ണഗീതി' എന്ന കാവ്യത്തെ ആസ്പദമാക്കി 17-ാം നൂറ്റാണ്ടിൽ ചിട്ടപ്പെടുത്തിയ സംസ്കൃത നൃത്തനാടകം ഏതാണ്?"
     },
     "options": {
       "en": [
-        "Sopana Sangeetham",
-        "Carnatic Keerthanam style exclusively",
-        "Hindustani Dhrupad style",
-        "Baul tradition"
+        "Krishnanattam",
+        "Kathakali",
+        "Chavittu Nadakam",
+        "Ottamthullal"
       ],
       "ml": [
-        "സോപാന സംഗീതം",
-        "കർണ്ണാടക കീർത്തന ശൈലി മാത്രം",
-        "ഹിന്ദുസ്ഥാനി ധ്രുപദ് ശൈലി",
-        "ബാവുൾ സമ്പ്രദായം"
+        "കൃഷ്ണനാട്ടം",
+        "കഥകളി",
+        "ചവിട്ടുനാടകം",
+        "ഓട്ടൻതുള്ളൽ"
       ]
     },
     "answerIndex": 0,
     "explanation": {
-      "en": "Mohiniyattam incorporates Sopana Sangeetham, the slow and expressive devotional singing style native to Kerala temples.",
-      "ml": "ക്ഷേത്രപ്പടികളിൽ (സോപാനം) നിന്നുള്ള തനത് ആലാപന ശൈലിയായ സോപാന സംഗീതത്തിന്റെ ഈണങ്ങൾ മോഹിനിയാട്ടത്തിൽ ഉപയോഗിക്കുന്നു."
+      "en": "Krishnanattam was created in the 17th century by Zamorin Manaveda of Kozhikode based on his Sanskrit dramatic lyric Krishnageethi, presenting the Krishna legend in eight parts.",
+      "ml": "കോഴിക്കോട് സാമൂതിരി മാനവേദ രാജാവ് രചിച്ച കൃഷ്ണഗീതിയെ ആസ്പദമാക്കി ശ്രീകൃഷ്ണന്റെ ജീവിതകഥ എട്ട് ഭാഗങ്ങളായി അവതരിപ്പിക്കുന്ന നൃത്തനാടകമാണ് കൃഷ്ണനാട്ടം."
     },
-    "source": "Sangeet Natak Akademi monograph on Mohiniyattam; Kerala Kalamandalam",
+    "source": "A. Sreedhara Menon, Cultural Heritage of Kerala; Kerala Kalamandalam",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "ker-032",
@@ -8888,12 +8888,12 @@
     },
     "answerIndex": 0,
     "explanation": {
-      "en": "Mohammed Abdur Rahiman founded 'Al-Ameen' in October 1924 to bring the people of Malabar into the national freedom struggle.",
-      "ml": "ദേശീയ പ്രസ്ഥാനത്തിലേക്ക് ജനങ്ങളെ ആകർഷിക്കാൻ 1924 ഒക്ടോബറിലാണ് മുഹമ്മദ് അബ്ദുർ റഹിമാൻ സാഹിബ് 'അൽ-അമീൻ' തുടങ്ങിയത്."
+      "en": "Mohammed Abdur Rahiman founded 'Al-Ameen' in 1924 to bring the people of Malabar into the national freedom struggle.",
+      "ml": "ദേശീയ പ്രസ്ഥാനത്തിലേക്ക് ജനങ്ങളെ ആകർഷിക്കാൻ 1924-ലാണ് മുഹമ്മദ് അബ്ദുർ റഹിമാൻ സാഹിബ് 'അൽ-അമീൻ' തുടങ്ങിയത്."
     },
     "source": "SCERT Class 10 Social Science; A. Sreedhara Menon, Kerala History",
     "verified": false,
-    "needsReview": false
+    "needsReview": true
   },
   {
     "id": "his-007",
