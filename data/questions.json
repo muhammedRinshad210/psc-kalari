@@ -5886,5 +5886,2053 @@
     "source": "NCERT Science Class 9 (Why Do We Fall Ill); WHO Factsheets",
     "verified": false,
     "needsReview": false
+  },
+  {
+    "id": "math-007",
+    "subject": "math",
+    "topic": "Percentage",
+    "difficulty": 1,
+    "q": {
+      "en": "If 25% of a number is 60, what is the number?",
+      "ml": "ഒരു സംഖ്യയുടെ 25% എന്നത് 60 ആണെങ്കിൽ, ആ സംഖ്യ ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "240",
+        "180",
+        "200",
+        "300"
+      ],
+      "ml": [
+        "240",
+        "180",
+        "200",
+        "300"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Let the number be x. 0.25 × x = 60, so x = 60 ÷ 0.25 = 240.",
+      "ml": "സംഖ്യ x ആണെങ്കിൽ, 0.25 × x = 60; അതിനാൽ x = 60 ÷ 0.25 = 240."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics (Decimals and Percentages)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-008",
+    "subject": "math",
+    "topic": "Percentage",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the fraction 3/5 expressed as a percentage?",
+      "ml": "3/5 എന്ന ഭിന്നസംഖ്യയെ ശതമാനമാക്കിയാൽ എത്ര?"
+    },
+    "options": {
+      "en": [
+        "60%",
+        "50%",
+        "75%",
+        "40%"
+      ],
+      "ml": [
+        "60%",
+        "50%",
+        "75%",
+        "40%"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "(3 ÷ 5) × 100% = 0.6 × 100% = 60%.",
+      "ml": "(3 ÷ 5) × 100% = 0.6 × 100% = 60%."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics; NCERT Class 7 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-009",
+    "subject": "math",
+    "topic": "Percentage",
+    "difficulty": 2,
+    "q": {
+      "en": "The salary of an employee is first increased by 20% and then decreased by 20%. What is the net percentage change in salary?",
+      "ml": "ഒരാളുടെ ശമ്പളം ആദ്യം 20% വർദ്ധിപ്പിക്കുകയും പിന്നീട് 20% കുറയ്ക്കുകയും ചെയ്താൽ ശമ്പളത്തിലുണ്ടാകുന്ന ആകെ മാറ്റം എത്ര ശതമാനമാണ്?"
+    },
+    "options": {
+      "en": [
+        "4% decrease",
+        "No change",
+        "4% increase",
+        "2% decrease"
+      ],
+      "ml": [
+        "4% കുറവ്",
+        "മാറ്റമില്ല",
+        "4% വർദ്ധനവ്",
+        "2% കുറവ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Let initial salary = ₹100. Increased by 20% = ₹120. Decreased by 20% of 120 (₹24) = ₹96. Net change = 100 - 96 = 4% decrease.",
+      "ml": "പ്രാരംഭ ശമ്പളം 100 രൂപയെന്ന് കരുതുക. 20% വർദ്ധിക്കുമ്പോൾ = 120 രൂപ. പിന്നീട് 120-ന്റെ 20% (24 രൂപ) കുറയുമ്പോൾ = 96 രൂപ. ആകെ മാറ്റം = 4% കുറവ്."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics (Comparing Quantities)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-010",
+    "subject": "math",
+    "topic": "Percentage",
+    "difficulty": 2,
+    "q": {
+      "en": "In an examination, a candidate scores 180 marks out of a maximum of 300. What percentage of marks did the candidate score?",
+      "ml": "ഒരു പരീക്ഷയിൽ 300-ൽ 180 മാർക്ക് നേടിയ ഒരു വിദ്യാർത്ഥിയുടെ വിജയശതമാനം എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "60%",
+        "55%",
+        "65%",
+        "50%"
+      ],
+      "ml": [
+        "60%",
+        "55%",
+        "65%",
+        "50%"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Percentage = (scored marks ÷ total marks) × 100 = (180 ÷ 300) × 100 = 60%.",
+      "ml": "ശതമാനം = (ലഭിച്ച മാർക്ക് ÷ ആകെ മാർക്ക്) × 100 = (180 ÷ 300) × 100 = 60%."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics (Comparing Quantities)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-011",
+    "subject": "math",
+    "topic": "Percentage",
+    "difficulty": 2,
+    "q": {
+      "en": "If the price of sugar increases by 25%, by what percentage must a household reduce its consumption so that the total expenditure remains the same?",
+      "ml": "പഞ്ചസാരയുടെ വില 25% വർദ്ധിച്ചാൽ, ചെലവ് കൂടാതിരിക്കാൻ ഒരു കുടുംബം പഞ്ചസാരയുടെ ഉപയോഗം എത്ര ശതമാനം കുറയ്ക്കണം?"
+    },
+    "options": {
+      "en": [
+        "20%",
+        "25%",
+        "15%",
+        "16.67%"
+      ],
+      "ml": [
+        "20%",
+        "25%",
+        "15%",
+        "16.67%"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Reduction % = [r / (100 + r)] × 100 = [25 / (100 + 25)] × 100 = (25 / 125) × 100 = 20%.",
+      "ml": "കുറയ്ക്കേണ്ട ശതമാനം = [r / (100 + r)] × 100 = [25 / 125] × 100 = 20%."
+    },
+    "source": "NCERT Class 8 Mathematics; SCERT Kerala Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-012",
+    "subject": "math",
+    "topic": "Percentage",
+    "difficulty": 3,
+    "q": {
+      "en": "Two numbers are respectively 20% and 50% greater than a third number. What percentage is the first number of the second number?",
+      "ml": "രണ്ട് സംഖ്യകൾ മൂന്നാമതൊരു സംഖ്യയേക്കാൾ യഥാക്രമം 20%, 50% കൂടുതൽ ആണെങ്കിൽ, ആദ്യ സംഖ്യ രണ്ടാമത്തെ സംഖ്യയുടെ എത്ര ശതമാനമാണ്?"
+    },
+    "options": {
+      "en": [
+        "80%",
+        "75%",
+        "70%",
+        "85%"
+      ],
+      "ml": [
+        "80%",
+        "75%",
+        "70%",
+        "85%"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Let the third number be 100. First number = 120, second number = 150. (120 ÷ 150) × 100 = 80%.",
+      "ml": "മൂന്നാമത്തെ സംഖ്യ 100 എന്ന് കരുതുക. ആദ്യ സംഖ്യ = 120, രണ്ടാമത്തെ സംഖ്യ = 150. (120 ÷ 150) × 100 = 80%."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-013",
+    "subject": "math",
+    "topic": "Profit and loss",
+    "difficulty": 1,
+    "q": {
+      "en": "An item bought for ₹250 is sold for ₹300. What is the profit earned?",
+      "ml": "₹250-ന് വാങ്ങിയ ഒരു സാധനം ₹300-ന് വിറ്റാൽ കിട്ടുന്ന ലാഭം എത്ര?"
+    },
+    "options": {
+      "en": [
+        "₹50",
+        "₹40",
+        "₹60",
+        "₹25"
+      ],
+      "ml": [
+        "₹50",
+        "₹40",
+        "₹60",
+        "₹25"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Profit = Selling Price - Cost Price = ₹300 - ₹250 = ₹50.",
+      "ml": "ലാഭം = വിറ്റവില - വാങ്ങിയവില = ₹300 - ₹250 = ₹50."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics, Commercial Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-014",
+    "subject": "math",
+    "topic": "Profit and loss",
+    "difficulty": 2,
+    "q": {
+      "en": "A bicycle bought for ₹2,000 is sold at a loss of 15%. What is the selling price of the bicycle?",
+      "ml": "₹2,000-ന് വാങ്ങിയ ഒരു സൈക്കിൾ 15% നഷ്ടത്തിൽ വിറ്റാൽ അതിന്റെ വിറ്റവില എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "₹1,700",
+        "₹1,650",
+        "₹1,750",
+        "₹1,800"
+      ],
+      "ml": [
+        "₹1,700",
+        "₹1,650",
+        "₹1,750",
+        "₹1,800"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Loss = 15% of ₹2,000 = ₹300. Selling Price = ₹2,000 - ₹300 = ₹1,700.",
+      "ml": "നഷ്ടം = 2,000-ന്റെ 15% = 300 രൂപ. വിറ്റവില = ₹2,000 - ₹300 = ₹1,700."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-015",
+    "subject": "math",
+    "topic": "Profit and loss",
+    "difficulty": 2,
+    "q": {
+      "en": "If the cost price of 10 pens is equal to the selling price of 8 pens, what is the profit percentage?",
+      "ml": "10 പേനകളുടെ വാങ്ങിയ വില 8 പേനകളുടെ വിറ്റവിലയ്ക്ക് തുല്യമാണെങ്കിൽ, ലാഭശതമാനം എത്ര?"
+    },
+    "options": {
+      "en": [
+        "25%",
+        "20%",
+        "15%",
+        "30%"
+      ],
+      "ml": [
+        "25%",
+        "20%",
+        "15%",
+        "30%"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Let CP of 1 pen = ₹1. CP of 8 pens = ₹8. SP of 8 pens = ₹10. Profit = ₹2. Profit % = (2 ÷ 8) × 100 = 25%.",
+      "ml": "ഒരു പേനയുടെ വാങ്ങിയ വില ₹1 എന്ന് കരുതുക. 8 പേനകളുടെ വാങ്ങിയവില = ₹8. 8 പേനകളുടെ വിറ്റവില = ₹10. ലാഭം = ₹2. ലാഭശതമാനം = (2 ÷ 8) × 100 = 25%."
+    },
+    "source": "NCERT Class 8 Mathematics (Comparing Quantities)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-016",
+    "subject": "math",
+    "topic": "Profit and loss",
+    "difficulty": 2,
+    "q": {
+      "en": "By selling a chair for ₹720, a trader gains 20%. What was the cost price of the chair?",
+      "ml": "ഒരു കസേര ₹720-ന് വിറ്റപ്പോൾ വ്യാപാരിക്ക് 20% ലാഭം ലഭിച്ചെങ്കിൽ, കസേരയുടെ വാങ്ങിയവില എത്രയായിരുന്നു?"
+    },
+    "options": {
+      "en": [
+        "₹600",
+        "₹580",
+        "₹640",
+        "₹650"
+      ],
+      "ml": [
+        "₹600",
+        "₹580",
+        "₹640",
+        "₹650"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Cost Price = Selling Price ÷ (1 + profit%) = 720 ÷ 1.20 = ₹600.",
+      "ml": "വാങ്ങിയവില = വിറ്റവില ÷ (1 + ലാഭശതമാനം) = 720 ÷ 1.20 = ₹600."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-017",
+    "subject": "math",
+    "topic": "Profit and loss",
+    "difficulty": 3,
+    "q": {
+      "en": "A trader marks goods 30% above the cost price and allows a discount of 10% on the marked price. What is the net profit percentage?",
+      "ml": "ഒരു വ്യാപാരി സാധനങ്ങൾക്ക് വാങ്ങിയവിലയേക്കാൾ 30% കൂട്ടി പരസ്യവില നിശ്ചയിക്കുകയും അതിൽ 10% കിഴിവ് നൽകുകയും ചെയ്താൽ ലാഭശതമാനം എത്ര?"
+    },
+    "options": {
+      "en": [
+        "17%",
+        "20%",
+        "18%",
+        "15%"
+      ],
+      "ml": [
+        "17%",
+        "20%",
+        "18%",
+        "15%"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Let CP = ₹100. Marked Price = ₹130. Discount = 10% of 130 = ₹13. Selling Price = 130 - 13 = ₹117. Profit = 117 - 100 = 17%.",
+      "ml": "വാങ്ങിയവില ₹100 എന്ന് കരുതുക. പരസ്യവില = ₹130. ഡിസ്കൗണ്ട് = 130-ന്റെ 10% = ₹13. വിറ്റവില = 130 - 13 = ₹117. ലാഭശതമാനം = 17%."
+    },
+    "source": "NCERT Class 8 Mathematics; SCERT Kerala Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-018",
+    "subject": "math",
+    "topic": "Profit and loss",
+    "difficulty": 3,
+    "q": {
+      "en": "A seller sells two fans for ₹990 each, making a 10% profit on one and a 10% loss on the other. What is the overall profit or loss percentage?",
+      "ml": "ഒരു വ്യാപാരി രണ്ട് ഫാനുകൾ ഓരോന്നും ₹990 വീതം വിൽക്കുന്നു; ഒന്നിൽ 10% ലാഭവും മറ്റേതിൽ 10% നഷ്ടവും ഉണ്ടായാൽ ആകെ ലാഭമോ നഷ്ടമോ എത്ര ശതമാനമാണ്?"
+    },
+    "options": {
+      "en": [
+        "1% loss",
+        "No profit no loss",
+        "1% gain",
+        "2% loss"
+      ],
+      "ml": [
+        "1% നഷ്ടം",
+        "ലാഭവും നഷ്ടവുമില്ല",
+        "1% ലാഭം",
+        "2% നഷ്ടം"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "When two items are sold at the same price with x% gain and x% loss, overall result is a loss of (x/10)² = (10/10)² = 1% loss.",
+      "ml": "ഒരേ വിറ്റവിലയുള്ള രണ്ട് സാധനങ്ങൾ x% ലാഭത്തിലും x% നഷ്ടത്തിലും വിറ്റാൽ എപ്പോഴും ഉണ്ടാകുന്നത് (x/10)² ശതമാനം നഷ്ടമായിരിക്കും. (10/10)² = 1% നഷ്ടം."
+    },
+    "source": "NCERT Class 8 Mathematics; SCERT Kerala Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-019",
+    "subject": "math",
+    "topic": "Time, speed and distance",
+    "difficulty": 1,
+    "q": {
+      "en": "What is a speed of 72 km/h when converted into metres per second (m/s)?",
+      "ml": "മണിക്കൂറിൽ 72 കി.മീ. എന്ന വേഗതയെ സെക്കൻഡിൽ മീറ്റർ (m/s) ആക്കി മാറ്റിയാൽ എത്ര?"
+    },
+    "options": {
+      "en": [
+        "20 m/s",
+        "25 m/s",
+        "18 m/s",
+        "15 m/s"
+      ],
+      "ml": [
+        "20 m/s",
+        "25 m/s",
+        "18 m/s",
+        "15 m/s"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "72 km/h = 72 × (5 ÷ 18) = 4 × 5 = 20 m/s.",
+      "ml": "72 കി.മീ./മണിക്കൂർ = 72 × (5 ÷ 18) = 4 × 5 = 20 m/s."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-020",
+    "subject": "math",
+    "topic": "Time, speed and distance",
+    "difficulty": 1,
+    "q": {
+      "en": "A vehicle covers a distance of 180 km in 4 hours. What is its average speed?",
+      "ml": "ഒരു വാഹനം 4 മണിക്കൂർ കൊണ്ട് 180 കി.മീ. ദൂരം സഞ്ചരിക്കുന്നുവെങ്കിൽ അതിന്റെ ശരാശരി വേഗത എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "45 km/h",
+        "40 km/h",
+        "50 km/h",
+        "36 km/h"
+      ],
+      "ml": [
+        "45 km/h",
+        "40 km/h",
+        "50 km/h",
+        "36 km/h"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Speed = Distance ÷ Time = 180 km ÷ 4 h = 45 km/h.",
+      "ml": "വേഗത = ദൂരം ÷ സമയം = 180 കി.മീ. ÷ 4 മണിക്കൂർ = 45 കി.മീ./മണിക്കൂർ."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics; NCERT Class 7 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-021",
+    "subject": "math",
+    "topic": "Time, speed and distance",
+    "difficulty": 2,
+    "q": {
+      "en": "How many seconds does a 150-metre-long train traveling at 54 km/h take to pass a stationary telegraph pole?",
+      "ml": "മണിക്കൂറിൽ 54 കി.മീ. വേഗതയിൽ പോകുന്ന 150 മീറ്റർ നീളമുള്ള ഒരു ട്രെയിൻ പാതയോരത്തെ പോസ്റ്റ് കടന്നുപോകാൻ എത്ര സെക്കൻഡ് എടുക്കും?"
+    },
+    "options": {
+      "en": [
+        "10 seconds",
+        "12 seconds",
+        "8 seconds",
+        "15 seconds"
+      ],
+      "ml": [
+        "10 സെക്കൻഡ്",
+        "12 സെക്കൻഡ്",
+        "8 സെക്കൻഡ്",
+        "15 സെക്കൻഡ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Speed in m/s = 54 × (5/18) = 15 m/s. Time to cross pole = Train length ÷ Speed = 150 ÷ 15 = 10 seconds.",
+      "ml": "വേഗത m/s-ൽ = 54 × (5/18) = 15 m/s. പോസ്റ്റ് കടക്കാൻ എടുക്കുന്ന സമയം = ട്രെയിനിന്റെ നീളം ÷ വേഗത = 150 ÷ 15 = 10 സെക്കൻഡ്."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-022",
+    "subject": "math",
+    "topic": "Time, speed and distance",
+    "difficulty": 2,
+    "q": {
+      "en": "A student travels to school at 4 km/h and returns home along the same route at 6 km/h. What is the average speed for the whole journey?",
+      "ml": "ഒരു കുട്ടി മണിക്കൂറിൽ 4 കി.മീ. വേഗത്തിൽ സ്കൂളിലേക്ക് നടക്കുകയും അതേ വഴിയിലൂടെ മണിക്കൂറിൽ 6 കി.മീ. വേഗത്തിൽ തിരിച്ചുവരികയും ചെയ്താൽ മുഴുവൻ യാത്രയുടെയും ശരാശരി വേഗത എത്ര?"
+    },
+    "options": {
+      "en": [
+        "4.8 km/h",
+        "5.0 km/h",
+        "4.5 km/h",
+        "5.2 km/h"
+      ],
+      "ml": [
+        "4.8 km/h",
+        "5.0 km/h",
+        "4.5 km/h",
+        "5.2 km/h"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Average speed for equal distances = (2 × u × v) ÷ (u + v) = (2 × 4 × 6) ÷ (4 + 6) = 48 ÷ 10 = 4.8 km/h.",
+      "ml": "തുല്യ ദൂരങ്ങൾ സഞ്ചരിക്കുമ്പോൾ ശരാശരി വേഗത = (2 × u × v) ÷ (u + v) = (2 × 4 × 6) ÷ 10 = 4.8 കി.മീ./മണിക്കൂർ."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-023",
+    "subject": "math",
+    "topic": "Time, speed and distance",
+    "difficulty": 3,
+    "q": {
+      "en": "A 200-metre-long train passes a 300-metre-long railway platform in 25 seconds. What is the speed of the train in km/h?",
+      "ml": "200 മീറ്റർ നീളമുള്ള ഒരു ട്രെയിൻ 300 മീറ്റർ നീളമുള്ള പ്ലാറ്റ്ഫോം 25 സെക്കൻഡിൽ കടന്നുപോകുന്നുവെങ്കിൽ ട്രെയിനിന്റെ വേഗത മണിക്കൂറിൽ എത്ര കിലോമീറ്ററാണ്?"
+    },
+    "options": {
+      "en": [
+        "72 km/h",
+        "60 km/h",
+        "54 km/h",
+        "80 km/h"
+      ],
+      "ml": [
+        "72 km/h",
+        "60 km/h",
+        "54 km/h",
+        "80 km/h"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Total distance = 200 + 300 = 500 m. Speed = 500 ÷ 25 = 20 m/s. In km/h = 20 × (18/5) = 72 km/h.",
+      "ml": "ആകെ സഞ്ചരിച്ച ദൂരം = 200 + 300 = 500 മീറ്റർ. വേഗത = 500 ÷ 25 = 20 m/s. കി.മീ./മണിക്കൂറിൽ = 20 × (18/5) = 72 കി.മീ./മണിക്കൂർ."
+    },
+    "source": "SCERT Kerala Class 9 Mathematics; NCERT Class 9 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-024",
+    "subject": "math",
+    "topic": "Time, speed and distance",
+    "difficulty": 3,
+    "q": {
+      "en": "Two trains of lengths 120 metres and 180 metres run in opposite directions on parallel tracks at 40 km/h and 50 km/h respectively. In how many seconds will they cross each other?",
+      "ml": "120 മീറ്ററും 180 മീറ്ററും നീളമുള്ള രണ്ട് ട്രെയിനുകൾ സമാന്തര പാതകളിൽ യഥാക്രമം 40 km/h, 50 km/h വേഗതയിൽ എതിർദിശകളിൽ സഞ്ചരിക്കുന്നു. അവ പരസ്പരം കടന്നുപോകാൻ എത്ര സെക്കൻഡ് എടുക്കും?"
+    },
+    "options": {
+      "en": [
+        "12 seconds",
+        "10 seconds",
+        "15 seconds",
+        "16 seconds"
+      ],
+      "ml": [
+        "12 സെക്കൻഡ്",
+        "10 സെക്കൻഡ്",
+        "15 സെക്കൻഡ്",
+        "16 സെക്കൻഡ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Total distance = 120 + 180 = 300 m. Relative speed = 40 + 50 = 90 km/h = 90 × (5/18) = 25 m/s. Time = 300 ÷ 25 = 12 seconds.",
+      "ml": "ആകെ ദൂരം = 120 + 180 = 300 മീറ്റർ. ആപേക്ഷിക വേഗത = 40 + 50 = 90 km/h = 90 × (5/18) = 25 m/s. സമയം = 300 ÷ 25 = 12 സെക്കൻഡ്."
+    },
+    "source": "SCERT Kerala Class 9 Mathematics; NCERT Class 9 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-025",
+    "subject": "math",
+    "topic": "Number series",
+    "difficulty": 1,
+    "q": {
+      "en": "Find the next number in the arithmetic sequence: 5, 10, 15, 20, 25, ?",
+      "ml": "അടുത്ത സംഖ്യ കണ്ടെത്തുക: 5, 10, 15, 20, 25, ?"
+    },
+    "options": {
+      "en": [
+        "30",
+        "35",
+        "28",
+        "32"
+      ],
+      "ml": [
+        "30",
+        "35",
+        "28",
+        "32"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The sequence increases by a constant common difference of +5: 25 + 5 = 30.",
+      "ml": "പൊതുവ്യത്യാസം 5 ആയ സമാന്തരശ്രേണി: 25 + 5 = 30."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics; NCERT Class 7 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-026",
+    "subject": "math",
+    "topic": "Number series",
+    "difficulty": 2,
+    "q": {
+      "en": "Identify the next number in the sequence: 3, 9, 27, 81, ?",
+      "ml": "അടുത്ത സംഖ്യ കണ്ടെത്തുക: 3, 9, 27, 81, ?"
+    },
+    "options": {
+      "en": [
+        "243",
+        "162",
+        "216",
+        "240"
+      ],
+      "ml": [
+        "243",
+        "162",
+        "216",
+        "240"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Each term is multiplied by 3 (powers of 3): 81 × 3 = 243.",
+      "ml": "ഓരോ പദവും 3 കൊണ്ട് ഗുണിച്ചു വരുന്ന ഗുണോത്തര ശ്രേണി: 81 × 3 = 243."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics (Exponents and Powers)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-027",
+    "subject": "math",
+    "topic": "Number series",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the next number in the sequence: 1, 4, 9, 16, 25, ?",
+      "ml": "അടുത്ത സംഖ്യ കണ്ടെത്തുക: 1, 4, 9, 16, 25, ?"
+    },
+    "options": {
+      "en": [
+        "36",
+        "35",
+        "49",
+        "30"
+      ],
+      "ml": [
+        "36",
+        "35",
+        "49",
+        "30"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The series consists of squares of consecutive natural numbers (1², 2², 3², 4², 5²): 6² = 36.",
+      "ml": "തുടർച്ചയായ എണ്ണൽസംഖ്യകളുടെ വർഗ്ഗങ്ങൾ (1², 2², 3², 4², 5²): അടുത്ത സംഖ്യ 6² = 36."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics (Squares and Square Roots)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-028",
+    "subject": "math",
+    "topic": "Number series",
+    "difficulty": 2,
+    "q": {
+      "en": "Find the next term in the number series: 7, 12, 19, 28, 39, ?",
+      "ml": "അടുത്ത പദം ഏത്: 7, 12, 19, 28, 39, ?"
+    },
+    "options": {
+      "en": [
+        "52",
+        "50",
+        "48",
+        "54"
+      ],
+      "ml": [
+        "52",
+        "50",
+        "48",
+        "54"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The successive differences are consecutive odd numbers: +5, +7, +9, +11. Next difference is +13: 39 + 13 = 52.",
+      "ml": "പദങ്ങൾ തമ്മിലുള്ള വ്യത്യാസം ക്രമമായി 5, 7, 9, 11 എന്നിങ്ങനെ കൂടുന്നു. അടുത്ത വ്യത്യാസം 13: 39 + 13 = 52."
+    },
+    "source": "SCERT Kerala Class 9 Mathematics; NCERT Class 9 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-029",
+    "subject": "math",
+    "topic": "Number series",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the next number in the cubic series: 1, 8, 27, 64, 125, ?",
+      "ml": "അടുത്ത സംഖ്യ കണ്ടെത്തുക: 1, 8, 27, 64, 125, ?"
+    },
+    "options": {
+      "en": [
+        "216",
+        "196",
+        "225",
+        "256"
+      ],
+      "ml": [
+        "216",
+        "196",
+        "225",
+        "256"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The sequence consists of cubes of consecutive integers (1³, 2³, 3³, 4³, 5³): 6³ = 216.",
+      "ml": "തുടർച്ചയായ എണ്ണൽസംഖ്യകളുടെ ഘനങ്ങൾ (1³, 2³, 3³, 4³, 5³): അടുത്ത സംഖ്യ 6³ = 216."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics (Cubes and Cube Roots)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-030",
+    "subject": "math",
+    "topic": "Number series",
+    "difficulty": 3,
+    "q": {
+      "en": "Find the next number in the prime number series: 2, 3, 5, 7, 11, 13, ?",
+      "ml": "അടുത്ത അഭാജ്യസംഖ്യ (പ്രൈം നമ്പർ) കണ്ടെത്തുക: 2, 3, 5, 7, 11, 13, ?"
+    },
+    "options": {
+      "en": [
+        "17",
+        "15",
+        "19",
+        "21"
+      ],
+      "ml": [
+        "17",
+        "15",
+        "19",
+        "21"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "This is a sequence of consecutive prime numbers. The prime number immediately following 13 is 17.",
+      "ml": "തുടർച്ചയായ അഭാജ്യസംഖ്യകളുടെ ശ്രേണി; 13-ന് ശേഷം വരുന്ന അഭാജ്യസംഖ്യ 17 ആണ്."
+    },
+    "source": "SCERT Kerala Class 6 Mathematics (Playing with Numbers); NCERT Class 6",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-031",
+    "subject": "math",
+    "topic": "LCM and HCF",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the highest common factor (HCF) of 18 and 24?",
+      "ml": "18, 24 എന്നിവയുടെ ഉസാഘ (HCF) എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "6",
+        "3",
+        "12",
+        "2"
+      ],
+      "ml": [
+        "6",
+        "3",
+        "12",
+        "2"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Factors of 18: 1, 2, 3, 6, 9, 18. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Greatest common divisor = 6.",
+      "ml": "18 = 6 × 3, 24 = 6 × 4. ഏറ്റവും വലിയ പൊതുഘടകം (ഉസാഘ) = 6."
+    },
+    "source": "SCERT Kerala Class 6 Mathematics (Factors and Multiples)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-032",
+    "subject": "math",
+    "topic": "LCM and HCF",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the least common multiple (LCM) of 15, 20, and 30?",
+      "ml": "15, 20, 30 എന്നീ സംഖ്യകളുടെ ലസാഗു (LCM) എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "60",
+        "120",
+        "90",
+        "30"
+      ],
+      "ml": [
+        "60",
+        "120",
+        "90",
+        "30"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "15 = 3 × 5, 20 = 2² × 5, 30 = 2 × 3 × 5. LCM = 2² × 3 × 5 = 60.",
+      "ml": "15 = 3 × 5, 20 = 2² × 5, 30 = 2 × 3 × 5. ലസാഗു = 2² × 3 × 5 = 60."
+    },
+    "source": "SCERT Kerala Class 6 Mathematics; NCERT Class 6 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-033",
+    "subject": "math",
+    "topic": "LCM and HCF",
+    "difficulty": 2,
+    "q": {
+      "en": "The product of two numbers is 720 and their HCF is 6. What is their LCM?",
+      "ml": "രണ്ട് സംഖ്യകളുടെ ഗുണനഫലം 720-ഉം അവയുടെ ഉസാഘ 6-ഉം ആണെങ്കിൽ, ലസാഗു എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "120",
+        "144",
+        "90",
+        "60"
+      ],
+      "ml": [
+        "120",
+        "144",
+        "90",
+        "60"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Product of two numbers = HCF × LCM. Therefore, LCM = 720 ÷ 6 = 120.",
+      "ml": "രണ്ട് സംഖ്യകളുടെ ഗുണനഫലം = ഉസാഘ × ലസാഗു. ലസാഗു = 720 ÷ 6 = 120."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics; NCERT Class 7 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-034",
+    "subject": "math",
+    "topic": "LCM and HCF",
+    "difficulty": 3,
+    "q": {
+      "en": "Three bells toll together at intervals of 9, 12, and 15 minutes respectively. If they toll together now, after how many hours will they next toll together?",
+      "ml": "മൂന്ന് മണികൾ യഥാക്രമം 9, 12, 15 മിനിറ്റ് ഇടവേളകളിൽ മുഴങ്ങുന്നു. അവ ഇപ്പോൾ ഒരുമിച്ച് മുഴങ്ങിയാൽ അടുത്തതായി എത്ര മണിക്കൂറുകൾക്ക് ശേഷമാണ് അവ വീണ്ടും ഒരുമിച്ച് മുഴങ്ങുക?"
+    },
+    "options": {
+      "en": [
+        "3 hours",
+        "2.5 hours",
+        "4 hours",
+        "6 hours"
+      ],
+      "ml": [
+        "3 മണിക്കൂർ",
+        "2.5 മണിക്കൂർ",
+        "4 മണിക്കൂർ",
+        "6 മണിക്കൂർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "LCM of 9, 12, and 15 is 180 minutes. 180 minutes ÷ 60 = 3 hours.",
+      "ml": "9, 12, 15 എന്നിവയുടെ ലസാഗു = 180 മിനിറ്റ്. 180 മിനിറ്റ് = 180 ÷ 60 = 3 മണിക്കൂർ."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics; NCERT Class 7 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-035",
+    "subject": "math",
+    "topic": "LCM and HCF",
+    "difficulty": 3,
+    "q": {
+      "en": "What is the greatest number that divides 43, 91, and 183 leaving the same remainder in each case?",
+      "ml": "43, 91, 183 എന്നീ സംഖ്യകളെ ഹരിക്കുമ്പോൾ ഒരേ ശിഷ്ടം തരുന്ന ഏറ്റവും വലിയ സംഖ്യ ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "4",
+        "7",
+        "9",
+        "13"
+      ],
+      "ml": [
+        "4",
+        "7",
+        "9",
+        "13"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Required number = HCF of (91 - 43 = 48), (183 - 91 = 92), and (183 - 43 = 140). HCF(48, 92, 140) = 4. Each division leaves remainder 3.",
+      "ml": "ആവശ്യമായ സംഖ്യ = (91 - 43 = 48), (183 - 91 = 92), (183 - 43 = 140) എന്നിവയുടെ ഉസാഘ. HCF(48, 92, 140) = 4 (ഓരോന്നിലും ശിഷ്ടം 3 വരുന്നു)."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-036",
+    "subject": "math",
+    "topic": "Average and ratio",
+    "difficulty": 1,
+    "q": {
+      "en": "Two numbers A and B are in the ratio 3 : 5. If their sum is 80, what is the value of the smaller number A?",
+      "ml": "A, B എന്നീ രണ്ട് സംഖ്യകൾ തമ്മിലുള്ള അംശബന്ധം 3 : 5-ഉം അവയുടെ തുക 80-ഉം ആണെങ്കിൽ, ചെറിയ സംഖ്യയായ A-യുടെ മൂല്യം എത്ര?"
+    },
+    "options": {
+      "en": [
+        "30",
+        "50",
+        "24",
+        "32"
+      ],
+      "ml": [
+        "30",
+        "50",
+        "24",
+        "32"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Total parts = 3 + 5 = 8. One part = 80 ÷ 8 = 10. Smaller number A = 3 × 10 = 30.",
+      "ml": "ആകെ ഭാഗങ്ങൾ = 3 + 5 = 8. ഒരു ഭാഗം = 80 ÷ 8 = 10. ചെറിയ സംഖ്യ A = 3 × 10 = 30."
+    },
+    "source": "SCERT Kerala Class 7 Mathematics (Ratios)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-037",
+    "subject": "math",
+    "topic": "Average and ratio",
+    "difficulty": 2,
+    "q": {
+      "en": "If A : B = 2 : 3 and B : C = 4 : 5, what is the combined ratio A : B : C?",
+      "ml": "A : B = 2 : 3-ഉം B : C = 4 : 5-ഉം ആണെങ്കിൽ, A : B : C എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "8 : 12 : 15",
+        "2 : 7 : 5",
+        "8 : 10 : 15",
+        "6 : 12 : 15"
+      ],
+      "ml": [
+        "8 : 12 : 15",
+        "2 : 7 : 5",
+        "8 : 10 : 15",
+        "6 : 12 : 15"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Equating B: A : B = (2 × 4) : (3 × 4) = 8 : 12, and B : C = (4 × 3) : (5 × 3) = 12 : 15. Hence, A : B : C = 8 : 12 : 15.",
+      "ml": "B-യെ തുല്യമാക്കുക: A : B = 8 : 12, B : C = 12 : 15. അതിനാൽ A : B : C = 8 : 12 : 15."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-038",
+    "subject": "math",
+    "topic": "Average and ratio",
+    "difficulty": 2,
+    "q": {
+      "en": "The average age of 24 students in a class is 15 years. When the teacher's age is included, the average age increases by 1 year. What is the teacher's age?",
+      "ml": "ഒരു ക്ലാസിലെ 24 കുട്ടികളുടെ ശരാശരി പ്രായം 15 വയസ്സാണ്. അധ്യാപകന്റെ പ്രായം കൂടി ചേർത്തപ്പോൾ ശരാശരി 1 വയസ്സ് വർദ്ധിച്ചു. അധ്യാപകന്റെ പ്രായം എത്രയാണ്?"
+    },
+    "options": {
+      "en": [
+        "40 years",
+        "39 years",
+        "41 years",
+        "35 years"
+      ],
+      "ml": [
+        "40 വയസ്സ്",
+        "39 വയസ്സ്",
+        "41 വയസ്സ്",
+        "35 വയസ്സ്"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Total age of 24 students = 24 × 15 = 360 years. Total age of 25 persons = 25 × 16 = 400 years. Teacher's age = 400 - 360 = 40 years.",
+      "ml": "24 കുട്ടികളുടെ ആകെ പ്രായം = 24 × 15 = 360. അധ്യാപകൻ ഉൾപ്പെടെ 25 പേരുടെ ആകെ പ്രായം = 25 × 16 = 400. അധ്യാപകന്റെ പ്രായം = 400 - 360 = 40 വയസ്സ്."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics (Statistics / Averages)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-039",
+    "subject": "math",
+    "topic": "Average and ratio",
+    "difficulty": 3,
+    "q": {
+      "en": "The average of five consecutive odd natural numbers is 27. What is the smallest of these numbers?",
+      "ml": "തുടർച്ചയായ 5 ഒറ്റസംഖ്യകളുടെ ശരാശരി 27 ആണെങ്കിൽ, അവയിൽ ഏറ്റവും ചെറിയ സംഖ്യ ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "23",
+        "25",
+        "21",
+        "27"
+      ],
+      "ml": [
+        "23",
+        "25",
+        "21",
+        "27"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "For five consecutive odd numbers, the average equals the middle (3rd) number. Middle number = 27, so the numbers are 23, 25, 27, 29, 31. Smallest = 23.",
+      "ml": "തുടർച്ചയായ 5 ഒറ്റസംഖ്യകളുടെ ശരാശരി നടുവിലെ സംഖ്യയായ 27 ആയിരിക്കും. സംഖ്യകൾ: 23, 25, 27, 29, 31. ഏറ്റവും ചെറിയ സംഖ്യ = 23."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "math-040",
+    "subject": "math",
+    "topic": "Average and ratio",
+    "difficulty": 3,
+    "q": {
+      "en": "In a 60-litre mixture, the ratio of milk to water is 2 : 1. How much water must be added to make the ratio of milk to water 1 : 2?",
+      "ml": "60 ലിറ്റർ മിശ്രിതത്തിൽ പാലും വെള്ളവും 2 : 1 എന്ന അനുപാതത്തിലാണ്. പാലും വെള്ളവും തമ്മിലുള്ള അനുപാതം 1 : 2 ആകാൻ എത്ര ലിറ്റർ വെള്ളം കൂടി ചേർക്കണം?"
+    },
+    "options": {
+      "en": [
+        "60 litres",
+        "40 litres",
+        "30 litres",
+        "50 litres"
+      ],
+      "ml": [
+        "60 ലിറ്റർ",
+        "40 ലിറ്റർ",
+        "30 ലിറ്റർ",
+        "50 ലിറ്റർ"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Milk = (2/3) × 60 = 40 L; Water = 20 L. For a 1 : 2 ratio with 40 L of milk, required water = 2 × 40 = 80 L. Additional water to add = 80 - 20 = 60 litres.",
+      "ml": "പാൽ = (2/3) × 60 = 40 ലിറ്റർ, വെള്ളം = 20 ലിറ്റർ. പാൽ 40 ലിറ്ററായിരിക്കെ അനുപാതം 1 : 2 ആകാൻ ആവശ്യമായ വെള്ളം = 2 × 40 = 80 ലിറ്റർ. ചേർക്കേണ്ട അധിക വെള്ളം = 80 - 20 = 60 ലിറ്റർ."
+    },
+    "source": "SCERT Kerala Class 8 Mathematics; NCERT Class 8 Mathematics",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-007",
+    "subject": "eng",
+    "topic": "Synonyms and antonyms",
+    "difficulty": 1,
+    "q": {
+      "en": "Choose the synonym of “candid”.",
+      "ml": "“Candid” എന്ന വാക്കിന്റെ പര്യായപദം തിരഞ്ഞെടുക്കുക."
+    },
+    "options": {
+      "en": [
+        "Frank",
+        "Deceitful",
+        "Timid",
+        "Arrogant"
+      ],
+      "ml": [
+        "Frank",
+        "Deceitful",
+        "Timid",
+        "Arrogant"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Candid means truthful, outspoken and straightforward, which is synonymous with frank.",
+      "ml": "Candid എന്നാൽ തുറന്നുപറയുന്ന, സത്യസന്ധമായ എന്നർത്ഥം; Frank എന്ന വാക്കിനും ഇതേ അർത്ഥമാണ്."
+    },
+    "source": "Oxford Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-008",
+    "subject": "eng",
+    "topic": "Synonyms and antonyms",
+    "difficulty": 1,
+    "q": {
+      "en": "Choose the antonym of “hostile”.",
+      "ml": "“Hostile” എന്ന വാക്കിന്റെ വിപരീതപദം തിരഞ്ഞെടുക്കുക."
+    },
+    "options": {
+      "en": [
+        "Friendly",
+        "Aggressive",
+        "Bitter",
+        "Unfriendly"
+      ],
+      "ml": [
+        "Friendly",
+        "Aggressive",
+        "Bitter",
+        "Unfriendly"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Hostile means showing strong opposition or enmity; friendly is its antonym.",
+      "ml": "Hostile എന്നാൽ ശത്രുതാപരമായ എന്നർത്ഥം; അതിന്റെ വിപരീതപദം Friendly (സൗഹൃദപരമായ) ആണ്."
+    },
+    "source": "Oxford Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-009",
+    "subject": "eng",
+    "topic": "Synonyms and antonyms",
+    "difficulty": 2,
+    "q": {
+      "en": "Choose the synonym of “meticulous”.",
+      "ml": "“Meticulous” എന്ന വാക്കിന്റെ പര്യായപദം തിരഞ്ഞെടുക്കുക."
+    },
+    "options": {
+      "en": [
+        "Careful",
+        "Careless",
+        "Hasty",
+        "Stubborn"
+      ],
+      "ml": [
+        "Careful",
+        "Careless",
+        "Hasty",
+        "Stubborn"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Meticulous means taking or showing extreme care about minute details; precise and careful.",
+      "ml": "Meticulous എന്നാൽ ചെറിയ കാര്യങ്ങളിൽ പോലും അതീവ ശ്രദ്ധ പുലർത്തുന്ന (Careful) എന്നർത്ഥം."
+    },
+    "source": "Cambridge Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-010",
+    "subject": "eng",
+    "topic": "Synonyms and antonyms",
+    "difficulty": 3,
+    "q": {
+      "en": "Choose the antonym of “ephemeral”.",
+      "ml": "“Ephemeral” എന്ന വാക്കിന്റെ വിപരീതപദം തിരഞ്ഞെടുക്കുക."
+    },
+    "options": {
+      "en": [
+        "Permanent",
+        "Transitory",
+        "Fleeting",
+        "Brief"
+      ],
+      "ml": [
+        "Permanent",
+        "Transitory",
+        "Fleeting",
+        "Brief"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Ephemeral means lasting for a very short time; permanent is its antonym.",
+      "ml": "Ephemeral എന്നാൽ ക്ഷണികമായ, അൽപ്പായുസ്സുള്ള എന്നർത്ഥം; Permanent (ശാശ്വതമായ) അതിന്റെ വിപരീതമാണ്."
+    },
+    "source": "Merriam-Webster Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-011",
+    "subject": "eng",
+    "topic": "Tenses",
+    "difficulty": 1,
+    "q": {
+      "en": "Fill in the blank with the correct verb form: “The sun ________ in the east.”",
+      "ml": "ശരിയായ ക്രിയാരൂപം ഉപയോഗിച്ച് പൂരിപ്പിക്കുക: “The sun ________ in the east.”"
+    },
+    "options": {
+      "en": [
+        "rises",
+        "rose",
+        "is rising",
+        "has risen"
+      ],
+      "ml": [
+        "rises",
+        "rose",
+        "is rising",
+        "has risen"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Universal natural truths and scientific facts are expressed in the simple present tense.",
+      "ml": "സാർവത്രിക സത്യങ്ങൾ (universal truths) പ്രസ്താവിക്കാൻ simple present tense ('rises') ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Wren & Martin, High School English Grammar and Composition (Simple Present Tense)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-012",
+    "subject": "eng",
+    "topic": "Tenses",
+    "difficulty": 2,
+    "q": {
+      "en": "Complete the conditional sentence: “If it rains tomorrow, we ________ the football match.”",
+      "ml": "വാക്യം പൂർത്തിയാക്കുക: “If it rains tomorrow, we ________ the football match.”"
+    },
+    "options": {
+      "en": [
+        "will postpone",
+        "would postpone",
+        "would have postponed",
+        "postponed"
+      ],
+      "ml": [
+        "will postpone",
+        "would postpone",
+        "would have postponed",
+        "postponed"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "In a first conditional clause (real future condition), the simple present in the 'if' clause is paired with 'will + base verb' in the main clause.",
+      "ml": "First conditional വാക്യങ്ങളിൽ 'if' ഭാഗത്ത് simple present വന്നാൽ പ്രധാന ഭാഗത്ത് 'will + verb' ഉപയോഗിക്കണം."
+    },
+    "source": "Wren & Martin, High School English Grammar (Conditional Sentences)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-013",
+    "subject": "eng",
+    "topic": "Tenses",
+    "difficulty": 2,
+    "q": {
+      "en": "Fill in the blank: “When I reached the station, the express train ________.”",
+      "ml": "ശരിയായ ക്രിയാരൂപം തിരഞ്ഞെടുക്കുക: “When I reached the station, the express train ________.”"
+    },
+    "options": {
+      "en": [
+        "had already left",
+        "has already left",
+        "was already leave",
+        "already left"
+      ],
+      "ml": [
+        "had already left",
+        "has already left",
+        "was already leave",
+        "already left"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "When referring to two connected actions in the past, the earlier completed action takes the past perfect tense ('had + past participle').",
+      "ml": "ഭൂതകാലത്തിൽ നടന്ന രണ്ട് സംഭവങ്ങളിൽ ആദ്യം നടന്നതിന് past perfect tense ('had + V3') ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Wren & Martin, High School English Grammar (Past Perfect Tense)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-014",
+    "subject": "eng",
+    "topic": "Tenses",
+    "difficulty": 3,
+    "q": {
+      "en": "Identify the grammatically correct sentence:",
+      "ml": "വ്യാകരണപരമായി ശരിയായ വാക്യം കണ്ടെത്തുക:"
+    },
+    "options": {
+      "en": [
+        "Hardly had she entered the room when the phone rang.",
+        "Hardly had she entered the room than the phone rang.",
+        "Hardly she had entered the room when the phone rang.",
+        "Hardly did she entered the room then the phone rang."
+      ],
+      "ml": [
+        "Hardly had she entered the room when the phone rang.",
+        "Hardly had she entered the room than the phone rang.",
+        "Hardly she had entered the room when the phone rang.",
+        "Hardly did she entered the room then the phone rang."
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Negative adverb 'hardly' placed at the beginning requires subject-auxiliary inversion ('had she entered') and is paired with 'when', not 'than'.",
+      "ml": "'Hardly had ... when' എന്ന ഘടനയാണ് ശരി; 'hardly' മുന്നിൽ വരുമ്പോൾ ക്രിയ കർത്താവിന് മുൻപ് വരികയും 'when'-നോടൊപ്പം ചേർക്കുകയും വേണം."
+    },
+    "source": "Wren & Martin, High School English Grammar (Inversion of the Verb)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-015",
+    "subject": "eng",
+    "topic": "Tenses",
+    "difficulty": 3,
+    "q": {
+      "en": "Fill in the blank: “By this time next year, she ________ her master’s degree.”",
+      "ml": "ശരിയായ ക്രിയാരൂപം നൽകുക: “By this time next year, she ________ her master’s degree.”"
+    },
+    "options": {
+      "en": [
+        "will have completed",
+        "will complete",
+        "has completed",
+        "would complete"
+      ],
+      "ml": [
+        "will have completed",
+        "will complete",
+        "has completed",
+        "would complete"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The future perfect tense ('will have + past participle') expresses an action that will be completed by a certain future point in time.",
+      "ml": "ഭാവിയിൽ ഒരു പ്രത്യേക സമയത്തിന് മുൻപായി പൂർത്തിയാകുന്ന കാര്യങ്ങളെ സൂചിപ്പിക്കാൻ future perfect tense ('will have + V3') ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Raymond Murphy, English Grammar in Use (Future Perfect)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-016",
+    "subject": "eng",
+    "topic": "Idioms and phrases",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the meaning of the idiom “once in a blue moon”?",
+      "ml": "“Once in a blue moon” എന്ന ശൈലിയുടെ അർത്ഥം എന്താണ്?"
+    },
+    "options": {
+      "en": [
+        "Very rarely",
+        "Very frequently",
+        "Every month",
+        "Never"
+      ],
+      "ml": [
+        "Very rarely",
+        "Very frequently",
+        "Every month",
+        "Never"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "“Once in a blue moon” means something happens very rarely or almost never.",
+      "ml": "വളരെ അപൂർവ്വമായി മാത്രം സംഭവിക്കുന്ന കാര്യങ്ങളെയാണ് “once in a blue moon” എന്ന് വിളിക്കുന്നത്."
+    },
+    "source": "Oxford Idioms Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-017",
+    "subject": "eng",
+    "topic": "Idioms and phrases",
+    "difficulty": 2,
+    "q": {
+      "en": "The idiom “to burn the midnight oil” means:",
+      "ml": "“To burn the midnight oil” എന്ന ശൈലിയുടെ അർത്ഥം:"
+    },
+    "options": {
+      "en": [
+        "To work or study late into the night",
+        "To waste resources unnecessarily",
+        "To light an oil lamp",
+        "To go to sleep early"
+      ],
+      "ml": [
+        "To work or study late into the night",
+        "To waste resources unnecessarily",
+        "To light an oil lamp",
+        "To go to sleep early"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "“Burn the midnight oil” means to study or work hard late into the night.",
+      "ml": "രാത്രി വൈകുവോളം കഠിനാധ്വാനം ചെയ്യുകയോ പഠിക്കുകയോ ചെയ്യുന്നതിനെയാണ് ഈ ശൈലി അർത്ഥമാക്കുന്നത്."
+    },
+    "source": "Cambridge Idioms Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-018",
+    "subject": "eng",
+    "topic": "Idioms and phrases",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the meaning of the idiom “to spill the beans”?",
+      "ml": "“To spill the beans” എന്ന ശൈലിയുടെ അർത്ഥം എന്താണ്?"
+    },
+    "options": {
+      "en": [
+        "To reveal a secret prematurely",
+        "To waste food accidentally",
+        "To start a new business",
+        "To tell a deliberate lie"
+      ],
+      "ml": [
+        "To reveal a secret prematurely",
+        "To waste food accidentally",
+        "To start a new business",
+        "To tell a deliberate lie"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "“Spill the beans” means to disclose secret or confidential information prematurely.",
+      "ml": "രഹസ്യവിവരങ്ങൾ മറ്റുള്ളവരോട് വെളിപ്പെടുത്തുന്നതിനെയാണ് “spill the beans” എന്ന് വിശേഷിപ്പിക്കുന്നത്."
+    },
+    "source": "Oxford Dictionary of Idioms",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-019",
+    "subject": "eng",
+    "topic": "Idioms and phrases",
+    "difficulty": 2,
+    "q": {
+      "en": "The idiom “to hit the nail on the head” means:",
+      "ml": "“To hit the nail on the head” എന്ന ശൈലിയുടെ അർത്ഥം:"
+    },
+    "options": {
+      "en": [
+        "To say or do something exactly right",
+        "To hurt oneself accidentally",
+        "To perform skilled carpentry",
+        "To make a foolish mistake"
+      ],
+      "ml": [
+        "To say or do something exactly right",
+        "To hurt oneself accidentally",
+        "To perform skilled carpentry",
+        "To make a foolish mistake"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "“Hit the nail on the head” means to describe the exact truth or state something precisely accurate.",
+      "ml": "ഒരു കാര്യം ലക്ഷ്യം തെറ്റാതെ ഏറ്റവും കൃത്യമായി പറയുന്നതിനെയാണ് ഈ ശൈലി കൊണ്ട് അർത്ഥമാക്കുന്നത്."
+    },
+    "source": "Cambridge Idioms Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-020",
+    "subject": "eng",
+    "topic": "Idioms and phrases",
+    "difficulty": 3,
+    "q": {
+      "en": "What does the expression “to take something with a grain of salt” mean?",
+      "ml": "“To take something with a grain of salt” എന്ന ശൈലിയുടെ അർത്ഥം:"
+    },
+    "options": {
+      "en": [
+        "To view something with skepticism or reserve",
+        "To accept a statement without any doubt",
+        "To season food carefully",
+        "To reject an explanation angrily"
+      ],
+      "ml": [
+        "To view something with skepticism or reserve",
+        "To accept a statement without any doubt",
+        "To season food carefully",
+        "To reject an explanation angrily"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "To take with a grain of salt means to maintain skepticism and not completely believe what is said.",
+      "ml": "കേൾക്കുന്ന ഒരു കാര്യം പൂർണ്ണമായി വിശ്വസിക്കാതെ സംശയത്തോടെയും ജാഗ്രതയോടെയും സ്വീകരിക്കുക എന്നാണ് ഇതിന്റെ അർത്ഥം."
+    },
+    "source": "Oxford Dictionary of English Idioms",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-021",
+    "subject": "eng",
+    "topic": "One-word substitution",
+    "difficulty": 1,
+    "q": {
+      "en": "Give one word for: “A person who does not believe in the existence of God”.",
+      "ml": "“ദൈവത്തിന്റെ അസ്തിത്വത്തിൽ വിശ്വസിക്കാത്ത വ്യക്തി” എന്നതിന് ഒറ്റവാക്ക് ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Atheist",
+        "Theist",
+        "Agnostic",
+        "Altruist"
+      ],
+      "ml": [
+        "Atheist",
+        "Theist",
+        "Agnostic",
+        "Altruist"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "An atheist is someone who lacks belief in gods; a theist believes in God.",
+      "ml": "ദൈവവിശ്വാസമില്ലാത്ത വ്യക്തിയെ 'Atheist' (നിരീശ്വരവാദി) എന്ന് വിളിക്കുന്നു."
+    },
+    "source": "Oxford Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-022",
+    "subject": "eng",
+    "topic": "One-word substitution",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the one-word term for a medical doctor specializing in skin disorders?",
+      "ml": "ത്വക്ക് രോഗങ്ങൾ ചികിത്സിക്കുന്ന വിദഗ്ദ്ധനായ ഡോക്ടറെ എന്തു വിളിക്കുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Dermatologist",
+        "Cardiologist",
+        "Neurologist",
+        "Ophthalmologist"
+      ],
+      "ml": [
+        "Dermatologist",
+        "Cardiologist",
+        "Neurologist",
+        "Ophthalmologist"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Dermatology is the branch of medicine concerned with the diagnosis and treatment of skin disorders.",
+      "ml": "ത്വക്ക് രോഗ വിദഗ്ദ്ധനെ 'Dermatologist' എന്ന് വിളിക്കുന്നു."
+    },
+    "source": "Oxford Advanced Learner’s Dictionary; Merriam-Webster",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-023",
+    "subject": "eng",
+    "topic": "One-word substitution",
+    "difficulty": 2,
+    "q": {
+      "en": "Give one word for: “The life history of a person written by himself or herself”.",
+      "ml": "“ഒരു വ്യക്തി സ്വന്തം ജീവിതകഥ സ്വയം എഴുതിയത്” ഏത് പേരിൽ അറിയപ്പെടുന്നു?"
+    },
+    "options": {
+      "en": [
+        "Autobiography",
+        "Biography",
+        "Bibliography",
+        "Anthology"
+      ],
+      "ml": [
+        "Autobiography",
+        "Biography",
+        "Bibliography",
+        "Anthology"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "An autobiography is an account of a person's life written by that person. A biography is written by another author.",
+      "ml": "സ്വന്തം ജീവിതചരിത്രം സ്വയം എഴുതിയതിനെ 'Autobiography' (ആത്മകഥ) എന്ന് വിളിക്കുന്നു."
+    },
+    "source": "Cambridge Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-024",
+    "subject": "eng",
+    "topic": "One-word substitution",
+    "difficulty": 3,
+    "q": {
+      "en": "Give one word for: “A universal remedy or cure for all diseases and difficulties”.",
+      "ml": "“സർവ്വ രോഗങ്ങൾക്കുമുള്ള പ്രതിവിധി (സർവ്വരോഗനിവാരിണി)” എന്നതിനെ കുറിക്കുന്ന വാക്കേത്?"
+    },
+    "options": {
+      "en": [
+        "Panacea",
+        "Placebo",
+        "Antidote",
+        "Antibiotic"
+      ],
+      "ml": [
+        "Panacea",
+        "Placebo",
+        "Antidote",
+        "Antibiotic"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "A panacea is a universal remedy purported to heal all diseases or solve all problems.",
+      "ml": "എല്ലാ രോഗങ്ങൾക്കുമുള്ള പരിഹാരത്തെ അല്ലെങ്കിൽ ഔഷധത്തെ 'Panacea' എന്ന് വിശേഷിപ്പിക്കുന്നു."
+    },
+    "source": "Merriam-Webster Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-025",
+    "subject": "eng",
+    "topic": "One-word substitution",
+    "difficulty": 3,
+    "q": {
+      "en": "What is the term for “a person who dislikes, distrusts, or hates humankind”?",
+      "ml": "“മനുഷ്യവർഗ്ഗത്തെ വെറുക്കുകയോ അവിശ്വസിക്കുകയോ ചെയ്യുന്ന വ്യക്തി” എന്നതിനെ സൂചിപ്പിക്കുന്ന പദം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Misanthrope",
+        "Philanthropist",
+        "Misogamist",
+        "Polyglot"
+      ],
+      "ml": [
+        "Misanthrope",
+        "Philanthropist",
+        "Misogamist",
+        "Polyglot"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "A misanthrope is someone who harbours hatred or contempt for humankind; a philanthropist loves and helps humanity.",
+      "ml": "മനുഷ്യരോട് വെറുപ്പും അകൽച്ചയും പുലർത്തുന്ന വ്യക്തിയെ 'Misanthrope' എന്ന് വിളിക്കുന്നു."
+    },
+    "source": "Oxford Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-026",
+    "subject": "eng",
+    "topic": "Articles and prepositions",
+    "difficulty": 1,
+    "q": {
+      "en": "Fill in the blank with the appropriate article: “He is ________ honest officer.”",
+      "ml": "ശരിയായ ആർട്ടിക്കിൾ ഉപയോഗിച്ച് പൂരിപ്പിക്കുക: “He is ________ honest officer.”"
+    },
+    "options": {
+      "en": [
+        "an",
+        "a",
+        "the",
+        "no article"
+      ],
+      "ml": [
+        "an",
+        "a",
+        "the",
+        "no article"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The adjective 'honest' begins with a silent 'h' and a vowel sound (/ɒ/), requiring the indefinite article 'an'.",
+      "ml": "'Honest' എന്ന വാക്ക് സ്വരശബ്ദത്തിൽ (vowel sound) തുടങ്ങുന്നതിനാൽ അതിനു മുൻപിൽ 'an' ഉപയോഗിക്കണം."
+    },
+    "source": "Wren & Martin, High School English Grammar and Composition (Articles)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-027",
+    "subject": "eng",
+    "topic": "Articles and prepositions",
+    "difficulty": 1,
+    "q": {
+      "en": "Fill in the blank with the correct preposition: “The meeting will commence ________ 10:00 AM.”",
+      "ml": "ശരിയായ പ്രിപ്പോസിഷൻ തിരഞ്ഞെടുക്കുക: “The meeting will commence ________ 10:00 AM.”"
+    },
+    "options": {
+      "en": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "ml": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Precise points of time on the clock take the preposition 'at' (e.g., at 10:00 AM).",
+      "ml": "കൃത്യമായ ക്ലോക്ക് സമയത്തിന് മുൻപിൽ 'at' എന്ന പ്രിപ്പോസിഷനാണ് ഉപയോഗിക്കുന്നത്."
+    },
+    "source": "Wren & Martin, High School English Grammar (Prepositions)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-028",
+    "subject": "eng",
+    "topic": "Articles and prepositions",
+    "difficulty": 2,
+    "q": {
+      "en": "Fill in the blank: “The security guard prevented him ________ entering the premises.”",
+      "ml": "വിട്ടുപോയ പ്രിപ്പോസിഷൻ നൽകുക: “The security guard prevented him ________ entering the premises.”"
+    },
+    "options": {
+      "en": [
+        "from",
+        "to",
+        "of",
+        "with"
+      ],
+      "ml": [
+        "from",
+        "to",
+        "of",
+        "with"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The verb 'prevent' governs the preposition 'from' followed by a gerund ('prevent from entering').",
+      "ml": "'Prevent' എന്ന ക്രിയയ്ക്ക് ശേഷം 'from' എന്ന പ്രിപ്പോസിഷനാണ് ഉപയോഗിക്കുന്നത് ('prevent from')."
+    },
+    "source": "Wren & Martin, High School English Grammar (Words Followed by Prepositions)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-029",
+    "subject": "eng",
+    "topic": "Articles and prepositions",
+    "difficulty": 2,
+    "q": {
+      "en": "Fill in the blank with the appropriate article: “Iron is ________ useful metal.”",
+      "ml": "ശരിയായ ആർട്ടിക്കിൾ തിരഞ്ഞെടുക്കുക: “Iron is ________ useful metal.”"
+    },
+    "options": {
+      "en": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "ml": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Although 'useful' begins with the vowel letter 'u', it is pronounced with the consonant glide /juː/, requiring 'a'.",
+      "ml": "'Useful' എന്ന വാക്ക് വ്യഞ്ജന ശബ്ദത്തോടെ (/juː/) ആരംഭിക്കുന്നതിനാൽ അതിനു മുൻപിൽ 'a' ആണ് ഉപയോഗിക്കേണ്ടത്."
+    },
+    "source": "Wren & Martin, High School English Grammar (Articles)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-030",
+    "subject": "eng",
+    "topic": "Articles and prepositions",
+    "difficulty": 2,
+    "q": {
+      "en": "Fill in the blank with the correct preposition: “She has always been good ________ mathematics.”",
+      "ml": "ശരിയായ പ്രിപ്പോസിഷൻ തിരഞ്ഞെടുക്കുക: “She has always been good ________ mathematics.”"
+    },
+    "options": {
+      "en": [
+        "at",
+        "in",
+        "with",
+        "on"
+      ],
+      "ml": [
+        "at",
+        "in",
+        "with",
+        "on"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Proficiency or competence in an academic subject or skill is expressed using 'good at'.",
+      "ml": "ഒരു വിഷയത്തിലുള്ള പ്രാവീണ്യത്തെ സൂചിപ്പിക്കാൻ 'good at' എന്നാണ് ഉപയോഗിക്കുന്നത്."
+    },
+    "source": "Michael Swan, Practical English Usage (Prepositions after Adjectives)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-031",
+    "subject": "eng",
+    "topic": "Articles and prepositions",
+    "difficulty": 3,
+    "q": {
+      "en": "Fill in the blank: “The prize money was distributed ________ the three winners.”",
+      "ml": "ശരിയായ പ്രിപ്പോസിഷൻ നൽകുക: “The prize money was distributed ________ the three winners.”"
+    },
+    "options": {
+      "en": [
+        "among",
+        "between",
+        "amidst",
+        "within"
+      ],
+      "ml": [
+        "among",
+        "between",
+        "amidst",
+        "within"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "'Between' is typically used for division between two people, whereas 'among' is used for division among three or more.",
+      "ml": "രണ്ടിൽ കൂടുതൽ ആളുകൾക്കിടയിൽ വീതിക്കുന്നതിനെ സൂചിപ്പിക്കാൻ 'among' ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Wren & Martin, High School English Grammar (Prepositions)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-032",
+    "subject": "eng",
+    "topic": "Plurals and spelling",
+    "difficulty": 1,
+    "q": {
+      "en": "What is the correct plural form of the noun “foot”?",
+      "ml": "“Foot” എന്ന വാക്കിന്റെ ശരിയായ ബഹുവചനം ഏത്?"
+    },
+    "options": {
+      "en": [
+        "Feet",
+        "Foots",
+        "Feets",
+        "Footes"
+      ],
+      "ml": [
+        "Feet",
+        "Foots",
+        "Feets",
+        "Footes"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The plural of 'foot' is formed irregularly by changing the internal vowel to 'feet'.",
+      "ml": "Foot എന്ന വാക്കിന്റെ ശരിയായ ബഹുവചന രൂപം Feet എന്നാണ്."
+    },
+    "source": "Wren & Martin, High School English Grammar (Number)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-033",
+    "subject": "eng",
+    "topic": "Plurals and spelling",
+    "difficulty": 2,
+    "q": {
+      "en": "Choose the word with the correct spelling:",
+      "ml": "ശരിയായ അക്ഷരവിന്യാസമുള്ള (spelling) വാക്ക് തിരഞ്ഞെടുക്കുക:"
+    },
+    "options": {
+      "en": [
+        "Accommodation",
+        "Acommodation",
+        "Accomodation",
+        "Acomodation"
+      ],
+      "ml": [
+        "Accommodation",
+        "Acommodation",
+        "Accomodation",
+        "Acomodation"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The correct spelling is 'accommodation', containing double 'c' and double 'm'.",
+      "ml": "'Accommodation' എന്ന വാക്കിന്റെ ശരിയായ സ്പെല്ലിംഗിൽ രണ്ട് 'c'-യും രണ്ട് 'm'-ഉം ഉണ്ടായിരിക്കണം."
+    },
+    "source": "Oxford Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-034",
+    "subject": "eng",
+    "topic": "Plurals and spelling",
+    "difficulty": 2,
+    "q": {
+      "en": "What is the plural form of the noun “ox”?",
+      "ml": "“Ox” എന്ന വാക്കിന്റെ ബഹുവചന രൂപം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Oxen",
+        "Oxes",
+        "Oxs",
+        "Oxies"
+      ],
+      "ml": [
+        "Oxen",
+        "Oxes",
+        "Oxs",
+        "Oxies"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The traditional irregular plural of 'ox' is 'oxen'.",
+      "ml": "'Ox' എന്ന നാമപദത്തിന്റെ ബഹുവചനം 'Oxen' ആണ്."
+    },
+    "source": "Wren & Martin, High School English Grammar (Number)",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-035",
+    "subject": "eng",
+    "topic": "Plurals and spelling",
+    "difficulty": 2,
+    "q": {
+      "en": "Choose the correctly spelled word:",
+      "ml": "ശരിയായി എഴുതിയ വാക്ക് തിരഞ്ഞെടുക്കുക:"
+    },
+    "options": {
+      "en": [
+        "Separate",
+        "Seperate",
+        "Seperete",
+        "Separite"
+      ],
+      "ml": [
+        "Separate",
+        "Seperate",
+        "Seperete",
+        "Separite"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "The correct spelling is 'separate', with an 'a' after the 'p' (sep-a-rate).",
+      "ml": "'Separate' എന്ന വാക്കിന്റെ ശരിയായ സ്പെല്ലിംഗിൽ നടുവിൽ 'a' ആണ് വരുന്നത്."
+    },
+    "source": "Cambridge English Dictionary",
+    "verified": false,
+    "needsReview": false
+  },
+  {
+    "id": "eng-036",
+    "subject": "eng",
+    "topic": "Plurals and spelling",
+    "difficulty": 3,
+    "q": {
+      "en": "What is the plural form of the singular noun “criterion”?",
+      "ml": "“Criterion” എന്ന വാക്കിന്റെ ബഹുവചന രൂപം ഏതാണ്?"
+    },
+    "options": {
+      "en": [
+        "Criteria",
+        "Criterions",
+        "Criterias",
+        "Criterium"
+      ],
+      "ml": [
+        "Criteria",
+        "Criterions",
+        "Criterias",
+        "Criterium"
+      ]
+    },
+    "answerIndex": 0,
+    "explanation": {
+      "en": "Criterion is a Greek loan word whose plural form is criteria.",
+      "ml": "ഗ്രീക്ക് ഭാഷയിൽ നിന്ന് വന്ന 'Criterion'-ന്റെ ബഹുവചന രൂപമാണ് 'Criteria'."
+    },
+    "source": "Oxford Advanced Learner’s Dictionary",
+    "verified": false,
+    "needsReview": false
   }
 ]

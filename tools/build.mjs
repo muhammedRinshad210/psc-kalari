@@ -112,7 +112,10 @@ for (const file of ['ren', 'consti', 'geo', 'sci', 'math', 'eng', 'ker', 'his', 
 }
 
 function renderSubjectPage(subject, subjectQuestions) {
-  const pageTitle = `${subject.en} questions for Kerala PSC | PSC Kalari`;
+  const defaultTitle = `${subject.en} questions for Kerala PSC | PSC Kalari`;
+  const pageTitle = esc(defaultTitle).length <= 60
+    ? defaultTitle
+    : `${subject.en} for Kerala PSC | PSC Kalari`;
   const metaDescription = `Practise ${subject.en} questions for Kerala PSC exams. Topic-wise questions with answers and explanations in English and Malayalam.`;
   const canonicalUrl = `${siteBase}${subject.slug}/`;
   const ogImageUrl = `${siteBase}assets/og-image.png`;
