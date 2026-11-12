@@ -20,11 +20,35 @@ const { setLang } = await import('../js/i18n.js');
 const { buildReportUrl, reportButton, reviewNoticeHtml } = await import('../js/report.js');
 const { REPORT_FORM_URL, REPORT_FORM_ENTRY_ID } = await import('../js/config.js');
 
-/* --- 1. When REPORT_FORM_URL is empty, button is absent and nothing breaks --- */
-assert.equal(REPORT_FORM_URL, '', 'Default REPORT_FORM_URL in config must be empty placeholder');
-assert.equal(REPORT_FORM_ENTRY_ID, '', 'Default REPORT_FORM_ENTRY_ID in config must be empty placeholder');
-assert.equal(buildReportUrl('ker-025'), '', 'buildReportUrl must return empty string when REPORT_FORM_URL is empty');
-assert.equal(reportButton('ker-025'), '', 'reportButton must return empty string when REPORT_FORM_URL is empty');
+/* --- 1. Empty URL handling & Configured defaults --- */
+assert.equal(buildReportUrl('ker-025', ''), '', 'buildReportUrl must return empty string when formUrl is empty');
+assert.equal(buildReportUrl('ker-025', '', '123'), '', 'buildReportUrl must return empty string when formUrl is empty even with entryId');
+
+// When configured in config.js:
+assert.equal(
+  REPORT_FORM_URL,
+  'https://docs.google.com/forms/d/e/1FAIpQLSd6nWaHBot29-6AotD9B6UCbq75h63Sr2dvB7y9Yg3ASmn8cA/viewform',
+  'REPORT_FORM_URL in config must match configured form'
+);
+assert.equal(REPORT_FORM_ENTRY_ID, '538745862', 'REPORT_FORM_ENTRY_ID in config must match configured entry id');
+
+const defaultUrlKer = buildReportUrl('ker-025');
+assert.equal(
+  defaultUrlKer,
+  'https://docs.google.com/forms/d/e/1FAIpQLSd6nWaHBot29-6AotD9B6UCbq75h63Sr2dvB7y9Yg3ASmn8cA/viewform?usp=pp_url&entry.538745862=ker-025'
+);
+
+const defaultUrlGeo = buildReportUrl('geo-001');
+assert.equal(
+  defaultUrlGeo,
+  'https://docs.google.com/forms/d/e/1FAIpQLSd6nWaHBot29-6AotD9B6UCbq75h63Sr2dvB7y9Yg3ASmn8cA/viewform?usp=pp_url&entry.538745862=geo-001'
+);
+
+const btnHtml = reportButton('ker-025');
+assert.ok(btnHtml.includes('rel="noopener noreferrer"'), 'Report button must include rel="noopener noreferrer"');
+assert.ok(btnHtml.includes('target="_blank"'), 'Report button must open in new tab');
+assert.ok(btnHtml.includes('class="btn sec report-btn"'), 'Report button must have secondary style classes');
+assert.ok(btnHtml.includes('entry.538745862=ker-025'), 'Report button href must have prefill');
 
 /* --- 2. Correctly builds URL with sample form URL and entry ID --- */
 const sampleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSc_sample123/viewform';
@@ -120,3 +144,4 @@ const checkDir = (dir) => {
 checkDir(path.join(root, 'js'));
 
 console.log('report and review notice tests passed');
+

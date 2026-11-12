@@ -34,7 +34,7 @@ export function reportButton(questionId, opts = {}) {
     'ചോദ്യത്തിലെ തെറ്റ് റിപ്പോർട്ട് ചെയ്യുക ' + (questionId || '')
   );
   const extraClass = opts.cls ? ` ${opts.cls}` : '';
-  return `<a class="btn sec report-btn${extraClass}" href="${esc(url)}" target="_blank" rel="noopener" aria-label="${ariaLabel}">${label}</a>`;
+  return `<a class="btn sec report-btn${extraClass}" href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${ariaLabel}">${label}</a>`;
 }
 
 /**
@@ -46,3 +46,4 @@ export function reviewNoticeHtml() {
     'ഈ പരിശീലന ചോദ്യങ്ങൾ ഞങ്ങൾ തയ്യാറാക്കിയതാണ്, അവ ഔദ്യോഗിക ഉറവിടങ്ങളുമായി ഒത്തുനോക്കിക്കൊണ്ടിരിക്കുകയാണ്. എന്തെങ്കിലും തെറ്റ് കണ്ടെത്തിയാൽ ദയവായി റിപ്പോർട്ട് ചെയ്യുക.'
   );
 }
+
