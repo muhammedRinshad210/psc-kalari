@@ -100,56 +100,56 @@ for (const file of ['ren', 'consti', 'geo', 'sci', 'math', 'eng', 'ker', 'his', 
 const SUBJECT_SEO = {
   ren: {
     title: 'Kerala PSC Renaissance Questions with Answers',
-    desc: 'Practise Kerala PSC Renaissance questions with answers and explanations in English and Malayalam. കേരള നവോത്ഥാന ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
+    desc: 'Kerala PSC Renaissance questions covering SNDP, Ayyankali, Vaikom satyagraha, and temple entry. കേരള നവോത്ഥാന ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
     h1: 'Kerala PSC Renaissance Questions with Answers'
   },
   consti: {
     title: 'Kerala PSC Constitution Questions with Answers',
-    desc: 'Kerala PSC Indian Constitution questions with answers and explanations in English and Malayalam. ഭരണഘടനാ ചോദ്യങ്ങൾ സൗജന്യമായി പരിശീലിക്കാം.',
+    desc: 'Kerala PSC Indian Constitution questions covering Fundamental Rights, Directive Principles, and amendments. ഭരണഘടനാ ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
     h1: 'Kerala PSC Indian Constitution Questions with Answers'
   },
   geo: {
     title: 'Kerala PSC Geography Questions with Answers',
-    desc: 'Kerala PSC Geography questions with answers and bilingual explanations covering Kerala and India. ഭൂമിശാസ്ത്ര ചോദ്യങ്ങൾ സൗജന്യമായി പഠിക്കാം.',
+    desc: 'Kerala PSC Geography questions covering Kerala rivers, backwaters, districts, climate, and physiography. ഭൂമിശാസ്ത്ര ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
     h1: 'Kerala PSC Geography Questions with Answers'
   },
   sci: {
     title: 'Kerala PSC Science Questions with Answers',
-    desc: 'Kerala PSC General Science questions with answers in physics, chemistry, and biology. പൊതുശാസ്ത്ര ചോദ്യങ്ങൾ ഉത്തരസഹിതം പരിശീലിക്കാം.',
+    desc: 'Kerala PSC General Science questions covering vitamins, human body, cell biology, motion, and gases. പൊതുശാസ്ത്ര ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
     h1: 'Kerala PSC General Science Questions with Answers'
   },
   math: {
     title: 'Kerala PSC Maths & Mental Ability Questions',
-    desc: 'Kerala PSC Maths and Mental Ability questions with answers, shortcuts, and solutions. ഗണിത ചോദ്യങ്ങൾ എളുപ്പവഴികളോടെ പരിശീലിക്കാം.',
+    desc: 'Kerala PSC Maths and Mental Ability questions on percentage, profit and loss, ratio, and series. ഗണിത ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
     h1: 'Kerala PSC Maths and Mental Ability Questions with Answers'
   },
   eng: {
     title: 'Kerala PSC English Questions with Answers',
-    desc: 'Kerala PSC General English questions with answers, grammar rules, and vocabulary. ജനറൽ ഇംഗ്ലീഷ് ചോദ്യങ്ങൾ ഉത്തരസഹിതം പരിശീലിക്കാം.',
+    desc: 'Kerala PSC General English questions covering tenses, prepositions, idioms, synonyms, and plurals. ജനറൽ ഇംഗ്ലീഷ് ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
     h1: 'Kerala PSC General English Questions with Answers'
   },
   ker: {
-    title: 'Kerala PSC Kerala Facts GK Questions',
-    desc: 'Kerala PSC Kerala Facts GK questions with answers covering state history and culture. കേരള വസ്തുതകൾ ഉത്തരസഹിതം പരിശീലിക്കാം.',
-    h1: 'Kerala PSC Kerala Facts GK Questions with Answers'
+    title: 'Kerala GK Questions for PSC with Answers',
+    desc: 'Kerala GK practice questions covering state formation, chief ministers, literature, and arts for PSC. കേരള വസ്തുതകൾ പരിശീലിക്കാം.',
+    h1: 'Kerala GK Questions for PSC with Answers'
   },
   his: {
     title: 'Kerala PSC Indian History Questions with Answers',
-    desc: 'Kerala PSC Indian History questions with answers covering ancient India and freedom movement. ഇന്ത്യാ ചരിത്ര ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
+    desc: 'Kerala PSC Indian History questions covering 1857, Congress leaders, Gandhian struggles, and independence. ഇന്ത്യാ ചരിത്ര ചോദ്യങ്ങൾ പരിശീലിക്കാം.',
     h1: 'Kerala PSC Indian History Questions with Answers'
   }
 };
 
 /* Factual "About this subject" paragraphs (80-120 words each) */
 const SUBJECT_ABOUT = {
-  ren: 'Kerala Renaissance is a foundational component of the Kerala Public Service Commission syllabus for Degree Level and Plus Two examinations. Questions in this section examine the socio-religious reform movements of the late nineteenth and early twentieth centuries that shaped modern Kerala. Key leaders frequently tested include Sree Narayana Guru, Ayyankali, Chattampi Swamikal, Vaikunda Swamikal, Brahmananda Sivayogi, and Vagbhatananda, alongside historic milestones such as the Vaikom Satyagraha, Guruvayur Satyagraha, and Temple Entry Proclamation. This subject section in PSC Kalari includes 40 practice questions written with verified references and comprehensive bilingual explanations in English and Malayalam to help candidates master historical dates, publications, and social reforms.',
+  ren: 'Kerala Renaissance is a foundational component of the Kerala Public Service Commission syllabus for Degree Level and Plus Two examinations. Questions in this section examine the socio-religious reform movements of the late nineteenth and early twentieth centuries that shaped modern Kerala. Key leaders tested include Sree Narayana Guru, Ayyankali, Chattampi Swamikal, Vaikunda Swamikal, Brahmananda Sivayogi, and Vagbhatananda, alongside historic milestones such as the Vaikom Satyagraha, Guruvayur Satyagraha, and Temple Entry Proclamation. This subject section in PSC Kalari includes 40 practice questions with detailed explanations in English and Malayalam to help candidates master historical dates, publications, and reform movements.',
   consti: 'The Indian Constitution forms an essential core of all Kerala PSC general papers, carrying consistent weight across preliminary and mains stages. Candidates are expected to understand the historical making of the Constitution, the Preamble, Fundamental Rights under Part III, Directive Principles of State Policy under Part IV, and Fundamental Duties. Exam questions regularly test specific Constitutional Articles, landmark Supreme Court amendments, the President, Parliament, judiciary, and statutory commissions. PSC Kalari features 40 practice questions for this subject, each with full explanations in English and Malayalam citing official constitutional provisions and amendments. Practising these questions helps aspirants avoid common pitfalls in article numbers and constitutional bodies.',
-  geo: 'Geography questions in Kerala PSC examinations evaluate candidates on physical, environmental, and regional geography, with equal emphasis on Kerala and the Indian subcontinent. Core syllabus areas include the 44 rivers of Kerala, backwaters, mountain ranges, the Western Ghats, wildlife sanctuaries, districts, and border regions, as well as Indian physiography, major river systems, climate patterns, soil types, and agricultural zones. In PSC Kalari, this section contains 40 curated practice questions with verified explanations in both English and Malayalam. Regular practice of these questions helps candidates solidify factual accuracy regarding physical landmarks, national parks, river origins, and census facts required for high percentiles in PSC examinations.',
+  geo: 'Geography questions in Kerala PSC examinations evaluate candidates on physical, environmental, and regional geography, with equal emphasis on Kerala and the Indian subcontinent. Core syllabus areas include the 44 rivers of Kerala, backwaters, mountain ranges, the Western Ghats, wildlife sanctuaries, districts, and border regions, as well as Indian physiography, major river systems, climate patterns, soil types, and agricultural zones. In PSC Kalari, this section contains 40 curated practice questions with explanations in English and Malayalam. Regular practice of these questions helps candidates solidify factual accuracy regarding physical landmarks, national parks, river origins, and census facts required for high percentiles in PSC examinations.',
   sci: 'General Science is a compulsory section in Kerala PSC preliminary and main examinations, testing everyday applications of physics, chemistry, and biology. The syllabus spans human physiology, vitamins, deficiency diseases, blood circulation, cellular biology, and infectious diseases, alongside fundamental physics concepts like units, motion, work, and electricity. Chemistry topics frequently tested include common elements, chemical symbols, acids, bases, atmospheric gases, and metals. PSC Kalari provides 40 topic-wise practice questions in this subject with step-by-step explanations in English and Malayalam. Reviewing these questions ensures aspirants gain conceptual clarity and recall precise scientific units, chemical formulas, and biological terminology under timed exam conditions.',
-  math: 'Quantitative Aptitude and Mental Ability questions are critical for securing high ranks in Kerala PSC Degree Level, 10th Level, and Plus Two examinations. The PSC mathematics syllabus covers arithmetic fundamentals including percentages, profit and loss, ratio and proportion, averages, time, speed and distance, work problems, simple and compound interest, and LCM and HCF. The mental ability portion tests number series, coding, analogies, and logical reasoning. PSC Kalari offers 40 practice questions in this subject with clear mathematical derivations and bilingual explanations in English and Malayalam. Consistent practice with these questions helps candidates improve computational speed and problem-solving accuracy during competitive exams.',
-  eng: 'General English carries significant scoring potential in Kerala PSC examinations, testing functional grammar, vocabulary, and linguistic accuracy. The official syllabus emphasizes identifying grammatical errors, correct verb tenses, prepositions, articles, subject-verb agreement, and active and passive voice. Vocabulary questions test synonyms, antonyms, collective nouns, one-word substitutions, commonly confused words, and idiomatic expressions frequently asked in past PSC question papers. This subject section on PSC Kalari features 36 targeted practice questions, each paired with comprehensive grammatical rules and bilingual explanations in English and Malayalam. Regular practice assists candidates in avoiding frequent grammatical traps and achieving full marks in the English language paper.',
-  ker: 'Kerala Facts and general knowledge is an indispensable subject for all Kerala PSC recruitments, focusing on the state\'s political history, administration, geography, and cultural legacy. Key areas covered in the PSC syllabus include the formation of the state on 1 November 1956, historic chief ministers, constitutional dignitaries, state symbols, major administrative milestones, Malayalam literature, Jnanpith awardees, classical arts, folk festivals, and pioneering Malayalam periodicals. PSC Kalari provides 36 practice questions in this section with detailed, verified explanations in English and Malayalam. Practising these questions helps candidates build a solid factual foundation across state administrative history, literary achievements, and cultural landmarks.',
-  his: 'Indian History is a major syllabus pillar across Kerala PSC examinations, with particular focus on modern Indian history and the national freedom movement. Core topics include the British conquest of India, the Revolt of 1857, the founding of the Indian National Congress in 1885, moderate and extremist leaders, Gandhian mass movements including Non-Cooperation and Quit India, and constitutional independence. Ancient and medieval basics such as the Indus Valley Civilization and Mughal administration are also assessed. PSC Kalari includes 36 curated practice questions for this subject, each with bilingual explanations in English and Malayalam to help candidates review chronologies, leaders, sessions, and historic declarations.'
+  math: 'Quantitative Aptitude and Mental Ability questions are critical for securing high ranks in Kerala PSC examinations across Degree Level, Plus Two, and 10th Level recruitments. The mathematics syllabus covered here focuses on core arithmetic topics: percentages, profit and loss, ratio and proportion, averages, time, speed and distance, and LCM and HCF. The mental ability portion assesses numerical reasoning through number series questions. PSC Kalari offers 40 topic-wise practice questions in this subject with worked step-by-step solutions and explanations in English and Malayalam. Practising these questions helps candidates improve arithmetic accuracy and problem-solving speed under timed PSC examination conditions.',
+  eng: 'General English carries significant scoring potential in Kerala PSC examinations across Degree Level, Plus Two, and 10th Level recruitments. The questions in this section focus directly on syllabus areas tested in general papers: verb tenses, articles, prepositions, plurals, and correct spelling. Vocabulary and phrase usage questions assess synonyms and antonyms, one-word substitutions, and common idioms and phrases. PSC Kalari features 36 targeted practice questions for this subject, each accompanied by explanations in English and Malayalam. Practising these questions helps candidates solidify core English grammar usage, expand question vocabulary, and avoid common traps in Kerala PSC language examinations.',
+  ker: 'Kerala Facts and general knowledge is an essential section for all Kerala PSC recruitments, focusing on the state\'s political history, governance, and cultural heritage. Key areas covered in this syllabus include the formation of Kerala in 1956, prominent chief ministers, state symbols, Malayalam literature and awards, the evolution of the Malayalam language, traditional festivals and performing arts, and pioneering newspapers. PSC Kalari provides 36 practice questions in this section with detailed explanations in English and Malayalam. Practising these questions helps candidates build a solid factual foundation across state history, literary honours, and cultural traditions tested in competitive PSC examinations.',
+  his: 'Indian History is a major syllabus pillar across Kerala PSC examinations for Degree Level, Plus Two, and 10th Level recruitments. This subject section covers foundational ancient Indian history alongside the milestones of modern India. Syllabus topics include ancient India basics such as the Indus Valley Civilization, the Battle of Plassey, the Revolt of 1857, the founding and leaders of the Indian National Congress, Gandhian mass movements, the broader freedom movement, and post-independence milestones. PSC Kalari provides 36 practice questions in this subject with detailed explanations in English and Malayalam to help candidates master chronological events, historical declarations, leaders, and national movements.'
 };
 
 const eligibleSubjects = subjects.filter((s) => counts.get(s.key).length >= MIN_QUESTIONS);
@@ -508,8 +508,13 @@ writeFileSync(resolve(root, 'kerala-psc-syllabus.html'), syllabusHtml, 'utf8');
 console.log('Generated page /kerala-psc-syllabus.html');
 
 function renderAboutPage() {
+  const verifiedCount = questions.filter((q) => q.verified === true).length;
+  const reviewStatusText = verifiedCount > 0
+    ? `${verifiedCount} of ${questions.length} questions reviewed by a person.`
+    : 'Questions are being checked against official sources, and you can report any mistake.';
+
   const pageTitle = 'About PSC Kalari: Free Kerala PSC Practice';
-  const metaDescription = 'About PSC Kalari: free, login-free Kerala PSC practice with verified questions, explanations, and error reporting. ഞങ്ങളെക്കുറിച്ച് അറിയുക.';
+  const metaDescription = 'About PSC Kalari: free practice questions checked against official sources. ഞങ്ങളെക്കുറിച്ച് അറിയുക.';
   const canonicalUrl = `${siteBase}about.html`;
   const ogImageUrl = `${siteBase}assets/og-image.png`;
 
@@ -590,7 +595,7 @@ ${JSON.stringify(breadcrumbLd, null, 2)}
     <section class="about-hero">
       <span class="eyebrow" style="color:var(--hero-accent,var(--gold-soft));margin-bottom:4px">About the Project</span>
       <h1>About PSC Kalari</h1>
-      <p>PSC Kalari is an independent, non-commercial educational project created to help Kerala Public Service Commission aspirants prepare for government examinations with accurate, verified practice materials.</p>
+      <p>PSC Kalari is an independent, non-commercial educational project created to help Kerala Public Service Commission aspirants prepare for government examinations with accurate practice materials.</p>
       <p class="ml" lang="ml" style="color:var(--hero-sub)">കേരള പി.എസ്.സി പരീക്ഷാർത്ഥികൾക്കായി സൗജന്യവും പരസ്യരഹിതവുമായി തയ്യാറാക്കിയ പഠന സഹായി.</p>
     </section>
 
@@ -605,13 +610,13 @@ ${JSON.stringify(breadcrumbLd, null, 2)}
     </article>
 
     <article class="about-card">
-      <h2>Source-Verified Questions</h2>
-      <p>All questions on PSC Kalari are original formulations written from authoritative primary references: the Constitution of India, official Kerala Gazetteers, SCERT and NCERT textbooks, Census of India data, and the Kerala Economic Review. Every new question begins with <code style="font-size:0.9em;background:var(--surface2);padding:2px 6px;border-radius:4px">verified: false</code> and undergoes systematic verification against official Kerala PSC answer keys and statutory texts before being marked reviewed.</p>
+      <h2>Question Review Status</h2>
+      <p>All questions on PSC Kalari are original formulations written from authoritative primary references: the Constitution of India, official Kerala Gazetteers, SCERT and NCERT textbooks, Census of India data, and the Kerala Economic Review. ${esc(reviewStatusText)}</p>
     </article>
 
     <article class="about-card">
       <h2>How to Report a Mistake</h2>
-      <p>Content integrity is our top priority. Every question card on the practice screen, the results review sheet, and the search screen includes a visible "Report a mistake" button. Clicking this button opens a secure feedback form with the specific question ID automatically prefilled. Our review team cross-checks reported questions against official gazettes and updates any disputed facts or typos.</p>
+      <p>Content integrity is our top priority. Every question card on the practice screen, the results review sheet, and the search screen includes a visible "Report a mistake" button. Clicking this button opens a feedback form with the specific question ID automatically prefilled. Disputed facts or typos reported by candidates are cross-checked against official publications.</p>
     </article>
 
     <nav aria-label="Quick links" style="margin-top:24px;text-align:center">
@@ -672,16 +677,21 @@ writeFileSync(resolve(root, 'robots.txt'), robotsTxt, 'utf8');
 console.log('Generated robots.txt pointing to sitemap.xml.');
 
 /* Generate llms.txt: optional plain-text summary for LLMs and answer engines */
+const verifiedCount = questions.filter((q) => q.verified === true).length;
+const reviewStatusNote = verifiedCount > 0
+  ? `${verifiedCount} of ${questions.length} questions reviewed by a person.`
+  : 'Questions are being checked against official sources, and you can report any mistake.';
+
 const llmsTxt = `# PSC Kalari
 
-> Free, mobile-first Kerala PSC exam practice portal featuring verified questions, timer-based mock tests, and bilingual explanations in English and Malayalam.
+> Free, mobile-first Kerala PSC exam practice portal featuring practice questions, timer-based mock tests, and explanations in English and Malayalam.
 
 Note: This file (llms.txt) is an optional plain-text resource provided for language models and answer engines to understand the site structure and educational offerings.
 
 ## Core Principles
 - 100% Free and open access with no registration, no user accounts, and no paywalls.
 - Privacy-first: all user streaks, marks, and saved question bookmarks are kept locally in the browser via localStorage.
-- Content integrity: questions are original formulations verified against official statutes, SCERT/NCERT textbooks, gazetteers, and official government publications.
+- Content integrity: questions are original formulations written from official statutes, SCERT/NCERT textbooks, gazetteers, and government publications. ${reviewStatusNote}
 - Community feedback: every question provides a direct report link with prefilled identifier for rapid correction.
 
 ## Subjects & Practice Pages

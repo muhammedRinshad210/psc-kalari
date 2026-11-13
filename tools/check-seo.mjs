@@ -210,8 +210,8 @@ if (aboutHtml) {
   if (!aboutLower.includes('no login') && !aboutLower.includes('free')) {
     fail('about.html must state it is free with no login required');
   }
-  if (!aboutLower.includes('verified') && !aboutLower.includes('review')) {
-    fail('about.html must explain questions are being verified by reviewers');
+  if (!aboutLower.includes('official sources') && !aboutLower.includes('reviewed by a person')) {
+    fail('about.html must explain questions are being checked against official sources or reviewed by a person');
   }
   if (!aboutLower.includes('report a mistake')) {
     fail('about.html must explain how to report a mistake');
@@ -320,6 +320,27 @@ const dumpedPages = ['questions.html', 'all-questions.html', 'bank.html', 'dump.
 for (const p of dumpedPages) {
   if (fs.existsSync(path.join(root, p))) {
     fail(`Forbidden question dump page detected: ${p}`);
+  }
+}
+
+// 9. Fail if public HTML or llms.txt contains the word "verified" while no question has verified:true
+const verifiedQuestionsCount = questions.filter(q => q.verified === true).length;
+if (verifiedQuestionsCount === 0) {
+  const publicFiles = [
+    homeHtmlPath,
+    aboutPath,
+    syllabusPath,
+    llmsPath,
+    ...eligibleSubjects.map(s => path.join(root, s.slug, 'index.html'))
+  ];
+
+  for (const pf of publicFiles) {
+    if (fs.existsSync(pf)) {
+      const content = fs.readFileSync(pf, 'utf8');
+      if (/\bverified\b/i.test(content)) {
+        fail(`Public file ${path.relative(root, pf)} contains "verified" while no question has verified:true`);
+      }
+    }
   }
 }
 

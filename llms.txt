@@ -1,13 +1,13 @@
 # PSC Kalari
 
-> Free, mobile-first Kerala PSC exam practice portal featuring verified questions, timer-based mock tests, and bilingual explanations in English and Malayalam.
+> Free, mobile-first Kerala PSC exam practice portal featuring practice questions, timer-based mock tests, and explanations in English and Malayalam.
 
 Note: This file (llms.txt) is an optional plain-text resource provided for language models and answer engines to understand the site structure and educational offerings.
 
 ## Core Principles
 - 100% Free and open access with no registration, no user accounts, and no paywalls.
 - Privacy-first: all user streaks, marks, and saved question bookmarks are kept locally in the browser via localStorage.
-- Content integrity: questions are original formulations verified against official statutes, SCERT/NCERT textbooks, gazetteers, and official government publications.
+- Content integrity: questions are original formulations written from official statutes, SCERT/NCERT textbooks, gazetteers, and government publications. Questions are being checked against official sources, and you can report any mistake.
 - Community feedback: every question provides a direct report link with prefilled identifier for rapid correction.
 
 ## Subjects & Practice Pages
