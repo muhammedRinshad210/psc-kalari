@@ -21,6 +21,9 @@ const root = path.resolve();
 const siteBase = SITE_URL.endsWith('/') ? SITE_URL : `${SITE_URL}/`;
 const MIN_QUESTIONS = 20;
 
+const questions = JSON.parse(fs.readFileSync(path.join(root, 'data/questions.json'), 'utf8'));
+const verifiedQuestionsCount = questions.filter(q => q.verified === true).length;
+
 const errors = [];
 const fail = (msg) => errors.push(msg);
 
@@ -136,6 +139,9 @@ function checkPageBasics(filePath, pageLabel, expectedCanonical) {
     if (desc.length >= 155) {
       fail(`${pageLabel} description is ${desc.length} chars (must be strictly under 155): "${desc}"`);
     }
+    if (verifiedQuestionsCount === 0 && desc.includes('checked against') && !desc.includes('being')) {
+      fail(`${pageLabel} description says "checked against" without "being" while 0 questions are verified: "${desc}"`);
+    }
     if (!/[\u0D00-\u0D7F]/.test(desc)) {
       fail(`${pageLabel} description missing Malayalam text: "${desc}"`);
     }
@@ -220,7 +226,6 @@ if (aboutHtml) {
 
 // 7. Check Subject Pages
 const subjects = JSON.parse(fs.readFileSync(path.join(root, 'data/subjects.json'), 'utf8')).subjects;
-const questions = JSON.parse(fs.readFileSync(path.join(root, 'data/questions.json'), 'utf8'));
 
 const counts = new Map();
 for (const s of subjects) counts.set(s.key, 0);
@@ -324,7 +329,6 @@ for (const p of dumpedPages) {
 }
 
 // 9. Fail if public HTML or llms.txt contains the word "verified" while no question has verified:true
-const verifiedQuestionsCount = questions.filter(q => q.verified === true).length;
 if (verifiedQuestionsCount === 0) {
   const publicFiles = [
     homeHtmlPath,

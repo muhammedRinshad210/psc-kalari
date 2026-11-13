@@ -514,7 +514,9 @@ function renderAboutPage() {
     : 'Questions are being checked against official sources, and you can report any mistake.';
 
   const pageTitle = 'About PSC Kalari: Free Kerala PSC Practice';
-  const metaDescription = 'About PSC Kalari: free practice questions checked against official sources. ഞങ്ങളെക്കുറിച്ച് അറിയുക.';
+  const metaDescription = verifiedCount > 0
+    ? `About PSC Kalari: free practice questions with ${verifiedCount} of ${questions.length} reviewed by a person. ഞങ്ങളെക്കുറിച്ച് അറിയുക.`
+    : 'About PSC Kalari: free practice questions being checked against official sources. ഞങ്ങളെക്കുറിച്ച് അറിയുക.';
   const canonicalUrl = `${siteBase}about.html`;
   const ogImageUrl = `${siteBase}assets/og-image.png`;
 
