@@ -1,0 +1,26 @@
+# PSC Kalari
+
+> Free, mobile-first Kerala PSC exam practice portal featuring verified questions, timer-based mock tests, and bilingual explanations in English and Malayalam.
+
+Note: This file (llms.txt) is an optional plain-text resource provided for language models and answer engines to understand the site structure and educational offerings.
+
+## Core Principles
+- 100% Free and open access with no registration, no user accounts, and no paywalls.
+- Privacy-first: all user streaks, marks, and saved question bookmarks are kept locally in the browser via localStorage.
+- Content integrity: questions are original formulations verified against official statutes, SCERT/NCERT textbooks, gazetteers, and official government publications.
+- Community feedback: every question provides a direct report link with prefilled identifier for rapid correction.
+
+## Subjects & Practice Pages
+- Kerala Renaissance (കേരള നവോത്ഥാനം): https://psc-kalari.kalariapps.workers.dev/kerala-renaissance/
+- Indian Constitution (ഇന്ത്യൻ ഭരണഘടന): https://psc-kalari.kalariapps.workers.dev/indian-constitution/
+- Geography (ഭൂമിശാസ്ത്രം): https://psc-kalari.kalariapps.workers.dev/geography/
+- General Science (പൊതുശാസ്ത്രം): https://psc-kalari.kalariapps.workers.dev/general-science/
+- Maths & Mental Ability (ഗണിതവും മാനസിക ശേഷിയും): https://psc-kalari.kalariapps.workers.dev/maths-mental-ability/
+- English (ഇംഗ്ലീഷ്): https://psc-kalari.kalariapps.workers.dev/english/
+- Kerala Facts (കേരള വസ്തുതകൾ): https://psc-kalari.kalariapps.workers.dev/kerala-facts/
+- Indian History (ഇന്ത്യാ ചരിത്രം): https://psc-kalari.kalariapps.workers.dev/indian-history/
+
+## Syllabus and Information
+- Kerala PSC Syllabus Guide: https://psc-kalari.kalariapps.workers.dev/kerala-psc-syllabus.html
+- About PSC Kalari: https://psc-kalari.kalariapps.workers.dev/about.html
+- XML Sitemap: https://psc-kalari.kalariapps.workers.dev/sitemap.xml

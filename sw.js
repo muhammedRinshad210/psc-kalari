@@ -2,12 +2,14 @@
    App shell precaching, atomic updates, network-first for HTML, JS, CSS, and data,
    and cache-first for fonts and icons. */
 
-const CACHE_NAME = 'psc-kalari-977392e67362';
+const CACHE_NAME = 'psc-kalari-51aba8ddbeea';
 
 const PRECACHE_URLS = [
   './',
   './index.html',
   './404.html',
+  './about.html',
+  './kerala-psc-syllabus.html',
   './manifest.webmanifest',
   './css/base.css',
   './css/screens.css',

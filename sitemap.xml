@@ -6,6 +6,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://psc-kalari.kalariapps.workers.dev/kerala-psc-syllabus.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://psc-kalari.kalariapps.workers.dev/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://psc-kalari.kalariapps.workers.dev/kerala-renaissance/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

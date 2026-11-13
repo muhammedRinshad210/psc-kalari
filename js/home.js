@@ -36,7 +36,7 @@ export function viewHome() {
     <span class="eyebrow">${esc(dateLine())}</span>
     <h1 style="font-size:var(--t-xl)">${done
       ? `Today’s five are done: ${done.c} of ${done.n} right`
-      : 'Five questions, five minutes'}</h1>
+      : 'Kerala PSC Practice Questions & Mock Tests'}</h1>
     <p>${done
       ? 'Come back tomorrow for a fresh set, or keep going with a subject below.'
       : 'One short set every day builds the habit that clears the cut-off.'}</p>
