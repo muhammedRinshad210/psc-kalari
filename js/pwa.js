@@ -3,10 +3,11 @@
 
 import { S, save } from './state.js';
 import { loadIndex } from './data.js';
-import { lang, tx } from './i18n.js';
+import { lang, tx, txPlain } from './i18n.js';
 
 let waitingWorker = null;
 let deferredPrompt = null;
+let refreshing = false;
 
 export function hasDeferredPrompt() {
   return Boolean(deferredPrompt);
@@ -40,12 +41,12 @@ export function updateNoticeArea() {
 
   // 2. Service worker update bar
   if (waitingWorker) {
-    notices.push(`<div class="notice-bar update-bar" role="alert">
+    notices.push(`<div class="notice-bar update-bar" role="status">
       <div class="notice-text">
-        <span>${tx('A new version is ready', 'പുതിയ പതിപ്പ് ലഭ്യമാണ്')}</span>
+        <span>${tx('New version ready.', 'പുതിയ പതിപ്പ് തയ്യാറാണ്.')}</span>
       </div>
-      <button type="button" class="btn sm" data-act="reload-app">
-        ${tx('Reload', 'റീലോഡ്')}
+      <button type="button" class="btn sm" data-act="reload-app" aria-label="${txPlain('Refresh for new version', 'പുതിയ പതിപ്പിലേക്ക് പുതുക്കുക')}">
+        ${tx('Refresh', 'പുതുക്കുക')}
       </button>
     </div>`);
   }
@@ -55,8 +56,30 @@ export function updateNoticeArea() {
 
 export function reloadApp() {
   if (waitingWorker) {
+    waitingWorker.postMessage({ type: 'SKIP_WAITING' });
     waitingWorker.postMessage('SKIP_WAITING');
   } else {
+    window.location.reload();
+  }
+}
+
+export async function resetApp() {
+  try {
+    if ('serviceWorker' in navigator) {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      for (const reg of registrations) {
+        await reg.unregister();
+      }
+    }
+    if ('caches' in window) {
+      const keys = await caches.keys();
+      for (const key of keys) {
+        await caches.delete(key);
+      }
+    }
+  } catch (err) {
+    console.warn('[PWA] Reset app failed:', err);
+  } finally {
     window.location.reload();
   }
 }
@@ -157,7 +180,10 @@ export function prefetchQuestions() {
 export function initPwa() {
   // Service Worker Registration
   if ('serviceWorker' in navigator) {
+    let swRegistration = null;
+
     navigator.serviceWorker.register('./sw.js').then((reg) => {
+      swRegistration = reg;
       if (reg.waiting) {
         waitingWorker = reg.waiting;
         updateNoticeArea();
@@ -177,11 +203,24 @@ export function initPwa() {
       console.warn('[PWA] Service worker registration failed:', err);
     });
 
-    let refreshing = false;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
       if (!refreshing) {
         refreshing = true;
+        // Guard against infinite reload loops
+        const last = Number(sessionStorage.getItem('kalari:sw-reload') || 0);
+        if (Date.now() - last < 5000) {
+          console.warn('[PWA] Suppressing rapid SW reload loop');
+          return;
+        }
+        sessionStorage.setItem('kalari:sw-reload', String(Date.now()));
         window.location.reload();
+      }
+    });
+
+    // Call registration.update() when the tab becomes visible again
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && swRegistration) {
+        swRegistration.update().catch(() => {});
       }
     });
   }

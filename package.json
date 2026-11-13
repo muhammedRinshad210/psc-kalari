@@ -16,7 +16,8 @@
     "test:clean": "node tools/test-build-clean.mjs",
     "test:attrs": "node tools/check-attrs.mjs",
     "test:report": "node tools/test-report.mjs",
-    "check": "node tools/validate.mjs && node tools/test-storage.mjs && node tools/test-share.mjs && node tools/test-mock.mjs && node tools/test-offline.mjs && node tools/check-seo.mjs && node tools/check-attrs.mjs && node tools/test-report.mjs && node tools/test-build-clean.mjs",
+    "test:sw": "node tools/test-sw-update.mjs",
+    "check": "node tools/validate.mjs && node tools/test-storage.mjs && node tools/test-share.mjs && node tools/test-mock.mjs && node tools/test-offline.mjs && node tools/check-seo.mjs && node tools/check-attrs.mjs && node tools/test-report.mjs && node tools/test-sw-update.mjs && node tools/test-build-clean.mjs",
     "serve": "python -m http.server 4173"
   },
   "engines": {

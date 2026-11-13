@@ -24,13 +24,15 @@ import {
   copyToClipboard, formatQuestionShare, formatResultShare, showCopiedConfirmation
 } from './share.js';
 import {
-  dismissInstall, initPwa, prefetchQuestions, reloadApp, triggerInstall, updateNoticeArea
+  dismissInstall, initPwa, prefetchQuestions, reloadApp, resetApp, triggerInstall, updateNoticeArea
 } from './pwa.js';
 
 const viewEl = document.getElementById('view');
 
 let pendingHtml = '';
 let loadError = '';
+let lastRunTask = null;
+let lastRunLabel = 'Loading questions…';
 
 /* ---------- render ---------- */
 
@@ -73,16 +75,30 @@ document.addEventListener('kalari:render', (event) => {
 /* ---------- async work with a loading state ---------- */
 
 async function run(task, label = 'Loading questions…') {
+  lastRunTask = task;
+  lastRunLabel = label;
   loadError = '';
   pendingHtml = loadingCard(label);
   render();
+
+  let timer = null;
+  const timeoutPromise = new Promise((_, reject) => {
+    timer = setTimeout(() => {
+      reject(new Error('Operation timed out after 10 seconds'));
+    }, 10000);
+  });
+
   try {
-    await task();
+    await Promise.race([task(), timeoutPromise]);
   } catch (err) {
     console.error('[PSC Kalari]', err);
-    loadError = 'The question bank could not be loaded.';
+    loadError = (err && err.message && err.message.includes('timed out'))
+      ? 'Loading timed out. Please check your connection and try again.'
+      : 'The question bank could not be loaded.';
+  } finally {
+    if (timer) clearTimeout(timer);
+    pendingHtml = '';
   }
-  pendingHtml = '';
   render();
 }
 
@@ -168,7 +184,15 @@ document.addEventListener('click', (event) => {
       run(() => startMock(el.dataset.kind || 'mini'), 'Building your paper…');
       return;
     case 'retry':
-      run(() => loadIndex(), 'Trying again…');
+      if (lastRunTask) {
+        run(lastRunTask, lastRunLabel);
+      } else {
+        run(() => loadIndex(), 'Trying again…');
+      }
+      return;
+    case 'reset-app':
+      event.preventDefault();
+      resetApp();
       return;
     case 'papers-retry':
       render();

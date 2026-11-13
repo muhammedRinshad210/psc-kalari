@@ -1,5 +1,6 @@
 /* Service Worker for PSC Kalari.
-   App shell precaching, stale-while-revalidate for data, network-first for navigations. */
+   App shell precaching, atomic updates, network-first for HTML, JS, CSS, and data,
+   and cache-first for fonts and icons. */
 
 const CACHE_NAME = 'psc-kalari-2026-11-08T06-46-36-515Z';
 
@@ -73,63 +74,111 @@ self.addEventListener('message', (event) => {
   }
 });
 
+function fetchWithTimeout(request, timeoutMs = 4000) {
+  return new Promise((resolve, reject) => {
+    let timer = setTimeout(() => {
+      timer = null;
+      reject(new Error('Network timeout'));
+    }, timeoutMs);
+
+    fetch(request).then(
+      (res) => {
+        if (timer) {
+          clearTimeout(timer);
+          timer = null;
+          resolve(res);
+        }
+      },
+      (err) => {
+        if (timer) {
+          clearTimeout(timer);
+          timer = null;
+          reject(err);
+        }
+      }
+    );
+  });
+}
+
+async function networkFirst(request, fallbackUrl = null) {
+  const cache = await caches.open(CACHE_NAME);
+  try {
+    const response = await fetchWithTimeout(request, 4000);
+    if (response && response.status === 200) {
+      cache.put(request, response.clone());
+    }
+    return response;
+  } catch (err) {
+    const cached = await cache.match(request);
+    if (cached) return cached;
+    if (fallbackUrl) {
+      const fallback = (await cache.match(fallbackUrl)) || (await cache.match('./'));
+      if (fallback) return fallback;
+    }
+    throw err;
+  }
+}
+
+async function cacheFirst(request) {
+  const cache = await caches.open(CACHE_NAME);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  const response = await fetch(request);
+  if (response && response.status === 200) {
+    cache.put(request, response.clone());
+  }
+  return response;
+}
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
-  // 1. Navigations: Network first with cached fallback
+  const pathname = url.pathname;
+
+  // 1. Fonts and icons: cache-first
+  const isFontOrIcon =
+    pathname.includes('/assets/fonts/') ||
+    pathname.includes('/assets/icons/') ||
+    pathname.endsWith('.woff2') ||
+    pathname.endsWith('.svg') ||
+    pathname.endsWith('.png');
+
+  if (isFontOrIcon) {
+    event.respondWith(cacheFirst(event.request));
+    return;
+  }
+
+  // 2. Navigations: network-first with cached index.html fallback
   if (event.request.mode === 'navigate') {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          if (response && response.status === 200) {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-          }
-          return response;
-        })
-        .catch(async () => {
-          const cached = await caches.match(event.request);
-          if (cached) return cached;
-          return (await caches.match('./index.html')) || (await caches.match('./'));
-        })
-    );
+    event.respondWith(networkFirst(event.request, './index.html'));
     return;
   }
 
-  // 2. data/q/*.json, data/index.json, and data/*.json: Stale-while-revalidate
-  if (url.pathname.includes('/data/')) {
-    event.respondWith(
-      caches.open(CACHE_NAME).then(async (cache) => {
-        const cached = await cache.match(event.request);
-        const fetchPromise = fetch(event.request)
-          .then((networkResponse) => {
-            if (networkResponse && networkResponse.status === 200) {
-              cache.put(event.request, networkResponse.clone());
-            }
-            return networkResponse;
-          })
-          .catch(() => cached);
+  // 3. HTML, js/*.js, css/*.css, and data/*.json: network-first with 4-second timeout, falling back to CACHE_NAME
+  const isNetworkFirst =
+    pathname.endsWith('.html') ||
+    pathname.endsWith('.js') ||
+    pathname.includes('/js/') ||
+    pathname.endsWith('.css') ||
+    pathname.includes('/css/') ||
+    pathname.endsWith('.json') ||
+    pathname.includes('/data/') ||
+    pathname.endsWith('.webmanifest');
 
-        return cached || fetchPromise;
-      })
-    );
+  if (isNetworkFirst) {
+    event.respondWith(networkFirst(event.request));
     return;
   }
 
-  // 3. App shell assets: Cache first
+  // 4. Fallback: try current cache, then network
   event.respondWith(
-    caches.match(event.request).then((cached) => {
+    caches.open(CACHE_NAME).then(async (cache) => {
+      const cached = await cache.match(event.request);
       if (cached) return cached;
-      return fetch(event.request).then((networkResponse) => {
-        if (networkResponse && networkResponse.status === 200) {
-          const copy = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-        }
-        return networkResponse;
-      });
+      return fetch(event.request);
     })
   );
 });

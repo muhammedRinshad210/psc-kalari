@@ -23,10 +23,15 @@ async function fetchJson(relative) {
 /** Manifest: subject names, topics, counts. Call once during boot. */
 export function loadIndex() {
   if (!indexPromise) {
-    indexPromise = fetchJson('index.json').then((data) => {
-      index = data;
-      return data;
-    });
+    indexPromise = fetchJson('index.json')
+      .then((data) => {
+        index = data;
+        return data;
+      })
+      .catch((err) => {
+        indexPromise = null;
+        throw err;
+      });
   }
   return indexPromise;
 }
@@ -55,18 +60,27 @@ export function totalQuestions() {
 /** Load one subject's questions (cached in memory). */
 export async function loadQuestions(key) {
   if (chunks.has(key)) return chunks.get(key);
-  const data = await fetchJson(`q/${key}.json`);
-  const list = data.questions || data;
-  list.forEach((q) => byId.set(q.id, q));
-  chunks.set(key, list);
-  return list;
+  try {
+    const data = await fetchJson(`q/${key}.json`);
+    const list = data.questions || data;
+    list.forEach((q) => byId.set(q.id, q));
+    chunks.set(key, list);
+    return list;
+  } catch (err) {
+    chunks.delete(key);
+    throw err;
+  }
 }
 
 /** Every question of every active subject. Used by the daily set and mocks. */
 export function loadAllQuestions() {
   if (!allPromise) {
     allPromise = Promise.all(subjectKeys().map((k) => loadQuestions(k)))
-      .then((lists) => lists.flat());
+      .then((lists) => lists.flat())
+      .catch((err) => {
+        allPromise = null;
+        throw err;
+      });
   }
   return allPromise;
 }
@@ -77,6 +91,21 @@ export function questionById(id) {
 
 /** Previous-papers catalogue and syllabus analysis. Only the papers screen needs it. */
 export function loadPapers() {
-  if (!papersPromise) papersPromise = fetchJson('papers.json');
+  if (!papersPromise) {
+    papersPromise = fetchJson('papers.json').catch((err) => {
+      papersPromise = null;
+      throw err;
+    });
+  }
   return papersPromise;
+}
+
+/** Reset in-memory promises/chunks (useful for tests and app resets). */
+export function _resetDataCache() {
+  indexPromise = null;
+  index = null;
+  allPromise = null;
+  papersPromise = null;
+  chunks.clear();
+  byId.clear();
 }

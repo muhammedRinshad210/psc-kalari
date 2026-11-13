@@ -129,41 +129,84 @@ export async function startMock(kind = 'mini') {
 }
 
 export function restoreMockSession(saved) {
-  const items = saved.qids.map((id, i) => {
-    const q = questionById(id);
-    const order = saved.optOrders[i];
-    return {
-      id: q.id,
-      s: q.subject,
-      q: q.q.en,
-      mq: q.q.ml,
-      e: q.explanation.en,
-      me: q.explanation.ml,
-      opts: order.map((idx) => q.options.en[idx]),
-      mopts: order.map((idx) => q.options.ml[idx]),
-      ans: order.indexOf(q.answerIndex),
-      order
-    };
-  });
-
-  const picks = [];
-  if (saved.answers) {
-    for (const [k, v] of Object.entries(saved.answers)) {
-      if (v !== null && v !== undefined) picks[Number(k)] = v;
+  try {
+    if (!saved || typeof saved !== 'object' || Array.isArray(saved)) {
+      clearRunningMock();
+      return false;
     }
-  }
 
-  startSession({
-    mode: 'mock',
-    kind: saved.kind || 'mini',
-    title: saved.title || (PAPERS[saved.kind] && PAPERS[saved.kind].label) || 'Mock test',
-    items,
-    i: typeof saved.i === 'number' ? saved.i : 0,
-    picks,
-    limit: saved.limit,
-    endsAt: saved.endsAt,
-    onAgain: () => startMock(saved.kind || 'mini')
-  });
+    if (typeof saved.endsAt !== 'number' || !Number.isFinite(saved.endsAt) || saved.endsAt <= 0) {
+      clearRunningMock();
+      return false;
+    }
+
+    if (!Array.isArray(saved.qids) || saved.qids.length === 0) {
+      clearRunningMock();
+      return false;
+    }
+
+    if (!Array.isArray(saved.optOrders) || saved.optOrders.length !== saved.qids.length) {
+      clearRunningMock();
+      return false;
+    }
+
+    const items = [];
+    for (let i = 0; i < saved.qids.length; i++) {
+      const id = saved.qids[i];
+      if (!id || typeof id !== 'string') {
+        clearRunningMock();
+        return false;
+      }
+      const q = questionById(id);
+      if (!q || !q.id || !q.options || !q.options.en || !q.options.ml || !q.q) {
+        clearRunningMock();
+        return false;
+      }
+      const order = saved.optOrders[i];
+      if (!Array.isArray(order) || order.length !== 4) {
+        clearRunningMock();
+        return false;
+      }
+
+      items.push({
+        id: q.id,
+        s: q.subject,
+        q: q.q.en,
+        mq: q.q.ml,
+        e: q.explanation ? q.explanation.en : '',
+        me: q.explanation ? q.explanation.ml : '',
+        opts: order.map((idx) => q.options.en[idx]),
+        mopts: order.map((idx) => q.options.ml[idx]),
+        ans: order.indexOf(q.answerIndex),
+        order,
+        verified: Boolean(q.verified)
+      });
+    }
+
+    const picks = [];
+    if (saved.answers && typeof saved.answers === 'object') {
+      for (const [k, v] of Object.entries(saved.answers)) {
+        if (v !== null && v !== undefined) picks[Number(k)] = v;
+      }
+    }
+
+    startSession({
+      mode: 'mock',
+      kind: saved.kind || 'mini',
+      title: saved.title || (PAPERS[saved.kind] && PAPERS[saved.kind].label) || 'Mock test',
+      items,
+      i: (typeof saved.i === 'number' && saved.i >= 0 && saved.i < items.length) ? saved.i : 0,
+      picks,
+      limit: typeof saved.limit === 'number' ? saved.limit : 20 * 60,
+      endsAt: saved.endsAt,
+      onAgain: () => startMock(saved.kind || 'mini')
+    });
+    return true;
+  } catch (err) {
+    console.warn('[PSC Kalari] Failed to restore mock session:', err);
+    clearRunningMock();
+    return false;
+  }
 }
 
 export async function resumeMock() {
@@ -176,7 +219,10 @@ export async function resumeMock() {
     return;
   }
   await loadAllQuestions();
-  restoreMockSession(saved);
+  const ok = restoreMockSession(saved);
+  if (!ok) {
+    clearRunningMock();
+  }
   requestRender();
 }
 
@@ -190,13 +236,38 @@ export function discardMock() {
 
 export async function autoSubmitSavedMock(saved) {
   stopResumeTimer();
-  await loadAllQuestions();
-  restoreMockSession(saved);
-  finishMock();
+  try {
+    await loadAllQuestions();
+    const ok = restoreMockSession(saved);
+    if (ok) {
+      finishMock();
+      return;
+    }
+  } catch (err) {
+    console.warn('[PSC Kalari] autoSubmitSavedMock failed:', err);
+  }
+  clearRunningMock();
+  requestRender();
 }
 
 export function viewMock() {
-  const saved = loadRunningMock();
+  let saved = loadRunningMock();
+  if (saved) {
+    if (
+      typeof saved !== 'object' ||
+      Array.isArray(saved) ||
+      typeof saved.endsAt !== 'number' ||
+      !Number.isFinite(saved.endsAt) ||
+      saved.endsAt <= 0 ||
+      !Array.isArray(saved.qids) ||
+      saved.qids.length === 0 ||
+      !Array.isArray(saved.optOrders) ||
+      saved.optOrders.length !== saved.qids.length
+    ) {
+      clearRunningMock();
+      saved = null;
+    }
+  }
   const attempts = S.mocks.slice(-8);
   const best = S.mocks.length ? Math.max(...S.mocks.map((m) => m.sc)) : null;
   let h = '<div class="stack">';

@@ -259,6 +259,10 @@ export function askSubmit(open) {
 /* ---------- views ---------- */
 
 export function viewQuiz() {
+  if (!Z || !Z.items || !Z.items.length || !Z.items[Z.i]) {
+    endSession();
+    return '';
+  }
   const item = Z.items[Z.i];
   const n = Z.items.length;
   const isMock = Z.mode === 'mock';
@@ -359,6 +363,10 @@ function reviewList() {
 }
 
 export function viewResult() {
+  if (!Z || !Z.items || !Z.items.length) {
+    endSession();
+    return '';
+  }
   const n = Z.items.length;
   let h = '<div class="stack">';
 

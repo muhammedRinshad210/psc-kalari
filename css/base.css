@@ -120,3 +120,5 @@ h2.sec{font-size:var(--t-lg);margin-block:8px 2px}
 .list li:last-child{border-bottom:0}
 textarea{width:100%;min-height:96px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);padding:10px;font:var(--t-xs)/1.4 ui-monospace,Menlo,monospace}
 .note{font-size:var(--t-xs);color:var(--muted);text-align:center;margin-top:24px}
+.foot-link{color:var(--muted);text-decoration:underline;font-size:var(--t-xs)}
+.foot-link:hover{color:var(--ink)}
