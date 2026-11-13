@@ -180,4 +180,51 @@ assert.ok(swContent.includes('cache.addAll(PRECACHE_URLS)'),
 assert.ok(swContent.includes('fetchWithTimeout(request, 4000)'),
   'sw.js must use 4-second timeout for network-first');
 
+/* --------------------------------------------------------------------------
+   5. Editing a JS file changes CACHE_NAME in sw.js
+-------------------------------------------------------------------------- */
+const { execFileSync } = await import('node:child_process');
+
+// Run build to get baseline cache name
+execFileSync('node', ['tools/build.mjs'], { stdio: 'pipe' });
+const baselineSw = fs.readFileSync(swPath, 'utf8');
+const baselineCacheMatch = baselineSw.match(/const CACHE_NAME = '([^']+)';/);
+assert.ok(baselineCacheMatch, 'Must find CACHE_NAME in sw.js');
+const baselineCache = baselineCacheMatch[1];
+
+// Edit a JS file (e.g. js/config.js)
+const targetJsPath = path.join(root, 'js/config.js');
+const originalJsContent = fs.readFileSync(targetJsPath, 'utf8');
+
+try {
+  // Append a harmless comment to js/config.js
+  fs.writeFileSync(targetJsPath, originalJsContent + '\n// test-cache-hash-invalidation\n', 'utf8');
+
+  // Re-run build
+  execFileSync('node', ['tools/build.mjs'], { stdio: 'pipe' });
+  const modifiedSw = fs.readFileSync(swPath, 'utf8');
+  const modifiedCacheMatch = modifiedSw.match(/const CACHE_NAME = '([^']+)';/);
+  assert.ok(modifiedCacheMatch, 'Must find CACHE_NAME after build');
+  const modifiedCache = modifiedCacheMatch[1];
+
+  assert.notEqual(
+    modifiedCache,
+    baselineCache,
+    `Editing a JS file must change CACHE_NAME! (was ${baselineCache}, still ${modifiedCache})`
+  );
+} finally {
+  // Restore original JS file content and re-build
+  fs.writeFileSync(targetJsPath, originalJsContent, 'utf8');
+  execFileSync('node', ['tools/build.mjs'], { stdio: 'pipe' });
+
+  const restoredSw = fs.readFileSync(swPath, 'utf8');
+  const restoredCacheMatch = restoredSw.match(/const CACHE_NAME = '([^']+)';/);
+  assert.equal(
+    restoredCacheMatch[1],
+    baselineCache,
+    'Restoring JS file must restore baseline CACHE_NAME'
+  );
+}
+
 console.log('service worker update and resilience tests passed');
+

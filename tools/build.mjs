@@ -3,8 +3,8 @@
    one file per subject for lazy loading and writes the small manifest the app
    reads at boot. Run: npm run build */
 
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
-import { dirname, resolve } from 'node:path';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync } from 'node:fs';
+import { dirname, resolve, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { SITE_URL } from '../js/config.js';
@@ -89,12 +89,47 @@ const manifest = {
 
 writeJson('data/index.json', manifest);
 
-/* Update sw.js cache name with a version stamped on every build so each deploy replaces the old cache.
-   Deterministic timestamp ensures running build twice without data changes leaves a clean git working tree. */
+/* Update sw.js cache name with a version derived from a content hash of every
+   file listed in PRECACHE_URLS plus data/q/*.json.
+   Any change to js, css, html or data changes it; unchanged tree gives the same name. */
 const swPath = resolve(root, 'sw.js');
 try {
   let sw = readFileSync(swPath, 'utf8');
-  const cacheVersion = `psc-kalari-${manifest.generated.replace(/[:.]/g, '-')}`;
+  const precacheMatch = sw.match(/const PRECACHE_URLS = \[([\s\S]*?)\];/);
+  if (!precacheMatch) throw new Error('Could not find PRECACHE_URLS in sw.js');
+
+  const precacheUrls = precacheMatch[1]
+    .split('\n')
+    .map((line) => line.trim().replace(/^['"]|['"],?$/g, ''))
+    .filter(Boolean);
+
+  const filePaths = new Set();
+  for (const item of precacheUrls) {
+    const diskPath = item === './' ? resolve(root, 'index.html') : resolve(root, item.replace(/^\.\//, ''));
+    if (existsSync(diskPath)) filePaths.add(diskPath);
+  }
+
+  // Include data/q/*.json
+  const qDir = resolve(root, 'data/q');
+  if (existsSync(qDir)) {
+    const qFiles = readdirSync(qDir).filter((f) => f.endsWith('.json'));
+    for (const qf of qFiles) {
+      filePaths.add(resolve(qDir, qf));
+    }
+  }
+
+  // Sort paths deterministically
+  const sortedFiles = Array.from(filePaths).sort();
+  const hash = createHash('sha256');
+  for (const filePath of sortedFiles) {
+    const rel = relative(root, filePath).replace(/\\/g, '/');
+    hash.update(rel);
+    hash.update(readFileSync(filePath));
+  }
+
+  const cacheHash = hash.digest('hex').slice(0, 12);
+  const cacheVersion = `psc-kalari-${cacheHash}`;
+
   if (!sw.includes(`const CACHE_NAME = '${cacheVersion}';`)) {
     sw = sw.replace(/const CACHE_NAME = '[^']+';/, `const CACHE_NAME = '${cacheVersion}';`);
     writeFileSync(swPath, sw, 'utf8');

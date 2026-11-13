@@ -136,6 +136,6 @@ assert.equal(pwa.renderInstallCard(), '', 'Install card must not show once dismi
 const { execFileSync } = await import('node:child_process');
 execFileSync('node', ['tools/build.mjs'], { stdio: 'pipe' });
 const swUpdated = fs.readFileSync(swPath, 'utf8');
-assert.ok(/const CACHE_NAME = 'psc-kalari-202\d-/.test(swUpdated), 'build.mjs must stamp cache name in sw.js');
+assert.ok(/const CACHE_NAME = 'psc-kalari-[0-9a-f]{8,}'/.test(swUpdated), 'build.mjs must stamp cache name in sw.js');
 
 console.log('offline and installable app tests passed');
